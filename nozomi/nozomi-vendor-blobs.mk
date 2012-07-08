@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/sony/nozomi/proprietary/bin/btld:system/bin/btld \
     vendor/sony/nozomi/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/nozomi/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/nozomi/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
@@ -109,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/nozomi/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/sony/nozomi/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
-    vendor/sony/nozomi/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/sony/nozomi/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/sony/nozomi/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/sony/nozomi/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
