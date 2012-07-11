@@ -60,11 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
     vendor/sony/nozomi/proprietary/etc/firmware/dsps_fluid.b03:system/etc/firmware/dsps_fluid.b03 \
     vendor/sony/nozomi/proprietary/etc/firmware/dsps_fluid.mdt:system/etc/firmware/dsps_fluid.mdt \
-    vendor/sony/nozomi/proprietary/etc/firmware/fw_bcm4330b1.bin:system/etc/firmware/fw_bcm4330b1.bin \
-    vendor/sony/nozomi/proprietary/etc/firmware/fw_bcm4330b1_apsta.bin:system/etc/firmware/fw_bcm4330b1_apsta.bin \
-    vendor/sony/nozomi/proprietary/etc/firmware/fw_bcm4330b2.bin:system/etc/firmware/fw_bcm4330b2.bin \
-    vendor/sony/nozomi/proprietary/etc/firmware/fw_bcm4330b2_apsta.bin:system/etc/firmware/fw_bcm4330b2_apsta.bin \
-    vendor/sony/nozomi/proprietary/etc/firmware/fw_bcm4330b2_p2p.bin:system/etc/firmware/fw_bcm4330b2_p2p.bin \
     vendor/sony/nozomi/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/sony/nozomi/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/nozomi/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
@@ -102,9 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/sony/nozomi/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/nozomi/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/sony/nozomi/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
-    vendor/sony/nozomi/proprietary/etc/permissions/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
-    vendor/sony/nozomi/proprietary/etc/permissions/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
     vendor/sony/nozomi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/nozomi/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/sony/nozomi/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
@@ -181,14 +173,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libtime_remote_atom.so:system/lib/libtime_remote_atom.so \
     vendor/sony/nozomi/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/sony/nozomi/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    vendor/sony/nozomi/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/sony/nozomi/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
     vendor/sony/nozomi/proprietary/usr/keylayout/clearpad.kl:system/usr/keylayout/clearpad.kl \
     vendor/sony/nozomi/proprietary/usr/keylayout/fuji-keypad.kl:system/usr/keylayout/fuji-keypad.kl \
     vendor/sony/nozomi/proprietary/usr/keylayout/gpio-key.kl:system/usr/keylayout/gpio-key.kl \
     vendor/sony/nozomi/proprietary/usr/keylayout/keypad-pmic-fuji.kl:system/usr/keylayout/keypad-pmic-fuji.kl \
     vendor/sony/nozomi/proprietary/usr/keylayout/pmic8058_pwrkey.kl:system/usr/keylayout/pmic8058_pwrkey.kl \
-    vendor/sony/nozomi/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/sony/nozomi/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/sony/nozomi/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/nozomi/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
