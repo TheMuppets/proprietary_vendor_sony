@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/nozomi/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/sony/nozomi/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
-    vendor/sony/nozomi/proprietary/lib/hw/lights.semc.so:system/lib/hw/lights.semc.so \
     vendor/sony/nozomi/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
     vendor/sony/nozomi/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/nozomi/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
