@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/sony/nozomi/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/sony/nozomi/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/sony/nozomi/proprietary/bin/rild:system/bin/rild \
     vendor/sony/nozomi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/nozomi/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/nozomi/proprietary/bin/semc-atfwd-d:system/bin/semc-atfwd-d \
@@ -161,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/nozomi/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/nozomi/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+    vendor/sony/nozomi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/nozomi/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/nozomi/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/nozomi/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
