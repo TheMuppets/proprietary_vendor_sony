@@ -170,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libta_rmt_clnt.so:system/lib/libta_rmt_clnt.so \
     vendor/sony/nozomi/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
     vendor/sony/nozomi/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
-    vendor/sony/nozomi/proprietary/lib/libtime_remote_atom.so:system/lib/libtime_remote_atom.so \
     vendor/sony/nozomi/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/sony/nozomi/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/nozomi/proprietary/usr/keylayout/clearpad.kl:system/usr/keylayout/clearpad.kl \
