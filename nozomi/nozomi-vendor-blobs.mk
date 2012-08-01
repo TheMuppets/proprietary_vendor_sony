@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/nozomi/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/nozomi/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/nozomi/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/sony/nozomi/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/nozomi/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
     vendor/sony/nozomi/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
