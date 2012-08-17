@@ -167,13 +167,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
     vendor/sony/hikari/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
     vendor/sony/hikari/proprietary/lib/libv8.so:system/lib/libv8.so \
-    vendor/sony/hikari/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    vendor/sony/hikari/proprietary/usr/keylayout/clearpad.kl:system/usr/keylayout/clearpad.kl \
-    vendor/sony/hikari/proprietary/usr/keylayout/fuji-keypad.kl:system/usr/keylayout/fuji-keypad.kl \
-    vendor/sony/hikari/proprietary/usr/keylayout/gpio-key.kl:system/usr/keylayout/gpio-key.kl \
-    vendor/sony/hikari/proprietary/usr/keylayout/keypad-pmic-fuji.kl:system/usr/keylayout/keypad-pmic-fuji.kl \
-    vendor/sony/hikari/proprietary/usr/keylayout/pmic8058_pwrkey.kl:system/usr/keylayout/pmic8058_pwrkey.kl \
-    vendor/sony/hikari/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/sony/hikari/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
