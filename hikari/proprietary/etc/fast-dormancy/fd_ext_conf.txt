@@ -1,0 +1,3 @@
+screen 1
+tethering 1
+charging 1
