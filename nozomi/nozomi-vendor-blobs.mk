@@ -170,13 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
     vendor/sony/nozomi/proprietary/lib/libtime_remote_atom.so:system/lib/libtime_remote_atom.so \
     vendor/sony/nozomi/proprietary/lib/libv8.so:system/lib/libv8.so \
-    vendor/sony/nozomi/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    vendor/sony/nozomi/proprietary/usr/keylayout/clearpad.kl:system/usr/keylayout/clearpad.kl \
-    vendor/sony/nozomi/proprietary/usr/keylayout/fuji-keypad.kl:system/usr/keylayout/fuji-keypad.kl \
-    vendor/sony/nozomi/proprietary/usr/keylayout/gpio-key.kl:system/usr/keylayout/gpio-key.kl \
-    vendor/sony/nozomi/proprietary/usr/keylayout/keypad-pmic-fuji.kl:system/usr/keylayout/keypad-pmic-fuji.kl \
-    vendor/sony/nozomi/proprietary/usr/keylayout/pmic8058_pwrkey.kl:system/usr/keylayout/pmic8058_pwrkey.kl \
-    vendor/sony/nozomi/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/sony/nozomi/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/nozomi/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/nozomi/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
