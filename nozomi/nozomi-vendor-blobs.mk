@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/nozomi/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/sony/nozomi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/sony/nozomi/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/sony/nozomi/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/sony/nozomi/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/sony/nozomi/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
