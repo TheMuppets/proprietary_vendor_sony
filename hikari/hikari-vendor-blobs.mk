@@ -19,8 +19,7 @@ PRODUCT_COPY_FILES := \
     vendor/sony/hikari/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/sony/hikari/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/sony/hikari/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/sony/hikari/proprietary/lib/libv8.so:obj/lib/libv8.so \
-    vendor/sony/hikari/proprietary/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
+    vendor/sony/hikari/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
