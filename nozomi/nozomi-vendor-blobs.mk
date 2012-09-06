@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/nozomi/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
     vendor/sony/nozomi/proprietary/bin/nvimport:system/bin/nvimport \
-    vendor/sony/nozomi/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/sony/nozomi/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/nozomi/proprietary/bin/rild:system/bin/rild \
     vendor/sony/nozomi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -94,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/sony/nozomi/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/sony/nozomi/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/nozomi/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/sony/nozomi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/nozomi/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/sony/nozomi/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -155,6 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/nozomi/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/sony/nozomi/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+    vendor/sony/nozomi/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/nozomi/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/nozomi/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/nozomi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
