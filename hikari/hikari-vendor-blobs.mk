@@ -177,4 +177,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/vendor/camera/SOI13BS1_IMX091.dat:system/vendor/camera/SOI13BS1_IMX091.dat \
     vendor/sony/hikari/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/hikari/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
+    vendor/sony/hikari/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/hikari/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/sony/hikari/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
+    vendor/sony/hikari/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/sony/hikari/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/sony/hikari/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+    vendor/sony/hikari/proprietary/lib/libanthal.so:system/lib/libanthal.so
