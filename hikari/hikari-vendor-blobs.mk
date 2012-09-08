@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/hikari/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
     vendor/sony/hikari/proprietary/bin/nvimport:system/bin/nvimport \
+    vendor/sony/hikari/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/sony/hikari/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/hikari/proprietary/bin/rild:system/bin/rild \
     vendor/sony/hikari/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -90,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/sony/hikari/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/sony/hikari/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
+    vendor/sony/hikari/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/sony/hikari/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/hikari/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/sony/hikari/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -150,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/hikari/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/sony/hikari/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/hikari/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/hikari/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/hikari/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/hikari/proprietary/lib/libqmi.so:system/lib/libqmi.so \
@@ -175,4 +176,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/vendor/camera/SOI13BS1_IMX091.dat:system/vendor/camera/SOI13BS1_IMX091.dat \
     vendor/sony/hikari/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/hikari/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
+    vendor/sony/hikari/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/hikari/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/sony/hikari/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
+    vendor/sony/hikari/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/sony/hikari/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/sony/hikari/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+    vendor/sony/hikari/proprietary/lib/libanthal.so:system/lib/libanthal.so
