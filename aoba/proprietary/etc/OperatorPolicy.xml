@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operatorPolicy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OperatorPolicy.xsd">
+  <rolesList>
+     <role id="9">  <!-- role 9 is for FMC - will revisit after talking with Google -->
+        <rolePriority>2</rolePriority>
+        <OpMode><!-- By default, use these settings -->
+            <RATPreference>
+                <RAT Pri="1">WWAN</RAT>
+             </RATPreference>
+            <!-- Other requirements/preferences/constraints -->
+        </OpMode>
+     </role>
+     <role id="1001">  <!-- role 1001 is for QOS VIDEO TELEPHONY, will revisit after talking with Google -->
+        <rolePriority>2</rolePriority>
+        <OpMode><!-- By default, use these settings -->
+            <RATPreference>
+                <RAT Pri="1">WWAN</RAT>
+             </RATPreference>
+            <!-- Other requirements/preferences/constraints -->
+        </OpMode>
+     </role>
+     <role id="0"><!-- "Legacy" or "Default" setting for any roles not matching above -->
+        <rolePriority>20</rolePriority>
+        <OpMode><!-- By default, use these settings -->
+            <RATPreference>
+                <RAT Pri="1">WLAN</RAT>
+                <RAT Pri="2">WWAN</RAT>
+            </RATPreference>
+            <!-- Other requirements/preferences/constraints -->
+        </OpMode>
+    </role>
+  </rolesList>
+  <MSS>
+  </MSS>
+  <constraints><!-- constraints that do not specify conditions for each role -->
+    <batteryConstraint>
+        <BatteryLevel>Low</BatteryLevel>
+        <MaxONRATs>-1</MaxONRATs>
+    </batteryConstraint>
+    <batteryConstraint>
+        <BatteryLevel>Medium</BatteryLevel>
+        <MaxONRATs>-1</MaxONRATs>
+    </batteryConstraint>
+    <batteryConstraint>
+        <BatteryLevel>High</BatteryLevel>
+        <MaxONRATs>-1</MaxONRATs><!-- -1 means unbounded -->
+    </batteryConstraint>
+    <!-- other constraints eg:locationConstraint, etc. -->
+  </constraints>
+   <!-- this pref order will be used to bring down the rats,
+        if conditions arise to bring down a rat. If "NONE" and
+        "ANY" are used the behaviour will be unexpected -->
+  <RATBringDownPref>
+    <RAT Pri="1">WLAN</RAT>
+    <RAT Pri="2">WWAN</RAT>
+  </RATBringDownPref>
+</operatorPolicy>
+

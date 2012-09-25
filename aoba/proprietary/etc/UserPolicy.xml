@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userPolicy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="UserPolicy.xsd">
+    <RATPreference>
+        <RAT Pri="1">ANY</RAT>
+    </RATPreference>
+    <constraints><!-- constraints that do not specify conditions for each role -->
+    <batteryConstraint>
+        <BatteryLevel>Low</BatteryLevel>
+        <MaxONRATs>2</MaxONRATs><!-- default value is 1 -->
+    </batteryConstraint>
+    <batteryConstraint>
+        <BatteryLevel>Medium</BatteryLevel>
+        <MaxONRATs>4</MaxONRATs><!-- default value is 2 -->
+    </batteryConstraint>
+    <batteryConstraint>
+        <BatteryLevel>High</BatteryLevel>
+        <MaxONRATs>-1</MaxONRATs><!--default value is -1 means unbounded -->
+    </batteryConstraint>
+    <!-- other constraints eg:locationConstraint, etc. -->
+  </constraints>
+</userPolicy>
+
