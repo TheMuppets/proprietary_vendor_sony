@@ -170,14 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/mint/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/mint/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/sony/mint/proprietary/etc/snd_soc_msm/DL_REC_blue:system/etc/snd_soc_msm/DL_REC_blue \
-    vendor/sony/mint/proprietary/etc/snd_soc_msm/FM_REC_blue:system/etc/snd_soc_msm/FM_REC_blue \
-    vendor/sony/mint/proprietary/etc/snd_soc_msm/HiFi_Rec_blue:system/etc/snd_soc_msm/HiFi_Rec_blue \
-    vendor/sony/mint/proprietary/etc/snd_soc_msm/HiFi_blue:system/etc/snd_soc_msm/HiFi_blue \
-    vendor/sony/mint/proprietary/etc/snd_soc_msm/UL_DL_REC_blue:system/etc/snd_soc_msm/UL_DL_REC_blue \
-    vendor/sony/mint/proprietary/etc/snd_soc_msm/Voice_Call_IP_blue:system/etc/snd_soc_msm/Voice_Call_IP_blue \
-    vendor/sony/mint/proprietary/etc/snd_soc_msm/Voice_Call_blue:system/etc/snd_soc_msm/Voice_Call_blue \
-    vendor/sony/mint/proprietary/etc/snd_soc_msm/snd_soc_msm_blue:system/etc/snd_soc_msm/snd_soc_msm_blue \
     vendor/sony/mint/proprietary/etc/wifi/gsm_domains.conf:system/etc/wifi/gsm_domains.conf \
     vendor/sony/mint/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/sony/mint/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
