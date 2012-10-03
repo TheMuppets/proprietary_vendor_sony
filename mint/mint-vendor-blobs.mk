@@ -31,11 +31,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/mint/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/mint/proprietary/bin/fota-snoop:system/bin/fota-snoop \
+    vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/mint/proprietary/bin/idd-logreader:system/bin/idd-logreader \
     vendor/sony/mint/proprietary/bin/iddd:system/bin/iddd \
     vendor/sony/mint/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/mint/proprietary/bin/iw:system/bin/iw \
-    vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/mint/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -235,6 +235,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
+    vendor/sony/mint/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/mint/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/mint/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/mint/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -243,6 +244,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/mint/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
     vendor/sony/mint/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+    vendor/sony/mint/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/mint/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/mint/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/mint/proprietary/lib/libqdp.so:system/lib/libqdp.so \
