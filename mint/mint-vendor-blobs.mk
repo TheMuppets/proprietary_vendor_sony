@@ -266,6 +266,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/mint/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/sony/mint/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/sony/mint/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level0.so:system/lib/sysmon/sysmon_charge_current_limit_level0.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level1.so:system/lib/sysmon/sysmon_charge_current_limit_level1.so \
