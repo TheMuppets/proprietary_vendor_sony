@@ -213,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/sony/mint/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/sony/mint/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/sony/mint/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
     vendor/sony/mint/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/mint/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/mint/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -264,8 +265,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/mint/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/mint/proprietary/lib/libta.so:system/lib/libta.so \
+    vendor/sony/mint/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
     vendor/sony/mint/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/sony/mint/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/sony/mint/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
     vendor/sony/mint/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level0.so:system/lib/sysmon/sysmon_charge_current_limit_level0.so \
@@ -298,6 +301,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_usb_current_limit_level3.so:system/lib/sysmon/sysmon_usb_current_limit_level3.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_usb_current_limit_level4.so:system/lib/sysmon/sysmon_usb_current_limit_level4.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
+    vendor/sony/mint/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
     vendor/sony/mint/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/mint/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/mint/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
