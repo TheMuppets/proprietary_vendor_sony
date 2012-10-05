@@ -30,6 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
     vendor/sony/mint/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/mint/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
+    vendor/sony/mint/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/sony/mint/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/mint/proprietary/bin/fota-snoop:system/bin/fota-snoop \
     vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/mint/proprietary/bin/idd-logreader:system/bin/idd-logreader \
