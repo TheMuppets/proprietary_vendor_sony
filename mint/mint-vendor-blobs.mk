@@ -34,8 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/mint/proprietary/bin/fota-snoop:system/bin/fota-snoop \
     vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/mint/proprietary/bin/idd-logreader:system/bin/idd-logreader \
-    vendor/sony/mint/proprietary/bin/iddd:system/bin/iddd \
     vendor/sony/mint/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/mint/proprietary/bin/iw:system/bin/iw \
     vendor/sony/mint/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
