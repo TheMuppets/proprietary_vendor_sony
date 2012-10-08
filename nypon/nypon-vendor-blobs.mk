@@ -1,4 +1,3 @@
-
 # Copyright (C) 2011 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -452,6 +451,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/liblos.so:system/lib/liblos.so \
     vendor/sony/nypon/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/nypon/proprietary/lib/libasound.so:system/lib/libasound.so \
+    vendor/sony/nypon/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/sony/nypon/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/sony/nypon/proprietary/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     vendor/sony/nypon/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
@@ -499,7 +499,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
     vendor/sony/nypon/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/nypon/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so \
+    vendor/sony/nypon/proprietary/lib/hw/audio_policy.montblanc.so:system/lib/hw/audio_policy.montblanc.so \
     vendor/sony/nypon/proprietary/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
+    vendor/sony/nypon/proprietary/lib/hw/audio.primary.montblanc.so:system/lib/hw/audio.primary.montblanc.so \
     vendor/sony/nypon/proprietary/lib/hw/hdmi.default.so:system/lib/hw/hdmi.default.so \
     vendor/sony/nypon/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
     vendor/sony/nypon/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
@@ -551,6 +553,34 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_val_src_sink.so:system/lib/ste_omxcomponents/libste_val_src_sink.so \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_binary_splitter.so:system/lib/ste_omxcomponents/libste_binary_splitter.so \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_dec_wmapro_v10.so:system/lib/ste_omxcomponents/libste_dec_wmapro_v10.so \
+    vendor/sony/nypon/proprietary/etc/plmn.latam.list:system/etc/plmn.latam.list \
+    vendor/sony/nypon/proprietary/etc/plmn.operator.list:system/etc/plmn.operator.list \
+    vendor/sony/nypon/proprietary/lib/libcn.so:system/lib/libcn.so \
+    vendor/sony/nypon/proprietary/lib/libmaluicc.so:system/lib/libmaluicc.so \
+    vendor/sony/nypon/proprietary/lib/libarchive.so:system/lib/libarchive.so \
+    vendor/sony/nypon/proprietary/lib/libmalnvd.so:system/lib/libmalnvd.so \
+    vendor/sony/nypon/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/sony/nypon/proprietary/lib/libmalutil.so:system/lib/libmalutil.so \
+    vendor/sony/nypon/proprietary/lib/libsms_server.so:system/lib/libsms_server.so \
+    vendor/sony/nypon/proprietary/lib/libmalgss.so:system/lib/libmalgss.so \
+    vendor/sony/nypon/proprietary/lib/libmalmon.so:system/lib/libmalmon.so \
+    vendor/sony/nypon/proprietary/lib/libmalpipe.so:system/lib/libmalpipe.so \
+    vendor/sony/nypon/proprietary/lib/libmalftd.so:system/lib/libmalftd.so \
+    vendor/sony/nypon/proprietary/lib/libisimessage.so:system/lib/libisimessage.so \
+    vendor/sony/nypon/proprietary/lib/libmalgpds.so:system/lib/libmalgpds.so \
+    vendor/sony/nypon/proprietary/lib/libS1SL.so:system/lib/libS1SL.so \
+    vendor/sony/nypon/proprietary/lib/libmalmte.so:system/lib/libmalmte.so \
+    vendor/sony/nypon/proprietary/lib/libarchive_fe.so:system/lib/libarchive_fe.so \
+    vendor/sony/nypon/proprietary/lib/libmalnet.so:system/lib/libmalnet.so \
+    vendor/sony/nypon/proprietary/lib/libpscc.so:system/lib/libpscc.so \
+    vendor/sony/nypon/proprietary/lib/libmalcs.so:system/lib/libmalcs.so \
+    vendor/sony/nypon/proprietary/lib/libmalmce.so:system/lib/libmalmce.so \
+    vendor/sony/nypon/proprietary/lib/libphonet.so:system/lib/libphonet.so \
+    vendor/sony/nypon/proprietary/lib/libmalmis.so:system/lib/libmalmis.so \
+    vendor/sony/nypon/proprietary/lib/libmcatcher.so:system/lib/libmcatcher.so \
+    vendor/sony/nypon/proprietary/lib/libmalsms.so:system/lib/libmalsms.so \
+    vendor/sony/nypon/proprietary/lib/libmalrf.so:system/lib/libmalrf.so \
+    vendor/sony/nypon/proprietary/lib/libcops.so:system/lib/libcops.so \
     vendor/sony/nypon/proprietary/lib/libste_enc_amr.so:system/lib/libste_enc_amr.so \
     vendor/sony/nypon/proprietary/lib/libste_enc_amrwb.so:system/lib/libste_enc_amrwb.so \
     vendor/sony/nypon/proprietary/lib/libste_dec_amrwb.so:system/lib/libste_dec_amrwb.so \
