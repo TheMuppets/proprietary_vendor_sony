@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/nypon/proprietary/bin/cspsa-cmd:system/bin/cspsa-cmd \
     vendor/sony/nypon/proprietary/bin/ta_reader:system/bin/ta_reader \
-    vendor/sony/nypon/proprietary/etc/psdata:system/etc/psdata \
     vendor/sony/nypon/proprietary/etc/psdata/sterc_script_disconnect_dun:system/etc/psdata/sterc_script_disconnect_dun \
     vendor/sony/nypon/proprietary/etc/psdata/sterc_script_disconnect:system/etc/psdata/sterc_script_disconnect \
     vendor/sony/nypon/proprietary/etc/psdata/stepscc_conf:system/etc/psdata/stepscc_conf \
@@ -100,6 +99,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw \
     vendor/sony/nypon/proprietary/etc/cspsa.conf:system/etc/cspsa.conf \
     vendor/sony/nypon/proprietary/etc/adm.sqlite:system/etc/adm.sqlite \
+    vendor/sony/nypon/proprietary/etc/LbsConfig.cfg:system/etc/LbsConfig.cfg \
+    vendor/sony/nypon/proprietary/etc/LbsLogConfig.cfg:system/etc/LbsLogConfig.cfg \
+    vendor/sony/nypon/proprietary/etc/LbsPgpsConfig.cfg:system/etc/LbsPgpsConfig.cfg \
+    vendor/sony/nypon/proprietary/etc/LbsPltConfig.cfg:system/etc/LbsPltConfig.cfg \
     vendor/sony/nypon/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so \
     vendor/sony/nypon/proprietary/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so \
     vendor/sony/nypon/proprietary/usr/lib/alsa-lib/libasound_module_pcm_steiop.so:system/usr/lib/alsa-lib/libasound_module_pcm_steiop.so \
@@ -449,6 +452,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
     vendor/sony/nypon/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
     vendor/sony/nypon/proprietary/lib/liblos.so:system/lib/liblos.so \
+    vendor/sony/nypon/proprietary/lib/liblbstestengine.so:system/lib/liblbstestengine.so \
     vendor/sony/nypon/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/nypon/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/sony/nypon/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
