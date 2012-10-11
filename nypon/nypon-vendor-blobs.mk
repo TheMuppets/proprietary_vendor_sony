@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/nypon/proprietary/bin/lbsstelp:system/bin/lbsstelp \
     vendor/sony/nypon/proprietary/bin/startupflag:system/bin/startupflag \
-    vendor/sony/nypon/proprietary/bin/pand:system/bin/pand \
     vendor/sony/nypon/proprietary/bin/rfhal_export:system/bin/rfhal_export \
     vendor/sony/nypon/proprietary/bin/cg2900-channel_init.sh:system/bin/cg2900-channel_init.sh \
     vendor/sony/nypon/proprietary/bin/simpbd:system/bin/simpbd \
@@ -145,8 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
     vendor/sony/nypon/proprietary/usr/share/camera/config_file/sony_isx006.dat:system/usr/share/camera/config_file/sony_isx006.dat \
     vendor/sony/nypon/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri.dat \
-    vendor/sony/nypon/proprietary/usr/share/bmd/RFFspeed_501.bmd:system/usr/share/bmd/RFFspeed_501.bmd \
-    vendor/sony/nypon/proprietary/usr/share/bmd/RFFstd_501.bmd:system/usr/share/bmd/RFFstd_501.bmd \
     vendor/sony/nypon/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/memgrabctl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/memgrabctl.elf4nmf \
     vendor/sony/nypon/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/postevent.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/postevent.elf4nmf \
     vendor/sony/nypon/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/common/portstate.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/common/portstate.elf4nmf \
@@ -454,6 +451,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/liblos.so:system/lib/liblos.so \
     vendor/sony/nypon/proprietary/lib/liblbstestengine.so:system/lib/liblbstestengine.so \
     vendor/sony/nypon/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/sony/nypon/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/nypon/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/sony/nypon/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/sony/nypon/proprietary/lib/libUMP.so:system/lib/libUMP.so \
@@ -516,6 +514,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/nypon/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/nypon/proprietary/lib/libsterc.so:system/lib/libsterc.so \
+    vendor/sony/nypon/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/nypon/proprietary/lib/libhdmi_service.so:system/lib/libhdmi_service.so \
     vendor/sony/nypon/proprietary/lib/libtrace.so:system/lib/libtrace.so \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
