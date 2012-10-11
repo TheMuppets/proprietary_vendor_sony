@@ -159,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/hikari/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/hikari/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/sony/hikari/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/hikari/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/hikari/proprietary/lib/libta_rmt_clnt.so:system/lib/libta_rmt_clnt.so \
     vendor/sony/hikari/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
