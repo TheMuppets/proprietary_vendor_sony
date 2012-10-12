@@ -184,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/mint/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/sony/mint/proprietary/lib/libC2D3.so:system/lib/libC2D3.so \
     vendor/sony/mint/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/mint/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/mint/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
@@ -210,6 +209,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
     vendor/sony/mint/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/sony/mint/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/mint/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/sony/mint/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/mint/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/sony/mint/proprietary/lib/libcurl.so:system/lib/libcurl.so \
