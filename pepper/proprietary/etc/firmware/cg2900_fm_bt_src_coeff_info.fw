@@ -1,0 +1,19 @@
+#########################################################################
+# ST-Ericsson Connectivity Chip FM BT Coeffecient Information File
+#
+# All information must be stored as follows
+#
+# HCI_revision	LMP_Subversion	File_name (without .org extension)
+#
+########################################################################
+#
+#
+########################################################################
+#
+# FM BT Coeffecient file for ST-Ericsson - CG2900
+#
+0x0700 0x0011 R1f.2_SoC1v20_BT_src_coeff_1.1.fw
+0x0700 0x0013 R1f.2_SoC1v20_BT_src_coeff_1.1.fw
+0x0200 0x0000 R2c.2_SoC2v06_BT_src_coeff_1.1.fw
+#
+########################################################################
