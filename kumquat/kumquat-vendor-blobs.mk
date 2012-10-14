@@ -55,6 +55,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kumquat/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
     vendor/sony/kumquat/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/kumquat/proprietary/bin/cspsa-cmd:system/bin/cspsa-cmd \
+    vendor/sony/kumquat/proprietary/bin/batcap:system/bin/batcap \
+    vendor/sony/kumquat/proprietary/bin/touchd:system/bin/touchd \
+    vendor/sony/kumquat/proprietary/bin/cyttsp_fwloader:system/bin/cyttsp_fwloader \
     vendor/sony/kumquat/proprietary/etc/psdata/sterc_script_disconnect_dun:system/etc/psdata/sterc_script_disconnect_dun \
     vendor/sony/kumquat/proprietary/etc/psdata/sterc_script_disconnect:system/etc/psdata/sterc_script_disconnect \
     vendor/sony/kumquat/proprietary/etc/psdata/stepscc_conf:system/etc/psdata/stepscc_conf \
