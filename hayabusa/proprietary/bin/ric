@@ -1,0 +1,5 @@
+#!/system/bin/sh
+while :
+do
+ /system/bin/sleep 3600
+done

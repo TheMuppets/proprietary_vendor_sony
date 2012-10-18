@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/mint/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/mint/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/mint/proprietary/bin/clearpad_fwloader.sh:system/bin/clearpad_fwloader.sh \
+    vendor/sony/mint/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/mint/proprietary/bin/cnd:system/bin/cnd \
     vendor/sony/mint/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
     vendor/sony/mint/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/mint/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/mint/proprietary/bin/wiperiface_v02:system/bin/wiperiface_v02 \
+    vendor/sony/mint/proprietary/etc/clearpad_fwloader.sh:system/etc/clearpad_fwloader.sh \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_custm_conf.txt:system/etc/fast-dormancy/fd_custm_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_int_conf.txt:system/etc/fast-dormancy/fd_int_conf.txt \
