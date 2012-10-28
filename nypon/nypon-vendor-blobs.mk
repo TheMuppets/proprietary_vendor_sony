@@ -135,6 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_val_src_sink.so:system/lib/ste_omxcomponents/libste_val_src_sink.so \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_tonegen.so:system/lib/ste_omxcomponents/libste_tonegen.so \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
+    vendor/sony/nypon/proprietary/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_pcm_splitter.so:system/lib/ste_omxcomponents/libste_pcm_splitter.so \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_dec_wmapro_v10.so:system/lib/ste_omxcomponents/libste_dec_wmapro_v10.so \
     vendor/sony/nypon/proprietary/lib/ste_omxcomponents/libste_exif_mixer.so:system/lib/ste_omxcomponents/libste_exif_mixer.so \

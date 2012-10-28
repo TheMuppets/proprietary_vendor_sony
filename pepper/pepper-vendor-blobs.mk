@@ -171,6 +171,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/pepper/proprietary/lib/libnmf.so:system/lib/libnmf.so \
     vendor/sony/pepper/proprietary/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
+    vendor/sony/pepper/proprietary/lib/libste_enc_amr.so:system/lib/libste_enc_amr.so \
+    vendor/sony/pepper/proprietary/lib/libste_enc_amrwb.so:system/lib/libste_enc_amrwb.so \
+    vendor/sony/pepper/proprietary/lib/libste_dec_amrwb.so:system/lib/libste_dec_amrwb.so \
+    vendor/sony/pepper/proprietary/lib/libste_dec_amr.so:system/lib/libste_dec_amr.so \
     vendor/sony/pepper/proprietary/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     vendor/sony/pepper/proprietary/lib/libstecom.so:system/lib/libstecom.so \
     vendor/sony/pepper/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \

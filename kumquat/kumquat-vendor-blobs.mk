@@ -171,6 +171,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kumquat/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/kumquat/proprietary/lib/libnmf.so:system/lib/libnmf.so \
     vendor/sony/kumquat/proprietary/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
+    vendor/sony/kumquat/proprietary/lib/libste_enc_amr.so:system/lib/libste_enc_amr.so \
+    vendor/sony/kumquat/proprietary/lib/libste_enc_amrwb.so:system/lib/libste_enc_amrwb.so \
+    vendor/sony/kumquat/proprietary/lib/libste_dec_amrwb.so:system/lib/libste_dec_amrwb.so \
+    vendor/sony/kumquat/proprietary/lib/libste_dec_amr.so:system/lib/libste_dec_amr.so \
     vendor/sony/kumquat/proprietary/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     vendor/sony/kumquat/proprietary/lib/libstecom.so:system/lib/libstecom.so \
     vendor/sony/kumquat/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
