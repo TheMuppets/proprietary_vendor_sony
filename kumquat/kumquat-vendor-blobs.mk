@@ -139,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kumquat/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
     vendor/sony/kumquat/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/kumquat/proprietary/lib/libtee.so:system/lib/libtee.so \
+    vendor/sony/kumquat/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
     vendor/sony/kumquat/proprietary/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     vendor/sony/kumquat/proprietary/lib/libbassapp.so:system/lib/libbassapp.so \
     vendor/sony/kumquat/proprietary/lib/libu300-ril.so:system/lib/libu300-ril.so \

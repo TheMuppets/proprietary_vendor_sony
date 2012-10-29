@@ -139,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
     vendor/sony/pepper/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/pepper/proprietary/lib/libtee.so:system/lib/libtee.so \
+    vendor/sony/pepper/proprietary/lib.libjpeg.so:system/lib.libjpeg.so \
     vendor/sony/pepper/proprietary/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     vendor/sony/pepper/proprietary/lib/libbassapp.so:system/lib/libbassapp.so \
     vendor/sony/pepper/proprietary/lib/libu300-ril.so:system/lib/libu300-ril.so \
