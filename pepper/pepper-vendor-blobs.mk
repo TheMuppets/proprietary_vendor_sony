@@ -161,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/lib/tee/suntory_core_ta.ssw:system/lib/tee/suntory_core_ta.ssw \
     vendor/sony/pepper/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     vendor/sony/pepper/proprietary/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
+    vendor/sony/pepper/proprietary/lib/hw/nfc.montblanc.so:system/lib/hw/nfc.montblanc.so \
     vendor/sony/pepper/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
     vendor/sony/pepper/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/pepper/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so \
@@ -276,6 +277,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/vendor/camera/STW05BN0.dat:system/vendor/camera/STW05BN0.dat \
     vendor/sony/pepper/proprietary/vendor/camera/KMO05BN0.dat:system/vendor/camera/KMO05BN0.dat \
     vendor/sony/pepper/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fv_c2.so:system/vendor/firmware/libpn544_fv_c2.so \
+    vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fv_c3.so:system/vendor/firmware/libpn544_fv_c3.so \
     vendor/sony/pepper/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so \
     vendor/sony/pepper/proprietary/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so \
     vendor/sony/pepper/proprietary/usr/lib/alsa-lib/libasound_module_pcm_steiop.so:system/usr/lib/alsa-lib/libasound_module_pcm_steiop.so \
