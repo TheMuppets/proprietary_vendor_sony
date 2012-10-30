@@ -17,7 +17,8 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     vendor/sony/mint/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/sony/mint/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
+    vendor/sony/mint/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+    vendor/sony/mint/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
@@ -268,6 +269,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/mint/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/mint/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
+    vendor/sony/mint/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/sony/mint/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/sony/mint/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/mint/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
