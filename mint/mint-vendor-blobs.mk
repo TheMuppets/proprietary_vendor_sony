@@ -85,8 +85,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
     vendor/sony/mint/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
     vendor/sony/mint/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
+    vendor/sony/mint/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
     vendor/sony/mint/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
-    vendor/sony/mint/proprietary/etc/firmware/modem.b07:system/etc/firmware/modem.b07 \
     vendor/sony/mint/proprietary/etc/firmware/modem.flist:system/etc/firmware/modem.flist \
     vendor/sony/mint/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.b00:system/etc/firmware/modem_f1.b00 \
@@ -316,5 +316,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/mint/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/mint/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/mint/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
-    vendor/sony/mint/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so
+    vendor/sony/mint/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
