@@ -278,8 +278,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/vendor/camera/STW05BN0.dat:system/vendor/camera/STW05BN0.dat \
     vendor/sony/pepper/proprietary/vendor/camera/KMO05BN0.dat:system/vendor/camera/KMO05BN0.dat \
     vendor/sony/pepper/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
-    vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
+    vendor/sony/pepper/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/sony/pepper/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so \
     vendor/sony/pepper/proprietary/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so \
     vendor/sony/pepper/proprietary/usr/lib/alsa-lib/libasound_module_pcm_steiop.so:system/usr/lib/alsa-lib/libasound_module_pcm_steiop.so \

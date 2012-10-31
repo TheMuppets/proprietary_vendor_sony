@@ -193,8 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/lib/libste_dec_amrwb.so:system/lib/libste_dec_amrwb.so \
     vendor/sony/nypon/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/nypon/proprietary/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
-    vendor/sony/nypon/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
-    vendor/sony/nypon/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
+    vendor/sony/nypon/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/sony/nypon/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/nypon/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/nypon/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
