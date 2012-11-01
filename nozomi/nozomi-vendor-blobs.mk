@@ -176,6 +176,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
     vendor/sony/nozomi/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/sony/nozomi/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
+    vendor/sony/nozomi/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
+    vendor/sony/nozomi/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+    vendor/sony/nozomi/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/nozomi/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/nozomi/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/nozomi/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \

@@ -173,6 +173,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
     vendor/sony/hikari/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/sony/hikari/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
+    vendor/sony/hikari/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
+    vendor/sony/hikari/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+    vendor/sony/hikari/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/hikari/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
