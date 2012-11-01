@@ -186,4 +186,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/vendor/camera/SOI13BS1_IMX091.dat:system/vendor/camera/SOI13BS1_IMX091.dat \
     vendor/sony/hikari/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/hikari/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
+    vendor/sony/hikari/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/hikari/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
