@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/nozomi/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/nozomi/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
-    vendor/sony/nozomi/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/nozomi/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/nozomi/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/nozomi/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
@@ -143,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/nozomi/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/nozomi/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/sony/nozomi/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/nozomi/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/nozomi/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/nozomi/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \

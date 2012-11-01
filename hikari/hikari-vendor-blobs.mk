@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/hikari/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/hikari/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
-    vendor/sony/hikari/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/hikari/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/hikari/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/hikari/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
@@ -140,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/hikari/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/hikari/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/sony/hikari/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/hikari/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/hikari/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/hikari/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
