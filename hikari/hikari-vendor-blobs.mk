@@ -129,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/sony/hikari/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/hikari/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/sony/hikari/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
     vendor/sony/hikari/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/hikari/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/sony/hikari/proprietary/lib/libdss.so:system/lib/libdss.so \
@@ -145,7 +144,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/hikari/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/sony/hikari/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/hikari/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/sony/hikari/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+    vendor/sony/hikari/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/sony/hikari/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
     vendor/sony/hikari/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/hikari/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -165,17 +166,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/hikari/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/hikari/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
+    vendor/sony/hikari/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/hikari/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/hikari/proprietary/lib/libta_rmt_clnt.so:system/lib/libta_rmt_clnt.so \
-    vendor/sony/hikari/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
     vendor/sony/hikari/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
     vendor/sony/hikari/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
-    vendor/sony/hikari/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
-    vendor/sony/hikari/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-    vendor/sony/hikari/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
-    vendor/sony/hikari/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
-    vendor/sony/hikari/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-    vendor/sony/hikari/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/hikari/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/hikari/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \

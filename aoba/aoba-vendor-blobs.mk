@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
     vendor/sony/aoba/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/aoba/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/sony/aoba/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/aoba/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/aoba/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/aoba/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
@@ -129,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/sony/aoba/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/aoba/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/sony/aoba/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/aoba/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/aoba/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/aoba/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -157,7 +157,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/aoba/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/sony/aoba/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/aoba/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/sony/aoba/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+    vendor/sony/aoba/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/sony/aoba/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
     vendor/sony/aoba/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/aoba/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -177,17 +179,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/aoba/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/aoba/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/sony/aoba/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/aoba/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/aoba/proprietary/lib/libta_rmt_clnt.so:system/lib/libta_rmt_clnt.so \
     vendor/sony/aoba/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
     vendor/sony/aoba/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
-    vendor/sony/aoba/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
-    vendor/sony/aoba/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
-    vendor/sony/aoba/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
-    vendor/sony/aoba/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
-    vendor/sony/aoba/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
-    vendor/sony/aoba/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-    vendor/sony/aoba/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/aoba/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/aoba/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/aoba/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \

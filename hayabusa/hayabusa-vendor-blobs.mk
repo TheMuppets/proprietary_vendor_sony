@@ -218,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/sony/hayabusa/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/sony/hayabusa/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/sony/hayabusa/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
     vendor/sony/hayabusa/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/hayabusa/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/hayabusa/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -270,11 +269,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/hayabusa/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/hayabusa/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/hayabusa/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
     vendor/sony/hayabusa/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/sony/hayabusa/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/sony/hayabusa/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
-    vendor/sony/hayabusa/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_charge_current_limit_level0.so:system/lib/sysmon/sysmon_charge_current_limit_level0.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_charge_current_limit_level1.so:system/lib/sysmon/sysmon_charge_current_limit_level1.so \
@@ -306,7 +302,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_usb_current_limit_level3.so:system/lib/sysmon/sysmon_usb_current_limit_level3.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_usb_current_limit_level4.so:system/lib/sysmon/sysmon_usb_current_limit_level4.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
-    vendor/sony/hayabusa/proprietary/lib/tcp-connections.so:system/lib/tcp-connections.so \
     vendor/sony/hayabusa/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/hayabusa/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/hayabusa/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
@@ -317,5 +312,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/hayabusa/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/hayabusa/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/hayabusa/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
-    vendor/sony/hayabusa/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so
+    vendor/sony/hayabusa/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
