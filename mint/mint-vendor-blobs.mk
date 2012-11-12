@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/mint/proprietary/bin/fota-snoop:system/bin/fota-snoop \
     vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/mint/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/mint/proprietary/bin/iw:system/bin/iw \
     vendor/sony/mint/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -226,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/mint/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/mint/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/mint/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/mint/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/mint/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/mint/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \

@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/hayabusa/proprietary/bin/fota-snoop:system/bin/fota-snoop \
     vendor/sony/hayabusa/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/hayabusa/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/hayabusa/proprietary/bin/iw:system/bin/iw \
     vendor/sony/hayabusa/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/hayabusa/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -228,7 +227,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/hayabusa/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/hayabusa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/hayabusa/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/hayabusa/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/hayabusa/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/hayabusa/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
