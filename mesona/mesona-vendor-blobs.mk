@@ -19,32 +19,24 @@ PRODUCT_COPY_FILES := \
     vendor/sony/mesona/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/mesona/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/mesona/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/mesona/proprietary/bin/startupflag:system/bin/startupflag \
     vendor/sony/mesona/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/mesona/proprietary/bin/tad:system/bin/tad \
     vendor/sony/mesona/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/sony/mesona/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/sony/mesona/proprietary/bin/btld:system/bin/btld \
-    vendor/sony/mesona/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/mesona/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/sony/mesona/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
     vendor/sony/mesona/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/mesona/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/mesona/proprietary/bin/cnd:system/bin/cnd \
-    vendor/sony/mesona/proprietary/bin/sdcard:system/bin/sdcard \
     vendor/sony/mesona/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/mesona/proprietary/bin/battery_charging:system/bin/battery_charging \
     vendor/sony/mesona/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/mesona/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/sony/mesona/proprietary/bin/sapd:system/bin/sapd \
     vendor/sony/mesona/proprietary/bin/ta_rmt_service:system/bin/ta_rmt_service \
     vendor/sony/mesona/proprietary/bin/wiperiface:system/bin/wiperiface \
-    vendor/sony/mesona/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/sony/mesona/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/mesona/proprietary/bin/getrootingstatus:system/bin/getrootingstatus \
-    vendor/sony/mesona/proprietary/bin/fotainit:system/bin/fotainit \
     vendor/sony/mesona/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/mesona/proprietary/etc/chgani/ca06.rle:system/etc/chgani/ca06.rle \
     vendor/sony/mesona/proprietary/etc/chgani/ca02.rle:system/etc/chgani/ca02.rle \
@@ -92,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/sony/mesona/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/sony/mesona/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/sony/mesona/proprietary/lib/libutils.so:system/lib/libutils.so \
     vendor/sony/mesona/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/sony/mesona/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/mesona/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
@@ -107,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/sony/mesona/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/sony/mesona/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/sony/mesona/proprietary/lib/libm.so:system/lib/libm.so \
     vendor/sony/mesona/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/sony/mesona/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/sony/mesona/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
@@ -124,4 +114,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/sony/mesona/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/sony/mesona/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/mesona/proprietary/lib/libidl.so:system/lib/libidl.so
+    vendor/sony/mesona/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/sony/mesona/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/sony/mesona/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/sony/mesona/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/sony/mesona/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/sony/mesona/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/sony/mesona/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/sony/mesona/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/sony/mesona/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/sony/mesona/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so

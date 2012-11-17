@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca_ss/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/tapioca_ss/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/tapioca_ss/proprietary/bin/cnd:system/bin/cnd \
-    vendor/sony/tapioca_ss/proprietary/bin/sdcard:system/bin/sdcard \
     vendor/sony/tapioca_ss/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/tapioca_ss/proprietary/bin/battery_charging:system/bin/battery_charging \
     vendor/sony/tapioca_ss/proprietary/bin/qmiproxy:system/bin/qmiproxy \
