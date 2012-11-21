@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/mesona/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/sony/mesona/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/sony/mesona/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/mesona/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/mesona/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/mesona/proprietary/lib/libidl.so:system/lib/libidl.so \
@@ -118,10 +119,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/mesona/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/sony/mesona/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/sony/mesona/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/sony/mesona/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/mesona/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/mesona/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/sony/mesona/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
+    vendor/sony/mesona/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/mesona/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/sony/mesona/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/sony/mesona/proprietary/lib/libqdi.so:system/lib/libqdi.so \
