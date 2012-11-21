@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/mesona/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/mesona/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
-    vendor/sony/mesona/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/mesona/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/mesona/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/sony/mesona/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
