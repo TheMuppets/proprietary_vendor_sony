@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kumquat/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/kumquat/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/kumquat/proprietary/bin/wait4tad:system/bin/wait4tad \
-    vendor/sony/kumquat/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/kumquat/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
     vendor/sony/kumquat/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/kumquat/proprietary/bin/cspsa-cmd:system/bin/cspsa-cmd \

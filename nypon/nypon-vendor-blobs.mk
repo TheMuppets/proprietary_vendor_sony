@@ -218,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/bin/pand:system/bin/pand \
     vendor/sony/nypon/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/nypon/proprietary/bin/at_core:system/bin/at_core \
-    vendor/sony/nypon/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/nypon/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/nypon/proprietary/bin/lbsstelp:system/bin/lbsstelp \
     vendor/sony/nypon/proprietary/bin/admsrv:system/bin/admsrv \

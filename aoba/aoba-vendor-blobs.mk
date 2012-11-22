@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/aoba/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/aoba/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
-    vendor/sony/aoba/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/aoba/proprietary/bin/imei_transporter:system/bin/imei_transporter \
     vendor/sony/aoba/proprietary/bin/ks:system/bin/ks \
     vendor/sony/aoba/proprietary/bin/mpdecision:system/bin/mpdecision \

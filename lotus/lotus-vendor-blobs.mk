@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/lotus/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/lotus/proprietary/bin/wait4tad:system/bin/wait4tad \
-    vendor/sony/lotus/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/lotus/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
     vendor/sony/lotus/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/lotus/proprietary/bin/cspsa-cmd:system/bin/cspsa-cmd \

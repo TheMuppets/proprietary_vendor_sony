@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/pepper/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/pepper/proprietary/bin/wait4tad:system/bin/wait4tad \
-    vendor/sony/pepper/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/pepper/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
     vendor/sony/pepper/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/pepper/proprietary/bin/cspsa-cmd:system/bin/cspsa-cmd \
