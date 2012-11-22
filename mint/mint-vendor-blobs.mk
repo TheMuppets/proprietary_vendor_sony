@@ -60,7 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/mint/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/mint/proprietary/bin/wait4tad:system/bin/wait4tad \
-    vendor/sony/mint/proprietary/bin/wiperiface_v02:system/bin/wiperiface_v02 \
+    vendor/sony/mint/proprietary/bin/wiperiface_v02:system/bin/wiperiface \
     vendor/sony/mint/proprietary/etc/clearpad_fwloader.sh:system/etc/clearpad_fwloader.sh \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_custm_conf.txt:system/etc/fast-dormancy/fd_custm_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
@@ -309,4 +309,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/mint/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/mint/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/mint/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/mint/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw.so

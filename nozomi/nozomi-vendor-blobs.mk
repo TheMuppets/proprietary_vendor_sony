@@ -186,4 +186,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/nozomi/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/nozomi/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/nozomi/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/nozomi/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw.so
