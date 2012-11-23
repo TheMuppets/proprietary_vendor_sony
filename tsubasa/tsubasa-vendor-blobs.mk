@@ -158,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.flist:system/etc/firmware/wcnss.flist \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
