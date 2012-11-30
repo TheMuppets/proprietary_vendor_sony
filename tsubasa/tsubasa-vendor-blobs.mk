@@ -67,6 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/tsubasa/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/sony/tsubasa/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/sony/tsubasa/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/sony/tsubasa/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/sony/tsubasa/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
     vendor/sony/tsubasa/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/tsubasa/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
@@ -170,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/sony/tsubasa/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/sony/tsubasa/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/sony/tsubasa/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/sony/tsubasa/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/tsubasa/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/tsubasa/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -188,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/tsubasa/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/tsubasa/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/sony/tsubasa/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/sony/tsubasa/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/tsubasa/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/tsubasa/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
@@ -262,6 +266,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/tsubasa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/tsubasa/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/sony/tsubasa/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/sony/tsubasa/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/sony/tsubasa/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/tsubasa/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \

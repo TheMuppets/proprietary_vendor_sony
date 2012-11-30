@@ -68,6 +68,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/mint/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/sony/mint/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/sony/mint/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/sony/mint/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/sony/mint/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b01:system/etc/firmware/dsps.b01 \
@@ -177,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/sony/mint/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/sony/mint/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/sony/mint/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/sony/mint/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/mint/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/gps.sony.so:system/lib/hw/gps.sony.so \
@@ -195,6 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/mint/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/mint/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/sony/mint/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/sony/mint/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/mint/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/mint/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
@@ -259,6 +263,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/mint/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/mint/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/sony/mint/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/sony/mint/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/sony/mint/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/mint/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
