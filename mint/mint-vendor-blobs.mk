@@ -181,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/mint/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/sony/mint/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/mint/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/gps.sony.so:system/lib/hw/gps.sony.so \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
@@ -200,18 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/sony/mint/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/sony/mint/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/sony/mint/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
-    vendor/sony/mint/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/mint/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
-    vendor/sony/mint/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
-    vendor/sony/mint/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
-    vendor/sony/mint/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/mint/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/sony/mint/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/sony/mint/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
-    vendor/sony/mint/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
-    vendor/sony/mint/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
-    vendor/sony/mint/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/mint/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/sony/mint/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/mint/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -220,7 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/mint/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/mint/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/sony/mint/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/mint/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/mint/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/mint/proprietary/lib/libgsl.so:system/lib/libgsl.so \
@@ -236,14 +222,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/mint/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/mint/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/sony/mint/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/sony/mint/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/mint/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
     vendor/sony/mint/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/mint/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/mint/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/mint/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/sony/mint/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/mint/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/mint/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
     vendor/sony/mint/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
