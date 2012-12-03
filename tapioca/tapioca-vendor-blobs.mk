@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/tapioca/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/sony/tapioca/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/sony/tapioca/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/tapioca/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/tapioca/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/tapioca/proprietary/lib/libidl.so:system/lib/libidl.so \
@@ -119,10 +120,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/tapioca/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/sony/tapioca/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/sony/tapioca/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/sony/tapioca/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/tapioca/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/tapioca/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/sony/tapioca/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
+    vendor/sony/tapioca/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/tapioca/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/sony/tapioca/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/sony/tapioca/proprietary/lib/libqdi.so:system/lib/libqdi.so \
