@@ -175,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/sony/tsubasa/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/tsubasa/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/sony/tsubasa/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/tsubasa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/tsubasa/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/tsubasa/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
@@ -215,7 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/tsubasa/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/tsubasa/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/tsubasa/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/tsubasa/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/tsubasa/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/tsubasa/proprietary/lib/libidl.so:system/lib/libidl.so \
@@ -223,9 +221,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/tsubasa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/tsubasa/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
-    vendor/sony/tsubasa/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-    vendor/sony/tsubasa/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/sony/tsubasa/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/tsubasa/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/tsubasa/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/tsubasa/proprietary/lib/libmllite.so:system/lib/libmllite.so \

@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/mint/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/mint/proprietary/bin/wait4tad:system/bin/wait4tad \
-    vendor/sony/mint/proprietary/bin/wiperiface_v02:system/bin/wiperiface \
     vendor/sony/mint/proprietary/etc/clearpad_fwloader.sh:system/etc/clearpad_fwloader.sh \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_custm_conf.txt:system/etc/fast-dormancy/fd_custm_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
@@ -111,27 +110,27 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.b29:system/etc/firmware/modem_f1.b29 \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.flist:system/etc/firmware/modem_f1.flist \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.mdt:system/etc/firmware/modem_f1.mdt \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b00:system/etc/firmware/modem_f2.b00 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b01:system/etc/firmware/modem_f2.b01 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b02:system/etc/firmware/modem_f2.b02 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b03:system/etc/firmware/modem_f2.b03 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b04:system/etc/firmware/modem_f2.b04 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b05:system/etc/firmware/modem_f2.b05 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b06:system/etc/firmware/modem_f2.b06 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b07:system/etc/firmware/modem_f2.b07 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b08:system/etc/firmware/modem_f2.b08 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b09:system/etc/firmware/modem_f2.b09 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b10:system/etc/firmware/modem_f2.b10 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b13:system/etc/firmware/modem_f2.b13 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b14:system/etc/firmware/modem_f2.b14 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b21:system/etc/firmware/modem_f2.b21 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b22:system/etc/firmware/modem_f2.b22 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b23:system/etc/firmware/modem_f2.b23 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b25:system/etc/firmware/modem_f2.b25 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b26:system/etc/firmware/modem_f2.b26 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b29:system/etc/firmware/modem_f2.b29 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.flist:system/etc/firmware/modem_f2.flist \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.mdt:system/etc/firmware/modem_f2.mdt \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b00:system/etc/firmware/modem_fw.b00 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b01:system/etc/firmware/modem_fw.b01 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b02:system/etc/firmware/modem_fw.b02 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b03:system/etc/firmware/modem_fw.b03 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b04:system/etc/firmware/modem_fw.b04 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b05:system/etc/firmware/modem_fw.b05 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b06:system/etc/firmware/modem_fw.b06 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b07:system/etc/firmware/modem_fw.b07 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b08:system/etc/firmware/modem_fw.b08 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b09:system/etc/firmware/modem_fw.b09 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b10:system/etc/firmware/modem_fw.b10 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b13:system/etc/firmware/modem_fw.b13 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b14:system/etc/firmware/modem_fw.b14 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b21:system/etc/firmware/modem_fw.b21 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b22:system/etc/firmware/modem_fw.b22 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b23:system/etc/firmware/modem_fw.b23 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b25:system/etc/firmware/modem_fw.b25 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b26:system/etc/firmware/modem_fw.b26 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.b29:system/etc/firmware/modem_fw.b29 \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.flist:system/etc/firmware/modem_fw.flist \
+    vendor/sony/mint/proprietary/etc/firmware/modem_f2.mdt:system/etc/firmware/modem_fw.mdt \
     vendor/sony/mint/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
     vendor/sony/mint/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
     vendor/sony/mint/proprietary/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
@@ -181,12 +180,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/mint/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/sony/mint/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/mint/proprietary/lib/hw/gps.sony.so:system/lib/hw/gps.sony.so \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/mint/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/mint/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/mint/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
+    vendor/sony/mint/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/sony/mint/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/mint/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/mint/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
@@ -208,14 +207,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/mint/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/mint/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/mint/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/mint/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/mint/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/mint/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/mint/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/mint/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-    vendor/sony/mint/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/sony/mint/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/mint/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/mint/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/mint/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
