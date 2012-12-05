@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/mint/proprietary/bin/tad:system/bin/tad \
     vendor/sony/mint/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/mint/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/sony/mint/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/mint/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/mint/proprietary/bin/usbeng:system/bin/usbeng \
     vendor/sony/mint/proprietary/bin/usbhub:system/bin/usbhub \

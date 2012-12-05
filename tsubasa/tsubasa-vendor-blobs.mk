@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/tsubasa/proprietary/bin/tad:system/bin/tad \
     vendor/sony/tsubasa/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/tsubasa/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/sony/tsubasa/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/tsubasa/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/tsubasa/proprietary/bin/usbeng:system/bin/usbeng \
     vendor/sony/tsubasa/proprietary/bin/usbhub:system/bin/usbhub \
