@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/sony/mint/proprietary/bin/profiler_daemon:system/bin/profiler_daemon \
     vendor/sony/mint/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/mint/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
@@ -222,10 +221,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/mint/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/sony/mint/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
-    vendor/sony/mint/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
     vendor/sony/mint/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/mint/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-    vendor/sony/mint/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/mint/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/mint/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/mint/proprietary/lib/libqmi.so:system/lib/libqmi.so \

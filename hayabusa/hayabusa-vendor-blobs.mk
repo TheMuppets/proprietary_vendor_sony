@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/hayabusa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/hayabusa/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/sony/hayabusa/proprietary/bin/profiler_daemon:system/bin/profiler_daemon \
     vendor/sony/hayabusa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/hayabusa/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/hayabusa/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
@@ -242,10 +241,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/sony/hayabusa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/hayabusa/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
-    vendor/sony/hayabusa/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
     vendor/sony/hayabusa/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/hayabusa/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-    vendor/sony/hayabusa/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/hayabusa/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/hayabusa/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/hayabusa/proprietary/lib/libqmi.so:system/lib/libqmi.so \

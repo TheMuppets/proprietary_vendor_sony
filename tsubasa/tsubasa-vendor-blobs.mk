@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/tsubasa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/tsubasa/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/sony/tsubasa/proprietary/bin/profiler_daemon:system/bin/profiler_daemon \
     vendor/sony/tsubasa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/tsubasa/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/tsubasa/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
@@ -242,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/sony/tsubasa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/tsubasa/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
-    vendor/sony/tsubasa/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
     vendor/sony/tsubasa/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/tsubasa/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/tsubasa/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
