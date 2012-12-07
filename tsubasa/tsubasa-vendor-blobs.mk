@@ -41,8 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/tsubasa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/tsubasa/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/tsubasa/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/sony/tsubasa/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/sony/tsubasa/proprietary/bin/ric:system/bin/ric \
     vendor/sony/tsubasa/proprietary/bin/rild:system/bin/rild \
     vendor/sony/tsubasa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -66,8 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/tsubasa/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/sony/tsubasa/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/sony/tsubasa/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/sony/tsubasa/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/sony/tsubasa/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
     vendor/sony/tsubasa/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/tsubasa/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
@@ -188,8 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/tsubasa/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/tsubasa/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/sony/tsubasa/proprietary/lib/libbson.so:system/lib/libbson.so \
-    vendor/sony/tsubasa/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/sony/tsubasa/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/tsubasa/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/tsubasa/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
@@ -206,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/sony/tsubasa/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/tsubasa/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
-    vendor/sony/tsubasa/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/sony/tsubasa/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/tsubasa/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/tsubasa/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -253,20 +246,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/sony/tsubasa/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/sony/tsubasa/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/sony/tsubasa/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
-    vendor/sony/tsubasa/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     vendor/sony/tsubasa/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/tsubasa/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/tsubasa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/tsubasa/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/sony/tsubasa/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/sony/tsubasa/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/sony/tsubasa/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/tsubasa/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/tsubasa/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/tsubasa/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/tsubasa/proprietary/lib/libv8.so:system/lib/libv8.so \
-    vendor/sony/tsubasa/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/sony/tsubasa/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_camif.so:system/lib/sysmon/sysmon_camif.so \
