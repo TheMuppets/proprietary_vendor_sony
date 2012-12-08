@@ -219,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/hayabusa/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/hayabusa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
+    vendor/sony/hayabusa/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/hayabusa/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/hayabusa/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/hayabusa/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \

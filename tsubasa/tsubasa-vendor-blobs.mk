@@ -213,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/tsubasa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/tsubasa/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
+    vendor/sony/tsubasa/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/tsubasa/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/tsubasa/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/tsubasa/proprietary/lib/libmllite.so:system/lib/libmllite.so \

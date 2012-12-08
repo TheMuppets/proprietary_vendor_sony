@@ -203,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/mint/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/mint/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
+    vendor/sony/mint/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/mint/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/mint/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/mint/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
