@@ -169,7 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/nozomi/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/nozomi/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
-    vendor/sony/nozomi/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/nozomi/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/nozomi/proprietary/lib/libta_rmt_clnt.so:system/lib/libta_rmt_clnt.so \
     vendor/sony/nozomi/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
