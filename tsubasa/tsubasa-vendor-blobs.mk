@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/tsubasa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/tsubasa/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/tsubasa/proprietary/bin/ric:system/bin/ric \
     vendor/sony/tsubasa/proprietary/bin/rild:system/bin/rild \
     vendor/sony/tsubasa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/tsubasa/proprietary/bin/secchand:system/bin/secchand \
@@ -169,34 +168,20 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/tsubasa/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/sony/tsubasa/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/tsubasa/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/tsubasa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/tsubasa/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/tsubasa/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/tsubasa/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/tsubasa/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
+    vendor/sony/tsubasa/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/sony/tsubasa/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/tsubasa/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/tsubasa/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/tsubasa/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
-    vendor/sony/tsubasa/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/tsubasa/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/tsubasa/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/tsubasa/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/tsubasa/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/tsubasa/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/sony/tsubasa/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
-    vendor/sony/tsubasa/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/tsubasa/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
-    vendor/sony/tsubasa/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
-    vendor/sony/tsubasa/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
-    vendor/sony/tsubasa/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/tsubasa/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/sony/tsubasa/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/sony/tsubasa/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
-    vendor/sony/tsubasa/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
-    vendor/sony/tsubasa/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
-    vendor/sony/tsubasa/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/tsubasa/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/sony/tsubasa/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/tsubasa/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -204,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/tsubasa/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/tsubasa/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/sony/tsubasa/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/tsubasa/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/tsubasa/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/tsubasa/proprietary/lib/libidd.so:system/lib/libidd.so \
@@ -221,19 +205,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/tsubasa/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/tsubasa/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/tsubasa/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/tsubasa/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/tsubasa/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/tsubasa/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/tsubasa/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/sony/tsubasa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/tsubasa/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/tsubasa/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/tsubasa/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
