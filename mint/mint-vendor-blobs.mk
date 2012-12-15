@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/mint/proprietary/bin/ric:system/bin/ric \
     vendor/sony/mint/proprietary/bin/rild:system/bin/rild \
     vendor/sony/mint/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/mint/proprietary/bin/secchand:system/bin/secchand \
@@ -159,6 +158,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/sony/mint/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/sony/mint/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    vendor/sony/mint/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
+    vendor/sony/mint/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
@@ -184,8 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/mint/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/mint/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/mint/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
-    vendor/sony/mint/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/mint/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/mint/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/mint/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
