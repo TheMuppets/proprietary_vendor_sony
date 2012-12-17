@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b03:system/etc/firmware/dsps.b03 \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
-    vendor/sony/mint/proprietary/etc/firmware/dsps.flist:system/etc/firmware/dsps.flist \
     vendor/sony/mint/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
     vendor/sony/mint/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/sony/mint/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -81,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
     vendor/sony/mint/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
     vendor/sony/mint/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
-    vendor/sony/mint/proprietary/etc/firmware/modem.flist:system/etc/firmware/modem.flist \
     vendor/sony/mint/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.b00:system/etc/firmware/modem_f1.b00 \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.b01:system/etc/firmware/modem_f1.b01 \
@@ -102,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.b25:system/etc/firmware/modem_f1.b25 \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.b26:system/etc/firmware/modem_f1.b26 \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.b29:system/etc/firmware/modem_f1.b29 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f1.flist:system/etc/firmware/modem_f1.flist \
     vendor/sony/mint/proprietary/etc/firmware/modem_f1.mdt:system/etc/firmware/modem_f1.mdt \
     vendor/sony/mint/proprietary/etc/firmware/modem_f2.b00:system/etc/firmware/modem_fw.b00 \
     vendor/sony/mint/proprietary/etc/firmware/modem_f2.b01:system/etc/firmware/modem_fw.b01 \
@@ -123,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/modem_f2.b25:system/etc/firmware/modem_fw.b25 \
     vendor/sony/mint/proprietary/etc/firmware/modem_f2.b26:system/etc/firmware/modem_fw.b26 \
     vendor/sony/mint/proprietary/etc/firmware/modem_f2.b29:system/etc/firmware/modem_fw.b29 \
-    vendor/sony/mint/proprietary/etc/firmware/modem_f2.flist:system/etc/firmware/modem_fw.flist \
     vendor/sony/mint/proprietary/etc/firmware/modem_f2.mdt:system/etc/firmware/modem_fw.mdt \
     vendor/sony/mint/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
     vendor/sony/mint/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
@@ -137,19 +133,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
     vendor/sony/mint/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
     vendor/sony/mint/proprietary/etc/firmware/tzlibasb.b03:system/etc/firmware/tzlibasb.b03 \
-    vendor/sony/mint/proprietary/etc/firmware/tzlibasb.flist:system/etc/firmware/tzlibasb.flist \
     vendor/sony/mint/proprietary/etc/firmware/tzlibasb.mdt:system/etc/firmware/tzlibasb.mdt \
     vendor/sony/mint/proprietary/etc/firmware/tzs1sl.b00:system/etc/firmware/tzs1sl.b00 \
     vendor/sony/mint/proprietary/etc/firmware/tzs1sl.b01:system/etc/firmware/tzs1sl.b01 \
     vendor/sony/mint/proprietary/etc/firmware/tzs1sl.b02:system/etc/firmware/tzs1sl.b02 \
     vendor/sony/mint/proprietary/etc/firmware/tzs1sl.b03:system/etc/firmware/tzs1sl.b03 \
-    vendor/sony/mint/proprietary/etc/firmware/tzs1sl.flist:system/etc/firmware/tzs1sl.flist \
     vendor/sony/mint/proprietary/etc/firmware/tzs1sl.mdt:system/etc/firmware/tzs1sl.mdt \
     vendor/sony/mint/proprietary/etc/firmware/tzsuntory.b00:system/etc/firmware/tzsuntory.b00 \
     vendor/sony/mint/proprietary/etc/firmware/tzsuntory.b01:system/etc/firmware/tzsuntory.b01 \
     vendor/sony/mint/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/mint/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
-    vendor/sony/mint/proprietary/etc/firmware/tzsuntory.flist:system/etc/firmware/tzsuntory.flist \
     vendor/sony/mint/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/mint/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/sony/mint/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -164,7 +157,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/sony/mint/proprietary/etc/firmware/wcnss.flist:system/etc/firmware/wcnss.flist \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/mint/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/mint/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
