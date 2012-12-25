@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/hayabusa/proprietary/bin/tad:system/bin/tad \
     vendor/sony/hayabusa/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/hayabusa/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/sony/hayabusa/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/hayabusa/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/hayabusa/proprietary/bin/usbeng:system/bin/usbeng \
     vendor/sony/hayabusa/proprietary/bin/usbhub:system/bin/usbhub \
