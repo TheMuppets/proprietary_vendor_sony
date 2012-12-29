@@ -27,25 +27,19 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/hayabusa/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/hayabusa/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
-    vendor/sony/hayabusa/proprietary/bin/cnd:system/bin/cnd \
-    vendor/sony/hayabusa/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
     vendor/sony/hayabusa/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/hayabusa/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/hayabusa/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/hayabusa/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/sony/hayabusa/proprietary/bin/fota-snoop:system/bin/fota-snoop \
     vendor/sony/hayabusa/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/hayabusa/proprietary/bin/iw:system/bin/iw \
     vendor/sony/hayabusa/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/hayabusa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/hayabusa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/hayabusa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/hayabusa/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/hayabusa/proprietary/bin/ric:system/bin/ric \
-    vendor/sony/hayabusa/proprietary/bin/rild:system/bin/rild \
     vendor/sony/hayabusa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/hayabusa/proprietary/bin/secchand:system/bin/secchand \
-    vendor/sony/hayabusa/proprietary/bin/startupflag:system/bin/startupflag \
     vendor/sony/hayabusa/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/hayabusa/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/hayabusa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
@@ -53,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/hayabusa/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/hayabusa/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/hayabusa/proprietary/bin/usbeng:system/bin/usbeng \
     vendor/sony/hayabusa/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/hayabusa/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/hayabusa/proprietary/bin/wait4tad:system/bin/wait4tad \
@@ -160,9 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/sony/hayabusa/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/hayabusa/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/sony/hayabusa/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/sony/hayabusa/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/sony/hayabusa/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/hayabusa/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/sony/hayabusa/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/sony/hayabusa/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -198,9 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
     vendor/sony/hayabusa/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/sony/hayabusa/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/hayabusa/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/sony/hayabusa/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-    vendor/sony/hayabusa/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/sony/hayabusa/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/hayabusa/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/hayabusa/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -233,19 +220,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/hayabusa/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/hayabusa/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
+    vendor/sony/hayabusa/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/sony/hayabusa/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
     vendor/sony/hayabusa/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/sony/hayabusa/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/sony/hayabusa/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/hayabusa/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/sony/hayabusa/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/hayabusa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/hayabusa/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/hayabusa/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/sony/hayabusa/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/hayabusa/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/hayabusa/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/hayabusa/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_charge_current_limit_level0.so:system/lib/sysmon/sysmon_charge_current_limit_level0.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_charge_current_limit_level1.so:system/lib/sysmon/sysmon_charge_current_limit_level1.so \

@@ -27,24 +27,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/mint/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/mint/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
-    vendor/sony/mint/proprietary/bin/cnd:system/bin/cnd \
-    vendor/sony/mint/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
     vendor/sony/mint/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/mint/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/mint/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/mint/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/sony/mint/proprietary/bin/fota-snoop:system/bin/fota-snoop \
     vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/mint/proprietary/bin/iw:system/bin/iw \
     vendor/sony/mint/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/mint/proprietary/bin/rild:system/bin/rild \
     vendor/sony/mint/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/mint/proprietary/bin/secchand:system/bin/secchand \
-    vendor/sony/mint/proprietary/bin/startupflag:system/bin/startupflag \
     vendor/sony/mint/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/mint/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/mint/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
@@ -52,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/mint/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/mint/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/mint/proprietary/bin/usbeng:system/bin/usbeng \
     vendor/sony/mint/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/mint/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/mint/proprietary/bin/wait4tad:system/bin/wait4tad \
@@ -179,9 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/mint/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/mint/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/sony/mint/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/sony/mint/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-    vendor/sony/mint/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/sony/mint/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/mint/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/mint/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -209,12 +199,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/mint/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/mint/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
+    vendor/sony/mint/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/sony/mint/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
     vendor/sony/mint/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/sony/mint/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/sony/mint/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/mint/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/sony/mint/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/mint/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/mint/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/mint/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
@@ -222,7 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/mint/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/mint/proprietary/lib/libv8.so:system/lib/libv8.so \
-    vendor/sony/mint/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level0.so:system/lib/sysmon/sysmon_charge_current_limit_level0.so \
     vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level1.so:system/lib/sysmon/sysmon_charge_current_limit_level1.so \

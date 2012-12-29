@@ -27,24 +27,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/tsubasa/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/tsubasa/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
-    vendor/sony/tsubasa/proprietary/bin/cnd:system/bin/cnd \
-    vendor/sony/tsubasa/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
     vendor/sony/tsubasa/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/tsubasa/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/tsubasa/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/tsubasa/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/sony/tsubasa/proprietary/bin/fota-snoop:system/bin/fota-snoop \
     vendor/sony/tsubasa/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/tsubasa/proprietary/bin/iw:system/bin/iw \
     vendor/sony/tsubasa/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/tsubasa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/tsubasa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/tsubasa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/tsubasa/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/tsubasa/proprietary/bin/rild:system/bin/rild \
     vendor/sony/tsubasa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/tsubasa/proprietary/bin/secchand:system/bin/secchand \
-    vendor/sony/tsubasa/proprietary/bin/startupflag:system/bin/startupflag \
     vendor/sony/tsubasa/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/tsubasa/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/tsubasa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
@@ -52,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/tsubasa/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/tsubasa/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/tsubasa/proprietary/bin/usbeng:system/bin/usbeng \
     vendor/sony/tsubasa/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/tsubasa/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/tsubasa/proprietary/bin/wait4tad:system/bin/wait4tad \
@@ -173,9 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/tsubasa/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/tsubasa/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/sony/tsubasa/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/sony/tsubasa/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-    vendor/sony/tsubasa/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/sony/tsubasa/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/tsubasa/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/tsubasa/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -215,7 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/sony/tsubasa/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/tsubasa/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/sony/tsubasa/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/tsubasa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/tsubasa/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/tsubasa/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
@@ -224,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/tsubasa/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/tsubasa/proprietary/lib/libv8.so:system/lib/libv8.so \
-    vendor/sony/tsubasa/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_camif.so:system/lib/sysmon/sysmon_camif.so \
     vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
