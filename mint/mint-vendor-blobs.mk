@@ -172,26 +172,42 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/mint/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/mint/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/sony/mint/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/sony/mint/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
+    vendor/sony/mint/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
+    vendor/sony/mint/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
+    vendor/sony/mint/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
+    vendor/sony/mint/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
+    vendor/sony/mint/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/mint/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/mint/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/mint/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/mint/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/sony/mint/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/mint/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/mint/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/mint/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/mint/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/mint/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/mint/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/mint/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/mint/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/mint/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/mint/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/mint/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/mint/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/mint/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/mint/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/mint/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/mint/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/mint/proprietary/lib/libnl.so:system/lib/libnl.so \
+    vendor/sony/mint/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/mint/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/mint/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/mint/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \

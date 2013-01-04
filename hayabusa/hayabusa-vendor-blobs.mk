@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/hayabusa/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/hayabusa/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-    vendor/sony/hayabusa/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/hayabusa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/hayabusa/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/hayabusa/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
@@ -182,11 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/hayabusa/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/hayabusa/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/hayabusa/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/sony/hayabusa/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/sony/hayabusa/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
-    vendor/sony/hayabusa/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
-    vendor/sony/hayabusa/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/sony/hayabusa/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/hayabusa/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/hayabusa/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
@@ -199,15 +193,19 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/hayabusa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/hayabusa/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/hayabusa/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/hayabusa/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/hayabusa/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/hayabusa/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/hayabusa/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/hayabusa/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/sony/hayabusa/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/hayabusa/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
-    vendor/sony/hayabusa/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/sony/hayabusa/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/sony/hayabusa/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/hayabusa/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/hayabusa/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/hayabusa/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/hayabusa/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/hayabusa/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \

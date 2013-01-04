@@ -166,10 +166,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/tsubasa/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/tsubasa/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/sony/tsubasa/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/sony/tsubasa/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
+    vendor/sony/tsubasa/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
+    vendor/sony/tsubasa/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
+    vendor/sony/tsubasa/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
+    vendor/sony/tsubasa/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
+    vendor/sony/tsubasa/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/tsubasa/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/tsubasa/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/tsubasa/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/tsubasa/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/sony/tsubasa/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/tsubasa/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/tsubasa/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/tsubasa/proprietary/lib/libidd.so:system/lib/libidd.so \
@@ -186,11 +194,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/tsubasa/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/tsubasa/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/sony/tsubasa/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/sony/tsubasa/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/sony/tsubasa/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/sony/tsubasa/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/tsubasa/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/tsubasa/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/tsubasa/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/tsubasa/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/tsubasa/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/tsubasa/proprietary/lib/libnl.so:system/lib/libnl.so \
+    vendor/sony/tsubasa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/tsubasa/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/tsubasa/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/tsubasa/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
