@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/sony/mesona/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/sony/mesona/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-    vendor/sony/mesona/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/sony/mesona/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/sony/mesona/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/sony/mesona/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
@@ -110,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/mesona/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/mesona/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/sony/mesona/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/sony/mesona/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/sony/mesona/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/mesona/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \

@@ -68,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/sony/jlo/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/sony/jlo/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-    vendor/sony/jlo/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/sony/jlo/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/sony/jlo/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/sony/jlo/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
@@ -113,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/jlo/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/jlo/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/sony/jlo/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/sony/jlo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/sony/jlo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/jlo/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
