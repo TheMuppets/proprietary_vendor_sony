@@ -1,0 +1,191 @@
+<!-- /*
+ * Copyright (C) ST-Ericsson SA 2010. All rights reserved.
+ * This code is ST-Ericsson proprietary and confidential.
+ * Any use of the code for whatever purpose is subject to
+ * specific written permission of ST-Ericsson SA.
+ */ -->
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<IQSETTINGS>
+
+  <ID>
+    <OP_MODE>StillPreview</OP_MODE>
+    <VERSION>
+      <STRUCT>4</STRUCT>
+      <ENTRIES>0</ENTRIES>
+      <PARAMS>0</PARAMS>
+      <VALUES>0</VALUES>
+    </VERSION>
+    <SENSOR>
+      <NAME>STW IMX072</NAME>
+      <MANUFACTURER>0x01</MANUFACTURER>
+      <MODEL>0x0045</MODEL>
+    </SENSOR>
+    <FIRMWARE>
+      <MAJOR>7</MAJOR>
+      <MINOR>28</MINOR>
+      <PATCH>0</PATCH>
+    </FIRMWARE>
+    <SW3A>
+      <MAJOR>2</MAJOR>
+      <MINOR>4</MINOR>
+      <BUILD>120215</BUILD>
+    </SW3A>
+  </ID>
+  
+  <CONFIGURATION>
+
+    <!-- Operating mode setup ********************************************** -->
+  
+    <IQSET>
+      <NAME>IQSET_OPMODE_SETUP</NAME>
+      <SW3A_AFC>
+        <PARAM>
+          <NAME>tracking_step_size</NAME>
+          <ADDR>0x00120104</ADDR>
+          <VALUE>0.1</VALUE>
+        </PARAM>
+      </SW3A_AFC>
+    </IQSET>
+  
+    <!-- Exposure modes **************************************************** -->
+
+    <IQSET>
+      <NAME>IQSET_EXPOSURECONTROL_AUTO</NAME>
+      <SW3A_AEC>
+        <PARAM>
+          <NAME>tr_pcount</NAME>
+          <ADDR>0x00100078</ADDR>
+          <VALUE>4</VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_pexposure</NAME>
+          <ADDR>0x0010007C</ADDR>
+          <SIZE>1x4</SIZE>
+          <VALUE>
+            0.0 40.0 80.0 133.3333333
+          </VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_ptime</NAME>
+          <ADDR>0x0010008C</ADDR>
+          <SIZE>1x4</SIZE>
+          <VALUE>
+            0.0 40.0 40.0 66.66666666
+          </VALUE>
+        </PARAM>
+      </SW3A_AEC>
+    </IQSET>
+    
+    <IQSET>
+      <NAME>IQSET_EXPOSURECONTROL_NIGHT</NAME>
+      <SW3A_AEC>
+        <PARAM>
+          <NAME>tr_pcount</NAME>
+          <ADDR>0x00100078</ADDR>
+          <VALUE>2</VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_pexposure</NAME>
+          <ADDR>0x0010007C</ADDR>
+          <SIZE>1x2</SIZE>
+          <VALUE>
+            0.0 200.0
+          </VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_ptime</NAME>
+          <ADDR>0x0010008C</ADDR>
+          <SIZE>1x2</SIZE>
+          <VALUE>
+            0.0 200.0
+          </VALUE>
+        </PARAM>
+      </SW3A_AEC>
+    </IQSET>
+    
+    <IQSET>
+      <NAME>IQSET_EXPOSURECONTROL_SPORTS</NAME>
+	  <SW3A_AEC>
+        <PARAM>
+          <NAME>tr_pcount</NAME>
+          <ADDR>0x00100078</ADDR>
+          <VALUE>2</VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_pexposure</NAME>
+          <ADDR>0x0010007C</ADDR>
+          <SIZE>1x2</SIZE>
+          <VALUE>
+            0.0 20.0
+          </VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_ptime</NAME>
+          <ADDR>0x0010008C</ADDR>
+          <SIZE>1x2</SIZE>
+          <VALUE>
+            0.0 20.0
+          </VALUE>
+        </PARAM>
+      </SW3A_AEC>
+    </IQSET>
+    
+    <IQSET>
+      <NAME>IQSET_EXPOSURECONTROL_LARGEAPERTURE</NAME>
+      <SW3A_AEC>
+        <PARAM>
+          <NAME>tr_pcount</NAME>
+          <ADDR>0x00100078</ADDR>
+          <VALUE>4</VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_pexposure</NAME>
+          <ADDR>0x0010007C</ADDR>
+          <SIZE>1x4</SIZE>
+          <VALUE>
+            0.0 40.0 80.0 133.3333333
+          </VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_ptime</NAME>
+          <ADDR>0x0010008C</ADDR>
+          <SIZE>1x4</SIZE>
+          <VALUE>
+            0.0 40.0 40.0 66.66666666
+          </VALUE>
+        </PARAM>
+      </SW3A_AEC>
+    </IQSET>
+    
+    <IQSET>
+      <NAME>IQSET_EXPOSURECONTROL_SMALLAPERTURE</NAME>
+      <SW3A_AEC>
+        <PARAM>
+          <NAME>tr_pcount</NAME>
+          <ADDR>0x00100078</ADDR>
+          <VALUE>2</VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_pexposure</NAME>
+          <ADDR>0x0010007C</ADDR>
+          <SIZE>1x2</SIZE>
+          <VALUE>
+            0.0 200.0
+          </VALUE>
+        </PARAM>
+        <PARAM>
+          <NAME>tr_ptime</NAME>
+          <ADDR>0x0010008C</ADDR>
+          <SIZE>1x2</SIZE>
+          <VALUE>
+            0.0 200.0
+          </VALUE>
+        </PARAM>
+      </SW3A_AEC>
+    </IQSET>
+    
+  </CONFIGURATION>
+  
+</IQSETTINGS>

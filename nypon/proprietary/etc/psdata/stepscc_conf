@@ -1,0 +1,22 @@
+#
+# Copyright (C) ST-Ericsson SA 2010. All rights reserved.
+# This code is ST-Ericsson proprietary and confidential.
+# Any use of the code for whatever purpose is subject to
+# specific written permission of ST-Ericsson SA.
+#
+#
+# Enable debug prints (true/false)
+#
+debug_mode=false
+#
+# Enable GPRS Resource Control (true/false)
+#
+gprs_res_ctrl=true
+# Set the aol_mode TRUE as default and only through
+# the PP flag(146) to control the "H3G always-on" feature.
+# The relation between the PP flag and the aol_mode is
+# that the PP flag enables host side (=aol_mode)
+# to set the FOR bit for GMM attach/RAU when sending ISI message
+# GPDS_AOL_CTX_ACTIVE/GPDS_AOL_CTX_HPLMN_ACTIVE/GPDS_AOL_CTX_VPLMN_ACTIVE.
+# If PP flag is disabled then request from host side will be ignored.
+aol_mode=true

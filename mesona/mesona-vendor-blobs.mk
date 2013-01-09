@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/mesona/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/mesona/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/sony/mesona/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/sony/mesona/proprietary/bin/battery_charging:system/bin/battery_charging \
     vendor/sony/mesona/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
@@ -40,13 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/mesona/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/mesona/proprietary/bin/wiperiface:system/bin/wiperiface \
-    vendor/sony/mesona/proprietary/etc/chgani/ca01.rle:system/etc/chgani/ca01.rle \
-    vendor/sony/mesona/proprietary/etc/chgani/ca02.rle:system/etc/chgani/ca02.rle \
-    vendor/sony/mesona/proprietary/etc/chgani/ca03.rle:system/etc/chgani/ca03.rle \
-    vendor/sony/mesona/proprietary/etc/chgani/ca04.rle:system/etc/chgani/ca04.rle \
-    vendor/sony/mesona/proprietary/etc/chgani/ca05.rle:system/etc/chgani/ca05.rle \
-    vendor/sony/mesona/proprietary/etc/chgani/ca06.rle:system/etc/chgani/ca06.rle \
-    vendor/sony/mesona/proprietary/etc/chgani/ca07.rle:system/etc/chgani/ca07.rle \
     vendor/sony/mesona/proprietary/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd:system/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd \
     vendor/sony/mesona/proprietary/etc/bcm4330/bcm94330wlsdgbphone.txt:system/etc/bcm4330/bcm94330wlsdgbphone.txt \
     vendor/sony/mesona/proprietary/etc/bcm4330/sdio-g-mfgtest-seqcmds.bin:system/etc/bcm4330/sdio-g-mfgtest-seqcmds.bin \
