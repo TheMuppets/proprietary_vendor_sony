@@ -40,13 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/jlo/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/jlo/proprietary/bin/wiperiface:system/bin/wiperiface \
-    vendor/sony/jlo/proprietary/etc/chgani/ca01.rle:system/etc/chgani/ca01.rle \
-    vendor/sony/jlo/proprietary/etc/chgani/ca02.rle:system/etc/chgani/ca02.rle \
-    vendor/sony/jlo/proprietary/etc/chgani/ca03.rle:system/etc/chgani/ca03.rle \
-    vendor/sony/jlo/proprietary/etc/chgani/ca04.rle:system/etc/chgani/ca04.rle \
-    vendor/sony/jlo/proprietary/etc/chgani/ca05.rle:system/etc/chgani/ca05.rle \
-    vendor/sony/jlo/proprietary/etc/chgani/ca06.rle:system/etc/chgani/ca06.rle \
-    vendor/sony/jlo/proprietary/etc/chgani/ca07.rle:system/etc/chgani/ca07.rle \
     vendor/sony/jlo/proprietary/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd:system/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd \
     vendor/sony/jlo/proprietary/etc/bcm4330/bcm94330wlsdgbphone.txt:system/etc/bcm4330/bcm94330wlsdgbphone.txt \
     vendor/sony/jlo/proprietary/etc/bcm4330/sdio-g-mfgtest-seqcmds.bin:system/etc/bcm4330/sdio-g-mfgtest-seqcmds.bin \
