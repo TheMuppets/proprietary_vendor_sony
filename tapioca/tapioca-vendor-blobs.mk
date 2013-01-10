@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/sony/tapioca/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/tapioca/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/sony/tapioca/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/tapioca/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/sony/tapioca/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/sony/tapioca/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
