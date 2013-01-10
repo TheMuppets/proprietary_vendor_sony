@@ -215,7 +215,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nypon/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/nypon/proprietary/bin/cspsa-cmd:system/bin/cspsa-cmd \
     vendor/sony/nypon/proprietary/bin/cspsa-server:system/bin/cspsa-server \
-    vendor/sony/nypon/proprietary/bin/pand:system/bin/pand \
     vendor/sony/nypon/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/nypon/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/nypon/proprietary/bin/system_monitor:system/bin/system_monitor \
