@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kumquat/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
     vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
     vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/ttsp_fw.hex:system/etc/firmware/ttsp_fw.hex \
     vendor/sony/kumquat/proprietary/etc/firmware/wsm_22.bin:system/etc/firmware/wsm_22.bin \
     vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw \
     vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw:system/etc/firmware/cg2900_fm_fm_prog_info.fw \
@@ -183,10 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kumquat/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/kumquat/proprietary/lib/libtrace.so:system/lib/libtrace.so \
     vendor/sony/kumquat/proprietary/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
-    vendor/sony/kumquat/proprietary/lib/ste_omxcomponents/libste_enc_amr.so:system/lib/ste_omxcomponents/libste_enc_amr.so \
-    vendor/sony/kumquat/proprietary/lib/ste_omxcomponents/libste_enc_amrwb.so:system/lib/ste_omxcomponents/libste_enc_amrwb.so \
-    vendor/sony/kumquat/proprietary/lib/ste_omxcomponents/libste_dec_amrwb.so:system/lib/ste_omxcomponents/libste_dec_amrwb.so \
-    vendor/sony/kumquat/proprietary/lib/ste_omxcomponents/libste_dec_amr.so:system/lib/ste_omxcomponents/libste_dec_amr.so \
     vendor/sony/kumquat/proprietary/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
     vendor/sony/kumquat/proprietary/lib/ste_omxcomponents/libste_exif_mixer.so:system/lib/ste_omxcomponents/libste_exif_mixer.so \
     vendor/sony/kumquat/proprietary/lib/ste_omxcomponents/libste_spl.so:system/lib/ste_omxcomponents/libste_spl.so \

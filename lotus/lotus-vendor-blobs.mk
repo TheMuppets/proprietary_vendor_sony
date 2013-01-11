@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/bin/at_core:system/bin/at_core \
     vendor/sony/lotus/proprietary/bin/cspsa-cmd:system/bin/cspsa-cmd \
     vendor/sony/lotus/proprietary/bin/batcap:system/bin/batcap \
-    vendor/sony/lotus/proprietary/bin/touchd:system/bin/touchd \
     vendor/sony/lotus/proprietary/bin/cyttsp_fwloader:system/bin/cyttsp_fwloader \
     vendor/sony/lotus/proprietary/etc/psdata/sterc_script_disconnect_dun:system/etc/psdata/sterc_script_disconnect_dun \
     vendor/sony/lotus/proprietary/etc/psdata/sterc_script_disconnect:system/etc/psdata/sterc_script_disconnect \
@@ -68,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
     vendor/sony/lotus/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
     vendor/sony/lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/ttsp_fw.hex:system/etc/firmware/ttsp_fw.hex \
     vendor/sony/lotus/proprietary/etc/firmware/wsm_22.bin:system/etc/firmware/wsm_22.bin \
     vendor/sony/lotus/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw \
     vendor/sony/lotus/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw:system/etc/firmware/cg2900_fm_fm_prog_info.fw \
@@ -183,10 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/lotus/proprietary/lib/libtrace.so:system/lib/libtrace.so \
     vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
-    vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_enc_amr.so:system/lib/ste_omxcomponents/libste_enc_amr.so \
-    vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_enc_amrwb.so:system/lib/ste_omxcomponents/libste_enc_amrwb.so \
-    vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_dec_amrwb.so:system/lib/ste_omxcomponents/libste_dec_amrwb.so \
-    vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_dec_amr.so:system/lib/ste_omxcomponents/libste_dec_amr.so \
     vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
     vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_exif_mixer.so:system/lib/ste_omxcomponents/libste_exif_mixer.so \
     vendor/sony/lotus/proprietary/lib/ste_omxcomponents/libste_spl.so:system/lib/ste_omxcomponents/libste_spl.so \
