@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/sony/jlo/proprietary/bin/battery_charging:system/bin/battery_charging \
     vendor/sony/jlo/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
+    vendor/sony/jlo/proprietary/bin/btld:system/bin/btld \
     vendor/sony/jlo/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/jlo/proprietary/bin/cnd:system/bin/cnd \
     vendor/sony/jlo/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -99,6 +100,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/jlo/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/sony/jlo/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/sony/jlo/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
+    vendor/sony/jlo/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
     vendor/sony/jlo/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/jlo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/jlo/proprietary/lib/libgsl.so:system/lib/libgsl.so \
