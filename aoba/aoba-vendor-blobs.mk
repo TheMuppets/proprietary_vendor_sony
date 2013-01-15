@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/aoba/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/aoba/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/sony/aoba/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/aoba/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/aoba/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/aoba/proprietary/lib/libta_rmt_clnt.so:system/lib/libta_rmt_clnt.so \
