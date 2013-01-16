@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/sony/nozomi/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
     vendor/sony/nozomi/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
+    vendor/sony/nozomi/proprietary/bin/btld:system/bin/btld \
     vendor/sony/nozomi/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/nozomi/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/nozomi/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
@@ -137,6 +138,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/sony/nozomi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/nozomi/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/sony/nozomi/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
+    vendor/sony/nozomi/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/nozomi/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/nozomi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/nozomi/proprietary/lib/libidd.so:system/lib/libidd.so \
