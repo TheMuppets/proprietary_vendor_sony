@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/sony/mint/proprietary/bin/rild:system/bin/rild \
     vendor/sony/mint/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/mint/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/mint/proprietary/bin/system_monitor:system/bin/system_monitor \
@@ -221,6 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/sony/mint/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/mint/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/sony/mint/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/mint/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/mint/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/mint/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
