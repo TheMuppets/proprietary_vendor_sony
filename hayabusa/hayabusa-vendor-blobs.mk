@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/hayabusa/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/hayabusa/proprietary/bin/ric:system/bin/ric \
+    vendor/sony/hayabusa/proprietary/bin/rild:system/bin/rild \
     vendor/sony/hayabusa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/hayabusa/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/hayabusa/proprietary/bin/system_monitor:system/bin/system_monitor \
@@ -224,6 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/sony/hayabusa/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/hayabusa/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/sony/hayabusa/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/hayabusa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/hayabusa/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/hayabusa/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
