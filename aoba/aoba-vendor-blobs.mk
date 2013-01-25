@@ -24,8 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
     vendor/sony/aoba/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/sony/aoba/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
-    vendor/sony/aoba/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/sony/aoba/proprietary/bin/btld:system/bin/btld \
+    vendor/sony/aoba/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/sony/aoba/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/aoba/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/aoba/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
@@ -148,8 +148,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/sony/aoba/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/aoba/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/sony/aoba/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
     vendor/sony/aoba/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
+    vendor/sony/aoba/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
     vendor/sony/aoba/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/aoba/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/aoba/proprietary/lib/libidd.so:system/lib/libidd.so \
