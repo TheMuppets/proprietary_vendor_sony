@@ -179,6 +179,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/tsubasa/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/tsubasa/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/sony/tsubasa/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
+    vendor/sony/tsubasa/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/tsubasa/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/tsubasa/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/tsubasa/proprietary/lib/libidd.so:system/lib/libidd.so \

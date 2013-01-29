@@ -185,6 +185,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/mint/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/mint/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/sony/mint/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
+    vendor/sony/mint/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/mint/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/mint/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/mint/proprietary/lib/libidd.so:system/lib/libidd.so \
