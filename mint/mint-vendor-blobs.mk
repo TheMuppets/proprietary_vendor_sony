@@ -65,9 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_custm_conf.txt:system/etc/fast-dormancy/fd_custm_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_int_conf.txt:system/etc/fast-dormancy/fd_int_conf.txt \
-    vendor/sony/mint/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/sony/mint/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/sony/mint/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/sony/mint/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b01:system/etc/firmware/dsps.b01 \
@@ -76,8 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/mint/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
     vendor/sony/mint/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
-    vendor/sony/mint/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/sony/mint/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/mint/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/mint/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/mint/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -164,20 +159,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/mint/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/mint/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/sony/mint/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/sony/mint/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/sony/mint/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/sony/mint/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/sony/mint/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/sony/mint/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/mint/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/gps.sony.so:system/lib/hw/gps.sony.so \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/mint/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/mint/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/mint/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
-    vendor/sony/mint/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/mint/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/mint/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/mint/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
@@ -187,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/mint/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/mint/proprietary/lib/libbson.so:system/lib/libbson.so \
-    vendor/sony/mint/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/mint/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/mint/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/mint/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -213,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/mint/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/mint/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/sony/mint/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/mint/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/mint/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/mint/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
@@ -252,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/mint/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/mint/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
-    vendor/sony/mint/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/mint/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/sony/mint/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/mint/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \

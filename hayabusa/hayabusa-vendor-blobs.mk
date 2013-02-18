@@ -65,9 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/fast-dormancy/fd_custm_conf.txt:system/etc/fast-dormancy/fd_custm_conf.txt \
     vendor/sony/hayabusa/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
     vendor/sony/hayabusa/proprietary/etc/fast-dormancy/fd_int_conf.txt:system/etc/fast-dormancy/fd_int_conf.txt \
-    vendor/sony/hayabusa/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/sony/hayabusa/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/sony/hayabusa/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/sony/hayabusa/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/hayabusa/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
     vendor/sony/hayabusa/proprietary/etc/firmware/dsps.b01:system/etc/firmware/dsps.b01 \
@@ -76,8 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/hayabusa/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
     vendor/sony/hayabusa/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
-    vendor/sony/hayabusa/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/sony/hayabusa/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -167,20 +162,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/hayabusa/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/hayabusa/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/sony/hayabusa/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/sony/hayabusa/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/sony/hayabusa/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/sony/hayabusa/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/sony/hayabusa/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/sony/hayabusa/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/hayabusa/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/hayabusa/proprietary/lib/hw/gps.sony.so:system/lib/hw/gps.sony.so \
     vendor/sony/hayabusa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/hayabusa/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/hayabusa/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/hayabusa/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/hayabusa/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
-    vendor/sony/hayabusa/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/hayabusa/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/hayabusa/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/hayabusa/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
@@ -190,7 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/hayabusa/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/hayabusa/proprietary/lib/libbson.so:system/lib/libbson.so \
-    vendor/sony/hayabusa/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/hayabusa/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/hayabusa/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/hayabusa/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -212,9 +198,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/hayabusa/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/hayabusa/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/sony/hayabusa/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
+    vendor/sony/hayabusa/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/hayabusa/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/hayabusa/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/sony/hayabusa/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/hayabusa/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/hayabusa/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/hayabusa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
@@ -226,10 +213,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/hayabusa/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/hayabusa/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/sony/hayabusa/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
-    vendor/sony/hayabusa/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/hayabusa/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/hayabusa/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/hayabusa/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -253,11 +240,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/hayabusa/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/hayabusa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
-    vendor/sony/hayabusa/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/hayabusa/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/sony/hayabusa/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/hayabusa/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/hayabusa/proprietary/lib/libta.so:system/lib/libta.so \
+    vendor/sony/hayabusa/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/sony/hayabusa/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/sony/hayabusa/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/hayabusa/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
