@@ -14,15 +14,8 @@
 
 COMMON_PATH := vendor/sony/blue-common
 
-PRODUCT_PACKAGES += \
-	WCNSS_qcom_cfg.ini \
-	WCNSS_qcom_wlan_nv.bin
-
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES := \
-
 # Prima wlan
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/proprietary/system/vendor/firmware/wlan/prima/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
-    $(COMMON_PATH)/proprietary/system/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
-    $(COMMON_PATH)/proprietary/system/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin
+    $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+    $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
