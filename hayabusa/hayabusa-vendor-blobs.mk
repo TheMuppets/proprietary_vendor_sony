@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/hayabusa/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/hayabusa/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/sony/hayabusa/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/sony/hayabusa/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/hayabusa/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
