@@ -150,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/yuga/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/yuga/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/sony/yuga/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/yuga/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/yuga/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/yuga/proprietary/lib/libqdi.so:system/lib/libqdi.so \

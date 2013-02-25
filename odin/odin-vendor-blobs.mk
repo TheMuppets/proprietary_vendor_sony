@@ -150,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/odin/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/odin/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/sony/odin/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/odin/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/odin/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/odin/proprietary/lib/libqdi.so:system/lib/libqdi.so \
