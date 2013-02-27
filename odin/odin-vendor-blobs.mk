@@ -110,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/odin/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/odin/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/odin/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/odin/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/sony/odin/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/odin/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
