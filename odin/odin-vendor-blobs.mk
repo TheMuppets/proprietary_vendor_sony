@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/odin/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/odin/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/sony/odin/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/odin/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/sony/odin/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/odin/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
