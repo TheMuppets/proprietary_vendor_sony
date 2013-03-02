@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/mint/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/mint/proprietary/bin/startupflag:system/bin/startupflag \
-    vendor/sony/mint/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/mint/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/mint/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/mint/proprietary/bin/tad:system/bin/tad \
@@ -241,37 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/sony/mint/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/sony/mint/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level0.so:system/lib/sysmon/sysmon_charge_current_limit_level0.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level1.so:system/lib/sysmon/sysmon_charge_current_limit_level1.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level2.so:system/lib/sysmon/sysmon_charge_current_limit_level2.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_charge_current_limit_level3.so:system/lib/sysmon/sysmon_charge_current_limit_level3.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_corelimit.so:system/lib/sysmon/sysmon_corelimit.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_disable_charging1.so:system/lib/sysmon/sysmon_disable_charging1.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_disable_charging2.so:system/lib/sysmon/sysmon_disable_charging2.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_enable_charging.so:system/lib/sysmon/sysmon_enable_charging.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_lcd_brightness_level.so:system/lib/sysmon/sysmon_lcd_brightness_level.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_modem_level0.so:system/lib/sysmon/sysmon_modem_level0.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_modem_level1.so:system/lib/sysmon/sysmon_modem_level1.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_modem_level2.so:system/lib/sysmon/sysmon_modem_level2.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_modem_level3.so:system/lib/sysmon/sysmon_modem_level3.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_msm_thermal_disable.so:system/lib/sysmon/sysmon_msm_thermal_disable.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_pa_therm0.so:system/lib/sysmon/sysmon_pa_therm0.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_pa_therm1.so:system/lib/sysmon/sysmon_pa_therm1.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_perflevel.so:system/lib/sysmon/sysmon_perflevel.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_pm8921_tz.so:system/lib/sysmon/sysmon_pm8921_tz.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_tsens_tz_sensor2.so:system/lib/sysmon/sysmon_tsens_tz_sensor2.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_tsens_tz_sensor3.so:system/lib/sysmon/sysmon_tsens_tz_sensor3.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_tsens_tz_sensor4.so:system/lib/sysmon/sysmon_tsens_tz_sensor4.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_usb_current_limit_level0.so:system/lib/sysmon/sysmon_usb_current_limit_level0.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_usb_current_limit_level1.so:system/lib/sysmon/sysmon_usb_current_limit_level1.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_usb_current_limit_level2.so:system/lib/sysmon/sysmon_usb_current_limit_level2.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_usb_current_limit_level3.so:system/lib/sysmon/sysmon_usb_current_limit_level3.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_usb_current_limit_level4.so:system/lib/sysmon/sysmon_usb_current_limit_level4.so \
-    vendor/sony/mint/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
     vendor/sony/mint/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/mint/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/mint/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \

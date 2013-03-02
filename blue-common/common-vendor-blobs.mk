@@ -16,8 +16,8 @@ COMMON_PATH := vendor/sony/blue-common
 
 # Prima wlan
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/proprietary/system/etc/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
-    $(COMMON_PATH)/proprietary/system/etc/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
+    $(COMMON_PATH)/proprietary/system/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
+    $(COMMON_PATH)/proprietary/system/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin

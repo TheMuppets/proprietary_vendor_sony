@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/bin/ste-adm-test:system/bin/ste-adm-test \
     vendor/sony/lotus/proprietary/bin/cspsa-server:system/bin/cspsa-server \
     vendor/sony/lotus/proprietary/bin/ste_omxil_test:system/bin/ste_omxil_test \
-    vendor/sony/lotus/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/lotus/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/lotus/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/lotus/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
@@ -126,16 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/lotus/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/lotus/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_ab8500_ext_rtc_xtal.so:system/lib/sysmon/sysmon_ab8500_ext_rtc_xtal.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_db8500_ext.so:system/lib/sysmon/sysmon_db8500_ext.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_lcd_brightnesslevel30.so:system/lib/sysmon/sysmon_lcd_brightnesslevel30.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_lcd_brightnesslevel70.so:system/lib/sysmon/sysmon_lcd_brightnesslevel70.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_ab8500_bat_ctrl.so:system/lib/sysmon/sysmon_ab8500_bat_ctrl.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_ab8500_bat_temp.so:system/lib/sysmon/sysmon_ab8500_bat_temp.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_ab8500.so:system/lib/sysmon/sysmon_ab8500.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_lcd_brightnesslevel50.so:system/lib/sysmon/sysmon_lcd_brightnesslevel50.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_lcd_brightness_reset.so:system/lib/sysmon/sysmon_lcd_brightness_reset.so \
-    vendor/sony/lotus/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
     vendor/sony/lotus/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/lotus/proprietary/lib/libtee.so:system/lib/libtee.so \
     vendor/sony/lotus/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \

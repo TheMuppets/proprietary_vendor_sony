@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/rild:system/bin/rild \
     vendor/sony/tsubasa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/tsubasa/proprietary/bin/secchand:system/bin/secchand \
-    vendor/sony/tsubasa/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/tsubasa/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/tsubasa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/tsubasa/proprietary/bin/tad:system/bin/tad \
@@ -211,34 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/tsubasa/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/tsubasa/proprietary/lib/libv8.so:system/lib/libv8.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_camif.so:system/lib/sysmon/sysmon_camif.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_corelimit.so:system/lib/sysmon/sysmon_corelimit.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_disable_charging1.so:system/lib/sysmon/sysmon_disable_charging1.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_disable_charging2.so:system/lib/sysmon/sysmon_disable_charging2.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_enable_charging.so:system/lib/sysmon/sysmon_enable_charging.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_gpu_perflevel.so:system/lib/sysmon/sysmon_gpu_perflevel.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_lcd_brightness_level.so:system/lib/sysmon/sysmon_lcd_brightness_level.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_modem_level0.so:system/lib/sysmon/sysmon_modem_level0.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_modem_level1.so:system/lib/sysmon/sysmon_modem_level1.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_modem_level2.so:system/lib/sysmon/sysmon_modem_level2.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_modem_level3.so:system/lib/sysmon/sysmon_modem_level3.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_msm_thermal_disable.so:system/lib/sysmon/sysmon_msm_thermal_disable.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_pa_therm0.so:system/lib/sysmon/sysmon_pa_therm0.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_pa_therm1.so:system/lib/sysmon/sysmon_pa_therm1.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_perflevel.so:system/lib/sysmon/sysmon_perflevel.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_pm8921_tz.so:system/lib/sysmon/sysmon_pm8921_tz.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_torch_limit.so:system/lib/sysmon/sysmon_torch_limit.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_tsens_tz_sensor2.so:system/lib/sysmon/sysmon_tsens_tz_sensor2.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_tsens_tz_sensor3.so:system/lib/sysmon/sysmon_tsens_tz_sensor3.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_tsens_tz_sensor4.so:system/lib/sysmon/sysmon_tsens_tz_sensor4.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_usb_current_limit_level.so:system/lib/sysmon/sysmon_usb_current_limit_level.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_wlan_limit.so:system/lib/sysmon/sysmon_wlan_limit.so \
-    vendor/sony/tsubasa/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
     vendor/sony/tsubasa/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
     vendor/sony/tsubasa/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
     vendor/sony/tsubasa/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
