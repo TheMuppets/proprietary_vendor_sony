@@ -16,6 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
+    vendor/sony/yuga/proprietary/lib/libsensors_akm8963.so:obj/lib/libsensors_akm8963.so \
     vendor/sony/yuga/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/sony/yuga/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
 
@@ -116,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/yuga/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/yuga/proprietary/lib/libals.so:system/lib/libals.so \
-    vendor/sony/yuga/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/sony/yuga/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/yuga/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/yuga/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \

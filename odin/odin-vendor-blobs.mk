@@ -16,6 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
+    vendor/sony/odin/proprietary/lib/libsensors_akm8963.so:obj/lib/libsensors_akm8963.so \
     vendor/sony/odin/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/sony/odin/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
 

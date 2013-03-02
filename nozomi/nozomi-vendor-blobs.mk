@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/sony/nozomi/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
     vendor/sony/nozomi/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
+    vendor/sony/nozomi/proprietary/bin/btld:system/bin/btld \
     vendor/sony/nozomi/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/nozomi/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/nozomi/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
@@ -37,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/bin/rild:system/bin/rild \
     vendor/sony/nozomi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/nozomi/proprietary/bin/secchand:system/bin/secchand \
-    vendor/sony/nozomi/proprietary/bin/semc-atfwd-d:system/bin/semc-atfwd-d \
     vendor/sony/nozomi/proprietary/bin/startupflag:system/bin/startupflag \
     vendor/sony/nozomi/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/nozomi/proprietary/bin/ta_reader:system/bin/ta_reader \
@@ -58,8 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
     vendor/sony/nozomi/proprietary/etc/firmware/dsps_fluid.b03:system/etc/firmware/dsps_fluid.b03 \
     vendor/sony/nozomi/proprietary/etc/firmware/dsps_fluid.mdt:system/etc/firmware/dsps_fluid.mdt \
-    vendor/sony/nozomi/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/sony/nozomi/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/nozomi/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/nozomi/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/nozomi/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -91,26 +89,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
     vendor/sony/nozomi/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
     vendor/sony/nozomi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/sony/nozomi/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/sony/nozomi/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/sony/nozomi/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/nozomi/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/sony/nozomi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/nozomi/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/sony/nozomi/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/sony/nozomi/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/sony/nozomi/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/sony/nozomi/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/sony/nozomi/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/sony/nozomi/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/sony/nozomi/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/nozomi/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/sony/nozomi/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
     vendor/sony/nozomi/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
-    vendor/sony/nozomi/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/nozomi/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/nozomi/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
-    vendor/sony/nozomi/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/nozomi/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/nozomi/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/nozomi/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
@@ -118,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/sony/nozomi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/nozomi/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/sony/nozomi/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/nozomi/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/nozomi/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/nozomi/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -137,8 +123,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/sony/nozomi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/nozomi/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/sony/nozomi/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
+    vendor/sony/nozomi/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/nozomi/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/nozomi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/nozomi/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/nozomi/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/nozomi/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
@@ -167,7 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nozomi/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/nozomi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/nozomi/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
-    vendor/sony/nozomi/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/nozomi/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/nozomi/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/nozomi/proprietary/lib/libta_rmt_clnt.so:system/lib/libta_rmt_clnt.so \
