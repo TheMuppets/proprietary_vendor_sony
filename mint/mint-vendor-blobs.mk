@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/mint/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/mint/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/sony/mint/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/mint/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/mint/proprietary/bin/chargemon:system/bin/chargemon \

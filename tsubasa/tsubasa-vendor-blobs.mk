@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/tsubasa/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/tsubasa/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/sony/tsubasa/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/tsubasa/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/tsubasa/proprietary/bin/chargemon:system/bin/chargemon \
