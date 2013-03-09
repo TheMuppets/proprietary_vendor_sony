@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/yuga/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/yuga/proprietary/bin/qcks:system/bin/qcks \
-    vendor/sony/yuga/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/yuga/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/yuga/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/yuga/proprietary/bin/rmt_storage:system/bin/rmt_storage \

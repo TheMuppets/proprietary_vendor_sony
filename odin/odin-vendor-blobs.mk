@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/odin/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/odin/proprietary/bin/qcks:system/bin/qcks \
-    vendor/sony/odin/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/odin/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/odin/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/odin/proprietary/bin/rmt_storage:system/bin/rmt_storage \

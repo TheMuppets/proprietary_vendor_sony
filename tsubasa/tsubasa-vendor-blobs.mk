@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/tsubasa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/tsubasa/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/sony/tsubasa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/tsubasa/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/tsubasa/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/tsubasa/proprietary/bin/qseecomd:system/bin/qseecomd \

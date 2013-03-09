@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/hayabusa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/hayabusa/proprietary/bin/profiler_daemon:system/bin/profiler_daemon \
-    vendor/sony/hayabusa/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/hayabusa/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/hayabusa/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/sony/hayabusa/proprietary/bin/quipc_main:system/bin/quipc_main \

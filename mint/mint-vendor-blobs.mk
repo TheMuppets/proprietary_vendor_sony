@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/sony/mint/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/mint/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/mint/proprietary/bin/qseecomd:system/bin/qseecomd \
