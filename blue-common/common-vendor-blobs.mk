@@ -14,6 +14,10 @@
 
 COMMON_PATH := vendor/sony/blue-common
 
+# AKM8972
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/proprietary/system/lib/libsensors_akm8972.so:system/lib/libsensors_akm8972.so
+
 # Prima wlan
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/proprietary/system/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
