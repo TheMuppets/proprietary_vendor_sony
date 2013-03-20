@@ -51,14 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca_ss/proprietary/etc/firmware/TAP_TMA340_0006.hex:system/etc/firmware/TAP_TMA340_0006.hex \
     vendor/sony/tapioca_ss/proprietary/etc/firmware/TAP_TMA340_0007.hex:system/etc/firmware/TAP_TMA340_0007.hex \
     vendor/sony/tapioca_ss/proprietary/etc/firmware/TAP_TMA340_0008.hex:system/etc/firmware/TAP_TMA340_0008.hex \
-    vendor/sony/tapioca_ss/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/sony/tapioca_ss/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/sony/tapioca_ss/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/sony/tapioca_ss/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/sony/tapioca_ss/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/sony/tapioca_ss/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/sony/tapioca_ss/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/sony/tapioca_ss/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/tapioca_ss/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/sony/tapioca_ss/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/tapioca_ss/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
@@ -91,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca_ss/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/sony/tapioca_ss/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/tapioca_ss/proprietary/lib/libauth.so:system/lib/libauth.so \
-    vendor/sony/tapioca_ss/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/tapioca_ss/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/sony/tapioca_ss/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/sony/tapioca_ss/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
@@ -106,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca_ss/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
     vendor/sony/tapioca_ss/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/tapioca_ss/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/sony/tapioca_ss/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/tapioca_ss/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/tapioca_ss/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/tapioca_ss/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
@@ -132,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca_ss/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/tapioca_ss/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/sony/tapioca_ss/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/sony/tapioca_ss/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/tapioca_ss/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/sony/tapioca_ss/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/sony/tapioca_ss/proprietary/lib/libxml.so:system/lib/libxml.so

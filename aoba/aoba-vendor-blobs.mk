@@ -24,8 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
     vendor/sony/aoba/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/sony/aoba/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
-    vendor/sony/aoba/proprietary/bin/btld:system/bin/btld \
     vendor/sony/aoba/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
+    vendor/sony/aoba/proprietary/bin/btld:system/bin/btld \
     vendor/sony/aoba/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/aoba/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/aoba/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
@@ -71,8 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
     vendor/sony/aoba/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
     vendor/sony/aoba/proprietary/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
-    vendor/sony/aoba/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/sony/aoba/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/aoba/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/aoba/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/aoba/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -102,26 +100,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
     vendor/sony/aoba/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
     vendor/sony/aoba/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/sony/aoba/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/sony/aoba/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/sony/aoba/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/aoba/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/sony/aoba/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/aoba/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/sony/aoba/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/sony/aoba/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/sony/aoba/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/sony/aoba/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/sony/aoba/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/sony/aoba/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/sony/aoba/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/aoba/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/sony/aoba/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
     vendor/sony/aoba/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
     vendor/sony/aoba/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/aoba/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/aoba/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
-    vendor/sony/aoba/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/aoba/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/aoba/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/aoba/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
@@ -129,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/sony/aoba/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/aoba/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/sony/aoba/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/aoba/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/aoba/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/aoba/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -148,10 +135,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/sony/aoba/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/aoba/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/sony/aoba/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/aoba/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
+    vendor/sony/aoba/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/aoba/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/aoba/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/aoba/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/aoba/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/aoba/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
@@ -181,7 +167,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/aoba/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/aoba/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
-    vendor/sony/aoba/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/aoba/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/aoba/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/aoba/proprietary/lib/libta.so:system/lib/libta.so \

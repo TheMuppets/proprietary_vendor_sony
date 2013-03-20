@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/proprietary/system/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     $(COMMON_PATH)/proprietary/system/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     $(COMMON_PATH)/proprietary/system/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    $(COMMON_PATH)/proprietary/system/etc/firmware/yamato_pfp_470.fw:system/etc/firmware/yamato_pfp_470.fw \
+    $(COMMON_PATH)/proprietary/system/etc/firmware/yamato_pm4_470.fw:system/etc/firmware/yamato_pm4_470.fw \
     $(COMMON_PATH)/proprietary/system/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     $(COMMON_PATH)/proprietary/system/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     $(COMMON_PATH)/proprietary/system/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \

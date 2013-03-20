@@ -50,14 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/etc/firmware/MES_TMA340_0004.hex:system/etc/firmware/MES_TMA340_0004.hex \
     vendor/sony/mesona/proprietary/etc/firmware/MES_TMA340_0005.hex:system/etc/firmware/MES_TMA340_0005.hex \
     vendor/sony/mesona/proprietary/etc/firmware/MES_TMA340_0006.hex:system/etc/firmware/MES_TMA340_0006.hex \
-    vendor/sony/mesona/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/sony/mesona/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/sony/mesona/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/sony/mesona/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/sony/mesona/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/sony/mesona/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/sony/mesona/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/sony/mesona/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/mesona/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/sony/mesona/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/mesona/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
@@ -89,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/sony/mesona/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/mesona/proprietary/lib/libauth.so:system/lib/libauth.so \
-    vendor/sony/mesona/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/mesona/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/sony/mesona/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/sony/mesona/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
@@ -104,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
     vendor/sony/mesona/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/mesona/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/sony/mesona/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/mesona/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/mesona/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/mesona/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
@@ -130,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/mesona/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/sony/mesona/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/sony/mesona/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/mesona/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/sony/mesona/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/sony/mesona/proprietary/lib/libxml.so:system/lib/libxml.so
