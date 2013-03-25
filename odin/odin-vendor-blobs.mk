@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/odin/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/odin/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/sony/odin/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/odin/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/odin/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/sony/odin/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
@@ -133,13 +134,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/odin/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/odin/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/odin/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/odin/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/odin/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/sony/odin/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/odin/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/odin/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/odin/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
+    vendor/sony/odin/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/odin/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/odin/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/odin/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/odin/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/odin/proprietary/lib/libmllite.so:system/lib/libmllite.so \
