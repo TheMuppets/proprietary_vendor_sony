@@ -136,6 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/sony/tsubasa/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/tsubasa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/tsubasa/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/tsubasa/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
@@ -164,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/tsubasa/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/tsubasa/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/tsubasa/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/tsubasa/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/tsubasa/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/tsubasa/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -171,7 +173,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/tsubasa/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/tsubasa/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
+    vendor/sony/tsubasa/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/tsubasa/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/tsubasa/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/tsubasa/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/tsubasa/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/tsubasa/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \

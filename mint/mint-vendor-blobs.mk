@@ -148,6 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/sony/mint/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/mint/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/mint/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
@@ -176,11 +177,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/mint/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/mint/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/mint/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/mint/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/mint/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/mint/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/mint/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
+    vendor/sony/mint/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/mint/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/mint/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/mint/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/mint/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/mint/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
