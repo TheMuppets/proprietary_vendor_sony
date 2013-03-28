@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/sony/hikari/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
     vendor/sony/hikari/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
-    vendor/sony/hikari/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/hikari/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/hikari/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/hikari/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
