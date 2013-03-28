@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/tsubasa/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/tsubasa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/tsubasa/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/tsubasa/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/tsubasa/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/tsubasa/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
