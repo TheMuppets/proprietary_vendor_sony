@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/mesona/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/mesona/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/sony/mesona/proprietary/bin/battery_charging:system/bin/battery_charging \
     vendor/sony/mesona/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/sony/mesona/proprietary/bin/btld:system/bin/btld \

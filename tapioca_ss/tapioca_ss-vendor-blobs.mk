@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/tapioca_ss/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/tapioca_ss/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/sony/tapioca_ss/proprietary/bin/battery_charging:system/bin/battery_charging \
     vendor/sony/tapioca_ss/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/sony/tapioca_ss/proprietary/bin/btld:system/bin/btld \

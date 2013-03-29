@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/jlo/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/jlo/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/sony/jlo/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/sony/jlo/proprietary/bin/battery_charging:system/bin/battery_charging \
     vendor/sony/jlo/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
