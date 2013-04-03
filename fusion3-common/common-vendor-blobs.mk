@@ -19,7 +19,3 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     $(COMMON_PATH)/proprietary/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-
-# DASH
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/proprietary/system/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
