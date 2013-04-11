@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/mint/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/mint/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -48,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/mint/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/mint/proprietary/bin/wait4tad:system/bin/wait4tad \
+    vendor/sony/mint/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_custm_conf.txt:system/etc/fast-dormancy/fd_custm_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_int_conf.txt:system/etc/fast-dormancy/fd_int_conf.txt \
@@ -150,6 +150,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/mint/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/mint/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/sony/mint/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/mint/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/mint/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/mint/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -165,6 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/mint/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/mint/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/mint/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/mint/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/mint/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/mint/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -193,6 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/mint/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
