@@ -25,18 +25,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/hayabusa/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/hayabusa/proprietary/bin/cnd:system/bin/cnd \
+    vendor/sony/hayabusa/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/hayabusa/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/hayabusa/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/hayabusa/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/hayabusa/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/hayabusa/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/hayabusa/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/hayabusa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/hayabusa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/hayabusa/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/hayabusa/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/hayabusa/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/sony/hayabusa/proprietary/bin/rmi4_fwloader:system/bin/rmi4_fwloader \
     vendor/sony/hayabusa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/hayabusa/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/hayabusa/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
@@ -68,8 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
+    vendor/sony/hayabusa/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
-    vendor/sony/hayabusa/proprietary/etc/firmware/modem.b07:system/etc/firmware/modem.b07 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem_f1.b00:system/etc/firmware/modem_f1.b00 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem_f1.b01:system/etc/firmware/modem_f1.b01 \
@@ -151,6 +150,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/sony/hayabusa/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/hayabusa/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/sony/hayabusa/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
+    vendor/sony/hayabusa/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/sony/hayabusa/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/hayabusa/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/hayabusa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/hayabusa/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
@@ -168,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/hayabusa/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/hayabusa/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/hayabusa/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/hayabusa/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/hayabusa/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/hayabusa/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -194,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/sony/hayabusa/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
