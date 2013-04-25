@@ -48,8 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/odin/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
     vendor/sony/odin/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
-    vendor/sony/odin/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
-    vendor/sony/odin/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/odin/proprietary/etc/firmware/dsp1.mbn:system/etc/firmware/dsp1.mbn \
     vendor/sony/odin/proprietary/etc/firmware/dsp2.mbn:system/etc/firmware/dsp2.mbn \
     vendor/sony/odin/proprietary/etc/firmware/dsp3.mbn:system/etc/firmware/dsp3.mbn \
@@ -116,9 +114,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/odin/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/odin/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/sony/odin/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/odin/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/odin/proprietary/lib/libals.so:system/lib/libals.so \
-    vendor/sony/odin/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/sony/odin/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/odin/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/odin/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
@@ -131,6 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/odin/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/odin/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
+    vendor/sony/odin/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/odin/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/odin/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/odin/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \

@@ -48,8 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/yuga/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
     vendor/sony/yuga/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
-    vendor/sony/yuga/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
-    vendor/sony/yuga/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/yuga/proprietary/etc/firmware/dsp1.mbn:system/etc/firmware/dsp1.mbn \
     vendor/sony/yuga/proprietary/etc/firmware/dsp2.mbn:system/etc/firmware/dsp2.mbn \
     vendor/sony/yuga/proprietary/etc/firmware/dsp3.mbn:system/etc/firmware/dsp3.mbn \
@@ -118,9 +116,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/yuga/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/yuga/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/sony/yuga/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/yuga/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/yuga/proprietary/lib/libals.so:system/lib/libals.so \
-    vendor/sony/yuga/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/sony/yuga/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/yuga/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/sony/yuga/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
@@ -133,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/yuga/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/yuga/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
+    vendor/sony/yuga/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/yuga/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/yuga/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/yuga/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
