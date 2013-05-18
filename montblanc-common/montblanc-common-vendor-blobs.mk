@@ -63,6 +63,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_connect:system/etc/psdata/sterc_script_connect \
     vendor/sony/montblanc-common/proprietary/etc/psdata/sterc_script_disconnect_dun:system/etc/psdata/sterc_script_disconnect_dun \
     vendor/sony/montblanc-common/proprietary/etc/plmn.latam.list:system/etc/plmn.latam.list \
+    vendor/sony/montblanc-common/proprietary/etc/bluetooth/input.conf:system/etc/bluetooth/input.conf \
+    vendor/sony/montblanc-common/proprietary/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
+    vendor/sony/montblanc-common/proprietary/etc/bluetooth/network.conf:system/etc/bluetooth/network.conf \
+    vendor/sony/montblanc-common/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
+    vendor/sony/montblanc-common/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
+    vendor/sony/montblanc-common/proprietary/etc/bluetooth/qos_role_switch_blacklist.conf:system/etc/bluetooth/qos_role_switch_blacklist.conf \
+    vendor/sony/montblanc-common/proprietary/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
     vendor/sony/montblanc-common/proprietary/etc/adm.sqlite:system/etc/adm.sqlite \
     vendor/sony/montblanc-common/proprietary/etc/LbsLogConfig.cfg:system/etc/LbsLogConfig.cfg \
     vendor/sony/montblanc-common/proprietary/etc/firmware/sdd_10.bin:system/etc/firmware/sdd_10.bin \
@@ -404,6 +411,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
     vendor/sony/montblanc-common/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
     vendor/sony/montblanc-common/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
+    vendor/sony/montblanc-common/proprietary/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so \
+    vendor/sony/montblanc-common/proprietary/usr/lib/alsa-lib/libasound_module_pcm_steiop.so:system/usr/lib/alsa-lib/libasound_module_pcm_steiop.so \
+    vendor/sony/montblanc-common/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so \
     vendor/sony/montblanc-common/proprietary/lib/tee/libasb_ta.ssw:system/lib/tee/libasb_ta.ssw \
     vendor/sony/montblanc-common/proprietary/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
     vendor/sony/montblanc-common/proprietary/lib/tee/suntory_core_ta.ssw:system/lib/tee/suntory_core_ta.ssw \
@@ -426,8 +436,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libnmf.so:system/lib/libnmf.so \
     vendor/sony/montblanc-common/proprietary/lib/libnmftimer.so:system/lib/libnmftimer.so \
     vendor/sony/montblanc-common/proprietary/lib/libUMP.so:system/lib/libUMP.so \
+    vendor/sony/montblanc-common/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalgss.so:system/lib/libmalgss.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalcs.so:system/lib/libmalcs.so \
+    vendor/sony/montblanc-common/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalpipe.so:system/lib/libmalpipe.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_adm.so:system/lib/libste_adm.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
@@ -445,6 +457,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libu300-parser.so:system/lib/libu300-parser.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+    vendor/sony/montblanc-common/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalnet.so:system/lib/libmalnet.so \
     vendor/sony/montblanc-common/proprietary/lib/liblos.so:system/lib/liblos.so \
     vendor/sony/montblanc-common/proprietary/lib/libcn.so:system/lib/libcn.so \
@@ -516,6 +529,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/montblanc-common/proprietary/lib/libiddjni.so:system/lib/libiddjni.so \
     vendor/sony/montblanc-common/proprietary/lib/libS1SL.so:system/lib/libS1SL.so \
+    vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/audio.so:system/lib/bluez-plugin/audio.so \
+    vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
+    vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/network.so:system/lib/bluez-plugin/network.so \
+    vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/input.so:system/lib/bluez-plugin/input.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libasound.so:system/lib/libasound.so \
