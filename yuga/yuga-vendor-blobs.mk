@@ -52,11 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
     vendor/sony/yuga/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
-    vendor/sony/yuga/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/sony/yuga/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
     vendor/sony/yuga/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
     vendor/sony/yuga/proprietary/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
@@ -86,21 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/yuga/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/yuga/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/sony/yuga/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/sony/yuga/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/sony/yuga/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/sony/yuga/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
-    vendor/sony/yuga/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/yuga/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/yuga/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/yuga/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
