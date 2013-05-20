@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/pollux/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/pollux/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/pollux/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/sony/pollux/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/pollux/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/pollux/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -95,8 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/pollux/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/pollux/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/sony/pollux/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/sony/pollux/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
     vendor/sony/pollux/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/pollux/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/pollux/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -105,16 +102,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/pollux/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/pollux/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/pollux/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/sony/pollux/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/pollux/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/pollux/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/pollux/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/pollux/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/pollux/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/sony/pollux/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
-    vendor/sony/pollux/proprietary/lib/libdss.so:system/lib/libdss.so \
-    vendor/sony/pollux/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/sony/pollux/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/pollux/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/pollux/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
@@ -135,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/pollux/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/pollux/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-    vendor/sony/pollux/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/pollux/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/pollux/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/pollux/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
@@ -145,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/pollux/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/pollux/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/pollux/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/pollux/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/pollux/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/pollux/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
