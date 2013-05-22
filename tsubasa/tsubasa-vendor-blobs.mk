@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/tsubasa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/tsubasa/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/tsubasa/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/tsubasa/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/tsubasa/proprietary/bin/rmi4_fwloader:system/bin/rmi4_fwloader \
     vendor/sony/tsubasa/proprietary/bin/rmt_storage:system/bin/rmt_storage \

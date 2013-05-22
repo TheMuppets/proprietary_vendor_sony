@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/hayabusa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/hayabusa/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/hayabusa/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/hayabusa/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/hayabusa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/hayabusa/proprietary/bin/secchand:system/bin/secchand \
