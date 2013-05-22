@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/mint/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/mint/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/mint/proprietary/bin/rmi4_fwloader:system/bin/rmi4_fwloader \
     vendor/sony/mint/proprietary/bin/rmt_storage:system/bin/rmt_storage \
