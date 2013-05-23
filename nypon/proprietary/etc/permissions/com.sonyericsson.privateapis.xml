@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.sonyericsson.privateapis_1p"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_1"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_2"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_3"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_4"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_5"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_6"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_7"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_8"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_9"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+</permissions>
