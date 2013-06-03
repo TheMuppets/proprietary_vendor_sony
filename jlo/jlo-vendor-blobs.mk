@@ -33,12 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/jlo/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/jlo/proprietary/bin/rild:system/bin/rild \
-    vendor/sony/jlo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/jlo/proprietary/bin/startupflag:system/bin/startupflag \
-    vendor/sony/jlo/proprietary/bin/ta_rmt_service:system/bin/ta_rmt_service \
-    vendor/sony/jlo/proprietary/bin/tad:system/bin/tad \
     vendor/sony/jlo/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/jlo/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/jlo/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/sony/jlo/proprietary/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd:system/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd \
     vendor/sony/jlo/proprietary/etc/bcm4330/bcm94330wlsdgbphone.txt:system/etc/bcm4330/bcm94330wlsdgbphone.txt \
