@@ -72,35 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
     vendor/sony/montblanc-common/proprietary/etc/adm.sqlite:system/etc/adm.sqlite \
     vendor/sony/montblanc-common/proprietary/etc/LbsLogConfig.cfg:system/etc/LbsLogConfig.cfg \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/sdd_10.bin:system/etc/firmware/sdd_10.bin \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw:system/etc/firmware/cg2900_fm_bt_src_coeff_info.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/wsm_20.bin:system/etc/firmware/wsm_20.bin \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw:system/etc/firmware/cg2900_fm_fm_coeff_info.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/sdd_11.bin:system/etc/firmware/sdd_11.bin \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/sdd_22.bin:system/etc/firmware/sdd_22.bin \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/wsm_11.bin:system/etc/firmware/wsm_11.bin \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/incell_fw_default.img:system/etc/firmware/incell_fw_default.img \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/wsm_22.bin:system/etc/firmware/wsm_22.bin \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/av8100.fw:system/etc/firmware/av8100.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/sdd_20.bin:system/etc/firmware/sdd_20.bin \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/incell_fw_120hz.img:system/etc/firmware/incell_fw_120hz.img \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw:system/etc/firmware/cg2900_fm_fm_prog_info.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/CG29XX_0200_0000_settings.fw:system/etc/firmware/CG29XX_0200_0000_settings.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw \
-    vendor/sony/montblanc-common/proprietary/etc/firmware/wsm_10.bin:system/etc/firmware/wsm_10.bin \
     vendor/sony/montblanc-common/proprietary/etc/plmn.operator.list:system/etc/plmn.operator.list \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/fillthisbuffer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/fillthisbuffer.elf4nmf \
     vendor/sony/montblanc-common/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_sk/misc/samplesplayed.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_sk/misc/samplesplayed.elf4nmf \
@@ -554,4 +525,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libmmprobe.so:system/lib/libmmprobe.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_aiq_tools.so:system/lib/libste_aiq_tools.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
-    vendor/sony/montblanc-common/proprietary/lib/libclientgps.so:system/lib/libclientgps.so
+    vendor/sony/montblanc-common/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
+    vendor/sony/montblanc-common/proprietary/xbin/ste-cg29xx_ctrl:system/xbin/ste-cg29xx_ctrl \
+    vendor/sony/montblanc-common/proprietary/xbin/watchdog-kicker:system/xbin/watchdog-kicker

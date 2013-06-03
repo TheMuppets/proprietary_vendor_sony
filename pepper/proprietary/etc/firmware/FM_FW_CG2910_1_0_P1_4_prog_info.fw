@@ -1,0 +1,23 @@
+#########################################################################
+# ST-Ericsson Connectivity Chip FM Prog Information File
+#
+# All information must be stored as follows
+#
+# HCI_revision	LMP_Subversion	File_name
+#
+########################################################################
+#
+#
+########################################################################
+#
+# FM Prog file for ST-Ericsson - CG2910
+#
+0x1004 0x0411 FM_FW_CG2910_1_0_P1_4_prog.fw
+0x1005 0x0411 FM_FW_CG2910_1_0_P1_4_prog.fw
+0x1005 0x0811 FM_FW_CG2910_1_0_P1_4_prog.fw
+0x1005 0x0C11 FM_FW_CG2910_1_0_P1_4_prog.fw
+0x1805 0x0411 FM_FW_CG2910_1_0_P1_4_prog.fw
+0x1805 0x0811 FM_FW_CG2910_1_0_P1_4_prog.fw
+0x1805 0x0C11 FM_FW_CG2910_1_0_P1_4_prog.fw
+#
+########################################################################
