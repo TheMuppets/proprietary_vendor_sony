@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/yuga/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/yuga/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/sony/yuga/proprietary/bin/startupflag:system/bin/startupflag \
     vendor/sony/yuga/proprietary/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/yuga/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/yuga/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \

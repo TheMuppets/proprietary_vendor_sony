@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/pollux/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/pollux/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/sony/pollux/proprietary/bin/startupflag:system/bin/startupflag \
     vendor/sony/pollux/proprietary/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/pollux/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/pollux/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
