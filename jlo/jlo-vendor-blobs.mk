@@ -26,9 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/jlo/proprietary/bin/cnd:system/bin/cnd \
     vendor/sony/jlo/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/sony/jlo/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/sony/jlo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/sony/jlo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/jlo/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/jlo/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
     vendor/sony/jlo/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -48,13 +46,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/etc/firmware/JLO_TMA340_0002.hex:system/etc/firmware/JLO_TMA340_0002.hex \
     vendor/sony/jlo/proprietary/etc/firmware/JLO_TMA340_0003.hex:system/etc/firmware/JLO_TMA340_0003.hex \
     vendor/sony/jlo/proprietary/etc/firmware/JLO_TMA340_0004.hex:system/etc/firmware/JLO_TMA340_0004.hex \
-    vendor/sony/jlo/proprietary/etc/firmware/JLO_TMA340_0006_ELK.hex:system/etc/firmware/JLO_TMA340_0006_ELK.hex \
     vendor/sony/jlo/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/sony/jlo/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/jlo/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/jlo/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/sony/jlo/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-    vendor/sony/jlo/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/sony/jlo/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
     vendor/sony/jlo/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
     vendor/sony/jlo/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
@@ -65,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
     vendor/sony/jlo/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/sony/jlo/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
-    vendor/sony/jlo/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
     vendor/sony/jlo/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
     vendor/sony/jlo/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/sony/jlo/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
@@ -81,11 +76,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
     vendor/sony/jlo/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/sony/jlo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/sony/jlo/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/sony/jlo/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/sony/jlo/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/sony/jlo/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/sony/jlo/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/jlo/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/jlo/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/sony/jlo/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -97,12 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/jlo/proprietary/lib/libfmradio.brcm-prop_rx.so:system/lib/libfmradio.brcm-prop_rx.so \
     vendor/sony/jlo/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/jlo/proprietary/lib/libgesture_client.so:system/lib/libgesture_client.so \
-    vendor/sony/jlo/proprietary/lib/libgestureservice.so:system/lib/libgestureservice.so \
     vendor/sony/jlo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/jlo/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/sony/jlo/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/sony/jlo/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/jlo/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/jlo/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
     vendor/sony/jlo/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
@@ -110,24 +99,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/jlo/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/jlo/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/sony/jlo/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/sony/jlo/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/sony/jlo/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/jlo/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/sony/jlo/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/sony/jlo/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/sony/jlo/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/sony/jlo/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/jlo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/sony/jlo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/jlo/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/jlo/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/jlo/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/sony/jlo/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/sony/jlo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/jlo/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/sony/jlo/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
-    vendor/sony/jlo/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/jlo/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/jlo/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/jlo/proprietary/lib/libqmi.so:system/lib/libqmi.so \

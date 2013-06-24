@@ -37,7 +37,8 @@ bphyscale=17
 cckPwrIdxCorr=-15
 pacalidx2g=45
 txgaintbl=1
-muxenab=0x10
+sd_gpout=0
+sd_oobonly=1
 # set param and btc_flags for BT/Hotspot co-existance
 btc_flags=0x56
 btc_params0=0x4e2
