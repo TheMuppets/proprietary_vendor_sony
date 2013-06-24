@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pepper/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/pepper/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/pepper/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/pepper/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
+    vendor/sony/pepper/proprietary/lib/hw/vendor-camera.montblanc.so:system/lib/hw/vendor-camera.montblanc.so \
     vendor/sony/pepper/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/pepper/proprietary/lib/hw/nfc.montblanc.so:system/lib/hw/nfc.montblanc.so \
     vendor/sony/pepper/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
