@@ -92,7 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/hikari/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/sony/hikari/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/sony/hikari/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
+    vendor/sony/hikari/proprietary/lib/hw/vendor-camera.msm8660.so:system/lib/hw/vendor-camera.msm8660.so \
     vendor/sony/hikari/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
     vendor/sony/hikari/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
     vendor/sony/hikari/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \

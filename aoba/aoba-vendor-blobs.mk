@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/aoba/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/sony/aoba/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/sony/aoba/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
+    vendor/sony/aoba/proprietary/lib/hw/vendor-camera.msm8660.so:system/lib/hw/vendor-camera.msm8660.so \
     vendor/sony/aoba/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
     vendor/sony/aoba/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
     vendor/sony/aoba/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \

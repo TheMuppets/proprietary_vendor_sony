@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/lotus/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/lotus/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/lotus/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
+    vendor/sony/lotus/proprietary/lib/hw/vendor-camera.montblanc.so:system/lib/hw/vendor-camera.montblanc.so \
     vendor/sony/lotus/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/lotus/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/lotus/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
