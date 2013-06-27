@@ -32,12 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tapioca_ss/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/tapioca_ss/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/tapioca_ss/proprietary/bin/rild:system/bin/rild \
-    vendor/sony/tapioca_ss/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/tapioca_ss/proprietary/bin/startupflag:system/bin/startupflag \
-    vendor/sony/tapioca_ss/proprietary/bin/ta_rmt_service:system/bin/ta_rmt_service \
-    vendor/sony/tapioca_ss/proprietary/bin/tad:system/bin/tad \
     vendor/sony/tapioca_ss/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/tapioca_ss/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/tapioca_ss/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/sony/tapioca_ss/proprietary/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd:system/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd \
     vendor/sony/tapioca_ss/proprietary/etc/bcm4330/bcm94330wlsdgbphone.txt:system/etc/bcm4330/bcm94330wlsdgbphone.txt \

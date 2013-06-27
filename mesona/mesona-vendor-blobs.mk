@@ -32,12 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/mesona/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/mesona/proprietary/bin/rild:system/bin/rild \
-    vendor/sony/mesona/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/mesona/proprietary/bin/startupflag:system/bin/startupflag \
-    vendor/sony/mesona/proprietary/bin/ta_rmt_service:system/bin/ta_rmt_service \
-    vendor/sony/mesona/proprietary/bin/tad:system/bin/tad \
     vendor/sony/mesona/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/mesona/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/mesona/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/sony/mesona/proprietary/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd:system/etc/bcm4330/BCM4330B1_002.001.003.0750.0775.hcd \
     vendor/sony/mesona/proprietary/etc/bcm4330/bcm94330wlsdgbphone.txt:system/etc/bcm4330/bcm94330wlsdgbphone.txt \
