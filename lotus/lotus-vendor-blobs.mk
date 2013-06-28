@@ -35,33 +35,33 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lotus/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/lotus/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/lotus/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/sony/lotus/proprietary/firmware/wsm_10.bin:system/firmware/wsm_10.bin \
-    vendor/sony/lotus/proprietary/firmware/ttsp_fw.hex:system/firmware/ttsp_fw.hex \
-    vendor/sony/lotus/proprietary/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw:system/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw \
-    vendor/sony/lotus/proprietary/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw:system/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw \
-    vendor/sony/lotus/proprietary/firmware/cg2900_fm_ext_src_coeff_info.fw:system/firmware/cg2900_fm_ext_src_coeff_info.fw \
-    vendor/sony/lotus/proprietary/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw:system/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw \
-    vendor/sony/lotus/proprietary/firmware/CG29XX_0200_0000_settings.fw:system/firmware/CG29XX_0200_0000_settings.fw \
-    vendor/sony/lotus/proprietary/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw:system/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw \
-    vendor/sony/lotus/proprietary/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw:system/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw \
-    vendor/sony/lotus/proprietary/firmware/cg2900_fm_fm_prog_info.fw:system/firmware/cg2900_fm_fm_prog_info.fw \
-    vendor/sony/lotus/proprietary/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw:system/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw \
-    vendor/sony/lotus/proprietary/firmware/CG29XX_0200_0000_patch.fw:system/firmware/CG29XX_0200_0000_patch.fw \
-    vendor/sony/lotus/proprietary/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw:system/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw \
-    vendor/sony/lotus/proprietary/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw:system/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw \
-    vendor/sony/lotus/proprietary/firmware/sdd_20.bin:system/firmware/sdd_20.bin \
-    vendor/sony/lotus/proprietary/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw:system/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw \
-    vendor/sony/lotus/proprietary/firmware/wsm_22.bin:system/firmware/wsm_22.bin \
-    vendor/sony/lotus/proprietary/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw:system/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw \
-    vendor/sony/lotus/proprietary/firmware/wsm_11.bin:system/firmware/wsm_11.bin \
-    vendor/sony/lotus/proprietary/firmware/sdd_22.bin:system/firmware/sdd_22.bin \
-    vendor/sony/lotus/proprietary/firmware/sdd_11.bin:system/firmware/sdd_11.bin \
-    vendor/sony/lotus/proprietary/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw:system/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw \
-    vendor/sony/lotus/proprietary/firmware/cg2900_fm_fm_coeff_info.fw:system/firmware/cg2900_fm_fm_coeff_info.fw \
-    vendor/sony/lotus/proprietary/firmware/wsm_20.bin:system/firmware/wsm_20.bin \
-    vendor/sony/lotus/proprietary/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw:system/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw \
-    vendor/sony/lotus/proprietary/firmware/cg2900_fm_bt_src_coeff_info.fw:system/firmware/cg2900_fm_bt_src_coeff_info.fw \
-    vendor/sony/lotus/proprietary/firmware/sdd_10.bin:system/firmware/sdd_10.bin \
+    vendor/sony/lotus/proprietary/etc/firmware/wsm_10.bin:system/etc/firmware/wsm_10.bin \
+    vendor/sony/lotus/proprietary/etc/firmware/ttsp_fw.hex:system/etc/firmware/ttsp_fw.hex \
+    vendor/sony/lotus/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/CG29XX_0200_0000_settings.fw:system/etc/firmware/CG29XX_0200_0000_settings.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw:system/etc/firmware/cg2900_fm_fm_prog_info.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/sdd_20.bin:system/etc/firmware/sdd_20.bin \
+    vendor/sony/lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/wsm_22.bin:system/etc/firmware/wsm_22.bin \
+    vendor/sony/lotus/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/wsm_11.bin:system/etc/firmware/wsm_11.bin \
+    vendor/sony/lotus/proprietary/etc/firmware/sdd_22.bin:system/etc/firmware/sdd_22.bin \
+    vendor/sony/lotus/proprietary/etc/firmware/sdd_11.bin:system/etc/firmware/sdd_11.bin \
+    vendor/sony/lotus/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw:system/etc/firmware/cg2900_fm_fm_coeff_info.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/wsm_20.bin:system/etc/firmware/wsm_20.bin \
+    vendor/sony/lotus/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw:system/etc/firmware/cg2900_fm_bt_src_coeff_info.fw \
+    vendor/sony/lotus/proprietary/etc/firmware/sdd_10.bin:system/etc/firmware/sdd_10.bin \
     vendor/sony/lotus/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat:system/usr/share/camera/config_file/aptina_mt9v115.dat \
     vendor/sony/lotus/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri.dat \
     vendor/sony/lotus/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat:system/usr/share/camera/config_file/omnivision_ov5640_sec.dat \
