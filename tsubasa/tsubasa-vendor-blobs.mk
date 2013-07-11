@@ -147,8 +147,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/tsubasa/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/tsubasa/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/tsubasa/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/tsubasa/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
+    vendor/sony/tsubasa/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/tsubasa/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/tsubasa/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/tsubasa/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -168,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/tsubasa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/tsubasa/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
-    vendor/sony/tsubasa/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/tsubasa/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/tsubasa/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/tsubasa/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
@@ -178,9 +177,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/tsubasa/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/tsubasa/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -219,5 +218,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/vendor/camera/SOI13BS0_IMX091.dat:system/vendor/camera/SOI13BS0_IMX091.dat \
     vendor/sony/tsubasa/proprietary/vendor/camera/STW00YP1.dat:system/vendor/camera/STW00YP1.dat \
     vendor/sony/tsubasa/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/tsubasa/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/tsubasa/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/tsubasa/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat

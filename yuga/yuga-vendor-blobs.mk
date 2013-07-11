@@ -181,5 +181,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS2_DW9735.dat:system/vendor/camera/SOI13BS2_DW9735.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
     vendor/sony/yuga/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/yuga/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/yuga/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/yuga/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
