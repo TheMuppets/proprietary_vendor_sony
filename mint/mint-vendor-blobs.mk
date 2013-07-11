@@ -159,8 +159,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/mint/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/mint/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/mint/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/mint/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
+    vendor/sony/mint/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/mint/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/mint/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/mint/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -187,9 +187,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/mint/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/mint/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -228,5 +228,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/vendor/camera/SOI13BS0_IMX091.dat:system/vendor/camera/SOI13BS0_IMX091.dat \
     vendor/sony/mint/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/mint/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/mint/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/mint/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/mint/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
