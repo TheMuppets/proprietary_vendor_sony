@@ -24,12 +24,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
     vendor/sony/aoba/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/sony/aoba/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
-    vendor/sony/aoba/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/sony/aoba/proprietary/bin/btld:system/bin/btld \
     vendor/sony/aoba/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/aoba/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/aoba/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
-    vendor/sony/aoba/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/aoba/proprietary/bin/imei_transporter:system/bin/imei_transporter \
     vendor/sony/aoba/proprietary/bin/ks:system/bin/ks \
     vendor/sony/aoba/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -40,12 +38,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/bin/qcks:system/bin/qcks \
     vendor/sony/aoba/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/aoba/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/sony/aoba/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/aoba/proprietary/bin/rild:system/bin/rild \
     vendor/sony/aoba/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/aoba/proprietary/bin/secchand:system/bin/secchand \
-    vendor/sony/aoba/proprietary/bin/semc-atfwd-d:system/bin/semc-atfwd-d \
     vendor/sony/aoba/proprietary/bin/startupflag:system/bin/startupflag \
-    vendor/sony/aoba/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/aoba/proprietary/bin/ta_reader:system/bin/ta_reader \
     vendor/sony/aoba/proprietary/bin/ta_rmt_service:system/bin/ta_rmt_service \
     vendor/sony/aoba/proprietary/bin/tad:system/bin/tad \
@@ -53,13 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/aoba/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/aoba/proprietary/etc/clearpad_fwloader.sh:system/etc/clearpad_fwloader.sh \
-    vendor/sony/aoba/proprietary/etc/fast-dormancy/fd_custm_conf.txt:system/etc/fast-dormancy/fd_custm_conf.txt \
-    vendor/sony/aoba/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
-    vendor/sony/aoba/proprietary/etc/fast-dormancy/fd_int_conf.txt:system/etc/fast-dormancy/fd_int_conf.txt \
     vendor/sony/aoba/proprietary/etc/firmware/BCM4330.hcd:system/etc/firmware/BCM4330.hcd \
     vendor/sony/aoba/proprietary/etc/firmware/amss.mbn:system/etc/firmware/amss.mbn \
-    vendor/sony/aoba/proprietary/etc/firmware/bq27520_fw-0507_filever-0009_proj-aoba_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0009_proj-aoba_golden.bqfs \
-    vendor/sony/aoba/proprietary/etc/firmware/bq27520_fw-0507_filever-0009_proj-aoba_golden.dffs:system/etc/firmware/bq27520_fw-0507_filever-0009_proj-aoba_golden.dffs \
     vendor/sony/aoba/proprietary/etc/firmware/dbl.mbn:system/etc/firmware/dbl.mbn \
     vendor/sony/aoba/proprietary/etc/firmware/dsp1.mbn:system/etc/firmware/dsp1.mbn \
     vendor/sony/aoba/proprietary/etc/firmware/dsp2.mbn:system/etc/firmware/dsp2.mbn \
@@ -109,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
     vendor/sony/aoba/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
     vendor/sony/aoba/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
+    vendor/sony/aoba/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/aoba/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/aoba/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/aoba/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
@@ -122,13 +115,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/aoba/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/aoba/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
-    vendor/sony/aoba/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/sony/aoba/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/sony/aoba/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
-    vendor/sony/aoba/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
-    vendor/sony/aoba/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/sony/aoba/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/aoba/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/sony/aoba/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/sony/aoba/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/aoba/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/aoba/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/sony/aoba/proprietary/lib/libdss.so:system/lib/libdss.so \
@@ -143,11 +134,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/aoba/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/aoba/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/sony/aoba/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/sony/aoba/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/sony/aoba/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/sony/aoba/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/sony/aoba/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/aoba/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/sony/aoba/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/aoba/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/aoba/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/aoba/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/sony/aoba/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-    vendor/sony/aoba/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/sony/aoba/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
     vendor/sony/aoba/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/aoba/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -158,15 +153,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/aoba/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/sony/aoba/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+    vendor/sony/aoba/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/aoba/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/aoba/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/aoba/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/aoba/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/sony/aoba/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/sony/aoba/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/aoba/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/sony/aoba/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/aoba/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/aoba/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
-    vendor/sony/aoba/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
     vendor/sony/aoba/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/aoba/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/aoba/proprietary/lib/libta_rmt_clnt.so:system/lib/libta_rmt_clnt.so \
@@ -183,5 +180,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/vendor/camera/SOI13BS1_IMX091.dat:system/vendor/camera/SOI13BS1_IMX091.dat \
     vendor/sony/aoba/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/aoba/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/aoba/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/aoba/proprietary/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/aoba/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
