@@ -37,8 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux_windy/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/pollux_windy/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
-    vendor/sony/pollux_windy/proprietary/etc/firmware/dsp1.mbn:system/etc/firmware/dsp1.mbn \
-    vendor/sony/pollux_windy/proprietary/etc/firmware/dsp2.mbn:system/etc/firmware/dsp2.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsp3.mbn:system/etc/firmware/dsp3.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsps.b01:system/etc/firmware/dsps.b01 \
@@ -47,9 +45,19 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsps.b04:system/etc/firmware/dsps.b04 \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsps.b05:system/etc/firmware/dsps.b05 \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsps.mdt:system/etc/firmware/dsps.mdt \
-    vendor/sony/pollux_windy/proprietary/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
-    vendor/sony/pollux_windy/proprietary/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
-    vendor/sony/pollux_windy/proprietary/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b00:system/etc/firmware/gss.b00 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b01:system/etc/firmware/gss.b01 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b02:system/etc/firmware/gss.b02 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b03:system/etc/firmware/gss.b03 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b04:system/etc/firmware/gss.b04 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b05:system/etc/firmware/gss.b05 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b06:system/etc/firmware/gss.b06 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b07:system/etc/firmware/gss.b07 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b08:system/etc/firmware/gss.b08 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b09:system/etc/firmware/gss.b09 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b10:system/etc/firmware/gss.b10 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.b11:system/etc/firmware/gss.b11 \
+    vendor/sony/pollux_windy/proprietary/etc/firmware/gss.mdt:system/etc/firmware/gss.mdt \
     vendor/sony/pollux_windy/proprietary/etc/firmware/mdm_acdb.img:system/etc/firmware/mdm_acdb.img \
     vendor/sony/pollux_windy/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
     vendor/sony/pollux_windy/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
@@ -61,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux_windy/proprietary/etc/firmware/rpm.mbn:system/etc/firmware/rpm.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/sbl1.mbn:system/etc/firmware/sbl1.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/sbl2.mbn:system/etc/firmware/sbl2.mbn \
-    vendor/sony/pollux_windy/proprietary/etc/firmware/ta.mbn:system/etc/firmware/ta.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/touch_module_id_0x3a.img:system/etc/firmware/touch_module_id_0x3a.img \
     vendor/sony/pollux_windy/proprietary/etc/firmware/touch_module_id_0x3b.img:system/etc/firmware/touch_module_id_0x3b.img \
     vendor/sony/pollux_windy/proprietary/etc/firmware/touch_module_id_0x4c.img:system/etc/firmware/touch_module_id_0x4c.img \
