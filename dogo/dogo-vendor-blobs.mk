@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/dogo/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/sony/dogo/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/sony/dogo/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/dogo/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
     vendor/sony/dogo/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/dogo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/dogo/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
@@ -91,6 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/dogo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/dogo/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/dogo/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/sony/dogo/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/dogo/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/dogo/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/dogo/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
@@ -127,15 +127,22 @@ PRODUCT_COPY_FILES += \
     vendor/sony/dogo/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/dogo/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/dogo/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+    vendor/sony/dogo/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
+    vendor/sony/dogo/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/dogo/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/dogo/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/dogo/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/dogo/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
+    vendor/sony/dogo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/dogo/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/dogo/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/dogo/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/dogo/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/sony/dogo/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/dogo/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/dogo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/dogo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/sony/dogo/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/sony/dogo/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/dogo/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/dogo/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
