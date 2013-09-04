@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux_windy/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/pollux_windy/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/pollux_windy/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    vendor/sony/pollux_windy/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/pollux_windy/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsp3.mbn:system/etc/firmware/dsp3.mbn \
@@ -83,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux_windy/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/pollux_windy/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/pollux_windy/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/pollux_windy/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
     vendor/sony/pollux_windy/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/pollux_windy/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/pollux_windy/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
@@ -92,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux_windy/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/pollux_windy/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/pollux_windy/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/sony/pollux_windy/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/pollux_windy/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/pollux_windy/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/pollux_windy/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
@@ -127,15 +128,22 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux_windy/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/pollux_windy/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/pollux_windy/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+    vendor/sony/pollux_windy/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
+    vendor/sony/pollux_windy/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
+    vendor/sony/pollux_windy/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/pollux_windy/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/sony/pollux_windy/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/pollux_windy/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/sony/pollux_windy/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/sony/pollux_windy/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/pollux_windy/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/pollux_windy/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
