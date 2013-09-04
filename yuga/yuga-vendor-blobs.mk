@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/yuga/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/yuga/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/yuga/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
     vendor/sony/yuga/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/yuga/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/yuga/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
@@ -90,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/yuga/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/yuga/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/sony/yuga/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/yuga/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/yuga/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/yuga/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
@@ -126,15 +126,22 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/yuga/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/yuga/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+    vendor/sony/yuga/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
+    vendor/sony/yuga/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
+    vendor/sony/yuga/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/yuga/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/sony/yuga/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/yuga/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/yuga/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/yuga/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/sony/yuga/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/sony/yuga/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/yuga/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/yuga/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -156,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/libsensors_akm8963.so:system/lib/libsensors_akm8963.so \
     vendor/sony/yuga/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/yuga/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/yuga/proprietary/vendor/camera/KMO08BN0.dat:system/vendor/camera/KMO08BN0.dat \
     vendor/sony/yuga/proprietary/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
     vendor/sony/yuga/proprietary/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
     vendor/sony/yuga/proprietary/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
@@ -170,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/vendor/camera/SEM13BS1.dat:system/vendor/camera/SEM13BS1.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SEM13BS1_IMX135.dat:system/vendor/camera/SEM13BS1_IMX135.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SEM13BS1_WV570.dat:system/vendor/camera/SEM13BS1_WV570.dat \
-    vendor/sony/yuga/proprietary/vendor/camera/SOI08BN1.dat:system/vendor/camera/SOI08BN1.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SOI08BN1_IMX111.dat:system/vendor/camera/SOI08BN1_IMX111.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS1.dat:system/vendor/camera/SOI13BS1.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS1_DW9735.dat:system/vendor/camera/SOI13BS1_DW9735.dat \
@@ -178,5 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS2.dat:system/vendor/camera/SOI13BS2.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS2_DW9735.dat:system/vendor/camera/SOI13BS2_DW9735.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
+    vendor/sony/yuga/proprietary/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat \
     vendor/sony/yuga/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/yuga/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
