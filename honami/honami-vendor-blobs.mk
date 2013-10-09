@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/honami/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/sony/honami/proprietary/bin/thermald:system/bin/thermald \
+    vendor/sony/honami/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/honami/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/honami/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/honami/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -315,4 +316,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/sony/honami/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/sony/honami/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/sony/honami/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so
+    vendor/sony/honami/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/sony/togari/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
