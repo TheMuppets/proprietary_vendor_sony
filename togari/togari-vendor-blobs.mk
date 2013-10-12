@@ -117,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/togari/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/togari/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/togari/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
+    vendor/sony/togari/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/togari/proprietary/lib/hw/nfc.msm8974.so:system/lib/hw/nfc.msm8974.so \
     vendor/sony/togari/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/togari/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \

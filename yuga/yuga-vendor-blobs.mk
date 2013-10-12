@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/yuga/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/yuga/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/sony/yuga/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/yuga/proprietary/bin/ks:system/bin/ks \
     vendor/sony/yuga/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/yuga/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -83,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/yuga/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/yuga/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/yuga/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/yuga/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/yuga/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/yuga/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \

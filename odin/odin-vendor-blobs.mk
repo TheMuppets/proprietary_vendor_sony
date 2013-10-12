@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/odin/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/odin/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/sony/odin/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/odin/proprietary/bin/ks:system/bin/ks \
     vendor/sony/odin/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/odin/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -81,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/odin/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/odin/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/odin/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/odin/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/odin/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/odin/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \

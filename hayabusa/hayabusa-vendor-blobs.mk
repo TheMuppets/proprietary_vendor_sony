@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/hayabusa/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/hayabusa/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/sony/hayabusa/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/hayabusa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/hayabusa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/hayabusa/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -145,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
     vendor/sony/hayabusa/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/hayabusa/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/hayabusa/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/hayabusa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/hayabusa/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/hayabusa/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \

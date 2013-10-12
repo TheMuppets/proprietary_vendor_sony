@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/dogo/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/dogo/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/dogo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/sony/dogo/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/dogo/proprietary/bin/ks:system/bin/ks \
     vendor/sony/dogo/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/dogo/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -82,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/dogo/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/dogo/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/dogo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/dogo/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/dogo/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/dogo/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/dogo/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \

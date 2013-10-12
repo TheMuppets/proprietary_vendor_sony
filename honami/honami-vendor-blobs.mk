@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/lib/camera/libexcal_idtctrl_plugin.so:system/lib/camera/libexcal_idtctrl_plugin.so \
     vendor/sony/honami/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/honami/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
+    vendor/sony/honami/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/honami/proprietary/lib/hw/nfc.msm8974.so:system/lib/hw/nfc.msm8974.so \
     vendor/sony/honami/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/honami/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \

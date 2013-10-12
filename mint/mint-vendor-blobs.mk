@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/mint/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/sony/mint/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -142,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/mint/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/mint/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/mint/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/mint/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
