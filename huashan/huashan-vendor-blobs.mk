@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/huashan/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/huashan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/sony/huashan/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/huashan/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/huashan/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/huashan/proprietary/bin/taimport:system/bin/taimport \
@@ -89,6 +90,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
     vendor/sony/huashan/proprietary/etc/firmware/tzlibasb.b03:system/etc/firmware/tzlibasb.b03 \
     vendor/sony/huashan/proprietary/etc/firmware/tzlibasb.mdt:system/etc/firmware/tzlibasb.mdt \
+    vendor/sony/huashan/proprietary/etc/firmware/tzs1sl.b00:system/etc/firmware/tzs1sl.b00 \
+    vendor/sony/huashan/proprietary/etc/firmware/tzs1sl.b01:system/etc/firmware/tzs1sl.b01 \
+    vendor/sony/huashan/proprietary/etc/firmware/tzs1sl.b02:system/etc/firmware/tzs1sl.b02 \
+    vendor/sony/huashan/proprietary/etc/firmware/tzs1sl.b03:system/etc/firmware/tzs1sl.b03 \
+    vendor/sony/huashan/proprietary/etc/firmware/tzs1sl.mdt:system/etc/firmware/tzs1sl.mdt \
     vendor/sony/huashan/proprietary/etc/firmware/tzsuntory.b00:system/etc/firmware/tzsuntory.b00 \
     vendor/sony/huashan/proprietary/etc/firmware/tzsuntory.b01:system/etc/firmware/tzsuntory.b01 \
     vendor/sony/huashan/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
@@ -116,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/huashan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/huashan/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/sony/huashan/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/huashan/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/huashan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/huashan/proprietary/lib/libals.so:system/lib/libals.so \
@@ -179,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/sony/huashan/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/huashan/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/sony/huashan/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/huashan/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/huashan/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/huashan/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
