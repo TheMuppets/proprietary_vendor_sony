@@ -140,6 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/huashan/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/huashan/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/sony/huashan/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/sony/huashan/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/huashan/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/huashan/proprietary/lib/libface.so:system/lib/libface.so \
