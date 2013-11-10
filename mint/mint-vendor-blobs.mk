@@ -215,7 +215,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/mint/proprietary/lib/libsensors_akm8972.so:system/lib/libsensors_akm8972.so \
     vendor/sony/mint/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/mint/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/mint/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/mint/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/sony/mint/proprietary/lib/libxml.so:system/lib/libxml.so \
