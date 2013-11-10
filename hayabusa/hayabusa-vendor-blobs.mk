@@ -218,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/hayabusa/proprietary/lib/libsensors_akm8972.so:system/lib/libsensors_akm8972.so \
     vendor/sony/hayabusa/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/hayabusa/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/hayabusa/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/hayabusa/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/sony/hayabusa/proprietary/lib/libxml.so:system/lib/libxml.so \
