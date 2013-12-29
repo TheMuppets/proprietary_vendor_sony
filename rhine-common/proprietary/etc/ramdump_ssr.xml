@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ramdump_configuration>
+
+	<dump_configs>
+		<!-- Dump destination in preferential order -->
+		<destinations>
+			<destination>
+				<path>/sdcard/CrashDump</path>
+				<name>internal sdcard</name>
+			</destination>
+			<destination>
+				<path>/sdcard1/CrashDump</path>
+				<name>external sdcard</name>
+			</destination>
+		</destinations>
+		<!-- Necessary free space to perform ramdump in MB -->
+		<freespace_to_dump>200</freespace_to_dump>
+	</dump_configs>
+
+	<extra_dump_sections>
+		<section type="text">
+			<name>cmdline.log</name>
+			<path>/proc/cmdline</path>
+		</section>
+	</extra_dump_sections>
+
+
+	<section_dumper>
+		<!-- Currently supports 1 thread-->
+		<thread_num>1</thread_num>
+		<segment_block_size>2048</segment_block_size>
+		<archiver>SNAPPY</archiver>
+	</section_dumper>
+
+</ramdump_configuration>
