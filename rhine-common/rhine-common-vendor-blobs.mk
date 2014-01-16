@@ -164,9 +164,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/rhine-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/rhine-common/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
+    vendor/sony/rhine-common/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/rhine-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/sony/rhine-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/sony/rhine-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/rhine-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/rhine-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/rhine-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -327,9 +326,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -372,5 +369,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so
+    vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
