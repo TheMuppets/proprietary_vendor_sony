@@ -123,6 +123,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
     vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
     vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/sony/rhine-common/proprietary/etc/firmware/c6x02/mba.b00:system/etc/firmware/c6x02/mba.b00 \
+    vendor/sony/rhine-common/proprietary/etc/firmware/c6x02/modem.b01:system/etc/firmware/c6x02/modem.b01 \
+    vendor/sony/rhine-common/proprietary/etc/firmware/c6x02/modem.mdt:system/etc/firmware/c6x02/modem.mdt \
     vendor/sony/rhine-common/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
     vendor/sony/rhine-common/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
     vendor/sony/rhine-common/proprietary/etc/ramdump_ssr.xml:system/etc/ramdump_ssr.xml \
