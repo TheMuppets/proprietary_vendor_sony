@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/rhine-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/rhine-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/sony/rhine-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/sony/rhine-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
