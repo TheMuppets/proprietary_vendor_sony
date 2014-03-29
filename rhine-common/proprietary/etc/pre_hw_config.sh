@@ -1,4 +1,6 @@
 #!/system/bin/sh
+# Copyright (c) 2013 Sony Mobile Communications AB.
+
 # pre_hw_config.sh.
 # Used to set special parameters during early boot.
 
