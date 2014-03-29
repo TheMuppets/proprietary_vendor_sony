@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/rhine-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/rhine-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/sony/rhine-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/sony/rhine-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -371,6 +370,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
+    vendor/sony/rhine-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so
