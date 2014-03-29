@@ -370,6 +370,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
+    vendor/sony/rhine-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so
