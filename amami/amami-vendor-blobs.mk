@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/etc/sysmon.cfg:system/etc/sysmon.cfg \
     vendor/sony/amami/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/amami/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/amami/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/amami/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/amami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
