@@ -21,22 +21,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/efsks:system/bin/efsks \
     vendor/sony/huashan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/huashan/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/sony/huashan/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/sony/huashan/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/huashan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/huashan/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/huashan/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/huashan/proprietary/bin/ks:system/bin/ks \
-    vendor/sony/huashan/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/sony/huashan/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/sony/huashan/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/huashan/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/huashan/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/huashan/proprietary/bin/qcks:system/bin/qcks \
     vendor/sony/huashan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/huashan/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/sony/huashan/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/sony/huashan/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/sony/huashan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/huashan/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/huashan/proprietary/bin/system_monitor:system/bin/system_monitor \
@@ -46,9 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/huashan/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/huashan/proprietary/bin/usbhub:system/bin/usbhub \
-    vendor/sony/huashan/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/sony/huashan/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/sony/huashan/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent
+    vendor/sony/huashan/proprietary/bin/usbhub_init:system/bin/usbhub_init
 
 PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/etc/firmware/cyttsp4_fw.bin:system/etc/firmware/cyttsp4_fw.bin \
@@ -185,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/sony/huashan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/huashan/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/sony/huashan/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
     vendor/sony/huashan/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/huashan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/huashan/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
@@ -232,9 +224,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/huashan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/sony/huashan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/sony/huashan/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/sony/huashan/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/sony/huashan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/sony/huashan/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/sony/huashan/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
@@ -242,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/huashan/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/sony/huashan/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
 
 PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
