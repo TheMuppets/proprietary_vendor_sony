@@ -22,6 +22,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/taoshan/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/taoshan/proprietary/bin/netmgrd:system/bin/netmgrd \
+	vendor/sony/taoshan/proprietary/bin/irsc_util:system/bin/irsc_util \
+	vendor/sony/taoshan/proprietary/bin/akmd8963:system/bin/akmd8963 \
+	vendor/sony/taoshan/proprietary/bin/cci_tatest:system/bin/cci_tatest \
     vendor/sony/taoshan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/taoshan/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/taoshan/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -64,8 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/taoshan/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/sony/taoshan/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
-    vendor/sony/taoshan/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/sony/taoshan/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
+    vendor/sony/taoshan/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+    vendor/sony/taoshan/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/vendor-lights.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -111,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+	vendor/sony/taoshan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/taoshan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/taoshan/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/taoshan/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
