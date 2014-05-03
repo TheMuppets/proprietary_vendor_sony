@@ -18,8 +18,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/bin/efsks:system/bin/efsks \
     vendor/sony/taoshan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/taoshan/proprietary/bin/ks:system/bin/ks \
-    vendor/sony/taoshan/proprietary/bin/led_deamon:system/bin/led_deamon \
+	vendor/sony/taoshan/proprietary/bin/battery_monitor:system/bin/battery_monitor \
     vendor/sony/taoshan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/sony/taoshan/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+	vendor/sony/taoshan/proprietary/bin/fmconfig:system/bin/fmconfig \
+	vendor/sony/taoshan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/taoshan/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/taoshan/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/sony/taoshan/proprietary/bin/irsc_util:system/bin/irsc_util \
