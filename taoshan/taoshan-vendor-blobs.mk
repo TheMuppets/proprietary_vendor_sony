@@ -148,4 +148,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
     vendor/sony/taoshan/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/taoshan/proprietary/lib/libtime_genoff.so:obj/lib/libtime_genoff.so \
+	vendor/sony/taoshan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/sony/taoshan/proprietary/lib/libtzplayready.so:system/lib/libtzplayready.so \
