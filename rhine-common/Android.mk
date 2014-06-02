@@ -16,6 +16,7 @@
 
 ifeq ($(BOARD_VENDOR),sony)
 ifeq ($(BOARD_VENDOR_PLATFORM),rhine)
+
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_USES_QC_TIME_SERVICES),true)

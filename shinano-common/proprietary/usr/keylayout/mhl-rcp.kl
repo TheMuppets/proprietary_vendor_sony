@@ -1,0 +1,34 @@
+# Copyright (C) 2013 Sony Mobile Communications AB.
+# All rights, including trade secret rights, reserved.
+
+key 28    VENDOR_TV_CENTER
+key 103   VENDOR_TV_UP
+key 105   VENDOR_TV_LEFT
+key 106   VENDOR_TV_RIGHT
+key 108   VENDOR_TV_DOWN
+
+
+key 119   MEDIA_PLAY_PAUSE
+key 128   MEDIA_STOP
+
+key 139   VENDOR_TV_HOME
+
+key 158   MEDIA_PREVIOUS
+key 159   MEDIA_NEXT
+
+key 164   MEDIA_PLAY_PAUSE
+key 168   MEDIA_REWIND
+
+key 174   BACK
+
+key 207   MEDIA_PLAY_PAUSE
+key 208   MEDIA_FAST_FORWARD
+
+key 357  MENU
+
+key 360  POWER
+
+key 398  PROG_RED
+key 399  PROG_GREEN
+key 400  PROG_YELLOW
+key 401  PROG_BLUE
