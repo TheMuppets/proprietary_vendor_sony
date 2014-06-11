@@ -248,7 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor8.so:system/lib/sysmon/sysmon_tsens_tz_sensor8.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor9.so:system/lib/sysmon/sysmon_tsens_tz_sensor9.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_usb_current_limit_value.so:system/lib/sysmon/sysmon_usb_current_limit_value.so \
-    vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_v_therm2.so:system/lib/sysmon/sysmon_v_therm2.so \
+    vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_v_therm0.so:system/lib/sysmon/sysmon_v_therm0.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_wlan_limit.so:system/lib/sysmon/sysmon_wlan_limit.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
     vendor/sony/shinano-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
