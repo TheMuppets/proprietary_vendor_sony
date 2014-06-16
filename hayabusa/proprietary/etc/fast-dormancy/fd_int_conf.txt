@@ -1,0 +1,8 @@
+waitTime 3
+restartTime 3
+pw_interface0Prefix rmnet
+pw_interface0Number 8
+pw_interface1Prefix ppp
+pw_interface1Number 0
+tethering_interface0Prefix wl0.1
+tethering_interface0Number 1
