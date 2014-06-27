@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/shinano-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/sony/shinano-common/proprietary/bin/touchscreend:system/bin/touchscreend \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
@@ -234,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_pm8941_tz.so:system/lib/sysmon/sysmon_pm8941_tz.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_quiet_therm.so:system/lib/sysmon/sysmon_quiet_therm.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
-    vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_torch_limit.so:system/lib/sysmon/sysmon_torch_limit.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_interrupt.so:system/lib/sysmon/sysmon_tsens_interrupt.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \

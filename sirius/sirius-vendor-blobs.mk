@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/sirius/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/sirius/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
+    vendor/sony/sirius/proprietary/lib/sysmon/sysmon_torch_limit.so:system/lib/sysmon/sysmon_torch_limit.so \
     vendor/sony/sirius/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
     vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
     vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
