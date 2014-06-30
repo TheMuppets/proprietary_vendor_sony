@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2013 The CyanogenMod Project
+# Copyright (C) 2011-2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,24 +23,32 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/mint/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/mint/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/sony/mint/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/sony/mint/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/mint/proprietary/bin/illumination_service:system/bin/illumination_service \
+    vendor/sony/mint/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/sony/mint/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/sony/mint/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/sony/mint/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/mint/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/sony/mint/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
+    vendor/sony/mint/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/sony/mint/proprietary/bin/rmi4_fwloader:system/bin/rmi4_fwloader \
     vendor/sony/mint/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/mint/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/mint/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/mint/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/mint/proprietary/bin/tad:system/bin/tad \
     vendor/sony/mint/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/mint/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/mint/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/mint/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/mint/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/sony/mint/proprietary/bin/wait4tad:system/bin/wait4tad \
+    vendor/sony/mint/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/sony/mint/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_custm_conf.txt:system/etc/fast-dormancy/fd_custm_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
     vendor/sony/mint/proprietary/etc/fast-dormancy/fd_int_conf.txt:system/etc/fast-dormancy/fd_int_conf.txt \
@@ -138,9 +146,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/sony/mint/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/mint/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/mint/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/mint/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
     vendor/sony/mint/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
     vendor/sony/mint/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/mint/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
@@ -149,7 +157,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/mint/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/mint/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/mint/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/mint/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/sony/mint/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/mint/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/mint/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/mint/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
@@ -164,9 +174,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/mint/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/mint/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
-    vendor/sony/mint/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/sony/mint/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
+    vendor/sony/mint/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/mint/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/mint/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/sony/mint/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/sony/mint/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/mint/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/mint/proprietary/lib/libface.so:system/lib/libface.so \
@@ -176,23 +188,36 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/mint/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/mint/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/sony/mint/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+    vendor/sony/mint/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/sony/mint/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/mint/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/mint/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
-    vendor/sony/mint/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/mint/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/mint/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/sony/mint/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/mint/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/sony/mint/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
+    vendor/sony/mint/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/mint/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/mint/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/mint/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/mint/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/sony/mint/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/mint/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/mint/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/mint/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/mint/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/mint/proprietary/lib/libnl.so:system/lib/libnl.so \
@@ -200,23 +225,20 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/mint/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/mint/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/mint/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/mint/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/mint/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/mint/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/mint/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/sony/mint/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/sony/mint/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/sony/mint/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
-    vendor/sony/mint/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/sony/mint/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
-    vendor/sony/mint/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/sony/mint/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/mint/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/mint/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/mint/proprietary/lib/libsensors_akm8972.so:system/lib/libsensors_akm8972.so \
     vendor/sony/mint/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/mint/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/mint/proprietary/lib/libv8.so:system/lib/libv8.so \
+    vendor/sony/mint/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/sony/mint/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/mint/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
     vendor/sony/mint/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
@@ -227,4 +249,20 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/vendor/camera/SOI13BS0_IMX091.dat:system/vendor/camera/SOI13BS0_IMX091.dat \
     vendor/sony/mint/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
     vendor/sony/mint/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/mint/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
+    vendor/sony/mint/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/mint/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/sony/mint/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/sony/mint/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/sony/mint/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/sony/mint/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/sony/mint/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/sony/mint/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/sony/mint/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/sony/mint/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/sony/mint/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/sony/mint/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/sony/mint/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/sony/mint/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
+    vendor/sony/mint/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/sony/mint/proprietary/vendor/lib/libv8.so:system/vendor/lib/libv8.so \
+    vendor/sony/mint/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so

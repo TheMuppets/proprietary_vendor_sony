@@ -16,7 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/sony/nicki/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/nicki/proprietary/bin/efsks:system/bin/efsks \
+    vendor/sony/nicki/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/nicki/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/nicki/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/nicki/proprietary/bin/irsc_util:system/bin/irsc_util \

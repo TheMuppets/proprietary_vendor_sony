@@ -1,2 +1,0 @@
-fdmDisabledForMCC 0
-fdmDisabledForMNC 0
