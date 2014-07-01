@@ -71,6 +71,7 @@
     <ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="0" />
     <ctl name="Voice_Tx Mixer SEC_AUX_PCM_TX_Voice" value="0" />
     <ctl name="VOC_EXT_EC MUX" value="NONE" />
+    <ctl name="AUDIO_EXT_EC MUX" value="NONE" />
     <!-- Audio BTSCO -->
     <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia1" value="0" />
     <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia4" value="0" />
@@ -467,6 +468,7 @@
 
     <path name="deep-buffer-playback incall-music">
         <ctl name="Incall_Music Audio Mixer MultiMedia1" value="1" />
+        <ctl name="Incall_Music Audio Mixer MultiMedia5" value="1" />
     </path>
 
     <path name="deep-buffer-playback incall-music-bt">
@@ -574,7 +576,6 @@
     </path>
 
     <path name="low-latency-playback incall-music">
-        <ctl name="Incall_Music Audio Mixer MultiMedia5" value="1" />
     </path>
 
     <path name="low-latency-playback incall-music-bt">
@@ -659,7 +660,6 @@
     </path>
 
     <path name="compress-offload-playback bt-sco-wb">
-        <ctl name="AUX PCM SampleRate" value="16000" />
         <path name="compress-offload-playback bt-sco" />
     </path>
 
@@ -703,7 +703,6 @@
     </path>
 
     <path name="audio-record bt-sco-wb">
-        <ctl name="AUX PCM SampleRate" value="16000" />
         <path name="audio-record bt-sco" />
     </path>
 
@@ -724,7 +723,6 @@
     </path>
 
     <path name="audio-record-compress bt-sco-wb">
-        <ctl name="AUX PCM SampleRate" value="16000" />
         <path name="audio-record-compress bt-sco" />
     </path>
 
@@ -802,7 +800,6 @@
     </path>
 
     <path name="voice2-call bt-sco-wb">
-        <ctl name="AUX PCM SampleRate" value="16000" />
         <path name="voice2-call bt-sco" />
     </path>
 
@@ -845,7 +842,7 @@
     </path>
 
     <path name="hfp-sco-wb">
-        <ctl name="AUX PCM SampleRate" value="16000" />
+        <ctl name="AUX PCM SampleRate" value="rate_16000" />
         <path name="hfp-sco" />
     </path>
 
@@ -970,6 +967,14 @@
     <path name="volte-call usb-headphones">
         <ctl name="AFE_PCM_RX_Voice Mixer VoLTE" value="1" />
         <ctl name="VoLTE_Tx Mixer AFE_PCM_TX_VoLTE" value="1" />
+    </path>
+
+    <path name="volte-call incall-music">
+        <path name="volte-call" />
+    </path>
+
+    <path name="volte-call incall-music-bt">
+        <path name="volte-call bt-sco" />
     </path>
 
     <path name="compress-voip-call">
@@ -1548,6 +1553,7 @@
         <ctl name="TFA98XX_CHANNEL" value="Bottom" />
         <ctl name="TFA98XX_SPKR_AMP" value="1" />
         <ctl name="VOC_EXT_EC MUX" value="QUAT_MI2S_TX" />
+        <ctl name="AUDIO_EXT_EC MUX" value="QUAT_MI2S_TX" />
     </path>
 
     <path name="voice-speaker-wv">
@@ -1565,15 +1571,11 @@
     </path>
 
     <path name="voice-headphones-eq1">
-        <path name="headphone-voice-cfg" />
-        <path name="voice-eq1" />
-        <path name="stereo-path-eq-on" />
+        <path name="voice-headphones" />
     </path>
 
     <path name="voice-headphones-eq2">
-        <path name="headphone-voice-cfg" />
-        <path name="voice-eq2" />
-        <path name="stereo-path-eq-on" />
+        <path name="voice-headphones" />
     </path>
 
     <path name="voice-headphones-wv">
@@ -1596,11 +1598,15 @@
     <path name="speaker-and-headphones">
         <path name="speaker" />
         <path name="headphones" />
+        <ctl name="RX1 Digital Volume" value="64" />
+        <ctl name="RX2 Digital Volume" value="64" />
     </path>
 
     <path name="ringtone-speaker-and-headphones">
         <path name="ringtone-speaker" />
         <path name="headphones" />
+        <ctl name="RX1 Digital Volume" value="64" />
+        <ctl name="RX2 Digital Volume" value="64" />
     </path>
 
     <path name="speaker-and-headphones-fluid">
@@ -2156,6 +2162,8 @@
     </path>
 
     <path name="voice-tty-hco-handset">
+        <ctl name="TTY Mode" value="HCO" />
+        <path name="handset" />
     </path>
 
     <path name="voice-tty-vco-handset">
@@ -2167,7 +2175,7 @@
 
     <path name="voice-tty-hco-speaker">
         <ctl name="TTY Mode" value="HCO" />
-        <path name="speaker" />
+        <path name="voice-speaker" />
     </path>
 
     <path name="voice-tty-full-headset-mic">
@@ -2262,41 +2270,57 @@
     <path name="speaker-anc-nc-headphone">
         <path name="speaker" />
         <path name="anc-nc-headphone" />
+        <ctl name="RX1 Digital Volume" value="55" />
+        <ctl name="RX2 Digital Volume" value="55" />
     </path>
 
     <path name="speaker-anc-nce-headphone">
         <path name="speaker" />
         <path name="anc-nce-headphone" />
+        <ctl name="RX1 Digital Volume" value="55" />
+        <ctl name="RX2 Digital Volume" value="55" />
     </path>
 
     <path name="speaker-anc-nc-off-headphone">
         <path name="speaker" />
         <path name="anc-nc-off-headphone" />
+        <ctl name="RX1 Digital Volume" value="55" />
+        <ctl name="RX2 Digital Volume" value="55" />
     </path>
 
     <path name="speaker-anc-nce-off-headphone">
         <path name="speaker" />
         <path name="anc-nce-off-headphone" />
+        <ctl name="RX1 Digital Volume" value="55" />
+        <ctl name="RX2 Digital Volume" value="55" />
     </path>
 
     <path name="speaker-ring-anc-nc-headphone">
         <path name="ringtone-speaker" />
         <path name="anc-nc-headphone" />
+        <ctl name="RX1 Digital Volume" value="55" />
+        <ctl name="RX2 Digital Volume" value="55" />
     </path>
 
     <path name="speaker-ring-anc-nce-headphone">
         <path name="ringtone-speaker" />
         <path name="anc-nce-headphone" />
+        <ctl name="RX1 Digital Volume" value="55" />
+        <ctl name="RX2 Digital Volume" value="55" />
     </path>
 
     <path name="speaker-ring-anc-nc-off-headphone">
         <path name="ringtone-speaker" />
         <path name="anc-nc-off-headphone" />
+        <ctl name="RX1 Digital Volume" value="55" />
+        <ctl name="RX2 Digital Volume" value="55" />
     </path>
 
     <path name="speaker-ring-anc-nce-off-headphone">
         <path name="ringtone-speaker" />
         <path name="anc-nce-off-headphone" />
+        <ctl name="RX1 Digital Volume" value="55" />
+        <ctl name="RX2 Digital Volume" value="55" />
     </path>
 
     <path name="voiceanc-headphone">
