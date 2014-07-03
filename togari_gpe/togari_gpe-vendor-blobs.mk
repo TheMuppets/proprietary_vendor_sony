@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2013 The CyanogenMod Project
+# Copyright (C) 2011-2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -73,18 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/togari_gpe/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/togari_gpe/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/togari_gpe/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/tzwidevine.b00:system/etc/firmware/tzwidevine.b00 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/tzwidevine.b01:system/etc/firmware/tzwidevine.b01 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/tzwidevine.b02:system/etc/firmware/tzwidevine.b02 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/tzwidevine.b03:system/etc/firmware/tzwidevine.b03 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
-    vendor/sony/togari_gpe/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
     vendor/sony/togari_gpe/proprietary/etc/firmware/tzwidevine.b00:system/etc/firmware/tzwidevine.b00 \
     vendor/sony/togari_gpe/proprietary/etc/firmware/tzwidevine.b01:system/etc/firmware/tzwidevine.b01 \
     vendor/sony/togari_gpe/proprietary/etc/firmware/tzwidevine.b02:system/etc/firmware/tzwidevine.b02 \
