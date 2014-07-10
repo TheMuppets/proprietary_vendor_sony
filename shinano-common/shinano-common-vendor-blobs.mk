@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/sony/shinano-common/proprietary/bin/touchscreend:system/bin/touchscreend \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
     vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
