@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
     vendor/sony/castor_windy/proprietary/lib/hw/nfc_nci_pn547.msm8974.so:system/lib/hw/nfc_nci_pn547.msm8974.so \
     vendor/sony/castor_windy/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/castor_windy/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/castor_windy/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/castor_windy/proprietary/lib/sysmon/sysmon_v_therm0.so:system/lib/sysmon/sysmon_v_therm0.so \
     vendor/sony/castor_windy/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
