@@ -120,6 +120,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0489.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0489.bin \
     vendor/sony/sirius/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
     vendor/sony/sirius/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
+    vendor/sony/sirius/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    vendor/sony/sirius/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     vendor/sony/sirius/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sony/sirius/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/sirius/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
@@ -151,7 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/sirius/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/sirius/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
-    vendor/sony/sirius/proprietary/lib/hw/nfc_nci_pn547.msm8974.so:system/lib/hw/nfc_nci_pn547.msm8974.so \
+    vendor/sony/sirius/proprietary/lib/hw/nfc_nci.msm8974.so:system/lib/hw/nfc_nci.msm8974.so \
     vendor/sony/sirius/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/sirius/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/sirius/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
@@ -171,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/sirius/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/sirius/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
+    vendor/sony/sirius/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
