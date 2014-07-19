@@ -65,18 +65,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/firmware/touch_module_id_0x60.img:system/etc/firmware/touch_module_id_0x60.img \
     vendor/sony/castor_windy/proprietary/etc/firmware/touch_module_id_0x61.img:system/etc/firmware/touch_module_id_0x61.img \
     vendor/sony/castor_windy/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
+    vendor/sony/castor_windy/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    vendor/sony/castor_windy/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     vendor/sony/castor_windy/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sony/castor_windy/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/castor_windy/proprietary/etc/sforce/sforce_coef_music.bin:system/etc/sforce/sforce_coef_music.bin \
     vendor/sony/castor_windy/proprietary/etc/sforce/sforce_coef_video.bin:system/etc/sforce/sforce_coef_video.bin \
     vendor/sony/castor_windy/proprietary/etc/sysmon.cfg:system/etc/sysmon.cfg \
-    vendor/sony/castor_windy/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/FMSpeaker_btm.eq:system/etc/tfa98xx/FMSpeaker_btm.eq \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/FMSpeaker_btm.preset:system/etc/tfa98xx/FMSpeaker_btm.preset \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/FMSpeaker_top.eq:system/etc/tfa98xx/FMSpeaker_top.eq \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/FMSpeaker_top.preset:system/etc/tfa98xx/FMSpeaker_top.preset \
-    vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeaker_btm.eq:system/etc/tfa98xx/HiFiSpeaker_btm.eq \
-    vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeaker_btm.preset:system/etc/tfa98xx/HiFiSpeaker_btm.preset \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeakerRing_btm.eq:system/etc/tfa98xx/HiFiSpeakerRing_btm.eq \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeakerRing_btm.preset:system/etc/tfa98xx/HiFiSpeakerRing_btm.preset \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeakerRing_top.eq:system/etc/tfa98xx/HiFiSpeakerRing_top.eq \
@@ -85,35 +84,38 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeakerSforce_btm.preset:system/etc/tfa98xx/HiFiSpeakerSforce_btm.preset \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeakerSforce_top.eq:system/etc/tfa98xx/HiFiSpeakerSforce_top.eq \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeakerSforce_top.preset:system/etc/tfa98xx/HiFiSpeakerSforce_top.preset \
+    vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeaker_btm.eq:system/etc/tfa98xx/HiFiSpeaker_btm.eq \
+    vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeaker_btm.preset:system/etc/tfa98xx/HiFiSpeaker_btm.preset \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeaker_top.eq:system/etc/tfa98xx/HiFiSpeaker_top.eq \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeaker_top.preset:system/etc/tfa98xx/HiFiSpeaker_top.preset \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/TFA9890_btm.config:system/etc/tfa98xx/TFA9890_btm.config \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/TFA9890_top.config:system/etc/tfa98xx/TFA9890_top.config \
-    vendor/sony/castor_windy/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.eq:system/etc/tfa98xx/VoiceCallSpeaker_btm.eq \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.preset:system/etc/tfa98xx/VoiceCallSpeaker_btm.preset \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.eq:system/etc/tfa98xx/VoiceCallSpeaker_top.eq \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.preset:system/etc/tfa98xx/VoiceCallSpeaker_top.preset \
+    vendor/sony/castor_windy/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
+    vendor/sony/castor_windy/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/castor_windy/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
-    vendor/sony/castor_windy/proprietary/lib/hw/nfc_nci_pn547.msm8974.so:system/lib/hw/nfc_nci_pn547.msm8974.so \
+    vendor/sony/castor_windy/proprietary/lib/hw/nfc_nci.msm8974.so:system/lib/hw/nfc_nci.msm8974.so \
     vendor/sony/castor_windy/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/castor_windy/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/castor_windy/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/castor_windy/proprietary/lib/sysmon/sysmon_v_therm0.so:system/lib/sysmon/sysmon_v_therm0.so \
     vendor/sony/castor_windy/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    vendor/sony/castor_windy/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/castor_windy/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
+    vendor/sony/castor_windy/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/LGI02BN1_IMX132.dat:system/vendor/camera/LGI02BN1_IMX132.dat \
-    vendor/sony/castor_windy/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
-    vendor/sony/castor_windy/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/castor_windy/proprietary/vendor/camera/SEM02BN1_CACAO.dat:system/vendor/camera/SEM02BN1_CACAO.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/SEM02BN1.dat:system/vendor/camera/SEM02BN1.dat \
+    vendor/sony/castor_windy/proprietary/vendor/camera/SEM02BN1_CACAO.dat:system/vendor/camera/SEM02BN1_CACAO.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/SEM02BN1_IMX132.dat:system/vendor/camera/SEM02BN1_IMX132.dat \
+    vendor/sony/castor_windy/proprietary/vendor/camera/SOI08BS2.dat:system/vendor/camera/SOI08BS2.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/SOI08BS2_BU64291GWZ.dat:system/vendor/camera/SOI08BS2_BU64291GWZ.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/SOI08BS2_CACAO.dat:system/vendor/camera/SOI08BS2_CACAO.dat \
-    vendor/sony/castor_windy/proprietary/vendor/camera/SOI08BS2.dat:system/vendor/camera/SOI08BS2.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/SOI08BS2_IMX134.dat:system/vendor/camera/SOI08BS2_IMX134.dat \
+    vendor/sony/castor_windy/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/castor_windy/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/castor_windy/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
+    vendor/sony/castor_windy/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
