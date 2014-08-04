@@ -72,7 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/nicki/proprietary/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/sony/nicki/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/nicki/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+    vendor/sony/nicki/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/sony/nicki/proprietary/lib/hw/lights.vendor.msm8960.so:system/lib/hw/lights.vendor.msm8960.so \
     vendor/sony/nicki/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/nicki/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
