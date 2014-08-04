@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/taoshan/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
-    vendor/sony/taoshan/proprietary/lib/hw/vendor-lights.msm8960.so:system/lib/hw/vendor-lights.msm8960.so \
+    vendor/sony/taoshan/proprietary/lib/hw/lights.vendor.msm8960.so:system/lib/hw/lights.vendor.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
