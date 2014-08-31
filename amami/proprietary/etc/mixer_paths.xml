@@ -264,6 +264,15 @@
     <!-- ssr qmic -->
     <ctl name="AIF1_CAP Mixer SLIM TX10" value="0" />
     <!-- ssr qmic end-->
+
+    <!-- deep buffer playback -->
+    <ctl name="Incall_Music Audio Mixer MultiMedia1" value="0" />
+    <!-- deep buffer playback end -->
+
+    <!-- low latency playback -->
+    <ctl name="Incall_Music Audio Mixer MultiMedia5" value="0" />
+    <!-- low latency playback end -->
+
     <!-- audio record compress-->
     <ctl name="MultiMedia8 Mixer SLIM_0_TX" value="0" />
     <ctl name="MultiMedia8 Mixer INTERNAL_BT_SCO_TX" value="0" />
@@ -321,6 +330,15 @@
         <ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia1" value="1" />
     </path>
 
+    <path name="deep-buffer-playback incall-music">
+        <ctl name="Incall_Music Audio Mixer MultiMedia1" value="1" />
+        <ctl name="Incall_Music Audio Mixer MultiMedia5" value="1" />
+    </path>
+
+    <path name="deep-buffer-playback incall-music-bt">
+        <path name="deep-buffer-playback incall-music" />
+    </path>
+
     <path name="low-latency-playback">
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="1" />
     </path>
@@ -358,6 +376,13 @@
 
     <path name="low-latency-playback transmission-fm">
         <ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia5" value="1" />
+    </path>
+
+    <path name="low-latency-playback incall-music">
+    </path>
+
+    <path name="low-latency-playback incall-music-bt">
+        <path name="low-latency-playback incall-music" />
     </path>
 
     <path name="multi-channel-playback hdmi">
@@ -472,6 +497,14 @@
     <path name="voice-call usb-headphones">
         <ctl name="AFE_PCM_RX_Voice Mixer CSVoice" value="1" />
         <ctl name="Voice_Tx Mixer AFE_PCM_TX_Voice" value="1" />
+    </path>
+
+    <path name="voice-call incall-music">
+        <path name="voice-call" />
+    </path>
+
+    <path name="voice-call incall-music-bt">
+        <path name="voice-call bt-sco" />
     </path>
 
     <path name="voice2-call">
@@ -986,6 +1019,19 @@
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
+    <path name="mono-mic-split-stereo">
+        <ctl name="AIF1_CAP Mixer SLIM TX7" value="1" />
+        <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
+        <ctl name="SLIM TX7 MUX" value="DEC3" />
+        <ctl name="SLIM TX8 MUX" value="DEC3" />
+        <ctl name="DEC3 MUX" value="ADC4" />
+        <!-- 66 % of 124 (range 0 - 124) Register: 0x231 -->
+        <ctl name="DEC3 Volume" value="82" />
+        <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
+        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="SLIM_0_TX Channels" value="Two" />
+    </path>
+
     <path name="speaker-mic-liquid">
         <path name="dmic1" />
         <ctl name="DEC9 Volume" value="111" />
@@ -1062,10 +1108,10 @@
         <ctl name="RX2 MIX1 INP1" value="RX2" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
-        <!--75 % of 20 register: 0x1AE-->
-        <ctl name="HPHL Volume" value="15" />
-        <!--75 % of 20 register: 0x1B4-->
-        <ctl name="HPHR Volume" value="15" />
+        <!--70 % of 20 register: 0x1AE-->
+        <ctl name="HPHL Volume" value="14" />
+        <!--70 % of 20 register: 0x1B4-->
+        <ctl name="HPHR Volume" value="14" />
         <!--66 % of 124 (rounded) register: 0x2B7-->
         <ctl name="RX1 Digital Volume" value="82" />
         <!--66 % of 124 (rounded) register: 0x2BF-->
@@ -1655,7 +1701,16 @@
     </path>
 
     <path name="voice-tty-vco-handset-mic">
-        <path name="handset" />
+        <path name="handset-mic" />
+    </path>
+
+    <path name="incall-music">
+        <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
+        <ctl name="SLIM RX2 MUX" value="AIF1_PB" />
+    </path>
+
+    <path name="incall-music-bt">
+        <path name="incall-music" />
     </path>
 
     <path name="listen-handset-mic">
