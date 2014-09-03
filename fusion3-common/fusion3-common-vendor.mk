@@ -19,4 +19,13 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 endif
 
+ifeq ($(SOMC_CFG_SENSORS_COMPASS_AK8963),yes)
+ifeq ($(SOMC_CFG_SENSORS_AKM8963_DUMMY),)
+
+PRODUCT_PACKAGES += \
+    libsensors_akm8963
+
+endif
+endif
+
 $(call inherit-product, vendor/sony/fusion3-common/fusion3-common-vendor-blobs.mk)
