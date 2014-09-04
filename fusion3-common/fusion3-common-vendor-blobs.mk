@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/fusion3-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/fusion3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/sony/fusion3-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/fusion3-common/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/fusion3-common/proprietary/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/fusion3-common/proprietary/bin/taimport:system/bin/taimport \
