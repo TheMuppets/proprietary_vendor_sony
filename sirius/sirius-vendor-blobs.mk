@@ -40,6 +40,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
+    vendor/sony/sirius/proprietary/etc/firmware/d6502/mba.b00:system/etc/firmware/d6502/mba.b00 \
+    vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b01:system/etc/firmware/d6502/modem.b01 \
+    vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.mdt:system/etc/firmware/d6502/modem.mdt \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
