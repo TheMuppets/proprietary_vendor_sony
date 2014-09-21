@@ -118,9 +118,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0257.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0257.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0399.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0399.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x039d.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x039d.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0408.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0408.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0409.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0409.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x040b.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x040b.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x040d.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x040d.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0446.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0446.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0455.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0455.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0458.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0458.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0459.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0459.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x045b.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x045b.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x045d.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x045d.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0485.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0485.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0488.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0488.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0489.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0489.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x048b.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x048b.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x048d.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x048d.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0609.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0609.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0659.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0659.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0681.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0681.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0689.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0689.bin \
     vendor/sony/sirius/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
     vendor/sony/sirius/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/sirius/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
