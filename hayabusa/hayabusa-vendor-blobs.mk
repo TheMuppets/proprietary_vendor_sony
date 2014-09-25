@@ -152,9 +152,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/hayabusa/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/hayabusa/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/hayabusa/proprietary/lib/hw/vendor-camera.qcom.so:system/lib/hw/vendor-camera.qcom.so \
+    vendor/sony/hayabusa/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/hayabusa/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/sony/hayabusa/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
+    vendor/sony/hayabusa/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/hayabusa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/hayabusa/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/hayabusa/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
