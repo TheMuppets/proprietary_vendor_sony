@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2013 The CyanogenMod Project
+# Copyright (C) 2011-2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -67,10 +67,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/sony/nicki/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/sony/nicki/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/sony/nicki/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/nicki/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/nicki/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/sony/nicki/proprietary/lib/hw/lights.vendor.msm8960.so:system/lib/hw/lights.vendor.msm8960.so \
+    vendor/sony/nicki/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/nicki/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/nicki/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/nicki/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/nicki/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -143,7 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
     vendor/sony/nicki/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/nicki/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/sony/nicki/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/nicki/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/nicki/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/nicki/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/nicki/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
@@ -187,4 +187,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/sony/nicki/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/nicki/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/sony/nicki/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/sony/nicki/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so

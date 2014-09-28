@@ -19,8 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
     vendor/sony/fusion3-common/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/fusion3-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/sony/fusion3-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/fusion3-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/sony/fusion3-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/fusion3-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/fusion3-common/proprietary/bin/ks:system/bin/ks \
     vendor/sony/fusion3-common/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -29,9 +29,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/fusion3-common/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/fusion3-common/proprietary/bin/ta2bin:system/bin/ta2bin \
-    vendor/sony/fusion3-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/fusion3-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/fusion3-common/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
+    vendor/sony/fusion3-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/fusion3-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/fusion3-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/fusion3-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -66,13 +66,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/sony/fusion3-common/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/sony/fusion3-common/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
@@ -86,14 +86,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/sony/fusion3-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/fusion3-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/fusion3-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
+    vendor/sony/fusion3-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
+    vendor/sony/fusion3-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/sony/fusion3-common/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
+    vendor/sony/fusion3-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
+    vendor/sony/fusion3-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/sony/fusion3-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/fusion3-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/fusion3-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/fusion3-common/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/fusion3-common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-    vendor/sony/fusion3-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -111,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
     vendor/sony/fusion3-common/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/fusion3-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/fusion3-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/fusion3-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/fusion3-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/sony/fusion3-common/proprietary/lib/libidd.so:system/lib/libidd.so \
@@ -128,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/fusion3-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/fusion3-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \
-    vendor/sony/fusion3-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/fusion3-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/fusion3-common/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/fusion3-common/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
@@ -138,37 +140,35 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
-    vendor/sony/fusion3-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/sony/fusion3-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/sony/fusion3-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/fusion3-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/fusion3-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-    vendor/sony/fusion3-common/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/fusion3-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/fusion3-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/fusion3-common/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/fusion3-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/sony/fusion3-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/fusion3-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/fusion3-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/sony/fusion3-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/fusion3-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/sony/fusion3-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/sony/fusion3-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/sony/fusion3-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/fusion3-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/fusion3-common/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/sony/fusion3-common/proprietary/lib/libsensors_akm8963.so:system/lib/libsensors_akm8963.so \
+    vendor/sony/fusion3-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
+    vendor/sony/fusion3-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
     vendor/sony/fusion3-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/fusion3-common/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
-    vendor/sony/fusion3-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
-    vendor/sony/fusion3-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/fusion3-common/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/fusion3-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
@@ -187,8 +187,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_pm8921_tz.so:system/lib/sysmon/sysmon_pm8921_tz.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor10.so:system/lib/sysmon/sysmon_tsens_tz_sensor10.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
+    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor10.so:system/lib/sysmon/sysmon_tsens_tz_sensor10.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor2.so:system/lib/sysmon/sysmon_tsens_tz_sensor2.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor3.so:system/lib/sysmon/sysmon_tsens_tz_sensor3.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor4.so:system/lib/sysmon/sysmon_tsens_tz_sensor4.so \

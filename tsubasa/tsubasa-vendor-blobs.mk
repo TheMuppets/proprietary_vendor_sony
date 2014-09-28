@@ -211,7 +211,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/tsubasa/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/tsubasa/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/tsubasa/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/tsubasa/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/tsubasa/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/tsubasa/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/tsubasa/proprietary/lib/libqdi.so:system/lib/libqdi.so \

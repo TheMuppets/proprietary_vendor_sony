@@ -224,7 +224,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/mint/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/mint/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/mint/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/mint/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/mint/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/mint/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/mint/proprietary/lib/libqdi.so:system/lib/libqdi.so \
