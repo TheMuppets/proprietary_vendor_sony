@@ -90,13 +90,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor/proprietary/etc/tfa98xx/HiFiSpeaker_btm.preset:system/etc/tfa98xx/HiFiSpeaker_btm.preset \
     vendor/sony/castor/proprietary/etc/tfa98xx/HiFiSpeaker_top.eq:system/etc/tfa98xx/HiFiSpeaker_top.eq \
     vendor/sony/castor/proprietary/etc/tfa98xx/HiFiSpeaker_top.preset:system/etc/tfa98xx/HiFiSpeaker_top.preset \
+    vendor/sony/castor/proprietary/etc/tfa98xx/TFA9890.patch:system/etc/tfa98xx/TFA9890.patch \
     vendor/sony/castor/proprietary/etc/tfa98xx/TFA9890_btm.config:system/etc/tfa98xx/TFA9890_btm.config \
     vendor/sony/castor/proprietary/etc/tfa98xx/TFA9890_top.config:system/etc/tfa98xx/TFA9890_top.config \
+    vendor/sony/castor/proprietary/etc/tfa98xx/VoiceCallEarpice_top.eq:system/etc/tfa98xx/VoiceCallEarpice_top.eq \
+    vendor/sony/castor/proprietary/etc/tfa98xx/VoiceCallEarpice_top.preset:system/etc/tfa98xx/VoiceCallEarpice_top.preset \
     vendor/sony/castor/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.eq:system/etc/tfa98xx/VoiceCallSpeaker_btm.eq \
     vendor/sony/castor/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.preset:system/etc/tfa98xx/VoiceCallSpeaker_btm.preset \
     vendor/sony/castor/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.eq:system/etc/tfa98xx/VoiceCallSpeaker_top.eq \
     vendor/sony/castor/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.preset:system/etc/tfa98xx/VoiceCallSpeaker_top.preset \
     vendor/sony/castor/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
+    vendor/sony/castor/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/castor/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/castor/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
     vendor/sony/castor/proprietary/lib/hw/nfc_nci_pn547.msm8974.so:system/lib/hw/nfc_nci_pn547.msm8974.so \
