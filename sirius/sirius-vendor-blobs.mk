@@ -177,7 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/sirius/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/sirius/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
-    vendor/sony/sirius/proprietary/lib/hw/nfc_nci_pn547.msm8974.so:system/lib/hw/nfc_nci_pn547.msm8974.so \
     vendor/sony/sirius/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/sirius/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/sirius/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
