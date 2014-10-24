@@ -40,6 +40,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
+    vendor/sony/sirius/proprietary/etc/firmware/d6502/mba.b00:system/etc/firmware/d6502/mba.b00 \
+    vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b01:system/etc/firmware/d6502/modem.b01 \
+    vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.mdt:system/etc/firmware/d6502/modem.mdt \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -115,9 +118,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0257.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0257.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0399.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0399.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x039d.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x039d.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0408.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0408.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0409.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0409.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x040b.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x040b.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x040d.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x040d.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0446.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0446.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0455.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0455.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0458.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0458.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0459.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0459.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x045b.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x045b.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x045d.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x045d.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0485.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0485.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0488.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0488.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0489.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0489.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x048b.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x048b.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x048d.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x048d.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0609.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0609.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0659.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0659.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0681.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0681.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0689.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0689.bin \
     vendor/sony/sirius/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
     vendor/sony/sirius/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/sirius/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
@@ -144,13 +163,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/HiFiSpeaker_btm.preset:system/etc/tfa98xx/HiFiSpeaker_btm.preset \
     vendor/sony/sirius/proprietary/etc/tfa98xx/HiFiSpeaker_top.eq:system/etc/tfa98xx/HiFiSpeaker_top.eq \
     vendor/sony/sirius/proprietary/etc/tfa98xx/HiFiSpeaker_top.preset:system/etc/tfa98xx/HiFiSpeaker_top.preset \
+    vendor/sony/sirius/proprietary/etc/tfa98xx/TFA9890.patch:system/etc/tfa98xx/TFA9890.patch \
     vendor/sony/sirius/proprietary/etc/tfa98xx/TFA9890_btm.config:system/etc/tfa98xx/TFA9890_btm.config \
     vendor/sony/sirius/proprietary/etc/tfa98xx/TFA9890_top.config:system/etc/tfa98xx/TFA9890_top.config \
+    vendor/sony/sirius/proprietary/etc/tfa98xx/VoiceCallEarpice_top.eq:system/etc/tfa98xx/VoiceCallEarpice_top.eq \
+    vendor/sony/sirius/proprietary/etc/tfa98xx/VoiceCallEarpice_top.preset:system/etc/tfa98xx/VoiceCallEarpice_top.preset \
     vendor/sony/sirius/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.eq:system/etc/tfa98xx/VoiceCallSpeaker_btm.eq \
     vendor/sony/sirius/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.preset:system/etc/tfa98xx/VoiceCallSpeaker_btm.preset \
     vendor/sony/sirius/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.eq:system/etc/tfa98xx/VoiceCallSpeaker_top.eq \
     vendor/sony/sirius/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.preset:system/etc/tfa98xx/VoiceCallSpeaker_top.preset \
     vendor/sony/sirius/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
+    vendor/sony/sirius/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/sirius/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/sirius/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
     vendor/sony/sirius/proprietary/lib/hw/nfc_nci_pn547.msm8974.so:system/lib/hw/nfc_nci_pn547.msm8974.so \

@@ -240,6 +240,9 @@
     <ctl name="QCHAT_Tx Mixer SEC_AUX_PCM_TX_Voice" value="0" />
     <!-- QCHAT End -->
 
+    <!-- EC_REF -->
+    <ctl name="AUDIO_REF_EC_UL1 MUX" value="None" />
+
     <!-- anc headset -->
     <!-- speaker anc combo -->
     <ctl name="RX4 DSM MUX" value="CIC_OUT" />
@@ -383,48 +386,48 @@
     </path>
 
     <path name="deep-buffer-playback speaker-and-headphones">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback speaker-anc-nc-headphone">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback speaker-anc-nce-headphone">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback speaker-anc-nc-off-headphone">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback speaker-anc-nce-off-headphone">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback speaker-ring-anc-nc-headphone">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback speaker-ring-anc-nce-headphone">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback speaker-ring-anc-nc-off-headphone">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback speaker-ring-anc-nce-off-headphone">
-        <path name="deep-buffer-playback" />
         <path name="deep-buffer-playback speaker" />
+        <path name="deep-buffer-playback" />
     </path>
 
     <path name="deep-buffer-playback hdmi">
@@ -492,48 +495,48 @@
     </path>
 
     <path name="low-latency-playback speaker-and-headphones">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback speaker-anc-nc-headphone">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback speaker-anc-nce-headphone">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback speaker-anc-nc-off-headphone">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback speaker-anc-nce-off-headphone">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback speaker-ring-anc-nc-headphone">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback speaker-ring-anc-nce-headphone">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback speaker-ring-anc-nc-off-headphone">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback speaker-ring-anc-nce-off-headphone">
-        <path name="low-latency-playback" />
         <path name="low-latency-playback speaker" />
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback hdmi">
@@ -607,48 +610,48 @@
     </path>
 
     <path name="compress-offload-playback speaker-and-headphones">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-anc-nc-headphone">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-anc-nce-headphone">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-anc-nc-off-headphone">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-anc-nce-off-headphone">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-ring-anc-nc-headphone">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-ring-anc-nce-headphone">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-ring-anc-nc-off-headphone">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-ring-anc-nce-off-headphone">
-        <path name="compress-offload-playback" />
         <path name="compress-offload-playback speaker" />
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback hdmi">
@@ -1050,11 +1053,11 @@
     </path>
 
     <path name="adc2">
+        <ctl name="IIR1 INP1 MUX" value="DEC5" />
         <ctl name="AIF1_CAP Mixer SLIM TX7" value="1"/>
         <ctl name="SLIM_0_TX Channels" value="One" />
         <ctl name="SLIM TX7 MUX" value="DEC5" />
         <ctl name="DEC5 MUX" value="ADC2" />
-        <ctl name="IIR1 INP1 MUX" value="DEC5" />
     </path>
 
     <path name="adc4">
@@ -1411,6 +1414,19 @@
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
+    <path name="mono-mic-split-stereo">
+        <ctl name="AIF1_CAP Mixer SLIM TX7" value="1" />
+        <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
+        <ctl name="SLIM TX7 MUX" value="DEC3" />
+        <ctl name="SLIM TX8 MUX" value="DEC3" />
+        <ctl name="DEC3 MUX" value="ADC4" />
+        <!-- 66 % of 124 (range 0 - 124) Register: 0x231 -->
+        <ctl name="DEC3 Volume" value="82" />
+        <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
+        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="SLIM_0_TX Channels" value="Two" />
+    </path>
+
     <path name="speaker-mic-liquid">
         <path name="dmic1" />
         <ctl name="DEC9 Volume" value="111" />
@@ -1440,7 +1456,7 @@
     <path name="handset">
         <ctl name="TFA98XX_PARAM_TYPE" value="Voicecall" />
         <ctl name="TFA98XX_CHANNEL" value="Top" />
-        <ctl name="TFA98XX_BYPASS_DSP" value="On" />
+        <ctl name="TFA98XX_BYPASS_DSP" value="Off" />
         <ctl name="TFA98XX_SPKR_AMP" value="1" />
     </path>
 
@@ -1495,11 +1511,11 @@
     </path>
 
     <path name="headset-mic">
-        <path name="adc2" />
         <!--80 % of 124 (rounded) register: 0x241-->
         <ctl name="DEC5 Volume" value="99" />
         <!--42 % of 19 (rounded) register: 0x155-->
         <ctl name="ADC2 Volume" value="8" />
+        <path name="adc2" />
     </path>
 
     <path name="headset-mic-asr">
@@ -1566,6 +1582,7 @@
 
     <path name="voice-headphones">
         <path name="headphone-voice-cfg" />
+        <path name="sidetone-headphones" />
         <path name="voice-eq-off" />
         <path name="stereo-path-eq-off" />
     </path>
@@ -1592,7 +1609,6 @@
 
     <path name="voice-headset-mic">
         <path name="headset-mic" />
-        <path name="sidetone-headphones" />
     </path>
 
     <path name="speaker-and-headphones">
@@ -1907,6 +1923,10 @@
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
         <ctl name="ADC4 Volume" value="12" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
+    </path>
+
+    <path name="echo-reference">
+        <ctl name="AUDIO_REF_EC_UL1 MUX" value="SLIM_RX" />
     </path>
 
     <path name="dmic-endfire">
@@ -2329,6 +2349,7 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <path name="dnc-sidetone-headphones" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="COMP1 Switch" value="0" />
@@ -2344,6 +2365,7 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <path name="dnc-sidetone-headphones" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="COMP1 Switch" value="0" />
@@ -2359,6 +2381,7 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <path name="dnc-sidetone-headphones" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="COMP1 Switch" value="0" />
@@ -2374,6 +2397,7 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <path name="dnc-sidetone-headphones" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="COMP1 Switch" value="0" />
@@ -2389,6 +2413,7 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <path name="dnc-sidetone-headphones" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="COMP1 Switch" value="0" />
@@ -2404,6 +2429,7 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <path name="dnc-sidetone-headphones" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="COMP1 Switch" value="0" />
@@ -2431,7 +2457,6 @@
         <ctl name="DEC4 MUX" value="ADC3" />
         <ctl name="IIR1 INP1 MUX" value="DEC5" />
         <ctl name="IIR1 INP2 MUX" value="DEC4" />
-        <path name="dnc-sidetone-headphones" />
         <ctl name="IIR2 INP1 MUX" value="DEC5" />
         <ctl name="IIR2 INP2 MUX" value="DEC4" />
         <ctl name="DEC5 Volume" value="84" />

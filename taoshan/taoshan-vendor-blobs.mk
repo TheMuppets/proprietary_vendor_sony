@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/taoshan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/taoshan/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
-    vendor/sony/taoshan/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/taoshan/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/taoshan/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/taoshan/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/taoshan/proprietary/lib/libqdi.so:system/lib/libqdi.so \
