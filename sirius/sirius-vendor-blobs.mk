@@ -164,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/HiFiSpeaker_top.eq:system/etc/tfa98xx/HiFiSpeaker_top.eq \
     vendor/sony/sirius/proprietary/etc/tfa98xx/HiFiSpeaker_top.preset:system/etc/tfa98xx/HiFiSpeaker_top.preset \
     vendor/sony/sirius/proprietary/etc/tfa98xx/TFA9890.patch:system/etc/tfa98xx/TFA9890.patch \
+    vendor/sony/sirius/proprietary/etc/tfa98xx/TFA9890_Receiver.config:system/etc/tfa98xx/TFA9890_Receiver.config \
     vendor/sony/sirius/proprietary/etc/tfa98xx/TFA9890_btm.config:system/etc/tfa98xx/TFA9890_btm.config \
     vendor/sony/sirius/proprietary/etc/tfa98xx/TFA9890_top.config:system/etc/tfa98xx/TFA9890_top.config \
     vendor/sony/sirius/proprietary/etc/tfa98xx/VoiceCallEarpice_top.eq:system/etc/tfa98xx/VoiceCallEarpice_top.eq \
