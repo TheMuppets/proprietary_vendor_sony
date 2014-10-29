@@ -177,7 +177,6 @@ vendor/sony/tianchi/proprietary/lib/libmorpho_object_tracker2.so:system/lib/libm
 vendor/sony/tianchi/proprietary/lib/libmorpho_posture_detect.so:system/lib/libmorpho_posture_detect.so \
 vendor/sony/tianchi/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
 vendor/sony/tianchi/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
-vendor/sony/tianchi/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
 vendor/sony/tianchi/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
 vendor/sony/tianchi/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
 vendor/sony/tianchi/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
@@ -190,7 +189,6 @@ vendor/sony/tianchi/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
 vendor/sony/tianchi/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 vendor/sony/tianchi/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
 vendor/sony/tianchi/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.vendor.default.so \
-vendor/sony/tianchi/proprietary/lib/hw/nfc_nci_pn547.msm8226.so:system/lib/hw/nfc_nci_pn547.msm8226.so \
 vendor/sony/tianchi/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
 vendor/sony/tianchi/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
 vendor/sony/tianchi/proprietary/lib/sysmon/sysmon_charging.so:system/lib/sysmon/sysmon_charging.so \
