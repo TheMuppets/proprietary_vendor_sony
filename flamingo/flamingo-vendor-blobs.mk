@@ -161,7 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/sony/flamingo/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/sony/flamingo/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/sony/flamingo/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+    vendor/sony/flamingo/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/sony/flamingo/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.msm8226.so \
     vendor/sony/flamingo/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/flamingo/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
