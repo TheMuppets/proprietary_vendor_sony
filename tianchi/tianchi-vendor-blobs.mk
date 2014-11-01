@@ -222,7 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi/proprietary/vendor/camera/morpho_scenedetect.cfg:system/vendor/camera/morpho_scenedetect.cfg \
     vendor/sony/tianchi/proprietary/vendor/camera/morpho_super_resolution.cfg:system/vendor/camera/morpho_super_resolution.cfg \
     vendor/sony/tianchi/proprietary/vendor/camera/morpho_tracksolid.cfg:system/vendor/camera/morpho_tracksolid.cfg \
-    vendor/sony/tianchi/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/sony/tianchi/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/sony/tianchi/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/sony/tianchi/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
@@ -231,7 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/sony/tianchi/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/tianchi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/sony/tianchi/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/sony/tianchi/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/sony/tianchi/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/sony/tianchi/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
