@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/qcks:system/bin/qcks \
     vendor/sony/huashan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/huashan/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/sony/huashan/proprietary/bin/rild:system/bin/rild \
     vendor/sony/huashan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/huashan/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/huashan/proprietary/bin/system_monitor:system/bin/system_monitor \
@@ -209,6 +210,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/sony/huashan/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/sony/huashan/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/sony/huashan/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/sony/huashan/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/sony/huashan/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/sony/huashan/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/huashan/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/huashan/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
