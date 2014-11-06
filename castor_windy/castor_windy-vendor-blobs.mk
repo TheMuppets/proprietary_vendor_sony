@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeaker_top.eq:system/etc/tfa98xx/HiFiSpeaker_top.eq \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/HiFiSpeaker_top.preset:system/etc/tfa98xx/HiFiSpeaker_top.preset \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/TFA9890.patch:system/etc/tfa98xx/TFA9890.patch \
+    vendor/sony/castor_windy/proprietary/etc/tfa98xx/TFA9890_Receiver.config:system/etc/tfa98xx/TFA9890_Receiver.config \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/TFA9890_btm.config:system/etc/tfa98xx/TFA9890_btm.config \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/TFA9890_top.config:system/etc/tfa98xx/TFA9890_top.config \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/VoiceCallEarpice_top.eq:system/etc/tfa98xx/VoiceCallEarpice_top.eq \
@@ -101,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/castor_windy/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
-    vendor/sony/castor_windy/proprietary/lib/hw/nfc_nci_pn547.msm8974.so:system/lib/hw/nfc_nci_pn547.msm8974.so \
     vendor/sony/castor_windy/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/castor_windy/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/castor_windy/proprietary/lib/sysmon/sysmon_v_therm0.so:system/lib/sysmon/sysmon_v_therm0.so \
