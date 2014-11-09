@@ -112,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/sony/taoshan/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/taoshan/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/sony/taoshan/proprietary/lib/libemoji.so:system/lib/libemoji.so \
     vendor/sony/taoshan/proprietary/lib/libfastcvopt.so:system/lib/libfastcvopt.so \
     vendor/sony/taoshan/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/taoshan/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
