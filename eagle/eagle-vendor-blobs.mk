@@ -136,7 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/eagle/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/sony/eagle/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
-    vendor/sony/eagle/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.msm8226.so \
+    vendor/sony/eagle/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.vendor.msm8226.so \
     vendor/sony/eagle/proprietary/lib/hw/nfc_nci_pn547.msm8226.so:system/lib/hw/nfc_nci_pn547.msm8226.so \
     vendor/sony/eagle/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     vendor/sony/eagle/proprietary/lib/hw/sensorsecond.msm8226.so:system/lib/hw/sensorsecond.msm8226.so \
