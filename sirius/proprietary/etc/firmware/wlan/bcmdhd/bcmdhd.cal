@@ -1,3 +1,4 @@
+ppr_flags=1
 NVRAMRev=$Rev: 410316 $
 sromrev=11
 boardrev=0x1203
@@ -6,8 +7,8 @@ boardflags=0x00000c01
 boardflags2=0x00002000
 boardflags3=0x8101188
 macaddr=00:90:4c:c5:12:38
-ccode=XZ
-regrev=11
+ccode=XT
+regrev=212
 antswitch=0
 pdgain2g=7
 pdgain5g=7
@@ -49,20 +50,20 @@ maxp2ga0=82
 maxp5ga0=74,74,84,74
 cckbw202gpo=0x7777
 cckbw20ul2gpo=0x0
-mcsbw202gpo=0x88888888
+mcsbw202gpo=0xaaa88888
 mcsbw402gpo=0x00000000
 dot11agofdmhrbw202gpo=0x8888
 ofdmlrbw202gpo=0x0088
 tssifloor2g=400
-mcsbw205glpo=0x55533333
+mcsbw205glpo=0x77733333
 mcsbw405glpo=0x99999999
 mcsbw805glpo=0xdddddddd
 mcsbw1605glpo=0x00000000
-mcsbw205gmpo=0x66644444
+mcsbw205gmpo=0x88844444
 mcsbw405gmpo=0x99977777
 mcsbw805gmpo=0xbbbbbbbb
 mcsbw1605gmpo=0x00000000
-mcsbw205ghpo=0x77777777
+mcsbw205ghpo=0x99977777
 mcsbw405ghpo=0x88888888
 mcsbw805ghpo=0x88888888
 mcsbw1605ghpo=0x00000000
@@ -109,5 +110,15 @@ rpcal5gb2=0x0070
 rssicorrnorm_c0=-5,-5
 rssicorrnorm5g_c0=-5,-5,-5,-5,-5,-5,-5,-5,-5,-6,-6,-6
 
+#Band_Edge_Offset_param
+powoffs5g20mtna0=0,0,0,0,0,0,0
+powoffs5g40mtna0=0,0,0,0,0
+powoffs5g80mtna0=0,0,0,0,0
+
+#Factory_Cal_Offset_param
+powoffs2gtna0=0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sbpowoffs5g20mtna0=0,0,0,0
+sbpowoffs5g40mtna0=0,0,0,0
+sbpowoffs5g80mtna0=0,0,0,0
+
 muxenab=0x10
-r12t=0x00420002
