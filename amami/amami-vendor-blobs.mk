@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/etc/firmware/touch_module_id_0x54.img:system/etc/firmware/touch_module_id_0x54.img \
     vendor/sony/amami/proprietary/etc/firmware/touch_module_id_0x5d.img:system/etc/firmware/touch_module_id_0x5d.img \
     vendor/sony/amami/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/amami/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sony/amami/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/amami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
     vendor/sony/amami/proprietary/etc/sysmon.cfg:system/etc/sysmon.cfg \

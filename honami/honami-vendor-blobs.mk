@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5e.img:system/etc/firmware/touch_module_id_0x5e.img \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5f.img:system/etc/firmware/touch_module_id_0x5f.img \
     vendor/sony/honami/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/honami/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sony/honami/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/honami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
     vendor/sony/honami/proprietary/etc/sysmon.cfg:system/etc/sysmon.cfg \

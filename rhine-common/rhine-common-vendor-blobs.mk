@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/sony/rhine-common/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/sony/rhine-common/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/sony/rhine-common/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
     vendor/sony/rhine-common/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
