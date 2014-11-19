@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
     vendor/sony/castor/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
     vendor/sony/castor/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/sony/castor/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/sony/castor/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/sony/castor/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
     vendor/sony/castor/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
@@ -68,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
     vendor/sony/castor/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/sony/castor/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
-    vendor/sony/castor/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sony/castor/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/castor/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
     vendor/sony/castor/proprietary/etc/sforce/sforce_coef_music.bin:system/etc/sforce/sforce_coef_music.bin \
