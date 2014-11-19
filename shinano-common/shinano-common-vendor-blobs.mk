@@ -90,6 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
+    vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/shinano-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/sony/shinano-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/shinano-common/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
