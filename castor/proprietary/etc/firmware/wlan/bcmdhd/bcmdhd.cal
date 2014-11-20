@@ -1,3 +1,4 @@
+ppr_flags=1
 NVRAMRev=$Rev: 410316 $
 sromrev=11
 boardrev=0x1203
@@ -6,8 +7,8 @@ boardflags=0x00000c01
 boardflags2=0x00002000
 boardflags3=0x8101188
 macaddr=00:90:4c:c5:12:38
-ccode=XZ
-regrev=11
+ccode=XT
+regrev=212
 antswitch=0
 pdgain2g=7
 pdgain5g=7
@@ -101,4 +102,17 @@ rssicorrnorm5g_c0=-4,-4,-4,-5,-5,-5,-5,-5,-5,-6,-6,-6
 agbg0=0x01
 aga0=0x82
 muxenab=0x10
-r12t=0x00420002
+
+#Band_Edge_Offset_param
+rpcal2g=0x0000
+rpcal5gb0=0x0000
+rpcal5gb1=0x0000
+rpcal5gb2=0x0000
+powoffs5g20mtna0=0,0,0,0,0,0,0
+powoffs5g40mtna0=0,0,0,0,0
+powoffs5g80mtna0=0,0,0,0,0
+#Factory_Cal_Offset_param
+powoffs2gtna0=0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sbpowoffs5g20mtna0=0,0,0,0
+sbpowoffs5g40mtna0=0,0,0,0
+sbpowoffs5g80mtna0=0,0,0,0
