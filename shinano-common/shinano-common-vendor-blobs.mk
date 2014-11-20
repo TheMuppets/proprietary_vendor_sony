@@ -140,8 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
     vendor/sony/shinano-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/shinano-common/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/shinano-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/sony/shinano-common/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_cam_therm0.so:system/lib/sysmon/sysmon_cam_therm0.so \
     vendor/sony/shinano-common/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
