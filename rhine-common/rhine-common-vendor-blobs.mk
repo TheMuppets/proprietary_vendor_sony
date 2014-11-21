@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/rhine-common/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/rhine-common/proprietary/bin/suntrold:system/bin/suntrold \
-    vendor/sony/rhine-common/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/rhine-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/rhine-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/rhine-common/proprietary/bin/taimport:system/bin/taimport \
@@ -182,41 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
     vendor/sony/rhine-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
     vendor/sony/rhine-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/rhine-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
-    vendor/sony/rhine-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/rhine-common/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_charging.so:system/lib/sysmon/sysmon_charging.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_corelimit.so:system/lib/sysmon/sysmon_corelimit.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_dc_current_limit_value.so:system/lib/sysmon/sysmon_dc_current_limit_value.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_emmc_therm.so:system/lib/sysmon/sysmon_emmc_therm.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_gpu_perflevel.so:system/lib/sysmon/sysmon_gpu_perflevel.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_lcd_brightness_level.so:system/lib/sysmon/sysmon_lcd_brightness_level.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_modem_8974.so:system/lib/sysmon/sysmon_modem_8974.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_msm_therm.so:system/lib/sysmon/sysmon_msm_therm.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_msm_thermal_disable.so:system/lib/sysmon/sysmon_msm_thermal_disable.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_pa_therm0.so:system/lib/sysmon/sysmon_pa_therm0.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_pa_therm1.so:system/lib/sysmon/sysmon_pa_therm1.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_perflevel.so:system/lib/sysmon/sysmon_perflevel.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_pm8941_tz.so:system/lib/sysmon/sysmon_pm8941_tz.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_quiet_therm.so:system/lib/sysmon/sysmon_quiet_therm.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_interrupt.so:system/lib/sysmon/sysmon_tsens_interrupt.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor10.so:system/lib/sysmon/sysmon_tsens_tz_sensor10.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor2.so:system/lib/sysmon/sysmon_tsens_tz_sensor2.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor3.so:system/lib/sysmon/sysmon_tsens_tz_sensor3.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor4.so:system/lib/sysmon/sysmon_tsens_tz_sensor4.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor5.so:system/lib/sysmon/sysmon_tsens_tz_sensor5.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor6.so:system/lib/sysmon/sysmon_tsens_tz_sensor6.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor7.so:system/lib/sysmon/sysmon_tsens_tz_sensor7.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor8.so:system/lib/sysmon/sysmon_tsens_tz_sensor8.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor9.so:system/lib/sysmon/sysmon_tsens_tz_sensor9.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_usb_current_limit_value.so:system/lib/sysmon/sysmon_usb_current_limit_value.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_wlan_limit.so:system/lib/sysmon/sysmon_wlan_limit.so \
-    vendor/sony/rhine-common/proprietary/lib/sysmon/sysmon_xo_therm.so:system/lib/sysmon/sysmon_xo_therm.so \
     vendor/sony/rhine-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     vendor/sony/rhine-common/proprietary/usr/keylayout/mhl-rcp.kl:system/usr/keylayout/mhl-rcp.kl \
     vendor/sony/rhine-common/proprietary/usr/keylayout/msm8974-taiko-mtp-snd-card_Button_Jack.kl:system/usr/keylayout/msm8974-taiko-mtp-snd-card_Button_Jack.kl \

@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
     vendor/sony/castor/proprietary/etc/sforce/sforce_coef_music.bin:system/etc/sforce/sforce_coef_music.bin \
     vendor/sony/castor/proprietary/etc/sforce/sforce_coef_video.bin:system/etc/sforce/sforce_coef_video.bin \
-    vendor/sony/castor/proprietary/etc/sysmon.cfg:system/etc/sysmon.cfg \
     vendor/sony/castor/proprietary/etc/tfa98xx/FMSpeaker_btm.eq:system/etc/tfa98xx/FMSpeaker_btm.eq \
     vendor/sony/castor/proprietary/etc/tfa98xx/FMSpeaker_btm.preset:system/etc/tfa98xx/FMSpeaker_btm.preset \
     vendor/sony/castor/proprietary/etc/tfa98xx/FMSpeaker_top.eq:system/etc/tfa98xx/FMSpeaker_top.eq \
@@ -101,8 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/castor/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/castor/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/castor/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
-    vendor/sony/castor/proprietary/lib/sysmon/sysmon_v_therm0.so:system/lib/sysmon/sysmon_v_therm0.so \
     vendor/sony/castor/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/castor/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
     vendor/sony/castor/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \

@@ -31,9 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/togari/proprietary/etc/firmware/touch_module_id_0x44.img:system/etc/firmware/touch_module_id_0x44.img \
     vendor/sony/togari/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/togari/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
-    vendor/sony/togari/proprietary/etc/sysmon.cfg:system/etc/sysmon.cfg \
     vendor/sony/togari/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/togari/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/togari/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/togari/proprietary/usr/idc/max1187x_pen_0.idc:system/usr/idc/max1187x_pen_0.idc \
     vendor/sony/togari/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
