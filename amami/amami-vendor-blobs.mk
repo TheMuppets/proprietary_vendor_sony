@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/amami/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/amami/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/amami/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/amami/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \

@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/sirius/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/sirius/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/sirius/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/sirius/proprietary/bin/updatemiscta:system/bin/updatemiscta \
