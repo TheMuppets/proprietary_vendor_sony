@@ -65,23 +65,44 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/sony/shinano-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/shinano-common/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
-    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_halctrl_plugin.so:system/lib/camera/libexcal_halctrl_plugin.so \
-    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_idtctrl_plugin.so:system/lib/camera/libexcal_idtctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:system/lib/camera/libexcal_color_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_debug_display_plugin.so:system/lib/camera/libexcal_debug_display_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_exposure_ctrl_plugin.so:system/lib/camera/libexcal_exposure_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_face_detector_plugin.so:system/lib/camera/libexcal_face_detector_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_flicker_detector_plugin.so:system/lib/camera/libexcal_flicker_detector_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_focus_stats_conv_plugin.so:system/lib/camera/libexcal_focus_stats_conv_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_hal_ctrl_plugin.so:system/lib/camera/libexcal_hal_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_hdr_plugin.so:system/lib/camera/libexcal_hdr_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_idt_ctrl_plugin.so:system/lib/camera/libexcal_idt_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_image_conv_plugin.so:system/lib/camera/libexcal_image_conv_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_iq_ctrl_plugin.so:system/lib/camera/libexcal_iq_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_jpeg_enc_plugin.so:system/lib/camera/libexcal_jpeg_enc_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_lens_ctrl_plugin.so:system/lib/camera/libexcal_lens_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_motion_estimation_plugin.so:system/lib/camera/libexcal_motion_estimation_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_multiframe_nr_plugin.so:system/lib/camera/libexcal_multiframe_nr_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_object_tracker_plugin.so:system/lib/camera/libexcal_object_tracker_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_scene_detector_plugin.so:system/lib/camera/libexcal_scene_detector_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/lib/camera/libexcal_snapshot_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:system/lib/camera/libexcal_streaming_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
     vendor/sony/shinano-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/shinano-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/shinano-common/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_chokoball.so:system/lib/libcacao_chokoball.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_face.so:system/lib/libcacao_face.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_imageconv.so:system/lib/libcacao_imageconv.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_imgproc.so:system/lib/libcacao_imgproc.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_jpeg.so:system/lib/libcacao_jpeg.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_pal.so:system/lib/libcacao_pal.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_parammgr.so:system/lib/libcacao_parammgr.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_service.so:system/lib/libcacao_service.so \
+    vendor/sony/shinano-common/proprietary/lib/libcacao_system.so:system/lib/libcacao_system.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
-    vendor/sony/shinano-common/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
@@ -103,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/shinano-common/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
     vendor/sony/shinano-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
+    vendor/sony/shinano-common/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
     vendor/sony/shinano-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
     vendor/sony/shinano-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/shinano-common/proprietary/lib/libta.so:system/lib/libta.so \
