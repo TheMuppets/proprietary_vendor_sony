@@ -16,14 +16,32 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/bin/chargemon:system/bin/chargemon \
+    vendor/sony/sirius/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/sirius/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/sirius/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/sirius/proprietary/bin/updatemiscta:system/bin/updatemiscta \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
     vendor/sony/sirius/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
     vendor/sony/sirius/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
     vendor/sony/sirius/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
     vendor/sony/sirius/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/sony/sirius/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/firmware/BCM4339.hcd:system/etc/firmware/BCM4339.hcd \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
@@ -41,6 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/firmware/d6502/mba.b00:system/etc/firmware/d6502/mba.b00 \
     vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b01:system/etc/firmware/d6502/modem.b01 \
     vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.mdt:system/etc/firmware/d6502/modem.mdt \
+    vendor/sony/sirius/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
+    vendor/sony/sirius/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/sirius/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -135,7 +155,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0659.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0659.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0681.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0681.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x78_config_id_0x0689.bin:system/etc/firmware/touch_chip_id_0x78_config_id_0x0689.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
+    vendor/sony/sirius/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
+    vendor/sony/sirius/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
+    vendor/sony/sirius/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
+    vendor/sony/sirius/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
     vendor/sony/sirius/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
+    vendor/sony/sirius/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
+    vendor/sony/sirius/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/sirius/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/sirius/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/sony/sirius/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
@@ -174,6 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/sirius/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/sirius/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/sirius/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/sirius/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
     vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
     vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \

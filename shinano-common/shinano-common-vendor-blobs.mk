@@ -28,28 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/shinano-common/proprietary/bin/radish:system/bin/radish \
     vendor/sony/shinano-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/sony/shinano-common/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/shinano-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/shinano-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/sony/shinano-common/proprietary/etc/firmware/BCM4339.hcd:system/etc/firmware/BCM4339.hcd \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
@@ -58,13 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/sony/shinano-common/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
-    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
-    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
@@ -87,8 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
-    vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/shinano-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/sony/shinano-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/shinano-common/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
@@ -113,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/shinano-common/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/sony/shinano-common/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/shinano-common/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
     vendor/sony/shinano-common/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
     vendor/sony/shinano-common/proprietary/lib/libface.so:system/lib/libface.so \

@@ -16,14 +16,32 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/bin/chargemon:system/bin/chargemon \
+    vendor/sony/castor_windy/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/castor_windy/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/castor_windy/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/castor_windy/proprietary/bin/updatemiscta:system/bin/updatemiscta \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
     vendor/sony/castor_windy/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
     vendor/sony/castor_windy/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
     vendor/sony/castor_windy/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
     vendor/sony/castor_windy/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/sony/castor_windy/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/sony/castor_windy/proprietary/etc/firmware/BCM4339.hcd:system/etc/firmware/BCM4339.hcd \
     vendor/sony/castor_windy/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/sony/castor_windy/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
     vendor/sony/castor_windy/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
@@ -38,6 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
     vendor/sony/castor_windy/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
     vendor/sony/castor_windy/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
+    vendor/sony/castor_windy/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
+    vendor/sony/castor_windy/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
     vendor/sony/castor_windy/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/castor_windy/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/castor_windy/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -62,7 +82,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/castor_windy/proprietary/etc/firmware/touch_module_id_0x60.img:system/etc/firmware/touch_module_id_0x60.img \
     vendor/sony/castor_windy/proprietary/etc/firmware/touch_module_id_0x61.img:system/etc/firmware/touch_module_id_0x61.img \
+    vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
+    vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
+    vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
+    vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
+    vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
     vendor/sony/castor_windy/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
+    vendor/sony/castor_windy/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
+    vendor/sony/castor_windy/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/castor_windy/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/sony/castor_windy/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     vendor/sony/castor_windy/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
@@ -98,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/castor_windy/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
+    vendor/sony/castor_windy/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/castor_windy/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/castor_windy/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
