@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
     vendor/sony/shinano-common/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/shinano-common/proprietary/lib/libface_wrapper.so:system/lib/libface_wrapper.so \
-    vendor/sony/shinano-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/shinano-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/shinano-common/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/shinano-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
