@@ -136,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
     vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/rhine-common/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
-    vendor/sony/rhine-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/sony/rhine-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/rhine-common/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
     vendor/sony/rhine-common/proprietary/lib/camera/libexcal_halctrl_plugin.so:system/lib/camera/libexcal_halctrl_plugin.so \
