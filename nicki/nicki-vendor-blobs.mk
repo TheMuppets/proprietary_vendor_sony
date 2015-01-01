@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/nicki/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/sony/nicki/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
-    vendor/sony/nicki/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/sony/nicki/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/nicki/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/nicki/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
@@ -173,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/sony/nicki/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/nicki/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/sony/nicki/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/sony/nicki/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/nicki/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/sony/nicki/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
