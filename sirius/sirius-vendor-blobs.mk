@@ -173,90 +173,20 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/sirius/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/sirius/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
+    vendor/sony/sirius/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/sirius/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/sirius/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/sirius/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/cam_ctrl.dat:system/vendor/camera/LGI02BN1/cam_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/cap_ctrl.dat:system/vendor/camera/LGI02BN1/cap_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/chokoball.dat:system/vendor/camera/LGI02BN1/chokoball.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/color_ctrl.dat:system/vendor/camera/LGI02BN1/color_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/dataflow.dat:system/vendor/camera/LGI02BN1/dataflow.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/debug_mgr.dat:system/vendor/camera/LGI02BN1/debug_mgr.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/exposure_ctrl.dat:system/vendor/camera/LGI02BN1/exposure_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/face_detector.dat:system/vendor/camera/LGI02BN1/face_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/flicker_detector.dat:system/vendor/camera/LGI02BN1/flicker_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/focus_stats_conv.dat:system/vendor/camera/LGI02BN1/focus_stats_conv.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/hal_ctrl.dat:system/vendor/camera/LGI02BN1/hal_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/hal_ctrl_platform.dat:system/vendor/camera/LGI02BN1/hal_ctrl_platform.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/hdr_comp.dat:system/vendor/camera/LGI02BN1/hdr_comp.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/idt_ctrl.dat:system/vendor/camera/LGI02BN1/idt_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/image_conv.dat:system/vendor/camera/LGI02BN1/image_conv.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/imgproc.dat:system/vendor/camera/LGI02BN1/imgproc.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/jpeg_enc.dat:system/vendor/camera/LGI02BN1/jpeg_enc.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/lens_ctrl.dat:system/vendor/camera/LGI02BN1/lens_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/module.dat:system/vendor/camera/LGI02BN1/module.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/motion_estimation.dat:system/vendor/camera/LGI02BN1/motion_estimation.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/multiframe_nr.dat:system/vendor/camera/LGI02BN1/multiframe_nr.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/object_tracker.dat:system/vendor/camera/LGI02BN1/object_tracker.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/scene_detector.dat:system/vendor/camera/LGI02BN1/scene_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/snapshot_ctrl.dat:system/vendor/camera/LGI02BN1/snapshot_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1/streaming_ctrl.dat:system/vendor/camera/LGI02BN1/streaming_ctrl.dat \
+    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
+    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
     vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1_IMX132.dat:system/vendor/camera/LGI02BN1_IMX132.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/cam_ctrl.dat:system/vendor/camera/SEM02BN1/cam_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/cap_ctrl.dat:system/vendor/camera/SEM02BN1/cap_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/chokoball.dat:system/vendor/camera/SEM02BN1/chokoball.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/color_ctrl.dat:system/vendor/camera/SEM02BN1/color_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/dataflow.dat:system/vendor/camera/SEM02BN1/dataflow.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/debug_mgr.dat:system/vendor/camera/SEM02BN1/debug_mgr.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/exposure_ctrl.dat:system/vendor/camera/SEM02BN1/exposure_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/face_detector.dat:system/vendor/camera/SEM02BN1/face_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/flicker_detector.dat:system/vendor/camera/SEM02BN1/flicker_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/focus_stats_conv.dat:system/vendor/camera/SEM02BN1/focus_stats_conv.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/hal_ctrl.dat:system/vendor/camera/SEM02BN1/hal_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/hal_ctrl_platform.dat:system/vendor/camera/SEM02BN1/hal_ctrl_platform.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/hdr_comp.dat:system/vendor/camera/SEM02BN1/hdr_comp.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/idt_ctrl.dat:system/vendor/camera/SEM02BN1/idt_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/image_conv.dat:system/vendor/camera/SEM02BN1/image_conv.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/imgproc.dat:system/vendor/camera/SEM02BN1/imgproc.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/jpeg_enc.dat:system/vendor/camera/SEM02BN1/jpeg_enc.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/lens_ctrl.dat:system/vendor/camera/SEM02BN1/lens_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/module.dat:system/vendor/camera/SEM02BN1/module.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/motion_estimation.dat:system/vendor/camera/SEM02BN1/motion_estimation.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/multiframe_nr.dat:system/vendor/camera/SEM02BN1/multiframe_nr.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/object_tracker.dat:system/vendor/camera/SEM02BN1/object_tracker.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/scene_detector.dat:system/vendor/camera/SEM02BN1/scene_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/snapshot_ctrl.dat:system/vendor/camera/SEM02BN1/snapshot_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/streaming_ctrl.dat:system/vendor/camera/SEM02BN1/streaming_ctrl.dat \
+    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1.dat:system/vendor/camera/SEM02BN1.dat \
+    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1_CACAO.dat:system/vendor/camera/SEM02BN1_CACAO.dat \
     vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1_IMX132.dat:system/vendor/camera/SEM02BN1_IMX132.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/cam_ctrl.dat:system/vendor/camera/SOI20BS0/cam_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/cap_ctrl.dat:system/vendor/camera/SOI20BS0/cap_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/chokoball.dat:system/vendor/camera/SOI20BS0/chokoball.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/color_ctrl.dat:system/vendor/camera/SOI20BS0/color_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/dataflow.dat:system/vendor/camera/SOI20BS0/dataflow.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/debug_mgr.dat:system/vendor/camera/SOI20BS0/debug_mgr.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/exposure_ctrl.dat:system/vendor/camera/SOI20BS0/exposure_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/face_detector.dat:system/vendor/camera/SOI20BS0/face_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/flicker_detector.dat:system/vendor/camera/SOI20BS0/flicker_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/focus_stats_conv.dat:system/vendor/camera/SOI20BS0/focus_stats_conv.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/hal_ctrl.dat:system/vendor/camera/SOI20BS0/hal_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/hal_ctrl_platform.dat:system/vendor/camera/SOI20BS0/hal_ctrl_platform.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/hdr_comp.dat:system/vendor/camera/SOI20BS0/hdr_comp.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/idt_ctrl.dat:system/vendor/camera/SOI20BS0/idt_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/image_conv.dat:system/vendor/camera/SOI20BS0/image_conv.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/imgproc.dat:system/vendor/camera/SOI20BS0/imgproc.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/jpeg_enc.dat:system/vendor/camera/SOI20BS0/jpeg_enc.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/lens_ctrl.dat:system/vendor/camera/SOI20BS0/lens_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/module.dat:system/vendor/camera/SOI20BS0/module.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/motion_estimation.dat:system/vendor/camera/SOI20BS0/motion_estimation.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/multiframe_nr.dat:system/vendor/camera/SOI20BS0/multiframe_nr.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/object_tracker.dat:system/vendor/camera/SOI20BS0/object_tracker.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/scene_detector.dat:system/vendor/camera/SOI20BS0/scene_detector.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/snapshot_ctrl.dat:system/vendor/camera/SOI20BS0/snapshot_ctrl.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0/streaming_ctrl.dat:system/vendor/camera/SOI20BS0/streaming_ctrl.dat \
+    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0.dat:system/vendor/camera/SOI20BS0.dat \
     vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0_BU64296GWX.dat:system/vendor/camera/SOI20BS0_BU64296GWX.dat \
+    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0_CACAO.dat:system/vendor/camera/SOI20BS0_CACAO.dat \
     vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0_IMX200.dat:system/vendor/camera/SOI20BS0_IMX200.dat \
     vendor/sony/sirius/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
     vendor/sony/sirius/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/sirius/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
     vendor/sony/sirius/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
