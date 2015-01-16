@@ -37,9 +37,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/firmware/touch_module_id_0x42.img:system/etc/firmware/touch_module_id_0x42.img \
     vendor/sony/yuga/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/yuga/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/yuga/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/sony/yuga/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/yuga/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/yuga/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/sony/yuga/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    vendor/sony/yuga/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/sony/yuga/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/yuga/proprietary/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
     vendor/sony/yuga/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
