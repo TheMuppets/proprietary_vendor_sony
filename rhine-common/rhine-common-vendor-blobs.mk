@@ -182,9 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
     vendor/sony/rhine-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/rhine-common/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/rhine-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    vendor/sony/rhine-common/proprietary/usr/keylayout/mhl-rcp.kl:system/usr/keylayout/mhl-rcp.kl \
-    vendor/sony/rhine-common/proprietary/usr/keylayout/msm8974-taiko-mtp-snd-card_Button_Jack.kl:system/usr/keylayout/msm8974-taiko-mtp-snd-card_Button_Jack.kl \
     vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
