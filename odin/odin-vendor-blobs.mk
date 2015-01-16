@@ -35,9 +35,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/etc/firmware/touch_module_id_0x35.img:system/etc/firmware/touch_module_id_0x35.img \
     vendor/sony/odin/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/odin/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/odin/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/sony/odin/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/odin/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/odin/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/sony/odin/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    vendor/sony/odin/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/sony/odin/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/odin/proprietary/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
     vendor/sony/odin/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
