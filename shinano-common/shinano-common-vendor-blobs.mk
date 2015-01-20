@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/shinano-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/sony/shinano-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
     vendor/sony/shinano-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/shinano-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/shinano-common/proprietary/bin/mpdecision:system/bin/mpdecision \
