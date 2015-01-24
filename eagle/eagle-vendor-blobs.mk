@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/sony/eagle/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/eagle/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/eagle/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
     vendor/sony/eagle/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
