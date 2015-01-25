@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
     vendor/sony/amami/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/amami/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/amami/proprietary/lib/touchfilter/tftype4.so:system/lib/touchfilter/tftype4.so \
     vendor/sony/amami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
     vendor/sony/amami/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
