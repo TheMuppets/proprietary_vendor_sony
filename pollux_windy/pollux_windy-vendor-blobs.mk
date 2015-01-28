@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/pollux_windy/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/sony/pollux_windy/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/pollux_windy/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsp3.mbn:system/etc/firmware/dsp3.mbn \
     vendor/sony/pollux_windy/proprietary/etc/firmware/dsps.b00:system/etc/firmware/dsps.b00 \
