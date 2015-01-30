@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/taoshan/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/taoshan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/sony/taoshan/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/taoshan/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/taoshan/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/taoshan/proprietary/bin/thermald:system/bin/thermald \
