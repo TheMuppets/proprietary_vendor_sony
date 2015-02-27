@@ -92,8 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
-    vendor/sony/msm8226-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/sony/msm8226-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/sony/msm8226-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \

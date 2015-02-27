@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/rhine-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/rhine-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/sony/rhine-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/rhine-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/rhine-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/rhine-common/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -307,8 +306,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \

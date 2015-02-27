@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/tsubasa/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/sony/tsubasa/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/sony/tsubasa/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/tsubasa/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/tsubasa/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/tsubasa/proprietary/bin/qmuxd:system/bin/qmuxd \
