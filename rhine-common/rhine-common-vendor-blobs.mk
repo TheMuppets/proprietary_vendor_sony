@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/rhine-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/sony/rhine-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/rhine-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/rhine-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/rhine-common/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -167,8 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
     vendor/sony/rhine-common/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/rhine-common/proprietary/lib/libface_wrapper.so:system/lib/libface_wrapper.so \
-    vendor/sony/rhine-common/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
-    vendor/sony/rhine-common/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/rhine-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/rhine-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/rhine-common/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
