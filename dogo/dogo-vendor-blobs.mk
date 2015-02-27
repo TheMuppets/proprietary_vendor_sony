@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2013 The CyanogenMod Project
+# Copyright (C) 2011-2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -40,8 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/dogo/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/dogo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/dogo/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
-    vendor/sony/dogo/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/dogo/proprietary/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
-    vendor/sony/dogo/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/dogo/proprietary/vendor/camera/SEM02BN0_IMX132.dat:system/vendor/camera/SEM02BN0_IMX132.dat \
-    vendor/sony/dogo/proprietary/vendor/camera/STW00YP1.dat:system/vendor/camera/STW00YP1.dat
+    vendor/sony/dogo/proprietary/vendor/camera/STW00YP1.dat:system/vendor/camera/STW00YP1.dat \
+    vendor/sony/dogo/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/dogo/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat

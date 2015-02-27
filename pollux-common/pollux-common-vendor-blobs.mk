@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2013 The CyanogenMod Project
+# Copyright (C) 2011-2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,8 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/pollux-common/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/pollux-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/sony/pollux-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/pollux-common/proprietary/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
     vendor/sony/pollux-common/proprietary/vendor/camera/LGI08BN2.dat:system/vendor/camera/LGI08BN2.dat \
-    vendor/sony/pollux-common/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/pollux-common/proprietary/vendor/camera/SEM02BN0_IMX132.dat:system/vendor/camera/SEM02BN0_IMX132.dat
+    vendor/sony/pollux-common/proprietary/vendor/camera/SEM02BN0_IMX132.dat:system/vendor/camera/SEM02BN0_IMX132.dat \
+    vendor/sony/pollux-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/pollux-common/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
