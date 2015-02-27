@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/sony/taoshan/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/lights.vendor.msm8960.so:system/lib/hw/lights.vendor.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -116,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/sony/taoshan/proprietary/lib/libgps.so:system/lib/libgps.so \
     vendor/sony/taoshan/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/sony/taoshan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/taoshan/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/taoshan/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/taoshan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -137,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-	vendor/sony/taoshan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/taoshan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/taoshan/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/taoshan/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
