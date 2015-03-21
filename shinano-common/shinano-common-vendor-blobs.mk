@@ -69,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_halctrl_plugin.so:system/lib/camera/libexcal_halctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_idtctrl_plugin.so:system/lib/camera/libexcal_idtctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
     vendor/sony/shinano-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/shinano-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
