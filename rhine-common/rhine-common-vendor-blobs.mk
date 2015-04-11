@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/rhine-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/rhine-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/sony/rhine-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/rhine-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/rhine-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/rhine-common/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -339,7 +338,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
