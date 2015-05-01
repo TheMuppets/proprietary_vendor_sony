@@ -41,6 +41,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3c/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/sony/z3c/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/sony/z3c/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/sony/z3c/proprietary/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb:system/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb \
+    vendor/sony/z3c/proprietary/etc/acdbdata/Sony/Sony_General_cal.acdb:system/etc/acdbdata/Sony/Sony_General_cal.acdb \
+    vendor/sony/z3c/proprietary/etc/acdbdata/Sony/Sony_Global_cal.acdb:system/etc/acdbdata/Sony/Sony_Global_cal.acdb \
+    vendor/sony/z3c/proprietary/etc/acdbdata/Sony/Sony_Handset_cal.acdb:system/etc/acdbdata/Sony/Sony_Handset_cal.acdb \
+    vendor/sony/z3c/proprietary/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb:system/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb \
+    vendor/sony/z3c/proprietary/etc/acdbdata/Sony/Sony_Headset_cal.acdb:system/etc/acdbdata/Sony/Sony_Headset_cal.acdb \
+    vendor/sony/z3c/proprietary/etc/acdbdata/Sony/Sony_Speaker_cal.acdb:system/etc/acdbdata/Sony/Sony_Speaker_cal.acdb \
     vendor/sony/z3c/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
     vendor/sony/z3c/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/sony/z3c/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
