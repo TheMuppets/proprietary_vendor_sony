@@ -27,12 +27,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/fusion3-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/fusion3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/sony/fusion3-common/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/fusion3-common/proprietary/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/fusion3-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/fusion3-common/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
     vendor/sony/fusion3-common/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/fusion3-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/fusion3-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/fusion3-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/sony/fusion3-common/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
@@ -157,39 +155,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/fusion3-common/proprietary/lib/libsensors_akm8963.so:system/lib/libsensors_akm8963.so \
     vendor/sony/fusion3-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/fusion3-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
-    vendor/sony/fusion3-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
-    vendor/sony/fusion3-common/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/fusion3-common/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/fusion3-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_bl_therm.so:system/lib/sysmon/sysmon_bl_therm.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_corelimit.so:system/lib/sysmon/sysmon_corelimit.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_disable_charging1.so:system/lib/sysmon/sysmon_disable_charging1.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_disable_charging2.so:system/lib/sysmon/sysmon_disable_charging2.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_enable_charging.so:system/lib/sysmon/sysmon_enable_charging.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_gpu_perflevel.so:system/lib/sysmon/sysmon_gpu_perflevel.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_lcd_brightness_level.so:system/lib/sysmon/sysmon_lcd_brightness_level.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_modem_lagan.so:system/lib/sysmon/sysmon_modem_lagan.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_pa_therm.so:system/lib/sysmon/sysmon_pa_therm.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_pba_therm.so:system/lib/sysmon/sysmon_pba_therm.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_perflevel.so:system/lib/sysmon/sysmon_perflevel.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_pm8921_tz.so:system/lib/sysmon/sysmon_pm8921_tz.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_test_sensor.so:system/lib/sysmon/sysmon_test_sensor.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor0.so:system/lib/sysmon/sysmon_tsens_tz_sensor0.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor1.so:system/lib/sysmon/sysmon_tsens_tz_sensor1.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor10.so:system/lib/sysmon/sysmon_tsens_tz_sensor10.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor2.so:system/lib/sysmon/sysmon_tsens_tz_sensor2.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor3.so:system/lib/sysmon/sysmon_tsens_tz_sensor3.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor4.so:system/lib/sysmon/sysmon_tsens_tz_sensor4.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor5.so:system/lib/sysmon/sysmon_tsens_tz_sensor5.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor6.so:system/lib/sysmon/sysmon_tsens_tz_sensor6.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor7.so:system/lib/sysmon/sysmon_tsens_tz_sensor7.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor8.so:system/lib/sysmon/sysmon_tsens_tz_sensor8.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_tsens_tz_sensor9.so:system/lib/sysmon/sysmon_tsens_tz_sensor9.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_usb_current_limit_level.so:system/lib/sysmon/sysmon_usb_current_limit_level.so \
-    vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_wlan_limit.so:system/lib/sysmon/sysmon_wlan_limit.so \
     vendor/sony/fusion3-common/proprietary/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
     vendor/sony/fusion3-common/proprietary/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
     vendor/sony/fusion3-common/proprietary/vendor/camera/LGI08BN2_DW9714.dat:system/vendor/camera/LGI08BN2_DW9714.dat \
