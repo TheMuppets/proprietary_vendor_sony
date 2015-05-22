@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
-    vendor/sony/shinano-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/sony/shinano-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/shinano-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/shinano-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \

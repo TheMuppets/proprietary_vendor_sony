@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
+    vendor/sony/castor_windy/proprietary/etc/touch_fw_update.sh:system/etc/touch_fw_update.sh \
     vendor/sony/castor_windy/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/castor_windy/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/castor_windy/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \

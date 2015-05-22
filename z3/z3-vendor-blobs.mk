@@ -143,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/z3/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/z3/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
+    vendor/sony/z3/proprietary/etc/touch_fw_update.sh:system/etc/touch_fw_update.sh \
     vendor/sony/z3/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/z3/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/z3/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \

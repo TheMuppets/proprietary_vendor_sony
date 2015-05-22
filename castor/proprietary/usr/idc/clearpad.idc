@@ -2,7 +2,7 @@
 touch.deviceType = touchScreen
 
 # Pressure
-touch.pressure.scale = 0.01
+touch.pressure.scale = 0.0058
 
 # Size
 touch.size.scale = 16.63
@@ -30,4 +30,5 @@ touch.filter.RoadRunner.PostSmoothingFactor = 0.1
 touch.filter.RoadRunner.DisplayPpi = 224
 touch.filter.RoadRunner.VelocityThreshold = 50
 touch.filter.RoadRunner.OvershootControl = 1
+touch.filter.RoadRunner.JitterReductionEnabled = 1
 
