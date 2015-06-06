@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/nicki/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/nicki/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/sony/nicki/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_2nd_default_video.so:system/lib/libchromatix_s5k4e1_2nd_default_video.so \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_2nd_default_video_1.so:system/lib/libchromatix_s5k4e1_2nd_default_video_1.so \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_2nd_preview.so:system/lib/libchromatix_s5k4e1_2nd_preview.so \
@@ -168,6 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/sony/nicki/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/sony/nicki/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/sony/nicki/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/sony/nicki/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/nicki/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/nicki/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
