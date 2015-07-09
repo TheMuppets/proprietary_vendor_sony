@@ -258,25 +258,21 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/huashan/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/huashan/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/sony/huashan/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
     vendor/sony/huashan/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/sony/huashan/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/sony/huashan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/sony/huashan/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/huashan/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/huashan/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/sony/huashan/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/sony/huashan/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/huashan/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/huashan/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/sony/huashan/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/huashan/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/sony/huashan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/sony/huashan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
+    vendor/sony/huashan/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/sony/huashan/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/sony/huashan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/sony/huashan/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
