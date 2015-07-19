@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/huashan/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/huashan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/huashan/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/huashan/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/huashan/proprietary/bin/ks:system/bin/ks \
     vendor/sony/huashan/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -131,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/framework/com.sonyericsson.sysmon.jar:system/framework/com.sonyericsson.sysmon.jar \
     vendor/sony/huashan/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/huashan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/sony/huashan/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/huashan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/huashan/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/huashan/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -167,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/huashan/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/huashan/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/huashan/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/huashan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/huashan/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/sony/huashan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
