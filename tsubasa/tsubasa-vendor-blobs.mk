@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/sony/tsubasa/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/tsubasa/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/tsubasa/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/tsubasa/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/tsubasa/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/sony/tsubasa/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -137,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/tsubasa/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/tsubasa/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/sony/tsubasa/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/tsubasa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/tsubasa/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/tsubasa/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
@@ -178,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/tsubasa/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/tsubasa/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/tsubasa/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/tsubasa/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/tsubasa/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/sony/tsubasa/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
