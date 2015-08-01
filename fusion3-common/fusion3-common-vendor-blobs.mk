@@ -77,14 +77,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/fusion3-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
-    vendor/sony/fusion3-common/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/fusion3-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/fusion3-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/fusion3-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/fusion3-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/fusion3-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
-    vendor/sony/fusion3-common/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -109,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/fusion3-common/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/sony/fusion3-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/fusion3-common/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/fusion3-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/fusion3-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/fusion3-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \

@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/dogo/proprietary/bin/efsks:system/bin/efsks \
-    vendor/sony/dogo/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/dogo/proprietary/bin/qcks:system/bin/qcks \
     vendor/sony/dogo/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/dogo/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \

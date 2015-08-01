@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/pollux-common/proprietary/bin/efsks:system/bin/efsks \
-    vendor/sony/pollux-common/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/pollux-common/proprietary/bin/qcks:system/bin/qcks \
     vendor/sony/pollux-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/pollux-common/proprietary/etc/firmware/touch_module_id_0x3a.img:system/etc/firmware/touch_module_id_0x3a.img \

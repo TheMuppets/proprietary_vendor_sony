@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/odin/proprietary/bin/efsks:system/bin/efsks \
-    vendor/sony/odin/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/odin/proprietary/bin/qcks:system/bin/qcks \
     vendor/sony/odin/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/odin/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
