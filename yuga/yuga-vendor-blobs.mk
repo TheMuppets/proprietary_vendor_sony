@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/bin/efsks:system/bin/efsks \
-    vendor/sony/yuga/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/yuga/proprietary/bin/qcks:system/bin/qcks \
     vendor/sony/yuga/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/yuga/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
