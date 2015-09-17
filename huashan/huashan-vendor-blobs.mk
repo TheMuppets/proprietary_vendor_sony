@@ -190,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/huashan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/huashan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/sony/huashan/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/sony/huashan/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/huashan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/huashan/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
@@ -250,7 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/vendor/camera/STW00YP1.dat:system/vendor/camera/STW00YP1.dat \
     vendor/sony/huashan/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/huashan/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/huashan/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/sony/huashan/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/huashan/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/huashan/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -279,7 +277,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/sony/huashan/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/sony/huashan/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/sony/huashan/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/sony/huashan/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/sony/huashan/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
+    vendor/sony/huashan/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
