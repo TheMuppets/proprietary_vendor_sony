@@ -18,4 +18,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    libta
+
 $(call inherit-product, vendor/sony/rhine-common/rhine-common-vendor-blobs.mk)

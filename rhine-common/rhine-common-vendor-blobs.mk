@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/rhine-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/rhine-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/rhine-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/rhine-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/rhine-common/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
@@ -179,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
     vendor/sony/rhine-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
     vendor/sony/rhine-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/rhine-common/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
