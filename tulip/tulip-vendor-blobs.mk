@@ -122,8 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/sony/tulip/proprietary/vendor/lib/hw/camera:system/vendor/lib/hw/camera \
-    vendor/sony/tulip/proprietary/vendor/lib/ibdrmtime.so:system/vendor/lib/ibdrmtime.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
@@ -594,11 +593,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib64/mmi_vibrator.so:system/vendor/lib64/mmi_vibrator.so \
     vendor/sony/tulip/proprietary/vendor/lib64/mmi_volume.so:system/vendor/lib64/mmi_volume.so \
     vendor/sony/tulip/proprietary/vendor/lib64/mmi_wifi.so:system/vendor/lib64/mmi_wifi.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libta.so:system/vendor/lib/libta.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libMiscTaAccessor.so:system/vendor/lib/libMiscTaAccessor.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libMiscTAApi.so:system/vendor/lib/libMiscTAApi.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmiscta.so:system/vendor/lib/libmiscta.so \
-    vendor/sony/tulip/proprietary/vendor/lib64/libta.so:system/vendor/lib64/libta.so \
-    vendor/sony/tulip/proprietary/vendor/lib64/libMiscTaAccessor.so:system/vendor/lib64/libMiscTaAccessor.so \
-    vendor/sony/tulip/proprietary/vendor/lib64/libMiscTAApi.so:system/vendor/lib64/libMiscTAApi.so \
-    vendor/sony/tulip/proprietary/vendor/lib64/libmiscta.so:system/vendor/lib64/libmiscta.so
+    vendor/sony/tulip/proprietary/lib/libta.so:system/lib/libta.so \
+    vendor/sony/tulip/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
+    vendor/sony/tulip/proprietary/lib/libMiscTAApi.so:system/lib/libMiscTAApi.so \
+    vendor/sony/tulip/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/sony/tulip/proprietary/lib64/libta.so:system/lib64/libta.so \
+    vendor/sony/tulip/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
+    vendor/sony/tulip/proprietary/lib64/libMiscTAApi.so:system/lib64/libMiscTAApi.so \
+    vendor/sony/tulip/proprietary/lib64/libmiscta.so:system/lib64/libmiscta.so 
