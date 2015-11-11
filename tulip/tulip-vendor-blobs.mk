@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/sony/tulip/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/tulip/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/sony/tulip/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/sony/tulip/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/sony/tulip/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/sony/tulip/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -89,14 +90,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/tulip/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/tulip/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/sony/tulip/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/sony/tulip/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/sony/tulip/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/sony/tulip/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/sony/tulip/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/sony/tulip/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/sony/tulip/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/sony/tulip/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/sony/tulip/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/tulip/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/tulip/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/tulip/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -110,20 +108,23 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/sony/tulip/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/sony/tulip/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/sony/tulip/proprietary/libmmcamera2_frame_algorithm.so:system/libmmcamera2_frame_algorithm.so \
-    vendor/sony/tulip/proprietary/libmmcamera2_stats_algorithm.so:system/libmmcamera2_stats_algorithm.so \
-    vendor/sony/tulip/proprietary/v-endor/lib64/libOmxEvrcEnc.so:system/v-endor/lib64/libOmxEvrcEnc.so \
     vendor/sony/tulip/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/sony/tulip/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/sony/tulip/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
+    vendor/sony/tulip/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/sony/tulip/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/sony/tulip/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/sony/tulip/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/sony/tulip/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/sony/tulip/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/tulip/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/tulip/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/sony/tulip/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/sony/tulip/proprietary/vendor/lib/hw/camera:system/vendor/lib/hw/camera \
+    vendor/sony/tulip/proprietary/vendor/lib/ibdrmtime.so:system/vendor/lib/ibdrmtime.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/sony/tulip/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
@@ -141,10 +142,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/sony/tulip/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/sony/tulip/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/sony/tulip/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/tulip/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/tulip/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/sony/tulip/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/sony/tulip/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
@@ -153,156 +154,76 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/sony/tulip/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/sony/tulip/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libOmxEvrcEnc.so:system/vendor/lib/libOmxEvrcEnc.so \
     vendor/sony/tulip/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/sony/tulip/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libOmxQcelp13Enc.so:system/vendor/lib/libOmxQcelp13Enc.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/sony/tulip/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libP11EncryptorDecryptor.so:system/vendor/lib/libP11EncryptorDecryptor.so \
     vendor/sony/tulip/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/sony/tulip/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/sony/tulip/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/sony/tulip/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/sony/tulip/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/sony/tulip/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/sony/tulip/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/sony/tulip/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/sony/tulip/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_v78s85.so:system/vendor/lib/libactuator_dw9714_v78s85.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_v78s85_camcorder.so:system/vendor/lib/libactuator_dw9714_v78s85_camcorder.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_v78s85_camera.so:system/vendor/lib/libactuator_dw9714_v78s85_camera.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9718_camcorder.so:system/vendor/lib/libactuator_dw9718_camcorder.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9718_camera.so:system/vendor/lib/libactuator_dw9718_camera.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w.so:system/vendor/lib/libactuator_dw9800w.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w_15062.so:system/vendor/lib/libactuator_dw9800w_15062.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w_15062_camcorder.so:system/vendor/lib/libactuator_dw9800w_15062_camcorder.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w_15062_camera.so:system/vendor/lib/libactuator_dw9800w_15062_camera.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w_camcorder.so:system/vendor/lib/libactuator_dw9800w_camcorder.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w_camera.so:system/vendor/lib/libactuator_dw9800w_camera.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2.so:system/vendor/lib/libactuator_dw9800w_s5k3m2.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so:system/vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2_camera.so:system/vendor/lib/libactuator_dw9800w_s5k3m2_camera.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_f.so:system/vendor/lib/libactuator_dw9714_f.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_f2.so:system/vendor/lib/libactuator_dw9714_f2.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_f2_camcorder.so:system/vendor/lib/libactuator_dw9714_f2_camcorder.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_f2_camera.so:system/vendor/lib/libactuator_dw9714_f2_camera.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_f_camcorder.so:system/vendor/lib/libactuator_dw9714_f_camcorder.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libactuator_dw9714_f_camera.so:system/vendor/lib/libactuator_dw9714_f_camera.so \
     vendor/sony/tulip/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/sony/tulip/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/tulip/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/sony/tulip/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libassetsverifier.so:system/vendor/lib/libassetsverifier.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/sony/tulip/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/sony/tulip/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/sony/tulip/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/sony/tulip/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/sony/tulip/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/tulip/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libcalmodule_yamaha.so:system/vendor/lib/libcalmodule_yamaha.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_common.so:system/vendor/lib/libchromatix_imx278_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_common_panorama.so:system/vendor/lib/libchromatix_imx278_common_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_default_video.so:system/vendor/lib/libchromatix_imx278_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_hfr_120.so:system/vendor/lib/libchromatix_imx278_hfr_120.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_hfr_60.so:system/vendor/lib/libchromatix_imx278_hfr_60.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_liveshot.so:system/vendor/lib/libchromatix_imx278_liveshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_preview.so:system/vendor/lib/libchromatix_imx278_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_preview_binning.so:system/vendor/lib/libchromatix_imx278_preview_binning.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_preview_panorama.so:system/vendor/lib/libchromatix_imx278_preview_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_small_video.so:system/vendor/lib/libchromatix_imx278_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_snapshot.so:system/vendor/lib/libchromatix_imx278_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_snapshot_hdr.so:system/vendor/lib/libchromatix_imx278_snapshot_hdr.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_snapshot_panorama.so:system/vendor/lib/libchromatix_imx278_snapshot_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_video_binning.so:system/vendor/lib/libchromatix_imx278_video_binning.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx278_video_hdr.so:system/vendor/lib/libchromatix_imx278_video_hdr.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_common.so:system/vendor/lib/libchromatix_ov5648_15009_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_default_video.so:system/vendor/lib/libchromatix_ov5648_15009_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_15009_default_video_hd.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_preview.so:system/vendor/lib/libchromatix_ov5648_15009_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_preview_cmcc.so:system/vendor/lib/libchromatix_ov5648_15009_preview_cmcc.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_preview_fb.so:system/vendor/lib/libchromatix_ov5648_15009_preview_fb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_small_video.so:system/vendor/lib/libchromatix_ov5648_15009_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_snapshot.so:system/vendor/lib/libchromatix_ov5648_15009_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_snapshot_fb.so:system/vendor/lib/libchromatix_ov5648_15009_snapshot_fb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15009_zsl.so:system/vendor/lib/libchromatix_ov5648_15009_zsl.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_common.so:system/vendor/lib/libchromatix_ov5648_15037_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_default_video.so:system/vendor/lib/libchromatix_ov5648_15037_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_15037_default_video_hd.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_preview.so:system/vendor/lib/libchromatix_ov5648_15037_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_preview_cmcc.so:system/vendor/lib/libchromatix_ov5648_15037_preview_cmcc.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_preview_fb.so:system/vendor/lib/libchromatix_ov5648_15037_preview_fb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_small_video.so:system/vendor/lib/libchromatix_ov5648_15037_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_snapshot.so:system/vendor/lib/libchromatix_ov5648_15037_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_snapshot_fb.so:system/vendor/lib/libchromatix_ov5648_15037_snapshot_fb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_15037_zsl.so:system/vendor/lib/libchromatix_ov5648_15037_zsl.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_common.so:system/vendor/lib/libchromatix_ov8858_15011_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_default_video.so:system/vendor/lib/libchromatix_ov8858_15011_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_liveshot.so:system/vendor/lib/libchromatix_ov8858_15011_liveshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_preview.so:system/vendor/lib/libchromatix_ov8858_15011_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_preview_binding.so:system/vendor/lib/libchromatix_ov8858_15011_preview_binding.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_preview_fb.so:system/vendor/lib/libchromatix_ov8858_15011_preview_fb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_small_video.so:system/vendor/lib/libchromatix_ov8858_15011_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_snapshot.so:system/vendor/lib/libchromatix_ov8858_15011_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_15011_snapshot_fb.so:system/vendor/lib/libchromatix_ov8858_15011_snapshot_fb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_hfr_60fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_hfr_90fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:system/vendor/lib/libchromatix_ov8858_liveshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_preview_binding.so:system/vendor/lib/libchromatix_ov8858_preview_binding.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_preview_fb.so:system/vendor/lib/libchromatix_ov8858_preview_fb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_small_video.so:system/vendor/lib/libchromatix_ov8858_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov8858_snapshot_fb.so:system/vendor/lib/libchromatix_ov8858_snapshot_fb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_15037_common.so:system/vendor/lib/libchromatix_s5k3h7_15037_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_15037_default_video.so:system/vendor/lib/libchromatix_s5k3h7_15037_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_15037_preview.so:system/vendor/lib/libchromatix_s5k3h7_15037_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_15037_preview_cmcc.so:system/vendor/lib/libchromatix_s5k3h7_15037_preview_cmcc.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_15037_small_video.so:system/vendor/lib/libchromatix_s5k3h7_15037_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_15037_snapshot.so:system/vendor/lib/libchromatix_s5k3h7_15037_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_15037_zsl_off.so:system/vendor/lib/libchromatix_s5k3h7_15037_zsl_off.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_8916_common.so:system/vendor/lib/libchromatix_s5k3h7_8916_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_8916_default_video.so:system/vendor/lib/libchromatix_s5k3h7_8916_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_8916_preview.so:system/vendor/lib/libchromatix_s5k3h7_8916_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_8916_preview_cmcc.so:system/vendor/lib/libchromatix_s5k3h7_8916_preview_cmcc.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_8916_small_video.so:system/vendor/lib/libchromatix_s5k3h7_8916_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_8916_snapshot.so:system/vendor/lib/libchromatix_s5k3h7_8916_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3h7_8916_zsl_off.so:system/vendor/lib/libchromatix_s5k3h7_8916_zsl_off.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_common.so:system/vendor/lib/libchromatix_s5k3m2_15011_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_common_panorama.so:system/vendor/lib/libchromatix_s5k3m2_15011_common_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_default_video.so:system/vendor/lib/libchromatix_s5k3m2_15011_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3m2_15011_hfr_120fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3m2_15011_hfr_60fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3m2_15011_hfr_90fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_liveshot.so:system/vendor/lib/libchromatix_s5k3m2_15011_liveshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_preview.so:system/vendor/lib/libchromatix_s5k3m2_15011_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_preview_panorama.so:system/vendor/lib/libchromatix_s5k3m2_15011_preview_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_small_video.so:system/vendor/lib/libchromatix_s5k3m2_15011_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_snapshot.so:system/vendor/lib/libchromatix_s5k3m2_15011_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_snapshot_panorama.so:system/vendor/lib/libchromatix_s5k3m2_15011_snapshot_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_video_hd.so:system/vendor/lib/libchromatix_s5k3m2_15011_video_hd.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_15011_zsl.so:system/vendor/lib/libchromatix_s5k3m2_15011_zsl.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_common.so:system/vendor/lib/libchromatix_s5k3m2_common.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_common_panorama.so:system/vendor/lib/libchromatix_s5k3m2_common_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_default_video.so:system/vendor/lib/libchromatix_s5k3m2_default_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3m2_hfr_120fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3m2_hfr_60fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3m2_hfr_90fps.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_liveshot.so:system/vendor/lib/libchromatix_s5k3m2_liveshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_preview.so:system/vendor/lib/libchromatix_s5k3m2_preview.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_preview_panorama.so:system/vendor/lib/libchromatix_s5k3m2_preview_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_small_video.so:system/vendor/lib/libchromatix_s5k3m2_small_video.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot.so:system/vendor/lib/libchromatix_s5k3m2_snapshot.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so:system/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_video_hd.so:system/vendor/lib/libchromatix_s5k3m2_video_hd.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_s5k3m2_zsl.so:system/vendor/lib/libchromatix_s5k3m2_zsl.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_common.so:system/vendor/lib/libchromatix_imx214_2nd_common.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_common_snapshot.so:system/vendor/lib/libchromatix_imx214_2nd_common_snapshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_default_video.so:system/vendor/lib/libchromatix_imx214_2nd_default_video.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_hfr_120.so:system/vendor/lib/libchromatix_imx214_2nd_hfr_120.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_hfr_60.so:system/vendor/lib/libchromatix_imx214_2nd_hfr_60.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_hfr_90.so:system/vendor/lib/libchromatix_imx214_2nd_hfr_90.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_liveshot.so:system/vendor/lib/libchromatix_imx214_2nd_liveshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_preview.so:system/vendor/lib/libchromatix_imx214_2nd_preview.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_snapshot.so:system/vendor/lib/libchromatix_imx214_2nd_snapshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_2nd_snapshot_hdr.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_2nd_video_hdr.so:system/vendor/lib/libchromatix_imx214_2nd_video_hdr.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_common_snapshot.so:system/vendor/lib/libchromatix_imx214_common_snapshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_hfr_120fps.so:system/vendor/lib/libchromatix_imx214_hfr_120fps.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_hfr_60fps.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_hfr_90fps.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_2nd_common.so:system/vendor/lib/libchromatix_ov5648_f_2nd_common.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_2nd_common_snapshot.so:system/vendor/lib/libchromatix_ov5648_f_2nd_common_snapshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_2nd_default_video.so:system/vendor/lib/libchromatix_ov5648_f_2nd_default_video.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_2nd_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_f_2nd_default_video_hd.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_2nd_preview.so:system/vendor/lib/libchromatix_ov5648_f_2nd_preview.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_2nd_snapshot.so:system/vendor/lib/libchromatix_ov5648_f_2nd_snapshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_2nd_zsl.so:system/vendor/lib/libchromatix_ov5648_f_2nd_zsl.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_common.so:system/vendor/lib/libchromatix_ov5648_f_common.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_common_snapshot.so:system/vendor/lib/libchromatix_ov5648_f_common_snapshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_default_video.so:system/vendor/lib/libchromatix_ov5648_f_default_video.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_f_default_video_hd.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_preview.so:system/vendor/lib/libchromatix_ov5648_f_preview.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_snapshot.so:system/vendor/lib/libchromatix_ov5648_f_snapshot.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libchromatix_ov5648_f_zsl.so:system/vendor/lib/libchromatix_ov5648_f_zsl.so \
     vendor/sony/tulip/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/sony/tulip/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/sony/tulip/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
@@ -314,20 +235,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/sony/tulip/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/sony/tulip/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/sony/tulip/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/sony/tulip/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/sony/tulip/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/sony/tulip/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
     vendor/sony/tulip/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libfpcalgorithm.so:system/vendor/lib/libfpcalgorithm.so \
     vendor/sony/tulip/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/tulip/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/sony/tulip/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/sony/tulip/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libimage_stability.so:system/vendor/lib/libimage_stability.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/sony/tulip/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/sony/tulip/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/sony/tulip/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -342,6 +259,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
@@ -361,27 +279,19 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_gt24c16_eeprom.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_imx278.so:system/vendor/lib/libmmcamera_imx278.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_ov5648_15009.so:system/vendor/lib/libmmcamera_ov5648_15009.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_ov5648_15037.so:system/vendor/lib/libmmcamera_ov5648_15037.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_ov8858_15011.so:system/vendor/lib/libmmcamera_ov8858_15011.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_ov8858_15085.so:system/vendor/lib/libmmcamera_ov8858_15085.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_s5k3h7_15037.so:system/vendor/lib/libmmcamera_s5k3h7_15037.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_s5k3h7_8916.so:system/vendor/lib/libmmcamera_s5k3h7_8916.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_s5k3m2.so:system/vendor/lib/libmmcamera_s5k3m2.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_s5k3m2_15011.so:system/vendor/lib/libmmcamera_s5k3m2_15011.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:system/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_imx214_2nd.so:system/vendor/lib/libmmcamera_imx214_2nd.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_isp_arcsoft.so:system/vendor/lib/libmmcamera_isp_arcsoft.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_ov5648_f.so:system/vendor/lib/libmmcamera_ov5648_f.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_ov5648_f_2nd.so:system/vendor/lib/libmmcamera_ov5648_f_2nd.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_truly_s5k3h7_eeprom.so:system/vendor/lib/libmmcamera_truly_s5k3h7_eeprom.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
@@ -400,8 +310,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
     vendor/sony/tulip/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
     vendor/sony/tulip/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/sony/tulip/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/sony/tulip/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/sony/tulip/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/sony/tulip/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/sony/tulip/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
@@ -420,7 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/sony/tulip/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/tulip/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/sony/tulip/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/sony/tulip/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
@@ -430,21 +341,19 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/sony/tulip/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
     vendor/sony/tulip/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/sony/tulip/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/sony/tulip/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/sony/tulip/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/sony/tulip/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/sony/tulip/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/sony/tulip/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/sony/tulip/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/sony/tulip/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/sony/tulip/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/sony/tulip/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/sony/tulip/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
     vendor/sony/tulip/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
     vendor/sony/tulip/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
     vendor/sony/tulip/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
@@ -459,11 +368,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/sony/tulip/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/sony/tulip/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/sony/tulip/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/sony/tulip/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sony/tulip/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/sony/tulip/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/sony/tulip/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/sony/tulip/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+    vendor/sony/tulip/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/sony/tulip/proprietary/vendor/lib/mediadrm/libmarlincdmplugin.so:system/vendor/lib/mediadrm/libmarlincdmplugin.so \
     vendor/sony/tulip/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/sony/tulip/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
     vendor/sony/tulip/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
@@ -489,9 +402,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/sony/tulip/proprietary/vendor/lib/mmi_volume.so:system/vendor/lib/mmi_volume.so \
     vendor/sony/tulip/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/sony/tulip/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/sony/tulip/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/sony/tulip/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/sony/tulip/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/sony/tulip/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -516,11 +426,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/sony/tulip/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/sony/tulip/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/sony/tulip/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libDivxDrm.so:system/vendor/lib64/libDivxDrm.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
@@ -529,10 +439,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/libP11EncryptorDecryptor.so:system/vendor/lib64/libP11EncryptorDecryptor.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
-    vendor/sony/tulip/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
@@ -584,9 +494,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libmmhttpstack.so:system/vendor/lib64/libmmhttpstack.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libmmi.so:system/vendor/lib64/libmmi.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libmmiipstreammmihttp.so:system/vendor/lib64/libmmiipstreammmihttp.so \
@@ -631,6 +544,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
@@ -653,6 +567,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tulip/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/sony/tulip/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
+    vendor/sony/tulip/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/sony/tulip/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
     vendor/sony/tulip/proprietary/vendor/lib64/mmi_battery.so:system/vendor/lib64/mmi_battery.so \
     vendor/sony/tulip/proprietary/vendor/lib64/mmi_bt.so:system/vendor/lib64/mmi_bt.so \
