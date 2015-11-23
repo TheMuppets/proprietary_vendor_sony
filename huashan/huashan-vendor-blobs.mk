@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/huashan/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/huashan/proprietary/bin/ks:system/bin/ks \
-    vendor/sony/huashan/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/huashan/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/huashan/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/huashan/proprietary/bin/qcks:system/bin/qcks \
@@ -186,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/huashan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/huashan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/sony/huashan/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/sony/huashan/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/huashan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/huashan/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
@@ -201,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libsensors_akm8963.so:system/lib/libsensors_akm8963.so \
     vendor/sony/huashan/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/huashan/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/huashan/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/sony/huashan/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
     vendor/sony/huashan/proprietary/vendor/camera/SMC08BS2.dat:system/vendor/camera/SMC08BS2.dat \
     vendor/sony/huashan/proprietary/vendor/camera/SMC08BS2_IMX134.dat:system/vendor/camera/SMC08BS2_IMX134.dat \
