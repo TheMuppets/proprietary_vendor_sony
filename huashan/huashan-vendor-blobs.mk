@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/huashan/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/huashan/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/huashan/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/huashan/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/huashan/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/huashan/proprietary/bin/usbhub:system/bin/usbhub \
