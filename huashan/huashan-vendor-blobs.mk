@@ -190,6 +190,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/huashan/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/huashan/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/sony/huashan/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/huashan/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/huashan/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/huashan/proprietary/lib/libqmi.so:system/lib/libqmi.so \
