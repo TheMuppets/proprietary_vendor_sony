@@ -104,9 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3c/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
     vendor/sony/z3c/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
     vendor/sony/z3c/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
-    vendor/sony/z3c/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
-    vendor/sony/z3c/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
-    vendor/sony/z3c/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/z3c/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/z3c/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/sony/z3c/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
@@ -142,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3c/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/z3c/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/z3c/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
+    vendor/sony/z3c/proprietary/etc/touch_fw_update.sh:system/etc/touch_fw_update.sh \
     vendor/sony/z3c/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/z3c/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/z3c/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
@@ -158,6 +156,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3c/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/z3c/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/z3c/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
+    vendor/sony/z3c/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    vendor/sony/z3c/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/z3c/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/z3c/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/sony/z3c/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
