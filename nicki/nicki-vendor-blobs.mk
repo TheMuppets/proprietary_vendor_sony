@@ -147,6 +147,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/nicki/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/sony/nicki/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
+    vendor/sony/nicki/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/sony/nicki/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/nicki/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/nicki/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
