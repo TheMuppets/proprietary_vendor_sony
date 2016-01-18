@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/castor_windy/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/castor_windy/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/castor_windy/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/castor_windy/proprietary/bin/updatemiscta:system/bin/updatemiscta \

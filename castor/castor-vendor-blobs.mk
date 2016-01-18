@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/castor/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/castor/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/castor/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/castor/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/castor/proprietary/bin/updatemiscta:system/bin/updatemiscta \

@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/scorpion/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/scorpion/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/scorpion/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/scorpion/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/scorpion/proprietary/bin/updatemiscta:system/bin/updatemiscta \
