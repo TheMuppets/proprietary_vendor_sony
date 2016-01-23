@@ -37,33 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5c.img:system/etc/firmware/touch_module_id_0x5c.img \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5e.img:system/etc/firmware/touch_module_id_0x5e.img \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5f.img:system/etc/firmware/touch_module_id_0x5f.img \
-    vendor/sony/honami/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/honami/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/honami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
-    vendor/sony/honami/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/honami/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/honami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/honami/proprietary/usr/idc/clearpad_pen.idc:system/usr/idc/clearpad_pen.idc \
-    vendor/sony/honami/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
-    vendor/sony/honami/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
-    vendor/sony/honami/proprietary/vendor/camera/LGI02BN1_IMX132.dat:system/vendor/camera/LGI02BN1_IMX132.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SEM02BN1.dat:system/vendor/camera/SEM02BN1.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SEM02BN1_CACAO.dat:system/vendor/camera/SEM02BN1_CACAO.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SEM02BN1_IMX132.dat:system/vendor/camera/SEM02BN1_IMX132.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SOI13BS9_CACAO.dat:system/vendor/camera/SOI13BS9_CACAO.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SOI20BS0.dat:system/vendor/camera/SOI20BS0.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SOI20BS0_BU64296GWX.dat:system/vendor/camera/SOI20BS0_BU64296GWX.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SOI20BS0_CACAO.dat:system/vendor/camera/SOI20BS0_CACAO.dat \
-    vendor/sony/honami/proprietary/vendor/camera/SOI20BS0_IMX200.dat:system/vendor/camera/SOI20BS0_IMX200.dat \
-    vendor/sony/honami/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/honami/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/honami/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
-    vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/sony/honami/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/honami/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so

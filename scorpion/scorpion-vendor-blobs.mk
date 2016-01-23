@@ -138,27 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/scorpion/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/scorpion/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/scorpion/proprietary/etc/touch_fw_update.sh:system/etc/touch_fw_update.sh \
-    vendor/sony/scorpion/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/scorpion/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    vendor/sony/scorpion/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/LGI02BN1_IMX132.dat:system/vendor/camera/LGI02BN1_IMX132.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/SEM02BN1.dat:system/vendor/camera/SEM02BN1.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/SEM02BN1_CACAO.dat:system/vendor/camera/SEM02BN1_CACAO.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/SEM02BN1_IMX132.dat:system/vendor/camera/SEM02BN1_IMX132.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/SOI08BS2.dat:system/vendor/camera/SOI08BS2.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/SOI08BS2_BU64291GWZ.dat:system/vendor/camera/SOI08BS2_BU64291GWZ.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/SOI08BS2_CACAO.dat:system/vendor/camera/SOI08BS2_CACAO.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/SOI08BS2_IMX134.dat:system/vendor/camera/SOI08BS2_IMX134.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/scorpion/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
     vendor/sony/scorpion/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/sony/scorpion/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/sony/scorpion/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/sony/scorpion/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/sony/scorpion/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/sony/scorpion/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/sony/scorpion/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/sony/scorpion/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/scorpion/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so

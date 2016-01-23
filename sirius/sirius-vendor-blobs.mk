@@ -141,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
     vendor/sony/sirius/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
     vendor/sony/sirius/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
-    vendor/sony/sirius/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/sirius/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/sony/sirius/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     vendor/sony/sirius/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
@@ -177,30 +176,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/sirius/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/sirius/proprietary/etc/touch_fw_update.sh:system/etc/touch_fw_update.sh \
-    vendor/sony/sirius/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/sirius/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/sirius/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1_CACAO.dat:system/vendor/camera/LGI02BN1_CACAO.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/LGI02BN1_IMX132.dat:system/vendor/camera/LGI02BN1_IMX132.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1.dat:system/vendor/camera/SEM02BN1.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1_CACAO.dat:system/vendor/camera/SEM02BN1_CACAO.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1_IMX132.dat:system/vendor/camera/SEM02BN1_IMX132.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0.dat:system/vendor/camera/SOI20BS0.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0_BU64296GWX.dat:system/vendor/camera/SOI20BS0_BU64296GWX.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0_CACAO.dat:system/vendor/camera/SOI20BS0_CACAO.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0_IMX200.dat:system/vendor/camera/SOI20BS0_IMX200.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/sirius/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
     vendor/sony/sirius/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/sony/sirius/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/sirius/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/sony/sirius/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/sony/sirius/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/sirius/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so
