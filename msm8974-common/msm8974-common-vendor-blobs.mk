@@ -63,15 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64291gwz_camcorder.so:system/vendor/lib/libactuator_bu64291gwz_camcorder.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64291gwz_camera.so:system/vendor/lib/libactuator_bu64291gwz_camera.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64296gwx.so:system/vendor/lib/libactuator_bu64296gwx.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64296gwx_camcorder.so:system/vendor/lib/libactuator_bu64296gwx_camcorder.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64296gwx_camera.so:system/vendor/lib/libactuator_bu64296gwx_camera.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64747gwz.so:system/vendor/lib/libactuator_bu64747gwz.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64747gwz_camcorder.so:system/vendor/lib/libactuator_bu64747gwz_camcorder.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libactuator_bu64747gwz_camera.so:system/vendor/lib/libactuator_bu64747gwz_camera.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
@@ -80,88 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_cpp_liveshot.so:system/vendor/lib/libchromatix_imx132_cpp_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_cpp_preview.so:system/vendor/lib/libchromatix_imx132_cpp_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_cpp_snapshot.so:system/vendor/lib/libchromatix_imx132_cpp_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_cpp_video.so:system/vendor/lib/libchromatix_imx132_cpp_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_postproc.so:system/vendor/lib/libchromatix_imx132_postproc.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx134_cpp_hfr_120.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx134_cpp_hfr_60.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx134_cpp_hfr_90.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_cpp_liveshot.so:system/vendor/lib/libchromatix_imx134_cpp_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_cpp_preview.so:system/vendor/lib/libchromatix_imx134_cpp_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_cpp_snapshot.so:system/vendor/lib/libchromatix_imx134_cpp_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_cpp_video.so:system/vendor/lib/libchromatix_imx134_cpp_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_cpp_video_hd.so:system/vendor/lib/libchromatix_imx134_cpp_video_hd.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_hfr_90.so:system/vendor/lib/libchromatix_imx134_hfr_90.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_liveshot.so:system/vendor/lib/libchromatix_imx134_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_postproc.so:system/vendor/lib/libchromatix_imx134_postproc.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_preview.so:system/vendor/lib/libchromatix_imx134_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:system/vendor/lib/libchromatix_imx134_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx134_video_hd.so:system/vendor/lib/libchromatix_imx134_video_hd.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_common.so:system/vendor/lib/libchromatix_imx200_common.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_120.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_60.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_90.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_liveshot.so:system/vendor/lib/libchromatix_imx200_cpp_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_preview.so:system/vendor/lib/libchromatix_imx200_cpp_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_snapshot.so:system/vendor/lib/libchromatix_imx200_cpp_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx200_cpp_snapshot_hdr.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_video.so:system/vendor/lib/libchromatix_imx200_cpp_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_video_4k.so:system/vendor/lib/libchromatix_imx200_cpp_video_4k.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx200_cpp_video_hdr.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_default_video.so:system/vendor/lib/libchromatix_imx200_default_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_hfr_120.so:system/vendor/lib/libchromatix_imx200_hfr_120.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_hfr_60.so:system/vendor/lib/libchromatix_imx200_hfr_60.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_hfr_90.so:system/vendor/lib/libchromatix_imx200_hfr_90.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_liveshot.so:system/vendor/lib/libchromatix_imx200_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_postproc.so:system/vendor/lib/libchromatix_imx200_postproc.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_preview.so:system/vendor/lib/libchromatix_imx200_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_snapshot.so:system/vendor/lib/libchromatix_imx200_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_snapshot_hdr.so:system/vendor/lib/libchromatix_imx200_snapshot_hdr.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_video_4k.so:system/vendor/lib/libchromatix_imx200_video_4k.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx200_video_hdr.so:system/vendor/lib/libchromatix_imx200_video_hdr.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_common.so:system/vendor/lib/libchromatix_imx241_common.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_cpp_liveshot.so:system/vendor/lib/libchromatix_imx241_cpp_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_cpp_preview.so:system/vendor/lib/libchromatix_imx241_cpp_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_cpp_snapshot.so:system/vendor/lib/libchromatix_imx241_cpp_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_cpp_video.so:system/vendor/lib/libchromatix_imx241_cpp_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_default_video.so:system/vendor/lib/libchromatix_imx241_default_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_liveshot.so:system/vendor/lib/libchromatix_imx241_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_postproc.so:system/vendor/lib/libchromatix_imx241_postproc.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_preview.so:system/vendor/lib/libchromatix_imx241_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx241_snapshot.so:system/vendor/lib/libchromatix_imx241_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_common.so:system/vendor/lib/libchromatix_imx300_common.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx300_cpp_hfr_120.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx300_cpp_hfr_60.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx300_cpp_hfr_90.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_liveshot.so:system/vendor/lib/libchromatix_imx300_cpp_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_preview.so:system/vendor/lib/libchromatix_imx300_cpp_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_snapshot.so:system/vendor/lib/libchromatix_imx300_cpp_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx300_cpp_snapshot_hdr.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_video.so:system/vendor/lib/libchromatix_imx300_cpp_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_video_4k.so:system/vendor/lib/libchromatix_imx300_cpp_video_4k.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx300_cpp_video_hdr.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_default_video.so:system/vendor/lib/libchromatix_imx300_default_video.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_hfr_120.so:system/vendor/lib/libchromatix_imx300_hfr_120.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_hfr_60.so:system/vendor/lib/libchromatix_imx300_hfr_60.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_hfr_90.so:system/vendor/lib/libchromatix_imx300_hfr_90.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_liveshot.so:system/vendor/lib/libchromatix_imx300_liveshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_postproc.so:system/vendor/lib/libchromatix_imx300_postproc.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_preview.so:system/vendor/lib/libchromatix_imx300_preview.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_snapshot.so:system/vendor/lib/libchromatix_imx300_snapshot.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_snapshot_hdr.so:system/vendor/lib/libchromatix_imx300_snapshot_hdr.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_video_4k.so:system/vendor/lib/libchromatix_imx300_video_4k.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libchromatix_imx300_video_hdr.so:system/vendor/lib/libchromatix_imx300_video_hdr.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -201,11 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_imx200.so:system/vendor/lib/libmmcamera_imx200.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_imx241.so:system/vendor/lib/libmmcamera_imx241.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_imx300.so:system/vendor/lib/libmmcamera_imx300.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \

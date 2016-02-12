@@ -141,4 +141,41 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/sirius/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
     vendor/sony/sirius/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
-    vendor/sony/sirius/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin
+    vendor/sony/sirius/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+    vendor/sony/sirius/proprietary/vendor/lib/libactuator_bu64296gwx.so:system/vendor/lib/libactuator_bu64296gwx.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libactuator_bu64296gwx_camcorder.so:system/vendor/lib/libactuator_bu64296gwx_camcorder.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libactuator_bu64296gwx_camera.so:system/vendor/lib/libactuator_bu64296gwx_camera.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_cpp_liveshot.so:system/vendor/lib/libchromatix_imx132_cpp_liveshot.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_cpp_preview.so:system/vendor/lib/libchromatix_imx132_cpp_preview.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_cpp_snapshot.so:system/vendor/lib/libchromatix_imx132_cpp_snapshot.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_cpp_video.so:system/vendor/lib/libchromatix_imx132_cpp_video.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_postproc.so:system/vendor/lib/libchromatix_imx132_postproc.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_common.so:system/vendor/lib/libchromatix_imx200_common.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_120.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_60.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_90.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_liveshot.so:system/vendor/lib/libchromatix_imx200_cpp_liveshot.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_preview.so:system/vendor/lib/libchromatix_imx200_cpp_preview.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_snapshot.so:system/vendor/lib/libchromatix_imx200_cpp_snapshot.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx200_cpp_snapshot_hdr.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_video.so:system/vendor/lib/libchromatix_imx200_cpp_video.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_video_4k.so:system/vendor/lib/libchromatix_imx200_cpp_video_4k.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx200_cpp_video_hdr.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_default_video.so:system/vendor/lib/libchromatix_imx200_default_video.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_hfr_120.so:system/vendor/lib/libchromatix_imx200_hfr_120.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_hfr_60.so:system/vendor/lib/libchromatix_imx200_hfr_60.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_hfr_90.so:system/vendor/lib/libchromatix_imx200_hfr_90.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_liveshot.so:system/vendor/lib/libchromatix_imx200_liveshot.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_postproc.so:system/vendor/lib/libchromatix_imx200_postproc.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_preview.so:system/vendor/lib/libchromatix_imx200_preview.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_snapshot.so:system/vendor/lib/libchromatix_imx200_snapshot.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_snapshot_hdr.so:system/vendor/lib/libchromatix_imx200_snapshot_hdr.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_video_4k.so:system/vendor/lib/libchromatix_imx200_video_4k.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libchromatix_imx200_video_hdr.so:system/vendor/lib/libchromatix_imx200_video_hdr.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
+    vendor/sony/sirius/proprietary/vendor/lib/libmmcamera_imx200.so:system/vendor/lib/libmmcamera_imx200.so

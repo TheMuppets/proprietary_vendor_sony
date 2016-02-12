@@ -47,4 +47,37 @@ PRODUCT_COPY_FILES += \
     vendor/sony/togari/proprietary/etc/firmware/touch_module_id_0x44.img:system/etc/firmware/touch_module_id_0x44.img \
     vendor/sony/togari/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/togari/proprietary/usr/idc/max1187x_pen_0.idc:system/usr/idc/max1187x_pen_0.idc \
-    vendor/sony/togari/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc
+    vendor/sony/togari/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
+    vendor/sony/togari/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
+    vendor/sony/togari/proprietary/vendor/lib/libactuator_bu64291gwz_camcorder.so:system/vendor/lib/libactuator_bu64291gwz_camcorder.so \
+    vendor/sony/togari/proprietary/vendor/lib/libactuator_bu64291gwz_camera.so:system/vendor/lib/libactuator_bu64291gwz_camera.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_cpp_liveshot.so:system/vendor/lib/libchromatix_imx132_cpp_liveshot.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_cpp_preview.so:system/vendor/lib/libchromatix_imx132_cpp_preview.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_cpp_snapshot.so:system/vendor/lib/libchromatix_imx132_cpp_snapshot.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_cpp_video.so:system/vendor/lib/libchromatix_imx132_cpp_video.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_postproc.so:system/vendor/lib/libchromatix_imx132_postproc.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx134_cpp_hfr_120.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx134_cpp_hfr_60.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx134_cpp_hfr_90.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_cpp_liveshot.so:system/vendor/lib/libchromatix_imx134_cpp_liveshot.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_cpp_preview.so:system/vendor/lib/libchromatix_imx134_cpp_preview.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_cpp_snapshot.so:system/vendor/lib/libchromatix_imx134_cpp_snapshot.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_cpp_video.so:system/vendor/lib/libchromatix_imx134_cpp_video.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_cpp_video_hd.so:system/vendor/lib/libchromatix_imx134_cpp_video_hd.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_hfr_90.so:system/vendor/lib/libchromatix_imx134_hfr_90.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_liveshot.so:system/vendor/lib/libchromatix_imx134_liveshot.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_postproc.so:system/vendor/lib/libchromatix_imx134_postproc.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_preview.so:system/vendor/lib/libchromatix_imx134_preview.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:system/vendor/lib/libchromatix_imx134_snapshot.so \
+    vendor/sony/togari/proprietary/vendor/lib/libchromatix_imx134_video_hd.so:system/vendor/lib/libchromatix_imx134_video_hd.so \
+    vendor/sony/togari/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
+    vendor/sony/togari/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so

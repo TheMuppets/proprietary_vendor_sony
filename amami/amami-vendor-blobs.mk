@@ -45,4 +45,41 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/etc/firmware/touch_module_id_0x53.img:system/etc/firmware/touch_module_id_0x53.img \
     vendor/sony/amami/proprietary/etc/firmware/touch_module_id_0x54.img:system/etc/firmware/touch_module_id_0x54.img \
     vendor/sony/amami/proprietary/etc/firmware/touch_module_id_0x5d.img:system/etc/firmware/touch_module_id_0x5d.img \
-    vendor/sony/amami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
+    vendor/sony/amami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
+    vendor/sony/amami/proprietary/vendor/lib/libactuator_bu64296gwx.so:system/vendor/lib/libactuator_bu64296gwx.so \
+    vendor/sony/amami/proprietary/vendor/lib/libactuator_bu64296gwx_camcorder.so:system/vendor/lib/libactuator_bu64296gwx_camcorder.so \
+    vendor/sony/amami/proprietary/vendor/lib/libactuator_bu64296gwx_camera.so:system/vendor/lib/libactuator_bu64296gwx_camera.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_cpp_liveshot.so:system/vendor/lib/libchromatix_imx132_cpp_liveshot.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_cpp_preview.so:system/vendor/lib/libchromatix_imx132_cpp_preview.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_cpp_snapshot.so:system/vendor/lib/libchromatix_imx132_cpp_snapshot.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_cpp_video.so:system/vendor/lib/libchromatix_imx132_cpp_video.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_postproc.so:system/vendor/lib/libchromatix_imx132_postproc.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_common.so:system/vendor/lib/libchromatix_imx200_common.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_120.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_60.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx200_cpp_hfr_90.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_liveshot.so:system/vendor/lib/libchromatix_imx200_cpp_liveshot.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_preview.so:system/vendor/lib/libchromatix_imx200_cpp_preview.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_snapshot.so:system/vendor/lib/libchromatix_imx200_cpp_snapshot.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx200_cpp_snapshot_hdr.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_video.so:system/vendor/lib/libchromatix_imx200_cpp_video.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_video_4k.so:system/vendor/lib/libchromatix_imx200_cpp_video_4k.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx200_cpp_video_hdr.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_default_video.so:system/vendor/lib/libchromatix_imx200_default_video.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_hfr_120.so:system/vendor/lib/libchromatix_imx200_hfr_120.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_hfr_60.so:system/vendor/lib/libchromatix_imx200_hfr_60.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_hfr_90.so:system/vendor/lib/libchromatix_imx200_hfr_90.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_liveshot.so:system/vendor/lib/libchromatix_imx200_liveshot.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_postproc.so:system/vendor/lib/libchromatix_imx200_postproc.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_preview.so:system/vendor/lib/libchromatix_imx200_preview.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_snapshot.so:system/vendor/lib/libchromatix_imx200_snapshot.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_snapshot_hdr.so:system/vendor/lib/libchromatix_imx200_snapshot_hdr.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_video_4k.so:system/vendor/lib/libchromatix_imx200_video_4k.so \
+    vendor/sony/amami/proprietary/vendor/lib/libchromatix_imx200_video_hdr.so:system/vendor/lib/libchromatix_imx200_video_hdr.so \
+    vendor/sony/amami/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
+    vendor/sony/amami/proprietary/vendor/lib/libmmcamera_imx200.so:system/vendor/lib/libmmcamera_imx200.so
