@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3dual/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
     vendor/sony/z3dual/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
     vendor/sony/z3dual/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
-    vendor/sony/z3dual/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
-    vendor/sony/z3dual/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
     vendor/sony/z3dual/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/z3dual/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/z3dual/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -51,14 +49,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3dual/proprietary/etc/firmware/modem.b23:system/etc/firmware/modem.b23 \
     vendor/sony/z3dual/proprietary/etc/firmware/modem.b24:system/etc/firmware/modem.b24 \
     vendor/sony/z3dual/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
-    vendor/sony/z3dual/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzfullseg.b00:system/etc/firmware/tzfullseg.b00 \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzfullseg.b01:system/etc/firmware/tzfullseg.b01 \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzfullseg.b02:system/etc/firmware/tzfullseg.b02 \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzfullseg.b03:system/etc/firmware/tzfullseg.b03 \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzfullseg.mdt:system/etc/firmware/tzfullseg.mdt \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzplayrdy.b00:system/etc/firmware/tzplayrdy.b00 \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzplayrdy.b01:system/etc/firmware/tzplayrdy.b01 \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzplayrdy.b02:system/etc/firmware/tzplayrdy.b02 \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzplayrdy.b03:system/etc/firmware/tzplayrdy.b03 \
-    vendor/sony/z3dual/proprietary/etc/firmware/tzplayrdy.mdt:system/etc/firmware/tzplayrdy.mdt
+    vendor/sony/z3dual/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt
