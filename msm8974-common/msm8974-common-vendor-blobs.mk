@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/sony/msm8974-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/sony/msm8974-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/sony/msm8974-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/sony/msm8974-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/sony/msm8974-common/proprietary/vendor/bin/sct_service:system/vendor/bin/sct_service \
     vendor/sony/msm8974-common/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
@@ -74,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/sony/msm8974-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -177,7 +179,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/sony/msm8974-common/proprietary/vendor/lib/libril-qc-qmi-2.so:system/vendor/lib/libril-qc-qmi-2.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/sony/msm8974-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
@@ -186,6 +190,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/sony/msm8974-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
