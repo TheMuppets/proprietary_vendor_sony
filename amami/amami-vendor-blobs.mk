@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/etc/firmware/touch_module_id_0x53.img:system/etc/firmware/touch_module_id_0x53.img \
     vendor/sony/amami/proprietary/etc/firmware/touch_module_id_0x54.img:system/etc/firmware/touch_module_id_0x54.img \
     vendor/sony/amami/proprietary/etc/firmware/touch_module_id_0x5d.img:system/etc/firmware/touch_module_id_0x5d.img \
-    vendor/sony/amami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/amami/proprietary/vendor/lib/libactuator_bu64296gwx.so:system/vendor/lib/libactuator_bu64296gwx.so \
     vendor/sony/amami/proprietary/vendor/lib/libactuator_bu64296gwx_camcorder.so:system/vendor/lib/libactuator_bu64296gwx_camcorder.so \
     vendor/sony/amami/proprietary/vendor/lib/libactuator_bu64296gwx_camera.so:system/vendor/lib/libactuator_bu64296gwx_camera.so \

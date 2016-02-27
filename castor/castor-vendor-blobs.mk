@@ -66,5 +66,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.preset:system/etc/tfa98xx/VoiceCallSpeaker_top.preset \
     vendor/sony/castor/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/castor/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
-    vendor/sony/castor/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
-    vendor/sony/castor/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
+    vendor/sony/castor/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker

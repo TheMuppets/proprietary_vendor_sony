@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/sirius/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/sirius/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
-    vendor/sony/sirius/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
     vendor/sony/sirius/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/sony/sirius/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/sirius/proprietary/vendor/lib/libactuator_bu64296gwx.so:system/vendor/lib/libactuator_bu64296gwx.so \
