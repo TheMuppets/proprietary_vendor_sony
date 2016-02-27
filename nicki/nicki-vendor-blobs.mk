@@ -16,13 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/sony/nicki/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/sony/nicki/proprietary/bin/efsks:system/bin/efsks \
     vendor/sony/nicki/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/sony/nicki/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/nicki/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/nicki/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/sony/nicki/proprietary/bin/ks:system/bin/ks \
     vendor/sony/nicki/proprietary/bin/led_deamon:system/bin/led_deamon \
     vendor/sony/nicki/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/nicki/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -31,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/nicki/proprietary/bin/rild:system/bin/rild \
     vendor/sony/nicki/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/sony/nicki/proprietary/bin/sensord:system/bin/sensord \
     vendor/sony/nicki/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/nicki/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/nicki/proprietary/bin/thermald:system/bin/thermald \
@@ -39,8 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/nicki/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/sony/nicki/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/sony/nicki/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
-    vendor/sony/nicki/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
     vendor/sony/nicki/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/sony/nicki/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/sony/nicki/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
@@ -91,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/sony/nicki/proprietary/lib/libchromatix_s5k4e1_preview_1.so:system/lib/libchromatix_s5k4e1_preview_1.so \
     vendor/sony/nicki/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
-    vendor/sony/nicki/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/nicki/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/nicki/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/nicki/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
@@ -102,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/nicki/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/nicki/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/nicki/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/nicki/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/nicki/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/nicki/proprietary/lib/libmercury.so:system/lib/libmercury.so \
@@ -139,8 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/nicki/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/nicki/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/sony/nicki/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
-    vendor/sony/nicki/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
     vendor/sony/nicki/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/nicki/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/nicki/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -154,10 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/sony/nicki/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/nicki/proprietary/lib/librmp.so:system/lib/librmp.so \
-    vendor/sony/nicki/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-    vendor/sony/nicki/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
     vendor/sony/nicki/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/nicki/proprietary/lib/libtzplayready.so:system/lib/libtzplayready.so \
     vendor/sony/nicki/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/sony/nicki/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/sony/nicki/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
