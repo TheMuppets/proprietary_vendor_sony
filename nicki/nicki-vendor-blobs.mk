@@ -178,4 +178,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/sony/nicki/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/sony/nicki/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/sony/nicki/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so
+    vendor/sony/nicki/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/sony/nicki/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
