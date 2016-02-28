@@ -46,8 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/fusion3-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
-    vendor/sony/fusion3-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/fusion3-common/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
@@ -56,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/fusion3-common/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/fusion3-common/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/fusion3-common/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/fusion3-common/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/fusion3-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/sony/fusion3-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -68,8 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
-    vendor/sony/fusion3-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/sony/fusion3-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
