@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/z3/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
     vendor/sony/z3/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/sony/z3/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
     vendor/sony/z3/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/sony/z3/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
     vendor/sony/z3/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
