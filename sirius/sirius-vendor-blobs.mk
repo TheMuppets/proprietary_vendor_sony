@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
     vendor/sony/sirius/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/sony/sirius/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
     vendor/sony/sirius/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
