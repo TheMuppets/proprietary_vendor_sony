@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/nicki/proprietary/bin/rild:system/bin/rild \
     vendor/sony/nicki/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/sony/nicki/proprietary/bin/sensord:system/bin/sensord \
     vendor/sony/nicki/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/nicki/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/nicki/proprietary/bin/thermald:system/bin/thermald \
