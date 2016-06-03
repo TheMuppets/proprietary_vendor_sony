@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/cnd:system/bin/cnd \
     vendor/sony/tsubasa/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/tsubasa/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
-    vendor/sony/tsubasa/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/tsubasa/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/tsubasa/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/sony/tsubasa/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
