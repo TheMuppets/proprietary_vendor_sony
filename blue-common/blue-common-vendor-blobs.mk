@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/sony/blue-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/blue-common/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/blue-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/blue-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \

@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/mint/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/sony/mint/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/sony/mint/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/mint/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/mint/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/mint/proprietary/bin/qseecomd:system/bin/qseecomd \
