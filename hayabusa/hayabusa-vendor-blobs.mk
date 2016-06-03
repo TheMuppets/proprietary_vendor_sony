@@ -193,7 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/hayabusa/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/sony/hayabusa/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/hayabusa/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/hayabusa/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/hayabusa/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -201,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/hayabusa/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/hayabusa/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/hayabusa/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/hayabusa/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/hayabusa/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/hayabusa/proprietary/lib/libqdp.so:system/lib/libqdp.so \

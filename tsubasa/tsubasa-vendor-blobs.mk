@@ -200,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/tsubasa/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/tsubasa/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/tsubasa/proprietary/lib/libmpl.so:system/lib/libmpl.so \
@@ -209,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/tsubasa/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/tsubasa/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/tsubasa/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/tsubasa/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/tsubasa/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/tsubasa/proprietary/lib/libqdi.so:system/lib/libqdi.so \

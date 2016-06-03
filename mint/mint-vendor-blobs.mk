@@ -213,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
-    vendor/sony/mint/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/mint/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/mint/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/mint/proprietary/lib/libmpl.so:system/lib/libmpl.so \
@@ -222,7 +221,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/mint/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/mint/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/mint/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/mint/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/mint/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/mint/proprietary/lib/libqdi.so:system/lib/libqdi.so \
