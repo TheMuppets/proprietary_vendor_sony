@@ -114,9 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/huashan/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/huashan/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/sony/huashan/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/sony/huashan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/sony/huashan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/huashan/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/huashan/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/huashan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
