@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2014 The CyanogenMod Project
+# Copyright (C) 2011-2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,15 +17,11 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/tsubasa/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
-    vendor/sony/tsubasa/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/tsubasa/proprietary/bin/cnd:system/bin/cnd \
-    vendor/sony/tsubasa/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/tsubasa/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/tsubasa/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/tsubasa/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/sony/tsubasa/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/tsubasa/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/tsubasa/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/tsubasa/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/tsubasa/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/sony/tsubasa/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -135,13 +131,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/tsubasa/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/tsubasa/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/sony/tsubasa/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/tsubasa/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/tsubasa/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
-    vendor/sony/tsubasa/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/tsubasa/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/tsubasa/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/tsubasa/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/tsubasa/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/tsubasa/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/tsubasa/proprietary/lib/libals.so:system/lib/libals.so \
@@ -158,8 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/tsubasa/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/tsubasa/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
-    vendor/sony/tsubasa/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
-    vendor/sony/tsubasa/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/tsubasa/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/tsubasa/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/tsubasa/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
@@ -193,8 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/sony/tsubasa/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/tsubasa/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
@@ -207,7 +196,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/tsubasa/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/tsubasa/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/tsubasa/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/tsubasa/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/tsubasa/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/tsubasa/proprietary/lib/libqdp.so:system/lib/libqdp.so \

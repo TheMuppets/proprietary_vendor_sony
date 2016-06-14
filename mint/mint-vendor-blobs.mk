@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2014 The CyanogenMod Project
+# Copyright (C) 2011-2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,15 +17,11 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/mint/proprietary/bin/cal_data_manager:system/bin/cal_data_manager \
-    vendor/sony/mint/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/mint/proprietary/bin/cnd:system/bin/cnd \
-    vendor/sony/mint/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/mint/proprietary/bin/fast-dormancy:system/bin/fast-dormancy \
     vendor/sony/mint/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/mint/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/sony/mint/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/mint/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/mint/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/mint/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/mint/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/sony/mint/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -148,13 +144,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/mint/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/mint/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/sony/mint/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/mint/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/mint/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
-    vendor/sony/mint/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/mint/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/mint/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/mint/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/mint/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/mint/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/mint/proprietary/lib/libals.so:system/lib/libals.so \
@@ -171,8 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/mint/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/sony/mint/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
-    vendor/sony/mint/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
-    vendor/sony/mint/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/mint/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/mint/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/mint/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
@@ -206,8 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
-    vendor/sony/mint/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/sony/mint/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/mint/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
@@ -220,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/mint/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/mint/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/mint/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/mint/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/mint/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/mint/proprietary/lib/libqdp.so:system/lib/libqdp.so \
