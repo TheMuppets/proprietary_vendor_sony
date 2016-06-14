@@ -75,5 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
+    vendor/sony/blue-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
