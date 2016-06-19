@@ -132,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/huashan/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/huashan/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/huashan/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/huashan/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/huashan/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/huashan/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
