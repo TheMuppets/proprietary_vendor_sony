@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/hayabusa/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/sony/hayabusa/proprietary/bin/quipc_main:system/bin/quipc_main \
-    vendor/sony/hayabusa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/hayabusa/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/hayabusa/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/hayabusa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \

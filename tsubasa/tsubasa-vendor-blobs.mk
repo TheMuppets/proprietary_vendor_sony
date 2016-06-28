@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/sony/tsubasa/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/sony/tsubasa/proprietary/bin/rmi4_fwloader:system/bin/rmi4_fwloader \
-    vendor/sony/tsubasa/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/tsubasa/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/tsubasa/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/tsubasa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \

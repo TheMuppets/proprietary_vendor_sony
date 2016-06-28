@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/blue-common/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/sony/blue-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/blue-common/proprietary/bin/system_monitor:system/bin/system_monitor \
     vendor/sony/blue-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/blue-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
