@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
     vendor/sony/blue-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/blue-common/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/sony/blue-common/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/blue-common/proprietary/lib/sysmon/sysmon_camif.so:system/lib/sysmon/sysmon_camif.so \
     vendor/sony/blue-common/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
@@ -77,4 +76,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
+    vendor/sony/blue-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/sony/blue-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so
