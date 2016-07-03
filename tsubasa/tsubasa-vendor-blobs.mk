@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/tsubasa/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/tsubasa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/tsubasa/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/tsubasa/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/tsubasa/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/tsubasa/proprietary/bin/usbhub:system/bin/usbhub \
@@ -206,7 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/tsubasa/proprietary/lib/libsensors_akm8972.so:system/lib/libsensors_akm8972.so \
     vendor/sony/tsubasa/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/tsubasa/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/tsubasa/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/sony/tsubasa/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/tsubasa/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \

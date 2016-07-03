@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/hayabusa/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/hayabusa/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/hayabusa/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/hayabusa/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/hayabusa/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/hayabusa/proprietary/bin/usbhub:system/bin/usbhub \
@@ -223,7 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/hayabusa/proprietary/lib/libsensors_akm8972.so:system/lib/libsensors_akm8972.so \
     vendor/sony/hayabusa/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/hayabusa/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/hayabusa/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/sony/hayabusa/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/hayabusa/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \

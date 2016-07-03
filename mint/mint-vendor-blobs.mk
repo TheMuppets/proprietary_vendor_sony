@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/mint/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/mint/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/mint/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/mint/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/mint/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/mint/proprietary/bin/usbhub:system/bin/usbhub \
@@ -219,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/mint/proprietary/lib/libsensors_akm8972.so:system/lib/libsensors_akm8972.so \
     vendor/sony/mint/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/mint/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/mint/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/sony/mint/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/mint/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \

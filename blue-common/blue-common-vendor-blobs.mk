@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
     vendor/sony/blue-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/blue-common/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
+    vendor/sony/blue-common/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/blue-common/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/blue-common/proprietary/lib/sysmon/sysmon_camif.so:system/lib/sysmon/sysmon_camif.so \
     vendor/sony/blue-common/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
