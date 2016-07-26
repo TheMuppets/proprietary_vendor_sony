@@ -1,10 +1,10 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -18,24 +18,27 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),nicki)
 
+
+ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
 LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := proprietary/vendor/lib/libtime_genoff.so
+LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.google.widevine.software.drm
-LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := proprietary/framework/com.google.widevine.software.drm.jar
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 endif
-
+endif
