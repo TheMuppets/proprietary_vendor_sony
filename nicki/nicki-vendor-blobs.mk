@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/sony/nicki/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/sony/nicki/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-    vendor/sony/nicki/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/nicki/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/sony/nicki/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/sony/nicki/proprietary/lib/hw/lights.vendor.msm8960.so:system/lib/hw/lights.vendor.msm8960.so \
