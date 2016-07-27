@@ -21,14 +21,13 @@ ifeq ($(TARGET_DEVICE),nicki)
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
-LOCAL_MODULE := libtime_genoff
+LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := sony
-LOCAL_SRC_FILES := proprietary/vendor/lib/libtime_genoff.so
-LOCAL_MULTILIB := 32
+LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
+LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
