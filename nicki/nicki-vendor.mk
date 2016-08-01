@@ -77,6 +77,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/nicki/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
 
+PRODUCT_PACKAGES += \
+    tad_static
+
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/bin/btnvtool:system/bin/btnvtool \

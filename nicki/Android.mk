@@ -18,6 +18,16 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),nicki)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := tad_static
+LOCAL_MODULE_OWNER := sony
+LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SBIN)
+LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)
+LOCAL_SRC_FILES := proprietary/rootfs/sbin/tad_static
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+include $(BUILD_PREBUILT)
+
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
