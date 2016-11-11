@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/sony/fusion3-common/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/sony/fusion3-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/fusion3-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/fusion3-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
