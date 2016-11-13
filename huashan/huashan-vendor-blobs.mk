@@ -166,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/huashan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/huashan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/sony/huashan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/huashan/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/huashan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/huashan/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
