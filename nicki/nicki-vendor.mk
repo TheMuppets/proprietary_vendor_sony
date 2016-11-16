@@ -74,8 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/nicki/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/nicki/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/sony/nicki/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/nicki/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/sony/nicki/proprietary/lib/libta.so:system/lib/libta.so
 
 PRODUCT_PACKAGES += \
     tad_static
@@ -106,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/nicki/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/nicki/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/sony/nicki/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
     vendor/sony/nicki/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/nicki/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/nicki/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
