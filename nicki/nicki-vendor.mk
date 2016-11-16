@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/nicki/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/nicki/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/sony/nicki/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
     vendor/sony/nicki/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/sony/nicki/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/nicki/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
