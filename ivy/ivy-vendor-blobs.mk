@@ -342,6 +342,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/sony/ivy/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/sony/ivy/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/sony/ivy/proprietary/vendor/lib/libmmcamera_pdaf_v3.so:system/vendor/lib/libmmcamera_pdaf_v3.so \
     vendor/sony/ivy/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/sony/ivy/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:system/lib/camera/libexcal_color_ctrl_plugin.so \
     vendor/sony/ivy/proprietary/lib/camera/libexcal_debug_display_plugin.so:system/lib/camera/libexcal_debug_display_plugin.so \
@@ -460,6 +461,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/sony/ivy/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/ivy/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/sony/ivy/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/ivy/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/sony/ivy/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/sony/ivy/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
@@ -467,6 +469,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/sony/ivy/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/sony/ivy/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/sony/ivy/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/sony/ivy/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/sony/ivy/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/sony/ivy/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -487,6 +490,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/sony/ivy/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/sony/ivy/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/sony/ivy/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/sony/ivy/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/sony/ivy/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/sony/ivy/proprietary/vendor/lib/hw/keystore.msm8994.so:system/vendor/lib/hw/keystore.msm8994.so \
@@ -527,6 +532,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/sony/ivy/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/sony/ivy/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/sony/ivy/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
+    vendor/sony/ivy/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/sony/ivy/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
+    vendor/sony/ivy/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
@@ -543,6 +552,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/sony/ivy/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/sony/ivy/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
+    vendor/sony/ivy/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/sony/ivy/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/ivy/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/ivy/proprietary/bin/rmt_storage:system/bin/rmt_storage \
