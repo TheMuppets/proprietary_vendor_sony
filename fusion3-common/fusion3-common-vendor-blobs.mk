@@ -97,8 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/fusion3-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/fusion3-common/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/sony/fusion3-common/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
-    vendor/sony/fusion3-common/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/fusion3-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/fusion3-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/fusion3-common/proprietary/lib/libidl.so:system/lib/libidl.so \
