@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/z3/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/z3/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
-    vendor/sony/z3/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/z3/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/sony/z3/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/z3/proprietary/vendor/lib/libactuator_bu64296gwx.so:system/vendor/lib/libactuator_bu64296gwx.so \

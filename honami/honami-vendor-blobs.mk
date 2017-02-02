@@ -53,8 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5c.img:system/etc/firmware/touch_module_id_0x5c.img \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5e.img:system/etc/firmware/touch_module_id_0x5e.img \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5f.img:system/etc/firmware/touch_module_id_0x5f.img \
-    vendor/sony/honami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    vendor/sony/honami/proprietary/usr/idc/clearpad_pen.idc:system/usr/idc/clearpad_pen.idc \
     vendor/sony/honami/proprietary/vendor/lib/libactuator_bu64296gwx.so:system/vendor/lib/libactuator_bu64296gwx.so \
     vendor/sony/honami/proprietary/vendor/lib/libactuator_bu64296gwx_camcorder.so:system/vendor/lib/libactuator_bu64296gwx_camcorder.so \
     vendor/sony/honami/proprietary/vendor/lib/libactuator_bu64296gwx_camera.so:system/vendor/lib/libactuator_bu64296gwx_camera.so \

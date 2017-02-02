@@ -45,9 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/togari/proprietary/etc/firmware/touch_chip_id_0x75_config_id_0x0013.bin:system/etc/firmware/touch_chip_id_0x75_config_id_0x0013.bin \
     vendor/sony/togari/proprietary/etc/firmware/touch_module_id_0x43.img:system/etc/firmware/touch_module_id_0x43.img \
     vendor/sony/togari/proprietary/etc/firmware/touch_module_id_0x44.img:system/etc/firmware/touch_module_id_0x44.img \
-    vendor/sony/togari/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    vendor/sony/togari/proprietary/usr/idc/max1187x_pen_0.idc:system/usr/idc/max1187x_pen_0.idc \
-    vendor/sony/togari/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
     vendor/sony/togari/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
     vendor/sony/togari/proprietary/vendor/lib/libactuator_bu64291gwz_camcorder.so:system/vendor/lib/libactuator_bu64291gwz_camcorder.so \
     vendor/sony/togari/proprietary/vendor/lib/libactuator_bu64291gwz_camera.so:system/vendor/lib/libactuator_bu64291gwz_camera.so \

@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/scorpion_windy/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
     vendor/sony/scorpion_windy/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/scorpion_windy/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
-    vendor/sony/scorpion_windy/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/scorpion_windy/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/sony/scorpion_windy/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/scorpion_windy/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
