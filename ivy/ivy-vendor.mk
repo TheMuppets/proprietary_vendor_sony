@@ -204,6 +204,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/ivy/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/ivy/proprietary/lib/libtpm.so:system/lib/libtpm.so \
+    vendor/sony/ivy/proprietary/lib/soundfx/libsonypostprocbundle.so:system/lib/soundfx/libsonypostprocbundle.so \
+    vendor/sony/ivy/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
     vendor/sony/ivy/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/sony/ivy/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
     vendor/sony/ivy/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
