@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/sony/taoshan/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
     vendor/sony/taoshan/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
-    vendor/sony/taoshan/proprietary/etc/firmware/libpn544_fw.so:system/etc/firmware/libpn544_fw.so \
     vendor/sony/taoshan/proprietary/etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
     vendor/sony/taoshan/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
     vendor/sony/taoshan/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
@@ -66,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/taoshan/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/lights.vendor.msm8960.so:system/lib/hw/lights.vendor.msm8960.so \
-    vendor/sony/taoshan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/taoshan/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
