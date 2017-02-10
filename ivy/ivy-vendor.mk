@@ -205,6 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/ivy/proprietary/lib/libtpm.so:system/lib/libtpm.so \
     vendor/sony/ivy/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/sony/ivy/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
     vendor/sony/ivy/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/ivy/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/ivy/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
@@ -347,7 +348,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/camera/streaming.dat:system/vendor/camera/streaming.dat \
     vendor/sony/ivy/proprietary/vendor/camera/supported.dat:system/vendor/camera/supported.dat \
     vendor/sony/ivy/proprietary/vendor/camera/version.dat:system/vendor/camera/version.dat \
-    vendor/sony/ivy/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/sony/ivy/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/sony/ivy/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+    vendor/sony/ivy/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/sony/ivy/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/sony/ivy/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/sony/ivy/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/sony/ivy/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/sony/ivy/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/ivy/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -544,7 +550,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/ivy/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/sony/ivy/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/sony/ivy/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/ivy/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/sony/ivy/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/sony/ivy/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -560,6 +565,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/sony/ivy/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/sony/ivy/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/sony/ivy/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/sony/ivy/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/ivy/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/sony/ivy/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
@@ -641,7 +647,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/sony/ivy/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
@@ -654,6 +659,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/sony/ivy/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/sony/ivy/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
