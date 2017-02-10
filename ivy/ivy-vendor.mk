@@ -231,6 +231,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/ivy/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/ivy/proprietary/lib/libtpm.so:system/lib/libtpm.so \
+    vendor/sony/ivy/proprietary/lib/soundfx/libsonypostprocbundle.so:system/lib/soundfx/libsonypostprocbundle.so \
+    vendor/sony/ivy/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
     vendor/sony/ivy/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/sony/ivy/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/sony/ivy/proprietary/vendor/camera/default.dat:system/vendor/camera/default.dat \
