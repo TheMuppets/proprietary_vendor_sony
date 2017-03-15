@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/blue-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/blue-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/blue-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/blue-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/blue-common/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/blue-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
@@ -76,15 +75,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/blue-common/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/blue-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/sony/blue-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/sony/blue-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/blue-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/blue-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/blue-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/blue-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
-    vendor/sony/blue-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
-    vendor/sony/blue-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/sony/blue-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/sony/blue-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/blue-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/blue-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -115,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/blue-common/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
     vendor/sony/blue-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/sony/blue-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/blue-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/blue-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -126,12 +120,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -146,8 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sony/blue-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
