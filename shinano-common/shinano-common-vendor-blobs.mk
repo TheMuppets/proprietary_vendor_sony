@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
 	vendor/sony/shinano-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
 	vendor/sony/shinano-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-	vendor/sony/shinano-common/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/sony/shinano-common/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/sony/shinano-common/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/sony/shinano-common/proprietary/bin/qseecomd:system/bin/qseecomd \
