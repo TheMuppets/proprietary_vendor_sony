@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
 	vendor/sony/shinano-common/proprietary/bin/taimport:system/bin/taimport \
 	vendor/sony/shinano-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
+	vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
 	vendor/sony/shinano-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -483,3 +484,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+
+PRODUCT_PACKAGES += \
+    libTimeService \
+    TimeService 
