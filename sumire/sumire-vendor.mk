@@ -32,9 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/sumire/proprietary/bin/secd:system/bin/secd \
     vendor/sony/sumire/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/sony/sumire/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/sumire/proprietary/bin/tad_static:system/bin/tad_static \
     vendor/sony/sumire/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/sumire/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/sumire/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb:system/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_General_cal.acdb:system/etc/acdbdata/Sony/Sony_General_cal.acdb \
@@ -43,9 +43,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb:system/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_Headset_cal.acdb:system/etc/acdbdata/Sony/Sony_Headset_cal.acdb \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_Speaker_cal.acdb:system/etc/acdbdata/Sony/Sony_Speaker_cal.acdb \
+    vendor/sony/sumire/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
     vendor/sony/sumire/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/sony/sumire/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/sony/sumire/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
     vendor/sony/sumire/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/sony/sumire/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/sony/sumire/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
@@ -122,40 +122,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/sony/sumire/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/sumire/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/sony/sumire/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/sumire/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
+    vendor/sony/sumire/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/sumire/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/sumire/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/sony/sumire/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/sony/sumire/proprietary/etc/touch_fw_update.sh:system/etc/touch_fw_update.sh \
-    vendor/sony/sumire/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/sony/sumire/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
-    vendor/sony/sumire/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
-    vendor/sony/sumire/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
-    vendor/sony/sumire/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
-    vendor/sony/sumire/proprietary/lib64/libcredential-manager-service.so:system/lib64/libcredential-manager-service.so \
-    vendor/sony/sumire/proprietary/lib64/libdevice_security.so:system/lib64/libdevice_security.so \
-    vendor/sony/sumire/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
-    vendor/sony/sumire/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/sony/sumire/proprietary/lib64/libidd.so:system/lib64/libidd.so \
-    vendor/sony/sumire/proprietary/lib64/liblights-core.so:system/lib64/liblights-core.so \
-    vendor/sony/sumire/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/sony/sumire/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/sony/sumire/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/sony/sumire/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/sony/sumire/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
-    vendor/sony/sumire/proprietary/lib64/libmiscta.so:system/lib64/libmiscta.so \
-    vendor/sony/sumire/proprietary/lib64/libpin-cache.so:system/lib64/libpin-cache.so \
-    vendor/sony/sumire/proprietary/lib64/libplstorage.so:system/lib64/libplstorage.so \
-    vendor/sony/sumire/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
-    vendor/sony/sumire/proprietary/lib64/libprotobuf-c.so:system/lib64/libprotobuf-c.so \
-    vendor/sony/sumire/proprietary/lib64/libstartup-reason.so:system/lib64/libstartup-reason.so \
-    vendor/sony/sumire/proprietary/lib64/libsuntory.so:system/lib64/libsuntory.so \
-    vendor/sony/sumire/proprietary/lib64/libsuntory_utils.so:system/lib64/libsuntory_utils.so \
-    vendor/sony/sumire/proprietary/lib64/libsys-utils.so:system/lib64/libsys-utils.so \
-    vendor/sony/sumire/proprietary/lib64/libta.so:system/lib64/libta.so \
-    vendor/sony/sumire/proprietary/lib64/libtee.so:system/lib64/libtee.so \
-    vendor/sony/sumire/proprietary/lib64/libtpm.so:system/lib64/libtpm.so \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:system/lib/camera/libexcal_color_ctrl_plugin.so \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_debug_display_plugin.so:system/lib/camera/libexcal_debug_display_plugin.so \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_exposure_ctrl_plugin.so:system/lib/camera/libexcal_exposure_ctrl_plugin.so \
@@ -180,8 +152,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_stream_ctrl_plugin.so:system/lib/camera/libexcal_stream_ctrl_plugin.so \
     vendor/sony/sumire/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/sumire/proprietary/lib/hw/fingerprint.msm8994.so:system/lib/hw/fingerprint.msm8994.so \
     vendor/sony/sumire/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/sony/sumire/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/sumire/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/sumire/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/sony/sumire/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/sumire/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
     vendor/sony/sumire/proprietary/lib/libcacao_imgproc.so:system/lib/libcacao_imgproc.so \
@@ -191,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/sumire/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/sumire/proprietary/lib/libcammw.so:system/lib/libcammw.so \
+    vendor/sony/sumire/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/sony/sumire/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/sumire/proprietary/lib/libdevice_security.so:system/lib/libdevice_security.so \
     vendor/sony/sumire/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
@@ -204,38 +180,37 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/sony/sumire/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/sumire/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/sony/sumire/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/sumire/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/sony/sumire/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/sony/sumire/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/sumire/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/sony/sumire/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/sony/sumire/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/sumire/proprietary/lib/libplstorage.so:system/lib/libplstorage.so \
     vendor/sony/sumire/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/sumire/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_alfortrsc.so:system/lib/libsomc_alfortrsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_alfort.so:system/lib/libsomc_alfort.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_bordeauxrsc.so:system/lib/libsomc_bordeauxrsc.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_alfortrsc.so:system/lib/libsomc_alfortrsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_bordeaux.so:system/lib/libsomc_bordeaux.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_canelersc.so:system/lib/libsomc_canelersc.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_bordeauxrsc.so:system/lib/libsomc_bordeauxrsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_canele.so:system/lib/libsomc_canele.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_canelersc.so:system/lib/libsomc_canelersc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_chokoballcmn.so:system/lib/libsomc_chokoballcmn.so \
     vendor/sony/sumire/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_marblersc.so:system/lib/libsomc_marblersc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_marble.so:system/lib/libsomc_marble.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_melonpanrsc.so:system/lib/libsomc_melonpanrsc.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_marblersc.so:system/lib/libsomc_marblersc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_melonpan.so:system/lib/libsomc_melonpan.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_mugichocorsc.so:system/lib/libsomc_mugichocorsc.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_melonpanrsc.so:system/lib/libsomc_melonpanrsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_mugichoco.so:system/lib/libsomc_mugichoco.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_raisinrsc.so:system/lib/libsomc_raisinrsc.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_mugichocorsc.so:system/lib/libsomc_mugichocorsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_raisin.so:system/lib/libsomc_raisin.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_spicarsc.so:system/lib/libsomc_spicarsc.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_raisinrsc.so:system/lib/libsomc_raisinrsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_spica.so:system/lib/libsomc_spica.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_spicarsc.so:system/lib/libsomc_spicarsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_thermal.so:system/lib/libsomc_thermal.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_topporsc.so:system/lib/libsomc_topporsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_toppo.so:system/lib/libsomc_toppo.so \
-    vendor/sony/sumire/proprietary/lib/libsomc_yummyrsc.so:system/lib/libsomc_yummyrsc.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_topporsc.so:system/lib/libsomc_topporsc.so \
     vendor/sony/sumire/proprietary/lib/libsomc_yummy.so:system/lib/libsomc_yummy.so \
+    vendor/sony/sumire/proprietary/lib/libsomc_yummyrsc.so:system/lib/libsomc_yummyrsc.so \
     vendor/sony/sumire/proprietary/lib/libsony_fooddetect.so:system/lib/libsony_fooddetect.so \
     vendor/sony/sumire/proprietary/lib/libsony_naruto.so:system/lib/libsony_naruto.so \
     vendor/sony/sumire/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
@@ -246,10 +221,39 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib/libtpm.so:system/lib/libtpm.so \
     vendor/sony/sumire/proprietary/lib/soundfx/libsonypostprocbundle.so:system/lib/soundfx/libsonypostprocbundle.so \
     vendor/sony/sumire/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
+    vendor/sony/sumire/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
+    vendor/sony/sumire/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/sony/sumire/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
+    vendor/sony/sumire/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
+    vendor/sony/sumire/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
+    vendor/sony/sumire/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
+    vendor/sony/sumire/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/sony/sumire/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
+    vendor/sony/sumire/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
+    vendor/sony/sumire/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
+    vendor/sony/sumire/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
+    vendor/sony/sumire/proprietary/lib64/libcredential-manager-service.so:system/lib64/libcredential-manager-service.so \
+    vendor/sony/sumire/proprietary/lib64/libdevice_security.so:system/lib64/libdevice_security.so \
+    vendor/sony/sumire/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/sony/sumire/proprietary/lib64/libidd.so:system/lib64/libidd.so \
+    vendor/sony/sumire/proprietary/lib64/liblights-core.so:system/lib64/liblights-core.so \
+    vendor/sony/sumire/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/sony/sumire/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/sony/sumire/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/sony/sumire/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/sony/sumire/proprietary/lib64/libmiscta.so:system/lib64/libmiscta.so \
+    vendor/sony/sumire/proprietary/lib64/libpin-cache.so:system/lib64/libpin-cache.so \
+    vendor/sony/sumire/proprietary/lib64/libplstorage.so:system/lib64/libplstorage.so \
+    vendor/sony/sumire/proprietary/lib64/libprotobuf-c.so:system/lib64/libprotobuf-c.so \
+    vendor/sony/sumire/proprietary/lib64/libstartup-reason.so:system/lib64/libstartup-reason.so \
+    vendor/sony/sumire/proprietary/lib64/libsuntory.so:system/lib64/libsuntory.so \
+    vendor/sony/sumire/proprietary/lib64/libsuntory_utils.so:system/lib64/libsuntory_utils.so \
+    vendor/sony/sumire/proprietary/lib64/libsys-utils.so:system/lib64/libsys-utils.so \
+    vendor/sony/sumire/proprietary/lib64/libta.so:system/lib64/libta.so \
+    vendor/sony/sumire/proprietary/lib64/libtee.so:system/lib64/libtee.so \
+    vendor/sony/sumire/proprietary/lib64/libtpm.so:system/lib64/libtpm.so \
     vendor/sony/sumire/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/sony/sumire/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/sony/sumire/proprietary/vendor/camera/default.dat:system/vendor/camera/default.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/color_ctrl.dat:system/vendor/camera/LGI05BN0/color_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/dataflow.dat:system/vendor/camera/LGI05BN0/dataflow.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/debug_mgr.dat:system/vendor/camera/LGI05BN0/debug_mgr.dat \
@@ -262,19 +266,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/food_comp_yummy.dat:system/vendor/camera/LGI05BN0/food_comp_yummy.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/food_detector.dat:system/vendor/camera/LGI05BN0/food_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/hal_ctrl.dat:system/vendor/camera/LGI05BN0/hal_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/hal_ctrl_platform.dat:system/vendor/camera/LGI05BN0/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/hal_ctrl_platform_abf.dat:system/vendor/camera/LGI05BN0/hal_ctrl_platform_abf.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/hal_ctrl_platform_asf_lin.dat:system/vendor/camera/LGI05BN0/hal_ctrl_platform_asf_lin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/hal_ctrl_platform_asf_stp.dat:system/vendor/camera/LGI05BN0/hal_ctrl_platform_asf_stp.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/hal_ctrl_platform.dat:system/vendor/camera/LGI05BN0/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/hal_ctrl_platform_gic.dat:system/vendor/camera/LGI05BN0/hal_ctrl_platform_gic.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/hdr_comp.dat:system/vendor/camera/LGI05BN0/hdr_comp.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/idt_ctrl.dat:system/vendor/camera/LGI05BN0/idt_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/image_conv_canele.dat:system/vendor/camera/LGI05BN0/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/image_conv.dat:system/vendor/camera/LGI05BN0/image_conv.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/image_conv_canele.dat:system/vendor/camera/LGI05BN0/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/image_conv_marble.dat:system/vendor/camera/LGI05BN0/image_conv_marble.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/image_conv_raisin.dat:system/vendor/camera/LGI05BN0/image_conv_raisin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/image_conv_spica.dat:system/vendor/camera/LGI05BN0/image_conv_spica.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0_IMX241.dat:system/vendor/camera/LGI05BN0_IMX241.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/jpeg_enc.dat:system/vendor/camera/LGI05BN0/jpeg_enc.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/lens_ctrl.dat:system/vendor/camera/LGI05BN0/lens_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/motion_estimation.dat:system/vendor/camera/LGI05BN0/motion_estimation.dat \
@@ -285,6 +288,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/object_tracker.dat:system/vendor/camera/LGI05BN0/object_tracker.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/scene_detector.dat:system/vendor/camera/LGI05BN0/scene_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0/snapshot_ctrl.dat:system/vendor/camera/LGI05BN0/snapshot_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/LGI05BN0_IMX241.dat:system/vendor/camera/LGI05BN0_IMX241.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/color_ctrl.dat:system/vendor/camera/SEM05BN0/color_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/dataflow.dat:system/vendor/camera/SEM05BN0/dataflow.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/debug_mgr.dat:system/vendor/camera/SEM05BN0/debug_mgr.dat \
@@ -297,19 +301,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/food_comp_yummy.dat:system/vendor/camera/SEM05BN0/food_comp_yummy.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/food_detector.dat:system/vendor/camera/SEM05BN0/food_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/hal_ctrl.dat:system/vendor/camera/SEM05BN0/hal_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/hal_ctrl_platform.dat:system/vendor/camera/SEM05BN0/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/hal_ctrl_platform_abf.dat:system/vendor/camera/SEM05BN0/hal_ctrl_platform_abf.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/hal_ctrl_platform_asf_lin.dat:system/vendor/camera/SEM05BN0/hal_ctrl_platform_asf_lin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/hal_ctrl_platform_asf_stp.dat:system/vendor/camera/SEM05BN0/hal_ctrl_platform_asf_stp.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/hal_ctrl_platform.dat:system/vendor/camera/SEM05BN0/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/hal_ctrl_platform_gic.dat:system/vendor/camera/SEM05BN0/hal_ctrl_platform_gic.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/hdr_comp.dat:system/vendor/camera/SEM05BN0/hdr_comp.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/idt_ctrl.dat:system/vendor/camera/SEM05BN0/idt_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/image_conv_canele.dat:system/vendor/camera/SEM05BN0/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/image_conv.dat:system/vendor/camera/SEM05BN0/image_conv.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/image_conv_canele.dat:system/vendor/camera/SEM05BN0/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/image_conv_marble.dat:system/vendor/camera/SEM05BN0/image_conv_marble.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/image_conv_raisin.dat:system/vendor/camera/SEM05BN0/image_conv_raisin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/image_conv_spica.dat:system/vendor/camera/SEM05BN0/image_conv_spica.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0_IMX241.dat:system/vendor/camera/SEM05BN0_IMX241.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/jpeg_enc.dat:system/vendor/camera/SEM05BN0/jpeg_enc.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/lens_ctrl.dat:system/vendor/camera/SEM05BN0/lens_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/motion_estimation.dat:system/vendor/camera/SEM05BN0/motion_estimation.dat \
@@ -320,10 +323,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/object_tracker.dat:system/vendor/camera/SEM05BN0/object_tracker.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/scene_detector.dat:system/vendor/camera/SEM05BN0/scene_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0/snapshot_ctrl.dat:system/vendor/camera/SEM05BN0/snapshot_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/snapshot.dat:system/vendor/camera/snapshot.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0_BU64747GWZ.dat:system/vendor/camera/SOI25BS0_BU64747GWZ.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS0_BU64747GWZ_XCF.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS0_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SEM05BN0_IMX241.dat:system/vendor/camera/SEM05BN0_IMX241.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/color_ctrl.dat:system/vendor/camera/SOI25BS0/color_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/dataflow.dat:system/vendor/camera/SOI25BS0/dataflow.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/debug_mgr.dat:system/vendor/camera/SOI25BS0/debug_mgr.dat \
@@ -336,19 +336,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/food_comp_yummy.dat:system/vendor/camera/SOI25BS0/food_comp_yummy.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/food_detector.dat:system/vendor/camera/SOI25BS0/food_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/hal_ctrl.dat:system/vendor/camera/SOI25BS0/hal_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS0/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/hal_ctrl_platform_abf.dat:system/vendor/camera/SOI25BS0/hal_ctrl_platform_abf.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/hal_ctrl_platform_asf_lin.dat:system/vendor/camera/SOI25BS0/hal_ctrl_platform_asf_lin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/hal_ctrl_platform_asf_stp.dat:system/vendor/camera/SOI25BS0/hal_ctrl_platform_asf_stp.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS0/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/hal_ctrl_platform_gic.dat:system/vendor/camera/SOI25BS0/hal_ctrl_platform_gic.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/hdr_comp.dat:system/vendor/camera/SOI25BS0/hdr_comp.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/idt_ctrl.dat:system/vendor/camera/SOI25BS0/idt_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/image_conv_canele.dat:system/vendor/camera/SOI25BS0/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/image_conv.dat:system/vendor/camera/SOI25BS0/image_conv.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/image_conv_canele.dat:system/vendor/camera/SOI25BS0/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/image_conv_marble.dat:system/vendor/camera/SOI25BS0/image_conv_marble.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/image_conv_raisin.dat:system/vendor/camera/SOI25BS0/image_conv_raisin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/image_conv_spica.dat:system/vendor/camera/SOI25BS0/image_conv_spica.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0_IMX300.dat:system/vendor/camera/SOI25BS0_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/jpeg_enc.dat:system/vendor/camera/SOI25BS0/jpeg_enc.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/lens_ctrl.dat:system/vendor/camera/SOI25BS0/lens_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/motion_estimation.dat:system/vendor/camera/SOI25BS0/motion_estimation.dat \
@@ -359,9 +358,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/object_tracker.dat:system/vendor/camera/SOI25BS0/object_tracker.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/scene_detector.dat:system/vendor/camera/SOI25BS0/scene_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0/snapshot_ctrl.dat:system/vendor/camera/SOI25BS0/snapshot_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1_BU64747GWZ.dat:system/vendor/camera/SOI25BS1_BU64747GWZ.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS1_BU64747GWZ_XCF.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS1_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0_BU64747GWZ.dat:system/vendor/camera/SOI25BS0_BU64747GWZ.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS0_BU64747GWZ_XCF.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS0_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS0_IMX300.dat:system/vendor/camera/SOI25BS0_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/color_ctrl.dat:system/vendor/camera/SOI25BS1/color_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/dataflow.dat:system/vendor/camera/SOI25BS1/dataflow.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/debug_mgr.dat:system/vendor/camera/SOI25BS1/debug_mgr.dat \
@@ -374,19 +374,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/food_comp_yummy.dat:system/vendor/camera/SOI25BS1/food_comp_yummy.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/food_detector.dat:system/vendor/camera/SOI25BS1/food_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/hal_ctrl.dat:system/vendor/camera/SOI25BS1/hal_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS1/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/hal_ctrl_platform_abf.dat:system/vendor/camera/SOI25BS1/hal_ctrl_platform_abf.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/hal_ctrl_platform_asf_lin.dat:system/vendor/camera/SOI25BS1/hal_ctrl_platform_asf_lin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/hal_ctrl_platform_asf_stp.dat:system/vendor/camera/SOI25BS1/hal_ctrl_platform_asf_stp.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS1/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/hal_ctrl_platform_gic.dat:system/vendor/camera/SOI25BS1/hal_ctrl_platform_gic.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/hdr_comp.dat:system/vendor/camera/SOI25BS1/hdr_comp.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/idt_ctrl.dat:system/vendor/camera/SOI25BS1/idt_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/image_conv_canele.dat:system/vendor/camera/SOI25BS1/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/image_conv.dat:system/vendor/camera/SOI25BS1/image_conv.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/image_conv_canele.dat:system/vendor/camera/SOI25BS1/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/image_conv_marble.dat:system/vendor/camera/SOI25BS1/image_conv_marble.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/image_conv_raisin.dat:system/vendor/camera/SOI25BS1/image_conv_raisin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/image_conv_spica.dat:system/vendor/camera/SOI25BS1/image_conv_spica.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1_IMX300.dat:system/vendor/camera/SOI25BS1_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/jpeg_enc.dat:system/vendor/camera/SOI25BS1/jpeg_enc.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/lens_ctrl.dat:system/vendor/camera/SOI25BS1/lens_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/motion_estimation.dat:system/vendor/camera/SOI25BS1/motion_estimation.dat \
@@ -397,9 +396,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/object_tracker.dat:system/vendor/camera/SOI25BS1/object_tracker.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/scene_detector.dat:system/vendor/camera/SOI25BS1/scene_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1/snapshot_ctrl.dat:system/vendor/camera/SOI25BS1/snapshot_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2_BU64747GWZ.dat:system/vendor/camera/SOI25BS2_BU64747GWZ.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS2_BU64747GWZ_XCF.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS2_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1_BU64747GWZ.dat:system/vendor/camera/SOI25BS1_BU64747GWZ.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS1_BU64747GWZ_XCF.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS1_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS1_IMX300.dat:system/vendor/camera/SOI25BS1_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/color_ctrl.dat:system/vendor/camera/SOI25BS2/color_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/dataflow.dat:system/vendor/camera/SOI25BS2/dataflow.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/debug_mgr.dat:system/vendor/camera/SOI25BS2/debug_mgr.dat \
@@ -412,19 +412,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/food_comp_yummy.dat:system/vendor/camera/SOI25BS2/food_comp_yummy.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/food_detector.dat:system/vendor/camera/SOI25BS2/food_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/hal_ctrl.dat:system/vendor/camera/SOI25BS2/hal_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS2/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/hal_ctrl_platform_abf.dat:system/vendor/camera/SOI25BS2/hal_ctrl_platform_abf.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/hal_ctrl_platform_asf_lin.dat:system/vendor/camera/SOI25BS2/hal_ctrl_platform_asf_lin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/hal_ctrl_platform_asf_stp.dat:system/vendor/camera/SOI25BS2/hal_ctrl_platform_asf_stp.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS2/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/hal_ctrl_platform_gic.dat:system/vendor/camera/SOI25BS2/hal_ctrl_platform_gic.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/hdr_comp.dat:system/vendor/camera/SOI25BS2/hdr_comp.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/idt_ctrl.dat:system/vendor/camera/SOI25BS2/idt_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/image_conv_canele.dat:system/vendor/camera/SOI25BS2/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/image_conv.dat:system/vendor/camera/SOI25BS2/image_conv.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/image_conv_canele.dat:system/vendor/camera/SOI25BS2/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/image_conv_marble.dat:system/vendor/camera/SOI25BS2/image_conv_marble.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/image_conv_raisin.dat:system/vendor/camera/SOI25BS2/image_conv_raisin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/image_conv_spica.dat:system/vendor/camera/SOI25BS2/image_conv_spica.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2_IMX300.dat:system/vendor/camera/SOI25BS2_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/jpeg_enc.dat:system/vendor/camera/SOI25BS2/jpeg_enc.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/lens_ctrl.dat:system/vendor/camera/SOI25BS2/lens_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/motion_estimation.dat:system/vendor/camera/SOI25BS2/motion_estimation.dat \
@@ -435,9 +434,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/object_tracker.dat:system/vendor/camera/SOI25BS2/object_tracker.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/scene_detector.dat:system/vendor/camera/SOI25BS2/scene_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2/snapshot_ctrl.dat:system/vendor/camera/SOI25BS2/snapshot_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3_BU64747GWZ.dat:system/vendor/camera/SOI25BS3_BU64747GWZ.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS3_BU64747GWZ_XCF.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS3_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2_BU64747GWZ.dat:system/vendor/camera/SOI25BS2_BU64747GWZ.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS2_BU64747GWZ_XCF.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS2_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS2_IMX300.dat:system/vendor/camera/SOI25BS2_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/color_ctrl.dat:system/vendor/camera/SOI25BS3/color_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/dataflow.dat:system/vendor/camera/SOI25BS3/dataflow.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/debug_mgr.dat:system/vendor/camera/SOI25BS3/debug_mgr.dat \
@@ -450,19 +450,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/food_comp_yummy.dat:system/vendor/camera/SOI25BS3/food_comp_yummy.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/food_detector.dat:system/vendor/camera/SOI25BS3/food_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/hal_ctrl.dat:system/vendor/camera/SOI25BS3/hal_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS3/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/hal_ctrl_platform_abf.dat:system/vendor/camera/SOI25BS3/hal_ctrl_platform_abf.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/hal_ctrl_platform_asf_lin.dat:system/vendor/camera/SOI25BS3/hal_ctrl_platform_asf_lin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/hal_ctrl_platform_asf_stp.dat:system/vendor/camera/SOI25BS3/hal_ctrl_platform_asf_stp.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS3/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/hal_ctrl_platform_gic.dat:system/vendor/camera/SOI25BS3/hal_ctrl_platform_gic.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/hdr_comp.dat:system/vendor/camera/SOI25BS3/hdr_comp.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/idt_ctrl.dat:system/vendor/camera/SOI25BS3/idt_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/image_conv_canele.dat:system/vendor/camera/SOI25BS3/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/image_conv.dat:system/vendor/camera/SOI25BS3/image_conv.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/image_conv_canele.dat:system/vendor/camera/SOI25BS3/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/image_conv_marble.dat:system/vendor/camera/SOI25BS3/image_conv_marble.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/image_conv_raisin.dat:system/vendor/camera/SOI25BS3/image_conv_raisin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/image_conv_spica.dat:system/vendor/camera/SOI25BS3/image_conv_spica.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3_IMX300.dat:system/vendor/camera/SOI25BS3_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/jpeg_enc.dat:system/vendor/camera/SOI25BS3/jpeg_enc.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/lens_ctrl.dat:system/vendor/camera/SOI25BS3/lens_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/motion_estimation.dat:system/vendor/camera/SOI25BS3/motion_estimation.dat \
@@ -473,9 +472,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/object_tracker.dat:system/vendor/camera/SOI25BS3/object_tracker.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/scene_detector.dat:system/vendor/camera/SOI25BS3/scene_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3/snapshot_ctrl.dat:system/vendor/camera/SOI25BS3/snapshot_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4_BU64747GWZ.dat:system/vendor/camera/SOI25BS4_BU64747GWZ.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS4_BU64747GWZ_XCF.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS4_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3_BU64747GWZ.dat:system/vendor/camera/SOI25BS3_BU64747GWZ.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS3_BU64747GWZ_XCF.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS3_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS3_IMX300.dat:system/vendor/camera/SOI25BS3_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/color_ctrl.dat:system/vendor/camera/SOI25BS4/color_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/dataflow.dat:system/vendor/camera/SOI25BS4/dataflow.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/debug_mgr.dat:system/vendor/camera/SOI25BS4/debug_mgr.dat \
@@ -488,19 +488,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/food_comp_yummy.dat:system/vendor/camera/SOI25BS4/food_comp_yummy.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/food_detector.dat:system/vendor/camera/SOI25BS4/food_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/hal_ctrl.dat:system/vendor/camera/SOI25BS4/hal_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS4/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/hal_ctrl_platform_abf.dat:system/vendor/camera/SOI25BS4/hal_ctrl_platform_abf.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/hal_ctrl_platform_asf_lin.dat:system/vendor/camera/SOI25BS4/hal_ctrl_platform_asf_lin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/hal_ctrl_platform_asf_stp.dat:system/vendor/camera/SOI25BS4/hal_ctrl_platform_asf_stp.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/hal_ctrl_platform.dat:system/vendor/camera/SOI25BS4/hal_ctrl_platform.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/hal_ctrl_platform_gic.dat:system/vendor/camera/SOI25BS4/hal_ctrl_platform_gic.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/hdr_comp.dat:system/vendor/camera/SOI25BS4/hdr_comp.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/idt_ctrl.dat:system/vendor/camera/SOI25BS4/idt_ctrl.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/image_conv_canele.dat:system/vendor/camera/SOI25BS4/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/image_conv.dat:system/vendor/camera/SOI25BS4/image_conv.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/image_conv_canele.dat:system/vendor/camera/SOI25BS4/image_conv_canele.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/image_conv_marble.dat:system/vendor/camera/SOI25BS4/image_conv_marble.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/image_conv_raisin.dat:system/vendor/camera/SOI25BS4/image_conv_raisin.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/image_conv_spica.dat:system/vendor/camera/SOI25BS4/image_conv_spica.dat \
-    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4_IMX300.dat:system/vendor/camera/SOI25BS4_IMX300.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/jpeg_enc.dat:system/vendor/camera/SOI25BS4/jpeg_enc.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/lens_ctrl.dat:system/vendor/camera/SOI25BS4/lens_ctrl.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/motion_estimation.dat:system/vendor/camera/SOI25BS4/motion_estimation.dat \
@@ -511,6 +510,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/object_tracker.dat:system/vendor/camera/SOI25BS4/object_tracker.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/scene_detector.dat:system/vendor/camera/SOI25BS4/scene_detector.dat \
     vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4/snapshot_ctrl.dat:system/vendor/camera/SOI25BS4/snapshot_ctrl.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4_BU64747GWZ.dat:system/vendor/camera/SOI25BS4_BU64747GWZ.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4_BU64747GWZ_XCF.dat:system/vendor/camera/SOI25BS4_BU64747GWZ_XCF.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4_BU64747GWZ_XFW.dat:system/vendor/camera/SOI25BS4_BU64747GWZ_XFW.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/SOI25BS4_IMX300.dat:system/vendor/camera/SOI25BS4_IMX300.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/default.dat:system/vendor/camera/default.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/sumire/proprietary/vendor/camera/snapshot.dat:system/vendor/camera/snapshot.dat \
     vendor/sony/sumire/proprietary/vendor/camera/streaming.dat:system/vendor/camera/streaming.dat \
     vendor/sony/sumire/proprietary/vendor/camera/supported.dat:system/vendor/camera/supported.dat \
     vendor/sony/sumire/proprietary/vendor/camera/version.dat:system/vendor/camera/version.dat \
@@ -525,147 +531,64 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/firmware/tzfingerprint.b02:system/vendor/firmware/tzfingerprint.b02 \
     vendor/sony/sumire/proprietary/vendor/firmware/tzfingerprint.b03:system/vendor/firmware/tzfingerprint.b03 \
     vendor/sony/sumire/proprietary/vendor/firmware/tzfingerprint.mdt:system/vendor/firmware/tzfingerprint.mdt \
-    vendor/sony/sumire/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/hw/gatekeeper.msm8994.so:system/vendor/lib64/hw/gatekeeper.msm8994.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/hw/keystore.msm8994.so:system/vendor/lib64/hw/keystore.msm8994.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libmmcamera2_sensor_debug.so:system/vendor/lib64/libmmcamera2_sensor_debug.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/sony/sumire/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/sony/sumire/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/sony/sumire/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/sumire/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/sony/sumire/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/sony/sumire/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/sony/sumire/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/sony/sumire/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/sony/sumire/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/sony/sumire/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:system/vendor/lib/hw/gatekeeper.msm8994.so \
     vendor/sony/sumire/proprietary/vendor/lib/hw/keystore.msm8994.so:system/vendor/lib/hw/keystore.msm8994.so \
+    vendor/sony/sumire/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/sony/sumire/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/sony/sumire/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/sony/sumire/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_ad5823_camcorder.so:system/vendor/lib/libactuator_ad5823_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_ad5823_camera.so:system/vendor/lib/libactuator_ad5823_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_bu64244gwz_camcorder.so:system/vendor/lib/libactuator_bu64244gwz_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_bu64244gwz_camera.so:system/vendor/lib/libactuator_bu64244gwz_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:system/vendor/lib/libactuator_dw9761b_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9761b_camera.so:system/vendor/lib/libactuator_dw9761b_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_lc898122_camcorder.so:system/vendor/lib/libactuator_lc898122_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_lc898122_camera.so:system/vendor/lib/libactuator_lc898122_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_lc898212xd_camcorder.so:system/vendor/lib/libactuator_lc898212xd_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_lc898212xd_camera.so:system/vendor/lib/libactuator_lc898212xd_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_ov8825_camera.so:system/vendor/lib/libactuator_ov8825_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/sony/sumire/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/sony/sumire/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/sony/sumire/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/sumire/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/sony/sumire/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/sumire/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/sumire/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_common.so:system/vendor/lib/libchromatix_s5k3m2xx_common.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so \
@@ -673,8 +596,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so \
     vendor/sony/sumire/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so \
@@ -692,14 +615,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/sony/sumire/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/sony/sumire/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/sony/sumire/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/sony/sumire/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/sony/sumire/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/sony/sumire/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/sony/sumire/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/sumire/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/sony/sumire/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/sony/sumire/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/sony/sumire/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -712,13 +633,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/sony/sumire/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
@@ -783,12 +706,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_pdaf_v3.so:system/vendor/lib/libmmcamera_pdaf_v3.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
@@ -796,8 +719,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -805,14 +726,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/sony/sumire/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/sumire/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/sony/sumire/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -820,11 +738,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/sony/sumire/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/sony/sumire/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
@@ -833,11 +749,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/sony/sumire/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
     vendor/sony/sumire/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/sony/sumire/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/sony/sumire/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/sony/sumire/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/sony/sumire/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/sony/sumire/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/sony/sumire/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/sony/sumire/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -845,7 +759,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/sony/sumire/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/sony/sumire/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/sony/sumire/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/sony/sumire/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/sony/sumire/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/sumire/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
@@ -856,7 +769,100 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/sony/sumire/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/sony/sumire/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/sony/sumire/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+    vendor/sony/sumire/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/hw/gatekeeper.msm8994.so:system/vendor/lib64/hw/gatekeeper.msm8994.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/hw/keystore.msm8994.so:system/vendor/lib64/hw/keystore.msm8994.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libmmcamera2_sensor_debug.so:system/vendor/lib64/libmmcamera2_sensor_debug.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/sony/sumire/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff
