@@ -152,9 +152,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_stream_ctrl_plugin.so:system/lib/camera/libexcal_stream_ctrl_plugin.so \
     vendor/sony/sumire/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/sumire/proprietary/lib/hw/fingerprint.msm8994.so:system/lib/hw/fingerprint.msm8994.so \
     vendor/sony/sumire/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/sumire/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/sumire/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/sumire/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/sony/sumire/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/sumire/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
     vendor/sony/sumire/proprietary/lib/libcacao_imgproc.so:system/lib/libcacao_imgproc.so \
@@ -164,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/sumire/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/sumire/proprietary/lib/libcammw.so:system/lib/libcammw.so \
+    vendor/sony/sumire/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/sony/sumire/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/sumire/proprietary/lib/libdevice_security.so:system/lib/libdevice_security.so \
     vendor/sony/sumire/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
@@ -218,14 +221,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib/libtpm.so:system/lib/libtpm.so \
     vendor/sony/sumire/proprietary/lib/soundfx/libsonypostprocbundle.so:system/lib/soundfx/libsonypostprocbundle.so \
     vendor/sony/sumire/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
+    vendor/sony/sumire/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
     vendor/sony/sumire/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/sony/sumire/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
     vendor/sony/sumire/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/sumire/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/sumire/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
+    vendor/sony/sumire/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/sony/sumire/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
     vendor/sony/sumire/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
     vendor/sony/sumire/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
+    vendor/sony/sumire/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
     vendor/sony/sumire/proprietary/lib64/libcredential-manager-service.so:system/lib64/libcredential-manager-service.so \
     vendor/sony/sumire/proprietary/lib64/libdevice_security.so:system/lib64/libdevice_security.so \
     vendor/sony/sumire/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
