@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
     vendor/sony/honami/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/honami/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/sony/honami/proprietary/lib/touchfilter/tftype4.so:system/lib/touchfilter/tftype4.so \
     vendor/sony/honami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/honami/proprietary/usr/idc/clearpad_pen.idc:system/usr/idc/clearpad_pen.idc \
     vendor/sony/honami/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \
