@@ -175,7 +175,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/sirius/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     vendor/sony/sirius/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
 
-
 # Camera specific files
 PRODUCT_COPY_FILES += \
 	vendor/sony/sirius/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
@@ -259,3 +258,31 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/scene_detector.dat:system/vendor/camera/SEM02BN1/scene_detector.dat \
 	vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/snapshot_ctrl.dat:system/vendor/camera/SEM02BN1/snapshot_ctrl.dat \
 	vendor/sony/sirius/proprietary/vendor/camera/SEM02BN1/streaming_ctrl.dat:system/vendor/camera/SEM02BN1/streaming_ctrl.dat
+
+# D6502 specific files
+PRODUCT_COPY_FILES += \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/mba.b00:system/etc/firmware/d6502/mba.b00 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/mba.mdt:system/etc/firmware/d6502/mba.mdt \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b00:system/etc/firmware/d6502/modem.b00 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b01:system/etc/firmware/d6502/modem.b01 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b02:system/etc/firmware/d6502/modem.b02 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b03:system/etc/firmware/d6502/modem.b03 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b04:system/etc/firmware/d6502/modem.b04 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b05:system/etc/firmware/d6502/modem.b05 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b08:system/etc/firmware/d6502/modem.b08 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b10:system/etc/firmware/d6502/modem.b10 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b11:system/etc/firmware/d6502/modem.b11 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b13:system/etc/firmware/d6502/modem.b13 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b14:system/etc/firmware/d6502/modem.b14 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b15:system/etc/firmware/d6502/modem.b15 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b16:system/etc/firmware/d6502/modem.b16 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b17:system/etc/firmware/d6502/modem.b17 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b18:system/etc/firmware/d6502/modem.b18 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b19:system/etc/firmware/d6502/modem.b19 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b20:system/etc/firmware/d6502/modem.b20 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b21:system/etc/firmware/d6502/modem.b21 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b22:system/etc/firmware/d6502/modem.b22 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b25:system/etc/firmware/d6502/modem.b25 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b26:system/etc/firmware/d6502/modem.b26 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.b27:system/etc/firmware/d6502/modem.b27 \
+	vendor/sony/sirius/proprietary/etc/firmware/d6502/modem.mdt:system/etc/firmware/d6502/modem.mdt 
