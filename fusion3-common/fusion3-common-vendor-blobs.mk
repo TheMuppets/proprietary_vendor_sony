@@ -72,8 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/sony/fusion3-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/fusion3-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
