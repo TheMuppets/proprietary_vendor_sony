@@ -94,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
-    vendor/sony/castor_windy/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/castor_windy/proprietary/etc/sforce/sforce_coef_music.bin:system/etc/sforce/sforce_coef_music.bin \
     vendor/sony/castor_windy/proprietary/etc/sforce/sforce_coef_video.bin:system/etc/sforce/sforce_coef_video.bin \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/FMSpeaker_btm.eq:system/etc/tfa98xx/FMSpeaker_btm.eq \
