@@ -137,8 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
-    vendor/sony/castor_windy/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-
+    
 # Camera specific files
 PRODUCT_COPY_FILES += \
 	vendor/sony/castor_windy/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
