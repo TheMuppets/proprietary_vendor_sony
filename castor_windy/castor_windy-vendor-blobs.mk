@@ -94,9 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
-    vendor/sony/castor_windy/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    vendor/sony/castor_windy/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
-    vendor/sony/castor_windy/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/castor_windy/proprietary/etc/sforce/sforce_coef_music.bin:system/etc/sforce/sforce_coef_music.bin \
     vendor/sony/castor_windy/proprietary/etc/sforce/sforce_coef_video.bin:system/etc/sforce/sforce_coef_video.bin \
     vendor/sony/castor_windy/proprietary/etc/tfa98xx/FMSpeaker_btm.eq:system/etc/tfa98xx/FMSpeaker_btm.eq \
@@ -139,8 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
-    vendor/sony/castor_windy/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-
+    
 # Camera specific files
 PRODUCT_COPY_FILES += \
 	vendor/sony/castor_windy/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
