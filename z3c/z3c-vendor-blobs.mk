@@ -116,11 +116,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/z3c/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
 	vendor/sony/z3c/proprietary/etc/firmware/modem.b23:system/etc/firmware/modem.b23 \
 	vendor/sony/z3c/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
-	vendor/sony/z3c/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-	vendor/sony/z3c/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-	vendor/sony/z3c/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-	vendor/sony/z3c/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc
-
+	vendor/sony/z3c/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
 
 # Camera specific files
 PRODUCT_COPY_FILES += \
