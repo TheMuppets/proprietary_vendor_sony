@@ -20,6 +20,26 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter dogo odin pollux pollux_windy yuga,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libMPU3050
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/lib/libMPU3050.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsensors_akm8963
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/lib/libsensors_akm8963.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libta
 LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := proprietary/lib/libta.so
