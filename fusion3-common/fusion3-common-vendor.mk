@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/fusion3-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
-    vendor/sony/fusion3-common/proprietary/lib/hw/lights.vendor.default.so:system/lib/hw/lights.vendor.default.so \
     vendor/sony/fusion3-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/fusion3-common/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
@@ -58,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/sony/fusion3-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/fusion3-common/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
-    vendor/sony/fusion3-common/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/fusion3-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/fusion3-common/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
