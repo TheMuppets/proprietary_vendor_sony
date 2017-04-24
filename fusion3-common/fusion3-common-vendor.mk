@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
     vendor/sony/fusion3-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
-    vendor/sony/fusion3-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/fusion3-common/proprietary/lib/libals.so:system/lib/libals.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/fusion3-common/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
@@ -56,9 +55,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/fusion3-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/sony/fusion3-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/sony/fusion3-common/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/sony/fusion3-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/fusion3-common/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+    vendor/sony/fusion3-common/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -66,7 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/fusion3-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/sony/fusion3-common/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+    vendor/sony/fusion3-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/fusion3-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/fusion3-common/proprietary/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
     vendor/sony/fusion3-common/proprietary/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
@@ -89,6 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat
 
 PRODUCT_PACKAGES += \
+    libMPU3050 \
+    libsensors_akm8963 \
     libta
 
 PRODUCT_COPY_FILES += \
