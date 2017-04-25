@@ -126,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin_windy/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/lib/camera/libexcal_snapshot_ctrl_plugin.so \
     vendor/sony/karin_windy/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/karin_windy/proprietary/lib/camera/libexcal_stream_ctrl_plugin.so:system/lib/camera/libexcal_stream_ctrl_plugin.so \
+    vendor/sony/karin_windy/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/sony/karin_windy/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/karin_windy/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/karin_windy/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
@@ -415,6 +416,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin_windy/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/sony/karin_windy/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -626,8 +628,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin_windy/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/sony/karin_windy/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/sony/karin_windy/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/sony/karin_windy/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/sony/karin_windy/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
