@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
 	vendor/sony/shinano-common/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
 	vendor/sony/shinano-common/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
-	vendor/sony/shinano-common/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
 	vendor/sony/shinano-common/proprietary/framework/com.sonyericsson.idd.jar:system/framework/com.sonyericsson.idd.jar \
 	vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
 	vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
