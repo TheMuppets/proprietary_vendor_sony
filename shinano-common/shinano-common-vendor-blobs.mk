@@ -350,30 +350,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_cam_ctrl_plugin.so:system/vendor/lib/libexcal_cam_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_cap_ctrl_plugin.so:system/vendor/lib/libexcal_cap_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_color_ctrl_plugin.so:system/vendor/lib/libexcal_color_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_core.so:system/vendor/lib/libexcal_core.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_debug_display_plugin.so:system/vendor/lib/libexcal_debug_display_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_exposure_ctrl_plugin.so:system/vendor/lib/libexcal_exposure_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_face_detector_plugin.so:system/vendor/lib/libexcal_face_detector_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_flicker_detector_plugin.so:system/vendor/lib/libexcal_flicker_detector_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_focus_stats_conv_plugin.so:system/vendor/lib/libexcal_focus_stats_conv_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_hal_ctrl_plugin.so:system/vendor/lib/libexcal_hal_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_hdr_plugin.so:system/vendor/lib/libexcal_hdr_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_idt_ctrl_plugin.so:system/vendor/lib/libexcal_idt_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_image_conv_plugin.so:system/vendor/lib/libexcal_image_conv_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_iq_ctrl_plugin.so:system/vendor/lib/libexcal_iq_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_jpeg_enc_plugin.so:system/vendor/lib/libexcal_jpeg_enc_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_lens_ctrl_plugin.so:system/vendor/lib/libexcal_lens_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_motion_estimation_plugin.so:system/vendor/lib/libexcal_motion_estimation_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_multiframe_nr_plugin.so:system/vendor/lib/libexcal_multiframe_nr_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_object_tracker_plugin.so:system/vendor/lib/libexcal_object_tracker_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_scene_detector_plugin.so:system/vendor/lib/libexcal_scene_detector_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_snapshot_ctrl_plugin.so:system/vendor/lib/libexcal_snapshot_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_splitter_plugin.so:system/vendor/lib/libexcal_splitter_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_streaming_ctrl_plugin.so:system/vendor/lib/libexcal_streaming_ctrl_plugin.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libexcal_system.so:system/vendor/lib/libexcal_system.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
