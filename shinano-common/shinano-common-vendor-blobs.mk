@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
 	vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
-	vendor/sony/shinano-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
