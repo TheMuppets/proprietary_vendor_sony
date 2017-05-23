@@ -195,8 +195,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/shinano-common/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
 	vendor/sony/shinano-common/proprietary/vendor/CredentialManagerData:system/vendor/CredentialManagerData \
-	vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-	vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
 	vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
 	vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
 	vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
