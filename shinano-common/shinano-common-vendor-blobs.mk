@@ -168,10 +168,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
 	vendor/sony/shinano-common/proprietary/lib/lib_get_s1_cert_common_name.so:system/lib/lib_get_s1_cert_common_name.so \
 	vendor/sony/shinano-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
-	vendor/sony/shinano-common/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
-	vendor/sony/shinano-common/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-	vendor/sony/shinano-common/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
-	vendor/sony/shinano-common/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
 	vendor/sony/shinano-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/sony/shinano-common/proprietary/lib/libidd.so:system/lib/libidd.so \
 	vendor/sony/shinano-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
