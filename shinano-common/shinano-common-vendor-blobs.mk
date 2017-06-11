@@ -232,8 +232,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libcamera_clientsemc.so:system/vendor/lib/libcamera_clientsemc.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libcameralight.so:system/vendor/lib/libcameralight.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
