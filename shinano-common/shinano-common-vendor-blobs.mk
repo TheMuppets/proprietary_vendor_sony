@@ -435,7 +435,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsony_face.so:system/vendor/lib/libsony_face.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
@@ -455,4 +454,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libTimeService \
-    TimeService 
+    TimeService \
+    libtime_genoff
