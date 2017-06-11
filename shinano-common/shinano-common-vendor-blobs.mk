@@ -183,13 +183,11 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
 	vendor/sony/shinano-common/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
 	vendor/sony/shinano-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-	vendor/sony/shinano-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
 	vendor/sony/shinano-common/proprietary/lib/lib_s1_verification.so:system/lib/lib_s1_verification.so \
 	vendor/sony/shinano-common/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
 	vendor/sony/shinano-common/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
 	vendor/sony/shinano-common/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
 	vendor/sony/shinano-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
-	vendor/sony/shinano-common/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
 	vendor/sony/shinano-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
 	vendor/sony/shinano-common/proprietary/lib/libta.so:system/lib/libta.so \
 	vendor/sony/shinano-common/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
