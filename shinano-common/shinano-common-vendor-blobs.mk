@@ -331,11 +331,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -359,11 +356,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -394,7 +388,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
@@ -434,15 +427,12 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsony_face.so:system/vendor/lib/libsony_face.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/mediadrm/libmarlincdmplugin.so:system/vendor/lib/mediadrm/libmarlincdmplugin.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
