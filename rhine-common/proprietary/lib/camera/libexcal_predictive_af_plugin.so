@@ -1,0 +1,233 @@
+int32_t _ZN9excalibur14FocusStatsConv10execActionEPNS_8ImageBufES2_S2_(int32_t * a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5, int32_t a6, int32_t a7, int32_t a8, int32_t a9, int32_t a10);
+int32_t _ZN9excalibur14FocusStatsConv12makeFreeRectENS_9ImageSizeENS_3PosES1_S2_PN5cacao9ImageRectE(int32_t a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5);
+int32_t _ZN9excalibur14FocusStatsConv12processFrameEm(int32_t * a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5);
+int32_t _ZN9excalibur14FocusStatsConv13onGetPortInfoEmPNS_8PortInfoE(void);
+int32_t _ZN9excalibur14FocusStatsConv13onRequestStopEv(int32_t a1);
+int32_t _ZN9excalibur14FocusStatsConv16updateBufferInfoE9PAL_Err_tPNS_8ImageBufES3_(int32_t a1, int32_t a2, int32_t a3, int32_t * a4, int32_t a5, int32_t a6, int32_t a7);
+int32_t _ZN9excalibur14FocusStatsConv18makeCkbStaticParamEPN5cacao12CkbStaticPrmE(int32_t a1, int32_t * a2, int32_t a3, int32_t a4, int32_t a5);
+int32_t _ZN9excalibur14FocusStatsConv18onCreateMsgFuncTblEPPNS_8CompBase11CmdFuncItemEPm(int32_t a1, int32_t * a2);
+int32_t _ZN9excalibur14FocusStatsConv19makeCkbDynamicParamEPN5cacao13CkbDynamicPrmE(int32_t a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5, int32_t a6, int32_t a7, int32_t a8, int32_t a9, int32_t a10, int32_t a11, int32_t a12, int32_t a13, int32_t a14, int32_t a15, int32_t a16);
+int32_t _ZN9excalibur14FocusStatsConv19onCreatePortFuncTblEPPNS_8CompBase12PortFuncItemEPm(int32_t a1, int32_t * a2);
+int32_t _ZN9excalibur14FocusStatsConv19processHwFocusStatsEm(int32_t * a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5);
+int32_t _ZN9excalibur14FocusStatsConv19validateStatsBufferEPNS_8ImageBufE(int32_t a1, int32_t * a2, int32_t a3);
+int32_t _ZN9excalibur14FocusStatsConv20getAfStatsCtrlConfigEPNS_14CompConfigBaseE(int32_t a1, int32_t * a2, int32_t a3, int32_t a4);
+int32_t _ZN9excalibur14FocusStatsConv20setAfStatsCtrlConfigEPNS_14CompConfigBaseE(int32_t a1);
+int32_t _ZN9excalibur14FocusStatsConv21onCreateConfigFuncTblEPPNS_8CompBase14ConfigFuncItemEPmS5_(int32_t a1);
+int32_t _ZN9excalibur14FocusStatsConv21processBufferInternalEm(int32_t * a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5);
+int32_t _ZN9excalibur14FocusStatsConv25validateAfStatsCtrlConfigEPNS_14CompConfigBaseE(int32_t a1);
+int32_t _ZN9excalibur14FocusStatsConv26validateHwFocusStatsBufferEPNS_8ImageBufE(int32_t a1, int32_t * a2, int32_t a3);
+void _ZN9excalibur14FocusStatsConv4dumpEm(void);
+int32_t _ZN9excalibur14FocusStatsConv6doStopEPNS_7MsgBaseE(int32_t * a1);
+int32_t _ZN9excalibur14FocusStatsConv6onInitEv(int32_t a1, int32_t a2);
+int32_t _ZN9excalibur14FocusStatsConv7doStartEPNS_7MsgBaseE(int32_t * a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5, int32_t a6, int32_t a7, int32_t a8, int32_t a9, int32_t a10, int32_t a11, int32_t a12, int32_t a13, int32_t a14, int32_t a15, int32_t a16, int32_t a17, int32_t a18, int32_t a19);
+int32_t _ZN9excalibur14FocusStatsConv8onDeinitEv(int32_t a1, int32_t a2);
+char _ZN9excalibur14FocusStatsConv9matchItemEPNS_8ImageBufEPv(int32_t * a1, int32_t a2, int32_t a3);
+int32_t _ZN9excalibur14FocusStatsConvC1EPNS_7ILoggerE(int32_t * a1);
+int32_t _ZN9excalibur14FocusStatsConvD0Ev(int32_t a1);
+int32_t _ZN9excalibur14FocusStatsConvD1Ev(int32_t * a1);
+int32_t _ZN9excalibur21FocusStatsConvFactory11getCompInfoEPNS_8CompInfoE(int32_t a1);
+int32_t _ZN9excalibur21FocusStatsConvFactory14createInstanceEPNS_7ILoggerE(int32_t a1);
+void _ZN9excalibur21FocusStatsConvFactory4dumpEm(void);
+int32_t _ZN9excalibur21FocusStatsConvFactoryC2Ev(int32_t * a1, int32_t a2);
+int32_t _ZN9excalibur21FocusStatsConvFactoryD0Ev(int32_t a1);
+int32_t _ZN9excalibur21FocusStatsConvFactoryD1Ev(void);
+int32_t _ZThn60_N9excalibur14FocusStatsConvD0Ev(int32_t a1);
+int32_t _ZThn60_N9excalibur14FocusStatsConvD1Ev(int32_t a1);
+int32_t _ZThn64_N9excalibur14FocusStatsConvD0Ev(int32_t a1);
+int32_t _ZThn64_N9excalibur14FocusStatsConvD1Ev(int32_t a1);
+int32_t _ZThn68_N9excalibur14FocusStatsConvD0Ev(int32_t a1);
+int32_t _ZThn68_N9excalibur14FocusStatsConvD1Ev(int32_t a1);
+int32_t function_2ca8(void);
+int32_t function_2ccc(int32_t result);
+int32_t function_2cd4(int32_t result);
+int32_t function_2cd8(int32_t a1);
+int32_t function_2d04(int32_t a1, int32_t a2);
+int32_t function_2dac(int32_t a1);
+int32_t function_2e00(int32_t a1);
+int32_t function_2e10(int32_t a1, int32_t a2);
+void function_2ec8(void);
+void function_2ef4(void);
+void function_2ef6(void);
+void function_2f02(void);
+void function_2f0e(void);
+void function_2f18(void);
+void function_2f1a(void);
+void function_2f26(void);
+void function_2f32(void);
+void function_2f3e(void);
+void function_2f4a(void);
+void function_2f54(void);
+void function_2f60(void);
+void function_2f6c(void);
+void function_2f6e(void);
+void function_2f7a(void);
+void function_2f84(void);
+void function_2f90(void);
+void function_2f92(void);
+void function_2f9c(void);
+void function_2f9e(void);
+void function_2fa8(void);
+void function_2fb4(void);
+void function_2fcc(void);
+void function_2fd8(void);
+void function_2fda(void);
+void function_2fe6(void);
+void function_2ff2(void);
+void function_2ffc(void);
+void function_300a(void);
+void function_3014(void);
+void function_3022(void);
+void function_302c(void);
+void function_303a(void);
+void function_3068(void);
+void function_306a(void);
+void function_3074(void);
+void function_3076(void);
+void function_3080(void);
+void function_308e(void);
+void function_309a(void);
+void function_30a4(void);
+void function_30a6(void);
+void function_30be(void);
+void function_30c8(void);
+int32_t function_3260(void);
+int32_t function_3278(int16_t * a1, int32_t a2, int32_t a3);
+int32_t function_32a2(int32_t a1, int32_t a2);
+void function_32d6(void);
+int32_t function_32dc(int32_t a1, int32_t a2);
+int32_t function_3358(int32_t a1);
+int32_t function_3390(int32_t a1, int32_t a2, int32_t a3);
+int32_t function_33e4(int32_t * a1, int32_t a2);
+int32_t function_34ec(int32_t a1, int32_t a2, int32_t a3);
+int32_t function_3504(int32_t a1);
+int32_t function_353c(void);
+int32_t function_3554(int32_t * a1);
+int32_t function_358c(int32_t * a1);
+int32_t function_35b4(int32_t a1);
+int32_t function_35c4(void);
+int32_t function_35e8(int32_t * a1);
+void function_360a(void);
+int32_t function_360c(int32_t result, int32_t a2);
+void function_3618(void);
+int32_t function_3622(int32_t a1);
+int32_t function_3626(int32_t a1);
+int32_t function_3630(int32_t * a1);
+int32_t function_3654(int32_t a1, int32_t a2);
+int32_t function_3694(void);
+int32_t function_36ec(int32_t a1, uint32_t a2, int32_t a3, int32_t a4);
+int32_t function_3728(int32_t a1, int32_t a2, int32_t a3, int32_t a4);
+int32_t function_3740(int32_t a1);
+int32_t function_3746(void);
+int32_t function_374a(int32_t result, int32_t a2, int32_t a3, int32_t a4);
+int32_t function_3754(int32_t result);
+void function_3780(void);
+int32_t function_3784(int32_t a1);
+int32_t function_37a4(void);
+int32_t function_37d0(int32_t a1, int32_t a2);
+int32_t function_3818(int32_t * a1);
+int32_t function_385c(int32_t a1);
+int32_t function_3880(int32_t * a1);
+int32_t function_3940(int32_t a1, int32_t a2, int32_t a3, uint32_t a4, int32_t a5, int32_t a6, int32_t a7, int32_t a8, int32_t a9);
+int32_t function_44cc(int32_t * a1);
+int32_t function_45d0(int32_t a1, int32_t * a2);
+int32_t function_4612(void);
+int32_t function_4624(int32_t * a1, int32_t a2);
+int32_t function_4682(int32_t a1);
+int32_t function_46b2(int32_t a1, int32_t a2, int32_t a3);
+int32_t function_4708(int32_t a1, int32_t a2);
+int32_t function_4748(int32_t a1, int32_t a2, int32_t a3);
+int32_t function_47d0(int32_t a1);
+int32_t function_4804(int32_t a1, int32_t a2, int32_t a3, int32_t a4);
+int32_t function_4a60(int32_t a1, int32_t a2);
+int32_t function_4a8a(int32_t * a1, int32_t a2);
+int32_t function_4b54(int32_t a1, int32_t a2);
+int32_t function_4b7c(int32_t a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5, int32_t a6, int32_t a7, int32_t a8, int32_t a9, int32_t a10, int32_t a11, int32_t a12);
+int32_t function_4c20(int32_t * a1, int32_t a2);
+int32_t function_4c2a(int32_t a1, int32_t a2);
+int32_t function_4c30(void);
+void function_4c40(void);
+int32_t function_4c48(void);
+int32_t function_4c50(int32_t a1, int32_t a2);
+void function_4c60(int32_t * a1, int32_t a2);
+void function_4c70(int32_t a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5, int32_t a6, int32_t a7, int32_t a8, int32_t a9);
+int32_t function_4ca4(int32_t a1, int32_t a2, int32_t a3, int32_t a4);
+int32_t function_4ff0(m-k_D.m/C);
+int32_t function_50c4(int32_t a1);
+int32_t function_50d8(void);
+int32_t function_50e8(int32_t a1);
+int32_t function_50f8(int32_t result);
+int32_t function_5108(int32_t a1);
+void function_5118(void);
+void function_5128(void);
+int32_t RegisterComponents(int32_t a1, int32_t a2);
+
+// --------------------- Global Variables ---------------------
+
+int32_t g30 = 0; // LR
+int32_t g31 = 0; // R0
+int32_t g32 = 0; // R1
+int32_t g33 = 0; // R10
+int32_t g34 = 0; // R11
+int32_t g35 = 0; // R2
+int32_t g36 = 0; // R3
+int32_t g37 = 0; // R4
+int32_t g38 = 0; // R5
+int32_t g39 = 0; // R6
+int32_t g40 = 0; // R7
+int32_t g41 = 0; // R8
+int32_t g42 = 0; // R9
+bool g1 = false; // flagc
+int32_t g2 = 0;
+int32_t g3 = 0x4ff1; // 0x6b08
+int32_t g4 = 0x3631; // 0x6b70
+int32_t g5 = 0; // 0x6eb4
+int32_t g6 = 0x105a;
+int32_t g7 = 0; // 0x6d48
+int32_t g8; // 0x6e80
+int32_t g9; // 0x6e84
+int32_t g10; // 0x6e88
+int32_t g11; // 0x6e8c
+int32_t g12; // 0x6e90
+int32_t g13; // 0x6e94
+int32_t g14; // 0x6e98
+int32_t g15; // 0x6e9c
+int32_t g16; // 0x6ea0
+int32_t g17; // 0x6ea4
+int32_t g18; // 0x6ea8
+int32_t g19; // 0x6eac
+int32_t g20; // 0x6eb8
+int32_t g21; // 0x6ebc
+int32_t g22 = 0x347f; // 0x6ec4
+int32_t g23 = 0; // 0x6ec8
+int32_t g24 = 0x2ec8; // 0x6f68
+int32_t g25 = 0x2ec8; // 0x6f74
+int32_t g26 = 0x2ec8; // 0x6f78
+int32_t g27 = 0x2ec8; // 0x6f7c
+int32_t g28 = 0x2ec8; // 0x6f90
+int32_t g29 = 0x2ec8; // 0x6fe8
+
+// ------------------------ Functions -------------------------
+
+// Address range: 0x2ca8 - 0x2ccb
+int32_t function_2ca8(void) {
+    int32_t * v1 = (int32_t *)(g40 + 108); // 0x2cb8_0
+    g37 = *v1;
+    int32_t result = *(int32_t *)(*v1 + 112); // 0x2cc8
+    g31 = result;
+    return result;
+}
+
+// Address range: 0x2ccc - 0x2cd3
+int32_t function_2ccc(int32_t result) {
+    // 0x2ccc
+    g37 = *(int32_t *)(result + 112);
+    g31 = result;
+    return result;
+}
+
+// Address range: 0x2cd4 - 0x2cd7
+int32_t function_2cd4(int32_t result) {
+    // 0x2cd4
+    g31 = result;
+    return result;
+}
