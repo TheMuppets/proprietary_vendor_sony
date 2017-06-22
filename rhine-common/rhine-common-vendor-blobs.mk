@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_motion_estimation_plugin.so:system/lib/camera/libexcal_motion_estimation_plugin.so \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_multiframe_nr_plugin.so:system/lib/camera/libexcal_multiframe_nr_plugin.so \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_object_tracker_plugin.so:system/lib/camera/libexcal_object_tracker_plugin.so \
-	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_predictive_af_plugin.so:system/lib/camera/libexcal_predictive_af_plugin.so \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_scene_detector_plugin.so:system/lib/camera/libexcal_scene_detector_plugin.so \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/lib/camera/libexcal_snapshot_ctrl_plugin.so \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
