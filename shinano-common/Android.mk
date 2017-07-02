@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),sony)
-ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
+ifeq ($(BOARD_VENDOR_PLATFORM),shinano)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libta
