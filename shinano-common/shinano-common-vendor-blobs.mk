@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/sony/shinano-common/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/sony/shinano-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	vendor/sony/shinano-common/proprietary/bin/scdnotifier:system/bin/scdnotifier \
 	vendor/sony/shinano-common/proprietary/bin/scd:system/bin/scd \
 	vendor/sony/shinano-common/proprietary/bin/sct_service:system/bin/sct_service \
 	vendor/sony/shinano-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
