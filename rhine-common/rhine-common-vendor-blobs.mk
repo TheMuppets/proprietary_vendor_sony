@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
 	vendor/sony/rhine-common/proprietary/lib/libcammw.so:system/lib/libcammw.so \
 	vendor/sony/rhine-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
-	vendor/sony/rhine-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	vendor/sony/rhine-common/proprietary/lib/libcrashlevelmatrix.so:system/lib/libcrashlevelmatrix.so \
 	vendor/sony/rhine-common/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
 	vendor/sony/rhine-common/proprietary/lib/libdtcpipplayer.so:system/lib/libdtcpipplayer.so \
@@ -183,7 +182,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	vendor/sony/rhine-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
 	vendor/sony/rhine-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-	vendor/sony/rhine-common/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
 	vendor/sony/rhine-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
 	vendor/sony/rhine-common/proprietary/lib/libMiscTAApi.so:system/lib/libMiscTAApi.so \
 	vendor/sony/rhine-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
@@ -200,9 +198,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
 	vendor/sony/rhine-common/proprietary/lib/libsony_face.so:system/lib/libsony_face.so \
 	vendor/sony/rhine-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
-	vendor/sony/rhine-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
 	vendor/sony/rhine-common/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
-	vendor/sony/rhine-common/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
 	vendor/sony/rhine-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/rhine-common/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
 	vendor/sony/rhine-common/proprietary/vendor/camera/LGI02BN1/cam_ctrl.dat:system/vendor/camera/LGI02BN1/cam_ctrl.dat \
