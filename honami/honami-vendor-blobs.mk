@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
 	vendor/sony/honami/proprietary/etc/firmware/tzhdcp.flist:system/etc/firmware/tzhdcp.flist \
 	vendor/sony/honami/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
+	vendor/sony/honami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
 	vendor/sony/honami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
 
 # Bootlogo

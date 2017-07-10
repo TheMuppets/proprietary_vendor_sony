@@ -78,4 +78,5 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/amami/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
 	vendor/sony/amami/proprietary/etc/firmware/tzhdcp.flist:system/etc/firmware/tzhdcp.flist \
 	vendor/sony/amami/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
+	vendor/sony/amami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
 	vendor/sony/amami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
