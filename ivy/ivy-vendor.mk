@@ -211,7 +211,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/ivy/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/ivy/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/ivy/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
-    vendor/sony/ivy/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
     vendor/sony/ivy/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
     vendor/sony/ivy/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
     vendor/sony/ivy/proprietary/lib64/libcredential-manager-service.so:system/lib64/libcredential-manager-service.so \
