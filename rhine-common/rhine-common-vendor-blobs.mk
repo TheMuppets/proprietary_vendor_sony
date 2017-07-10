@@ -117,8 +117,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
 	vendor/sony/rhine-common/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
 	vendor/sony/rhine-common/proprietary/etc/iddd.conf:system/etc/iddd.conf \
-	vendor/sony/rhine-common/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
-	vendor/sony/rhine-common/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
 	vendor/sony/rhine-common/proprietary/framework/com.sonyericsson.idd.jar:system/framework/com.sonyericsson.idd.jar \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
