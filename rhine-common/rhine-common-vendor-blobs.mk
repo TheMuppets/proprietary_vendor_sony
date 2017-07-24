@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/bin/taimport:system/bin/taimport \
 	vendor/sony/rhine-common/proprietary/bin/ta_param_loader:system/bin/ta_param_loader \
 	vendor/sony/rhine-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
+	vendor/sony/rhine-common/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/rhine-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
 	vendor/sony/rhine-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/rhine-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
@@ -523,6 +524,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
+    libTimeService \
+    TimeService \
     libtime_genoff \
     libta \
     tad_static \
