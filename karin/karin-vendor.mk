@@ -198,7 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/karin/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/karin/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/karin/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
-    vendor/sony/karin/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
     vendor/sony/karin/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
     vendor/sony/karin/proprietary/lib64/libcredential-manager-service.so:system/lib64/libcredential-manager-service.so \
     vendor/sony/karin/proprietary/lib64/libdevice_security.so:system/lib64/libdevice_security.so \
