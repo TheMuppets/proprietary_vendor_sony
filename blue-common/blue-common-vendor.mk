@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/blue-common/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/blue-common/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/sony/blue-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
-    vendor/sony/blue-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/blue-common/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/blue-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/blue-common/proprietary/lib/libmllite.so:system/lib/libmllite.so \
@@ -38,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/blue-common/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/blue-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
@@ -94,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/blue-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/blue-common/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/sony/blue-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/blue-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/blue-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/blue-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -107,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/blue-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/blue-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/blue-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/blue-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/blue-common/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
@@ -116,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/blue-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/blue-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/sony/blue-common/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/sony/blue-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/blue-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/blue-common/proprietary/lib/libs1sl.so:system/lib/libs1sl.so \
@@ -149,8 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/sony/blue-common/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/sony/blue-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
