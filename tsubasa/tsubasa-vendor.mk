@@ -60,15 +60,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/tsubasa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/tsubasa/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
-    vendor/sony/tsubasa/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/tsubasa/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
     vendor/sony/tsubasa/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
+    vendor/sony/tsubasa/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
     vendor/sony/tsubasa/proprietary/vendor/camera/KMO13BS0_IMX091.dat:system/vendor/camera/KMO13BS0_IMX091.dat \
-    vendor/sony/tsubasa/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/tsubasa/proprietary/vendor/camera/SOI13BS0_BU6456.dat:system/vendor/camera/SOI13BS0_BU6456.dat \
     vendor/sony/tsubasa/proprietary/vendor/camera/SOI13BS0.dat:system/vendor/camera/SOI13BS0.dat \
+    vendor/sony/tsubasa/proprietary/vendor/camera/SOI13BS0_BU6456.dat:system/vendor/camera/SOI13BS0_BU6456.dat \
     vendor/sony/tsubasa/proprietary/vendor/camera/SOI13BS0_IMX091.dat:system/vendor/camera/SOI13BS0_IMX091.dat \
-    vendor/sony/tsubasa/proprietary/vendor/camera/STW00YP1.dat:system/vendor/camera/STW00YP1.dat
+    vendor/sony/tsubasa/proprietary/vendor/camera/STW00YP1.dat:system/vendor/camera/STW00YP1.dat \
+    vendor/sony/tsubasa/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/tsubasa/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
 
 PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem.b10:system/etc/firmware/modem.b10 \
+    vendor/sony/tsubasa/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem_fw.b00:system/etc/firmware/modem_fw.b00 \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem_fw.b01:system/etc/firmware/modem_fw.b01 \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem_fw.b02:system/etc/firmware/modem_fw.b02 \
@@ -102,5 +103,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem_fw.b25:system/etc/firmware/modem_fw.b25 \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem_fw.b26:system/etc/firmware/modem_fw.b26 \
     vendor/sony/tsubasa/proprietary/etc/firmware/modem_fw.b29:system/etc/firmware/modem_fw.b29 \
-    vendor/sony/tsubasa/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt \
-    vendor/sony/tsubasa/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt
+    vendor/sony/tsubasa/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt

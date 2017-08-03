@@ -61,15 +61,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/hayabusa/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/hayabusa/proprietary/vendor/camera/APT01BM0.dat:system/vendor/camera/APT01BM0.dat \
-    vendor/sony/hayabusa/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/hayabusa/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
     vendor/sony/hayabusa/proprietary/vendor/camera/KMO13BS0.dat:system/vendor/camera/KMO13BS0.dat \
+    vendor/sony/hayabusa/proprietary/vendor/camera/KMO13BS0_BU6456.dat:system/vendor/camera/KMO13BS0_BU6456.dat \
     vendor/sony/hayabusa/proprietary/vendor/camera/KMO13BS0_IMX091.dat:system/vendor/camera/KMO13BS0_IMX091.dat \
-    vendor/sony/hayabusa/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/hayabusa/proprietary/vendor/camera/SOI13BS0_BU6456.dat:system/vendor/camera/SOI13BS0_BU6456.dat \
     vendor/sony/hayabusa/proprietary/vendor/camera/SOI13BS0.dat:system/vendor/camera/SOI13BS0.dat \
+    vendor/sony/hayabusa/proprietary/vendor/camera/SOI13BS0_BU6456.dat:system/vendor/camera/SOI13BS0_BU6456.dat \
     vendor/sony/hayabusa/proprietary/vendor/camera/SOI13BS0_IMX091.dat:system/vendor/camera/SOI13BS0_IMX091.dat \
-    vendor/sony/hayabusa/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat
+    vendor/sony/hayabusa/proprietary/vendor/camera/STW01BM0.dat:system/vendor/camera/STW01BM0.dat \
+    vendor/sony/hayabusa/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/hayabusa/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
 
 PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem.b07:system/etc/firmware/modem.b07 \
+    vendor/sony/hayabusa/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem_f1.b00:system/etc/firmware/modem_f1.b00 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem_f1.b01:system/etc/firmware/modem_f1.b01 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem_f1.b02:system/etc/firmware/modem_f1.b02 \
@@ -119,5 +120,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem_fw.b25:system/etc/firmware/modem_fw.b25 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem_fw.b26:system/etc/firmware/modem_fw.b26 \
     vendor/sony/hayabusa/proprietary/etc/firmware/modem_fw.b29:system/etc/firmware/modem_fw.b29 \
-    vendor/sony/hayabusa/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt \
-    vendor/sony/hayabusa/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt
+    vendor/sony/hayabusa/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt
