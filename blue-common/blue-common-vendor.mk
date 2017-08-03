@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/blue-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/blue-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/sony/blue-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/blue-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/blue-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/blue-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
