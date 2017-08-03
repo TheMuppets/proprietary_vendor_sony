@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/blue-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/blue-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-    vendor/sony/blue-common/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/sony/blue-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so
 
 PRODUCT_PACKAGES += \
