@@ -209,7 +209,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
     vendor/sony/suzuran/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
     vendor/sony/suzuran/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/sony/suzuran/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/sony/suzuran/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
     vendor/sony/suzuran/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/suzuran/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/suzuran/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
