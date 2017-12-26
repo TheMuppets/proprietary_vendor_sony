@@ -229,7 +229,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/sumire/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
     vendor/sony/sumire/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/sony/sumire/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
     vendor/sony/sumire/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
     vendor/sony/sumire/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
     vendor/sony/sumire/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
