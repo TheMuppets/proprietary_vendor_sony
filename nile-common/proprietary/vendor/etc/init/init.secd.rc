@@ -12,3 +12,4 @@ service sec_daemon /vendor/bin/secd
     socket secd_devsec_sock stream 0660 system credmgr_client
     socket secd_credmgr_sock stream 0660 system credmgr_client
     class main
+    setenv LD_PRELOAD libta_drm_ext.so
