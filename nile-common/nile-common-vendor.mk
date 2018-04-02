@@ -164,7 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.sony-drm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sony-drm.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.sony-trimarea-tad.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sony-trimarea-tad.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.taqmi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.taqmi.rc \
-    vendor/sony/nile-common/proprietary/vendor/etc/init/taimport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/taimport.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/updatemiscta.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/updatemiscta.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
