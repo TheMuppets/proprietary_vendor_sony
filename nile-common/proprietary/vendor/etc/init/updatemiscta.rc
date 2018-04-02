@@ -1,0 +1,6 @@
+service updatemiscta /vendor/bin/updatemiscta
+    class main
+    user updatemiscta
+    group oem_2993
+    seclabel u:r:updatemiscta:s0
+    oneshot

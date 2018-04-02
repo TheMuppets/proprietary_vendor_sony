@@ -1,0 +1,32 @@
+#
+# Copyright (c) 2016 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+#
+
+service wvkbd_installer /vendor/bin/wvkbd
+    class late_start
+    user system
+    group system
+    oneshot
+
+service drm-widevine-hal-1-0 /vendor/bin/hw/android.hardware.drm@1.0-service.widevine
+    class hal
+    user media
+    group mediadrm drmrpc oem_2993
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks
+
+on property:gsm.nitz.time=*
+    start wvnitzd
+
+service wvnitzd /vendor/bin/wvnitzd nitz
+    class main
+    user media
+    group media
+    oneshot
+    disabled
+
+on post-fs-data
+    # Create directory for hdcp-sdk
+    mkdir /data/hdcp-sdk 0775 system system
+    mkdir /data/wv 0700 media media

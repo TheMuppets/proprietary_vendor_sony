@@ -1,0 +1,14 @@
+# Copyright (C) 2017 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+
+# create database directory
+on post-fs-data
+    mkdir /data/credmgr 0770 system credmgr_client
+
+# Start Security Daemon
+service sec_daemon /vendor/bin/secd
+    user system
+    group system
+    socket secd_devsec_sock stream 0660 system credmgr_client
+    socket secd_credmgr_sock stream 0660 system credmgr_client
+    class main

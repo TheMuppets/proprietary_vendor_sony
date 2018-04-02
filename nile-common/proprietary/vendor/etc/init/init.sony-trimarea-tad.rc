@@ -1,0 +1,30 @@
+#
+# Copyright (C) 2016 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+#
+
+#
+# init.sony-trimarea-tad.rc
+#
+
+on init
+    # SONY: Start the TrimArea Daemon. It must be started before fota-ua
+    wait /dev/block/mmcblk0p1
+    chown oem_2997 oem_2997 /dev/block/mmcblk0p1
+    chmod 0770 /dev/block/mmcblk0p1
+    class_start trimarea
+    exec u:r:tad:s0 system -- /vendor/bin/wait4tad_static
+
+    start hwservicemanager
+    start hidl_memory
+
+# SONY: TrimArea Daemon
+# Last 2 args: start block(blk size 128k), number of blocks(partitionsize(kb)/128(kb))
+#service tad_static /sbin/tad_static /dev/block/mmcblk0p1 0,16
+service tad_static /vendor/bin/tad_static /dev/block/bootdevice/by-name/TA 0,16
+    user oem_2997
+    group oem_2997 root
+    socket tad stream 0660 system oem_2993
+    class trimarea
+# tad_static is in rootfs, normal file_context does not work
+    seclabel u:r:tad:s0

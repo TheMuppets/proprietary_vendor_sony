@@ -1,0 +1,7 @@
+# Copyright (c) 2017 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+
+service vendor.semc.hardware.secd-1-0 /vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
+    class hal
+    user system
+    group system
