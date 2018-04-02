@@ -155,8 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/sony/nile-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/sony/nile-common/proprietary/vendor/etc/iddd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd.conf \
-    vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service_et516.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service_et516.rc \
-    vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service_fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service_fpc.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
