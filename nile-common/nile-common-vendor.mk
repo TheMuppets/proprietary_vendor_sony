@@ -781,4 +781,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyServicelibrary \
     qcrilhook \
+    qti-telephony-common \
     com.fingerprints.extension
