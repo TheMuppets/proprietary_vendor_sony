@@ -134,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/sony/nile-common/proprietary/vendor/bin/updatemiscta:$(TARGET_COPY_OUT_VENDOR)/bin/updatemiscta \
     vendor/sony/nile-common/proprietary/vendor/bin/wait4tad_static:$(TARGET_COPY_OUT_VENDOR)/bin/wait4tad_static \
+    vendor/sony/nile-common/proprietary/vendor/bin/wvkbd:$(TARGET_COPY_OUT_VENDOR)/bin/wvkbd \
     vendor/sony/nile-common/proprietary/vendor/bin/wvnitzd:$(TARGET_COPY_OUT_VENDOR)/bin/wvnitzd \
     vendor/sony/nile-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/sony/nile-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
@@ -239,6 +240,24 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/firmware/tztpm.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b06 \
     vendor/sony/nile-common/proprietary/vendor/firmware/tztpm.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b07 \
     vendor/sony/nile-common/proprietary/vendor/firmware/tztpm.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.mdt \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b00 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b01 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b02 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b03 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b04 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b05 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b06 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b07 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.mdt \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b00 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b01 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b02 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b03 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b04 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b05 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b06 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b07 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzwvcpybuf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.mdt \
     vendor/sony/nile-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
     vendor/sony/nile-common/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/sony/nile-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
