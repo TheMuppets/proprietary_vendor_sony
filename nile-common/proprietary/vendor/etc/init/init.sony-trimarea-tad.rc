@@ -13,7 +13,6 @@ on init
     chown oem_2997 oem_2997 /dev/block/mmcblk0p1
     chmod 0770 /dev/block/mmcblk0p1
     class_start trimarea
-    exec u:r:tad:s0 system -- /vendor/bin/wait4tad_static
 
     start hwservicemanager
     start hidl_memory

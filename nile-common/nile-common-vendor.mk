@@ -133,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/sony/nile-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/sony/nile-common/proprietary/vendor/bin/updatemiscta:$(TARGET_COPY_OUT_VENDOR)/bin/updatemiscta \
-    vendor/sony/nile-common/proprietary/vendor/bin/wait4tad_static:$(TARGET_COPY_OUT_VENDOR)/bin/wait4tad_static \
     vendor/sony/nile-common/proprietary/vendor/bin/wvkbd:$(TARGET_COPY_OUT_VENDOR)/bin/wvkbd \
     vendor/sony/nile-common/proprietary/vendor/bin/wvnitzd:$(TARGET_COPY_OUT_VENDOR)/bin/wvnitzd \
     vendor/sony/nile-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
