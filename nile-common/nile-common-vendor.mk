@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/sony/nile-common/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/sony/nile-common/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/sony/nile-common/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/sony/nile-common/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/sony/nile-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/sony/nile-common/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/sony/nile-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
@@ -63,6 +65,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/sony/nile-common/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/sony/nile-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/sony/nile-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/sony/nile-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/sony/nile-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/sony/nile-common/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/sony/nile-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
