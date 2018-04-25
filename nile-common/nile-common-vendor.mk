@@ -600,6 +600,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/sony/nile-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/sony/nile-common/proprietary/vendor/lib/vendor.semc.system.idd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.semc.system.idd@1.0_vendor.so \
+    vendor/sony/nile-common/proprietary/vendor/lib/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.radio@1.0.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
@@ -838,12 +839,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/lib64/vendor.semc.system.idd.fallback@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.system.idd.fallback@1.0_vendor.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/vendor.semc.system.idd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.system.idd@1.0_vendor.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.miscta@1.0_vendor.so \
+    vendor/sony/nile-common/proprietary/vendor/lib64/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.radio@1.0.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/vendor.somc.hardware.wifi@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.wifi@1.0_vendor.so \
     vendor/sony/nile-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     libgpustats \
+    libril \
     libsdm-disp-vndapis \
     libta \
     libthermalclient \
