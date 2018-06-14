@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/bin/secd:$(TARGET_COPY_OUT_VENDOR)/bin/secd \
     vendor/sony/nile-common/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/sony/nile-common/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
+    vendor/sony/nile-common/proprietary/vendor/bin/sony-modem-switcher:$(TARGET_COPY_OUT_VENDOR)/bin/sony-modem-switcher \
     vendor/sony/nile-common/proprietary/vendor/bin/ta_qmi_service:$(TARGET_COPY_OUT_VENDOR)/bin/ta_qmi_service \
     vendor/sony/nile-common/proprietary/vendor/bin/tad_static:$(TARGET_COPY_OUT_VENDOR)/bin/tad_static \
     vendor/sony/nile-common/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
@@ -170,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.mlog_qmi_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mlog_qmi_service.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.secd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.secd.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.sony-drm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sony-drm.rc \
+    vendor/sony/nile-common/proprietary/vendor/etc/init/init.sony-modem-switcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sony-modem-switcher.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.sony-trimarea-tad.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sony-trimarea-tad.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.taqmi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.taqmi.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/updatemiscta.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/updatemiscta.rc \

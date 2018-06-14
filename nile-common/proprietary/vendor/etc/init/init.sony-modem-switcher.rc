@@ -1,0 +1,13 @@
+#
+# Copyright (C) 2016 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+#
+
+#
+# init.sony-modem-switcher.rc
+#
+
+on post-fs-data
+    # SONY: Switch the modem if needed
+    exec u:r:modem-switcher:s0 root root system oem_2993 cache -- /vendor/bin/sony-modem-switcher
+
