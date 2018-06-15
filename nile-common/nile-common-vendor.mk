@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/sony/nile-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/sony/nile-common/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
-    vendor/sony/nile-common/proprietary/lib64/libstagefright_wfd.so:system/lib64/libstagefright_wfd.so \
     vendor/sony/nile-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/sony/nile-common/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/sony/nile-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
