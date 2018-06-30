@@ -91,7 +91,7 @@ special_mode_mask values:
       <CPPPreview>imx234_cpp_snapshot</CPPPreview>
       <CPPSnapshot>imx234_cpp_snapshot</CPPSnapshot>
       <CPPVideo>imx234_cpp_video</CPPVideo>
-      <CPPLiveshot>imx234_cpp_liveshot</CPPLiveshot>
+      <CPPLiveshot>imx234_cpp_video</CPPLiveshot>
       <A3Preview>imx234_zsl_preview</A3Preview>
       <A3Video>imx234_zsl_video</A3Video>
     </ChromatixName>
