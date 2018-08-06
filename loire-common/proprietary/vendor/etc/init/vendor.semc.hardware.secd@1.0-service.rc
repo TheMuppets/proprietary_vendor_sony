@@ -1,0 +1,13 @@
+# Copyright (c) 2017 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+
+# create spc database directory
+on post-fs-data
+    mkdir /persist/pc/ 0770 radio system
+    chown system system /persist/pc/cache_0.dat
+    chown system system /persist/pc/cache_1.dat
+# start secd service
+service vendor.semc.hardware.secd-1-0 /vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
+    class hal
+    user system
+    group system
