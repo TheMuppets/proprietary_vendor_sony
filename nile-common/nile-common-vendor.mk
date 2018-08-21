@@ -229,7 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/sony/nile-common/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/sony/nile-common/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/sony/nile-common/proprietary/vendor/firmware/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn553_fw.so \
+    vendor/sony/nile-common/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/sony/nile-common/proprietary/vendor/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b00 \
     vendor/sony/nile-common/proprietary/vendor/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b01 \
     vendor/sony/nile-common/proprietary/vendor/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b02 \
