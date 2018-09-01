@@ -12,7 +12,6 @@ on init
     wait /dev/block/mmcblk0p1
     chown oem_2997 oem_2997 /dev/block/mmcblk0p1
     chmod 0770 /dev/block/mmcblk0p1
-    class_start trimarea
 
     start hwservicemanager
     start hidl_memory
@@ -24,6 +23,6 @@ service tad_static /vendor/bin/tad_static /dev/block/bootdevice/by-name/TA 0,16
     user oem_2997
     group oem_2997 root
     socket tad stream 0660 system oem_2993
-    class trimarea
+    class core
 # tad_static is in rootfs, normal file_context does not work
     seclabel u:r:tad:s0
