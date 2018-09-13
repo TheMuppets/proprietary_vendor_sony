@@ -182,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/sony/loire-common/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/sony/loire-common/proprietary/vendor/bin/ta_qmi_service:$(TARGET_COPY_OUT_VENDOR)/bin/ta_qmi_service \
+    vendor/sony/loire-common/proprietary/vendor/bin/tad_static:$(TARGET_COPY_OUT_VENDOR)/bin/tad_static \
     vendor/sony/loire-common/proprietary/vendor/bin/taimport:$(TARGET_COPY_OUT_VENDOR)/bin/taimport \
     vendor/sony/loire-common/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/sony/loire-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
@@ -761,5 +762,4 @@ PRODUCT_PACKAGES += \
     ims \
     CNEService \
     qcrilmsgtunnel \
-    TimeService \
-    tad_static
+    TimeService
