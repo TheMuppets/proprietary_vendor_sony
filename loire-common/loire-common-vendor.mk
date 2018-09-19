@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/sony/loire-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/loire-common/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
-    vendor/sony/loire-common/proprietary/lib/hw/nfc_nci.msm8952.so:system/lib/hw/nfc_nci.msm8952.so \
     vendor/sony/loire-common/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/sony/loire-common/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/sony/loire-common/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
@@ -128,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/loire-common/proprietary/lib64/hw/fingerprint.msm8952.so:system/lib64/hw/fingerprint.msm8952.so \
     vendor/sony/loire-common/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
-    vendor/sony/loire-common/proprietary/lib64/hw/nfc_nci.msm8952.so:system/lib64/hw/nfc_nci.msm8952.so \
     vendor/sony/loire-common/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/sony/loire-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/sony/loire-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
