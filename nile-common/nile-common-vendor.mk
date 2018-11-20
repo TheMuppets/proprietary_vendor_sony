@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_et516:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_et516 \
     vendor/sony/nile-common/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_fpc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_fpc \
     vendor/sony/nile-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/sony/nile-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
+    vendor/sony/nile-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/sony/nile-common/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/sony/nile-common/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/sony/nile-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/bin/updatemiscta:$(TARGET_COPY_OUT_VENDOR)/bin/updatemiscta \
     vendor/sony/nile-common/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/sony/nile-common/proprietary/vendor/bin/wvkbd:$(TARGET_COPY_OUT_VENDOR)/bin/wvkbd \
-    vendor/sony/nile-common/proprietary/vendor/bin/wvnitzd:$(TARGET_COPY_OUT_VENDOR)/bin/wvnitzd \
     vendor/sony/nile-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/sony/nile-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/sony/nile-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -168,12 +167,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/sony/nile-common/proprietary/vendor/etc/iddd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd.conf \
     vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.keyprovd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.keyprovd.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.mlog_qmi_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mlog_qmi_service.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.secd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.secd.rc \
-    vendor/sony/nile-common/proprietary/vendor/etc/init/init.sony-drm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sony-drm.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.sony-modem-switcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sony-modem-switcher.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.sony-trimarea-tad.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sony-trimarea-tad.rc \
     vendor/sony/nile-common/proprietary/vendor/etc/init/init.taqmi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.taqmi.rc \
