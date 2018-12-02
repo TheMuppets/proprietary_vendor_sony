@@ -850,9 +850,9 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libloc_api_v02 \
     QtiTelephonyService \
-    ims \
     uceShimService \
     CNEService \
+    ims \
     qcrilmsgtunnel \
     TimeService \
     com.fingerprints.extension
