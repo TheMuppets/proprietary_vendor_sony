@@ -440,4 +440,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_imx300.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx300.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_sony_imx219_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx219_eeprom.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_sony_imx234_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx234_eeprom.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_sony_imx300_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx300_eeprom.so
+    vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_sony_imx300_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx300_eeprom.so \
+    vendor/sony/discovery/proprietary/vendor/lib/libois_bu24228.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu24228.so
