@@ -86,10 +86,43 @@ special_mode_mask values:
   <ResolutionChromatixInfo>
     <ChromatixName sensor_resolution_index="0" special_mode_mask="0">
       <ISPPreview>imx219_chicony_snapshot</ISPPreview>
-      <ISPSnapshot>imx219_chicony_default_video</ISPSnapshot>
-      <ISPVideo>imx219_chicony_default_video</ISPVideo>
+      <ISPSnapshot>imx219_chicony_video</ISPSnapshot>
+      <ISPVideo>imx219_chicony_video</ISPVideo>
       <CPPPreview>imx219_chicony_cpp_snapshot</CPPPreview>
       <CPPSnapshot>imx219_chicony_cpp_video</CPPSnapshot>
+      <CPPLiveshot>imx219_chicony_cpp_video</CPPLiveshot>
+      <CPPVideo>imx219_chicony_cpp_video</CPPVideo>
+      <A3Preview>imx219_chicony_zsl_preview_3rd_lc898122</A3Preview>
+      <A3Video>imx219_chicony_zsl_video_lc898122</A3Video>
+    </ChromatixName>
+	    <ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_S_AUTO_B">
+      <ISPPreview>imx219_chicony_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_chicony_video</ISPSnapshot>
+      <ISPVideo>imx219_chicony_video</ISPVideo>
+      <CPPPreview>imx219_chicony_cpp_snapshot_B</CPPPreview>
+      <CPPSnapshot>imx219_chicony_cpp_snapshot_B</CPPSnapshot>
+      <CPPLiveshot>imx219_chicony_cpp_video</CPPLiveshot>
+      <CPPVideo>imx219_chicony_cpp_video</CPPVideo>
+      <A3Preview>imx219_chicony_zsl_preview_lc898122</A3Preview>
+      <A3Video>imx219_chicony_zsl_video_lc898122</A3Video>
+    </ChromatixName>
+	<ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_S_NIGHT_A">
+      <ISPPreview>imx219_chicony_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_chicony_video</ISPSnapshot>
+      <ISPVideo>imx219_chicony_video</ISPVideo>
+      <CPPPreview>imx219_chicony_cpp_snapshot</CPPPreview>
+      <CPPSnapshot>imx219_chicony_cpp_video</CPPSnapshot>
+      <CPPLiveshot>imx219_chicony_cpp_video</CPPLiveshot>
+      <CPPVideo>imx219_chicony_cpp_video</CPPVideo>
+      <A3Preview>imx219_chicony_zsl_preview_lc898122</A3Preview>
+      <A3Video>imx219_chicony_zsl_video_lc898122</A3Video>
+    </ChromatixName>
+	    <ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_S_MANUAL_B">
+      <ISPPreview>imx219_chicony_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_chicony_video</ISPSnapshot>
+      <ISPVideo>imx219_chicony_video</ISPVideo>
+      <CPPPreview>imx219_chicony_cpp_snapshot_B</CPPPreview>
+      <CPPSnapshot>imx219_chicony_cpp_snapshot_B</CPPSnapshot>
       <CPPLiveshot>imx219_chicony_cpp_video</CPPLiveshot>
       <CPPVideo>imx219_chicony_cpp_video</CPPVideo>
       <A3Preview>imx219_chicony_zsl_preview_lc898122</A3Preview>
