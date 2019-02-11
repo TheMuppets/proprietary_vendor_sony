@@ -16,108 +16,98 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/pioneer/proprietary/vendor/bin/qns:$(TARGET_COPY_OUT_VENDOR)/bin/qns \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO1600_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO1600_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO1600_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO1600_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO2400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO2400_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO2400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO2400_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO3200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO3200_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO3200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO3200_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO360_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO360_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO360_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO360_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO640_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO640_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/ISO640_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/ISO640_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO2011_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO2011_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO2011_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO2011_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO2011_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO2011_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO2011_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO2011_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO404_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO404_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO404_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO404_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO404_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO404_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO404_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO404_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO6400_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO6400_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO6400_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO6400_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO6400_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO6400_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO6400_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO6400_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO797_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO797_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO797_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO797_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO797_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO797_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO797_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO797_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO852_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO852_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO852_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO852_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO852_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO852_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO852_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO852_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO1200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO1200_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO1200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO1200_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO2400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO2400_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO2400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO2400_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO3200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO3200_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO3200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO3200_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO400_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO400_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO640_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO640_3200x1808.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/ISO640_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/ISO640_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO10000_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO10000_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO10000_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO10000_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO10000_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO10000_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO10000_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO10000_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1000_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1000_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1000_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1000_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO10400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO10400_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO10400_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO10400_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1200_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1200_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1200_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1200_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1200_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1200_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1200_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1200_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO12800_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO12800_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO12800_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO12800_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO12800_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO12800_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO12800_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO12800_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO12800_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO12800_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO12800_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO12800_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1400_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1400_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1400_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1600_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1600_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1600_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1600_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1800_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1800_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1800_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1800_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1800_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1800_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO1800_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO1800_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO2000_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO2000_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO2000_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO2000_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO2800_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO2800_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO2800_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO2800_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO3200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO3200_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO3200_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO3200_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO3600_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO3600_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO3600_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO3600_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO3600_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO3600_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO3600_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO3600_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO4000_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO4000_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO4000_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO4000_3840x2160.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO1400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO1400_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO1400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO1400_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO2000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO2000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO2000_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO2000_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO240_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO240_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO240_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO240_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO3200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO3200_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO3200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO3200_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO400_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO400_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO1400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO1400_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO1400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO1400_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO2000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO2000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO2000_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO2000_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO240_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO240_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO240_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO240_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO3200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO3200_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO3200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO3200_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO400_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/80/ISO400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/80/ISO400_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO11000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO11000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO11000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO11000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO2200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO2200_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO2200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO2200_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO240_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO240_4000x3008.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO240_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO240_4624x2608.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO240_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO240_5520x4144.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO240_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO240_5984x3376.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO3000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO3000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO3000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO3000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO4000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO4000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO4000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO4000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO400_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO400_4000x3008.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO400_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO400_4624x2608.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO400_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO400_5520x4144.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO400_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO400_5984x3376.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO520_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO520_4000x3008.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO520_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO520_4624x2608.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO520_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO520_5520x4144.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO520_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO520_5984x3376.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO6000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO6000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO6000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO6000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO7200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO7200_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO7200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO7200_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO9000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO9000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX300/ISO9000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX300/ISO9000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO1400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO1400_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO1400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO1400_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO2000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO2000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO2000_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO2000_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO240_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO240_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO240_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO240_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO3200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO3200_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO3200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO3200_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO400_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/120/ISO400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/120/ISO400_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO1400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO1400_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO1400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO1400_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO2000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO2000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO2000_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO2000_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO240_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO240_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO240_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO240_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO3200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO3200_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO3200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO3200_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO400_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX219/80/ISO400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX219/80/ISO400_3264x2448.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO11000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO11000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO11000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO11000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO2200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO2200_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO2200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO2200_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO240_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO240_4000x3008.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO240_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO240_4624x2608.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO240_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO240_5520x4144.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO240_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO240_5984x3376.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO3000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO3000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO3000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO3000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO4000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO4000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO4000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO4000_3200x1808.ncf \
     vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO400_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO400_4000x3008.ncf \
     vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO400_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO400_4624x2608.ncf \
     vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO400_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO400_5520x4144.ncf \
     vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO400_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO400_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO5600_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO5600_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO5600_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO5600_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO6400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO6400_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO6400_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO6400_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO640_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO640_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO640_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO640_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO7000_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7000_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO7000_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7000_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO7000_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7000_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO7000_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7000_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO700_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO700_4000x3008.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO700_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO700_4624x2608.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO700_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO700_5520x4144.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO700_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO700_5984x3376.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO7200_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7200_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO7200_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7200_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO800_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO800_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO800_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO800_3840x2160.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO8800_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO8800_3264x2448.ncf \
-    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO8800_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO8800_3840x2160.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO520_4000x3008.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO520_4000x3008.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO520_4624x2608.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO520_4624x2608.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO520_5520x4144.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO520_5520x4144.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO520_5984x3376.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO520_5984x3376.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO6000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO6000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO6000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO6000_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO7200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7200_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO7200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7200_3200x1808.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO9000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO9000_2592x1944.ncf \
+    vendor/sony/pioneer/proprietary/vendor/etc/IMX300/ISO9000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO9000_3200x1808.ncf \
     vendor/sony/pioneer/proprietary/vendor/etc/acdbdata/MTP/SM12/MTP_SM12_ACDB_version.txt:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM12/MTP_SM12_ACDB_version.txt \
     vendor/sony/pioneer/proprietary/vendor/etc/acdbdata/MTP/SM12/MTP_SM12_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM12/MTP_SM12_Bluetooth_cal.acdb \
     vendor/sony/pioneer/proprietary/vendor/etc/acdbdata/MTP/SM12/MTP_SM12_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM12/MTP_SM12_General_cal.acdb \
@@ -148,15 +138,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pioneer/proprietary/vendor/lib/libactuator_bu24228gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu24228gwl.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libactuator_bu64747gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64747gwz.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_common.so \
-    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_cpp_liveshot.so \
-    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_cpp_preview.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_cpp_snapshot.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_cpp_snapshot_B.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_cpp_snapshot_B.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_cpp_video.so \
-    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_default_video.so \
-    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_liveshot.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_postproc.so \
-    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_preview.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_snapshot.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_video.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_zsl_preview_3rd_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_zsl_preview_3rd_lc898122.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_zsl_preview_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_zsl_preview_lc898122.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_chicony_zsl_video_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_zsl_video_lc898122.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_common.so \
@@ -168,6 +156,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_liveshot.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_postproc.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_preview.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_common.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_cpp_snapshot.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_cpp_snapshot_B.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_cpp_snapshot_B.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_cpp_video.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_postproc.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_snapshot.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_video.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_zsl_preview.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_zsl_preview_3rd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_zsl_preview_3rd.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_sm42_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_zsl_video.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_snapshot.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_preview_lc898122.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx219_zsl_video_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_video_lc898122.so \
@@ -198,6 +196,32 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_liveshot.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_postproc.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_preview.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_4K_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_4K_panorama.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_4K_preview.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_4K_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_4K_video_hdr.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_common.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_common_old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_common_old.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_cpp_snapshot.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_cpp_snapshot_B.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_cpp_snapshot_B.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_cpp_video.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_cpp_video_hdr.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_hfr_120_3a.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_hfr_60_3a.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_postproc.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_snapshot.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_snapshot_quick.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_snapshot_quick.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_video.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_video_hdr.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_20m.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m_3rd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_20m_3rd.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_20m_manual.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_20m_quick.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_20m_quick.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_3rd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_3rd.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_manual.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_quick.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_quick.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_video.so \
+    vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_snapshot.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_snapshot_hdr.so \
     vendor/sony/pioneer/proprietary/vendor/lib/libchromatix_imx300_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_video.so \

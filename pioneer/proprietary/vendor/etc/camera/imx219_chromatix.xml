@@ -79,21 +79,56 @@ special_mode_mask values:
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
     <ChromatixName>
-      <ISPCommon>imx219_common</ISPCommon>
-      <PostProc>imx219_postproc</PostProc>
+      <PostProc>imx219_sm42_postproc</PostProc>
       </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
     <ChromatixName sensor_resolution_index="0" special_mode_mask="0">
-      <ISPPreview>imx219_snapshot</ISPPreview>
-      <ISPSnapshot>imx219_default_video</ISPSnapshot>
-      <ISPVideo>imx219_default_video</ISPVideo>
+      <ISPCommon>imx219_sm42_common</ISPCommon>
+      <ISPPreview>imx219_sm42_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_sm42_snapshot</ISPSnapshot>
+      <ISPVideo>imx219_sm42_video</ISPVideo>
+      <CPPPreview>imx219_sm42_cpp_snapshot</CPPPreview>
+      <CPPSnapshot>imx219_sm42_cpp_snapshot</CPPSnapshot>
+      <CPPLiveshot>imx219_sm42_cpp_video</CPPLiveshot>
+      <CPPVideo>imx219_sm42_cpp_video</CPPVideo>
+      <A3Preview>imx219_sm42_zsl_preview_3rd</A3Preview>
+      <A3Video>imx219_sm42_zsl_video</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_S_AUTO_B">
+      <ISPCommon>imx219_sm42_common</ISPCommon>
+      <ISPPreview>imx219_sm42_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_sm42_snapshot</ISPSnapshot>
+      <ISPVideo>imx219_sm42_video</ISPVideo>
+      <CPPPreview>imx219_sm42_cpp_snapshot_B</CPPPreview>
+      <CPPSnapshot>imx219_sm42_cpp_snapshot_B</CPPSnapshot>
+      <CPPLiveshot>imx219_sm42_cpp_video</CPPLiveshot>
+      <CPPVideo>imx219_sm42_cpp_video</CPPVideo>
+      <A3Preview>imx219_sm42_zsl_preview</A3Preview>
+      <A3Video>imx219_sm42_zsl_video</A3Video>
+    </ChromatixName>
+	<ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_S_NIGHT_A">
+      <ISPPreview>imx219_chicony_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_chicony_video</ISPSnapshot>
+      <ISPVideo>imx219_chicony_video</ISPVideo>
       <CPPPreview>imx219_cpp_snapshot</CPPPreview>
       <CPPSnapshot>imx219_cpp_video</CPPSnapshot>
-      <CPPLiveshot>imx219_cpp_video</CPPLiveshot>
-      <CPPVideo>imx219_cpp_video</CPPVideo>
-      <A3Preview>imx219_zsl_preview_lc898122</A3Preview>
-      <A3Video>imx219_zsl_video_lc898122</A3Video>
+      <CPPLiveshot>imx219_chicony_cpp_video</CPPLiveshot>
+      <CPPVideo>imx219_chicony_cpp_video</CPPVideo>
+      <A3Preview>imx219_chicony_zsl_preview_lc898122</A3Preview>
+      <A3Video>imx219_chicony_zsl_video_lc898122</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_S_MANUAL_B">
+      <ISPCommon>imx219_sm42_common</ISPCommon>
+      <ISPPreview>imx219_sm42_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_sm42_snapshot</ISPSnapshot>
+      <ISPVideo>imx219_sm42_video</ISPVideo>
+      <CPPPreview>imx219_sm42_cpp_snapshot_B</CPPPreview>
+      <CPPSnapshot>imx219_sm42_cpp_snapshot_B</CPPSnapshot>
+      <CPPLiveshot>imx219_sm42_cpp_video</CPPLiveshot>
+      <CPPVideo>imx219_sm42_cpp_video</CPPVideo>
+      <A3Preview>imx219_sm42_zsl_preview</A3Preview>
+      <A3Video>imx219_sm42_zsl_video</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
