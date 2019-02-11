@@ -341,6 +341,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/lib/libarcsoft_face_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_face_detection.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libarcsoft_face_tracking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_face_tracking.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libarcsoft_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr.so \
+    vendor/sony/nile-common/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_low_light_shot.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libarcsoft_motiondetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_motiondetection.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libarcsoft_nighthawk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_nighthawk.so \
