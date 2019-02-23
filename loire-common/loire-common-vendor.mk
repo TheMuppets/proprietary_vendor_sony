@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/sony/loire-common/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/loire-common/proprietary/lib64/hw/fingerprint.msm8952.so:system/lib64/hw/fingerprint.msm8952.so \
-    vendor/sony/loire-common/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
+    vendor/sony/loire-common/proprietary/vendor/lib/libpn547_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn547_fw.so \
     vendor/sony/loire-common/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/sony/loire-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/sony/loire-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
