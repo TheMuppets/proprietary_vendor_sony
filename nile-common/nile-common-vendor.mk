@@ -213,6 +213,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/etc/sensors/sensor_def_by2xapdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_by2xapdev.conf \
     vendor/sony/nile-common/proprietary/vendor/etc/sensors/sensor_def_by2xspdef.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_by2xspdef.conf \
     vendor/sony/nile-common/proprietary/vendor/etc/sensors/sensor_def_by2xspdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_by2xspdev.conf \
+    vendor/sony/nile-common/proprietary/vendor/etc/sensors/sensor_def_by4xspdef.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_by4xspdef.conf \
+    vendor/sony/nile-common/proprietary/vendor/etc/sensors/sensor_def_by4xspdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_by4xspdev.conf \
     vendor/sony/nile-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/sony/nile-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/sony/nile-common/proprietary/vendor/firmware/a508_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b00 \
