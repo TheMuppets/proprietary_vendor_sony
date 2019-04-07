@@ -203,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
     vendor/sony/nile-common/proprietary/vendor/etc/qdcm_calib_data_td4322_innolux_fhd_command_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4322_innolux_fhd_command_mode_dsi_panel.xml \
     vendor/sony/nile-common/proprietary/vendor/etc/qdcm_calib_data_td4322_truly_fhd_command_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4322_truly_fhd_command_mode_dsi_panel.xml \
+    vendor/sony/nile-common/proprietary/vendor/etc/qdcm_calib_data_td4328_tianma_fhdplus_command_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4328_tianma_fhdplus_command_mode_dsi_panel.xml \
     vendor/sony/nile-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/sony/nile-common/proprietary/vendor/etc/security/idd_config.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_config.pem \
     vendor/sony/nile-common/proprietary/vendor/etc/security/idd_report.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_report.pem \
