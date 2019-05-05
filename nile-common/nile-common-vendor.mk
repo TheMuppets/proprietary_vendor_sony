@@ -45,15 +45,20 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/framework/vendor.qti.latency-V2.0-java.jar:system/framework/vendor.qti.latency-V2.0-java.jar \
     vendor/sony/nile-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/sony/nile-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/sony/nile-common/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/sony/nile-common/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/sony/nile-common/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/sony/nile-common/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/sony/nile-common/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/sony/nile-common/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/sony/nile-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/sony/nile-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/sony/nile-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/sony/nile-common/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/sony/nile-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/sony/nile-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/sony/nile-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/sony/nile-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/sony/nile-common/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/sony/nile-common/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/sony/nile-common/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
@@ -78,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/sony/nile-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/sony/nile-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/sony/nile-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/sony/nile-common/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/sony/nile-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/sony/nile-common/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
@@ -510,6 +516,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
+    vendor/sony/nile-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/sony/nile-common/proprietary/vendor/lib/libmorpho_video_refiner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_video_refiner.so \
@@ -755,6 +762,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/libmiscta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiscta.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
+    vendor/sony/nile-common/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/sony/nile-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
