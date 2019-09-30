@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.mdt \
     vendor/sony/shinano-common/proprietary/vendor/lib/libpn547_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn547_fw.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8974.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/hw/nfc_nci.pn54x.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.pn54x.default.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/hw/sensors.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8974.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
