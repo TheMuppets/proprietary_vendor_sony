@@ -139,6 +139,32 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3c/proprietary/vendor/camera/LGI02BN1/snapshot_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/LGI02BN1/snapshot_ctrl.dat \
     vendor/sony/z3c/proprietary/vendor/camera/LGI02BN1/streaming_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/LGI02BN1/streaming_ctrl.dat \
     vendor/sony/z3c/proprietary/vendor/camera/LGI02BN1_IMX132.dat:$(TARGET_COPY_OUT_VENDOR)/camera/LGI02BN1_IMX132.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/cam_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/cam_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/cap_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/cap_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/chokoball.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/chokoball.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/color_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/dataflow.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/debug_mgr.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/debug_mgr.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/exposure_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/face_detector.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/flicker_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/flicker_detector.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/focus_stats_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/focus_stats_conv.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/hal_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/hal_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/hal_ctrl_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/hal_ctrl_platform.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/hdr_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/hdr_comp.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/idt_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/idt_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/image_conv.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/imgproc.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/imgproc.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/jpeg_enc.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/jpeg_enc.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/lens_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/lens_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/module.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/module.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/motion_estimation.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/motion_estimation.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/multiframe_nr.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/multiframe_nr.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/object_tracker.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/object_tracker.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/scene_detector.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/snapshot_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/snapshot_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1/streaming_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/streaming_ctrl.dat \
+    vendor/sony/z3c/proprietary/vendor/camera/SEM02BN1_IMX132.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1_IMX132.dat \
     vendor/sony/z3c/proprietary/vendor/camera/SOI20BS1/cam_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/cam_ctrl.dat \
     vendor/sony/z3c/proprietary/vendor/camera/SOI20BS1/cap_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/cap_ctrl.dat \
     vendor/sony/z3c/proprietary/vendor/camera/SOI20BS1/chokoball.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/chokoball.dat \
