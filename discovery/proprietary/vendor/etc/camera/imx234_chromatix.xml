@@ -172,6 +172,17 @@ special_mode_mask values:
       <A3Preview>imx234_default_preview</A3Preview>
       <A3Video>imx234_default_video</A3Video>
     </ChromatixName>
+	  <ChromatixName sensor_resolution_index="1" special_mode_mask="SCENE_SONYVIDEO">
+      <ISPPreview>imx234_video</ISPPreview>
+      <ISPSnapshot>imx234_video</ISPSnapshot>
+      <ISPVideo>imx234_video</ISPVideo>
+      <CPPPreview>imx234_cpp_video</CPPPreview>
+      <CPPSnapshot>imx234_cpp_video</CPPSnapshot>
+      <CPPVideo>imx234_cpp_video</CPPVideo>
+      <CPPLiveshot>imx234_cpp_video</CPPLiveshot>
+      <A3Preview>imx234_default_video</A3Preview>
+      <A3Video>imx234_default_video</A3Video>
+    </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
 

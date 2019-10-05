@@ -144,30 +144,24 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/etc/IMX300/ISO7200_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO7200_3200x1808.ncf \
     vendor/sony/discovery/proprietary/vendor/etc/IMX300/ISO9000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO9000_2592x1944.ncf \
     vendor/sony/discovery/proprietary/vendor/etc/IMX300/ISO9000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/IMX300/ISO9000_3200x1808.ncf \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_ACDB_version.txt:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_ACDB_version.txt \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_Bluetooth_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_General_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_Global_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_Handset_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_Hdmi_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_Headset_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_Speaker_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22/MTP_SM22_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22/MTP_SM22_workspaceFile.qwsp \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_ACDB_version.txt:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_ACDB_version.txt \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Bluetooth_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_General_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Global_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Handset_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Hdmi_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Headset_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_Speaker_cal.acdb \
-    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/SM22_TP/MTP_SM22_TP_workspaceFile.qwsp \
-    vendor/sony/discovery/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/Sony/Sony_ganges_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony/Sony_ganges_Bluetooth_cal.acdb \
+    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/Sony/Sony_ganges_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony/Sony_ganges_General_cal.acdb \
+    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/Sony/Sony_ganges_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony/Sony_ganges_Global_cal.acdb \
+    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/Sony/Sony_ganges_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony/Sony_ganges_Handset_cal.acdb \
+    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/Sony/Sony_ganges_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony/Sony_ganges_Hdmi_cal.acdb \
+    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/Sony/Sony_ganges_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony/Sony_ganges_Headset_cal.acdb \
+    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/Sony/Sony_ganges_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony/Sony_ganges_Speaker_cal.acdb \
+    vendor/sony/discovery/proprietary/vendor/etc/acdbdata/Sony/workspaceFile_Sony_ganges.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony/workspaceFile_Sony_ganges.qwsp \
     vendor/sony/discovery/proprietary/vendor/etc/camera/imx219_chicony_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx219_chicony_chromatix.xml \
     vendor/sony/discovery/proprietary/vendor/etc/camera/imx219_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx219_chromatix.xml \
     vendor/sony/discovery/proprietary/vendor/etc/camera/imx234_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx234_chromatix.xml \
     vendor/sony/discovery/proprietary/vendor/etc/camera/imx300_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx300_chromatix.xml \
-    vendor/sony/discovery/proprietary/vendor/etc/wifi/bdwlan22.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan22.bin \
+    vendor/sony/discovery/proprietary/vendor/etc/camera/sm22_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sm22_camera_config.xml \
+    vendor/sony/discovery/proprietary/vendor/etc/qdcm_calib_data_6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_6.xml \
+    vendor/sony/discovery/proprietary/vendor/etc/qdcm_calib_data_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_default.xml \
+    vendor/sony/discovery/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
+    vendor/sony/discovery/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
+    vendor/sony/discovery/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/discovery/proprietary/vendor/firmware/bu24228gwl_fw1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24228gwl_fw1.bin \
     vendor/sony/discovery/proprietary/vendor/firmware/bu24228gwl_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24228gwl_fw2.bin \
     vendor/sony/discovery/proprietary/vendor/firmware/bu64747gwz.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.coeff \
@@ -184,15 +178,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_chicony_zsl_preview_3rd_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_zsl_preview_3rd_lc898122.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_chicony_zsl_preview_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_zsl_preview_lc898122.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_chicony_zsl_video_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_zsl_video_lc898122.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_common.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_liveshot.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_snapshot.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_video.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_default_video.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_liveshot.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_postproc.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_sm42_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_common.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_sm42_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_cpp_snapshot.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_sm42_cpp_snapshot_B.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_cpp_snapshot_B.so \
@@ -203,53 +190,21 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_sm42_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_zsl_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_sm42_zsl_preview_3rd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_zsl_preview_3rd.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_sm42_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_sm42_zsl_video.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_snapshot.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_preview_lc898122.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_zsl_video_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_video_lc898122.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_NightA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_NightA.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_common.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_cpp_NightA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_cpp_NightA.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_cpp_liveshot.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_cpp_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_cpp_snapshot.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_cpp_video.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_default_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_default_preview_3rd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_default_preview_3rd.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_default_video.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_postproc.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_snapshot.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_video.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_zsl_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_zsl_preview_3rd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_zsl_preview_3rd.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx234_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx234_zsl_video.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_4K_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_4K_panorama.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_4K_preview.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_4K_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_4K_video.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_common.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_common_6db.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_common_6db.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_hfr_120.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_hfr_60.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_hfr_90.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_liveshot.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_snapshot.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_snapshot_hdr.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_video.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_cpp_video_hdr.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_default_preview.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_default_video.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_hdr_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_hdr_snapshot_3a.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_hdr_video_3a.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_hfr_120.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_hfr_120_3a.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_hfr_60.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_hfr_60_3a.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_hfr_90.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_hfr_90_3a.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_liveshot.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_postproc.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_4K_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_4K_panorama.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_4K_preview.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_4K_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_4K_video_hdr.so \
@@ -276,15 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_quick.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_quick.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_video.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_snapshot.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_snapshot_hdr.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_video.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_video_hdr.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_zsl_preview.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_zsl_preview_20m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_zsl_preview_20m.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_zsl_preview_20m_6db.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_zsl_preview_20m_6db.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_zsl_preview_6db.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_zsl_preview_6db.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_zsl_video.so \
+    vendor/sony/discovery/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_imx219_chicony.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219_chicony.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx234.so \

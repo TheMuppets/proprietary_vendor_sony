@@ -287,5 +287,29 @@ special_mode_mask values:
       <A3Preview>imx300_sm42_zsl_video_hdr_3a</A3Preview>
       <A3Video>imx300_sm42_zsl_video_hdr_3a</A3Video>
     </ChromatixName>
+	<ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_SONYBURST">
+      <ISPCommon>imx300_sm42_common</ISPCommon>
+      <ISPPreview>imx300_sm42_snapshot</ISPPreview>
+      <ISPSnapshot>imx300_sm42_snapshot</ISPSnapshot>
+      <ISPVideo>imx300_sm42_snapshot</ISPVideo>
+      <CPPPreview>imx300_sm42_cpp_snapshot</CPPPreview>
+      <CPPSnapshot>imx300_sm42_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>imx300_sm42_cpp_video</CPPVideo>
+      <CPPLiveshot>imx300_sm42_cpp_video</CPPLiveshot>
+      <A3Preview>imx300_sm42_zsl_preview_3rd</A3Preview>
+      <A3Video>imx300_sm42_zsl_preview_3rd</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="SCENE_SONYBURST">
+      <ISPCommon>imx300_sm42_common</ISPCommon>
+      <ISPPreview>imx300_sm42_snapshot</ISPPreview>
+      <ISPSnapshot>imx300_sm42_snapshot</ISPSnapshot>
+      <ISPVideo>imx300_sm42_snapshot</ISPVideo>
+      <CPPPreview>imx300_sm42_cpp_snapshot</CPPPreview>
+      <CPPSnapshot>imx300_sm42_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>imx300_sm42_cpp_video</CPPVideo>
+      <CPPLiveshot>imx300_sm42_cpp_video</CPPLiveshot>
+      <A3Preview>imx300_sm42_zsl_preview_20m_3rd</A3Preview>
+      <A3Video>imx300_sm42_zsl_preview_20m_3rd</A3Video>
+    </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>

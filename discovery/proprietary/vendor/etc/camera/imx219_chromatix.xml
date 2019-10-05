@@ -130,5 +130,17 @@ special_mode_mask values:
       <A3Preview>imx219_sm42_zsl_preview</A3Preview>
       <A3Video>imx219_sm42_zsl_video</A3Video>
     </ChromatixName>
+	<ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_SONYVIDEO">
+      <ISPCommon>imx219_sm42_common</ISPCommon>
+      <ISPPreview>imx219_sm42_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_sm42_snapshot</ISPSnapshot>
+      <ISPVideo>imx219_sm42_video</ISPVideo>
+      <CPPPreview>imx219_sm42_cpp_snapshot</CPPPreview>
+      <CPPSnapshot>imx219_sm42_cpp_snapshot</CPPSnapshot>
+      <CPPLiveshot>imx219_sm42_cpp_video</CPPLiveshot>
+      <CPPVideo>imx219_sm42_cpp_video</CPPVideo>
+      <A3Preview>imx219_sm42_zsl_video</A3Preview>
+      <A3Video>imx219_sm42_zsl_video</A3Video>
+    </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
