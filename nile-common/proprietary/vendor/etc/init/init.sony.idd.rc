@@ -1,0 +1,38 @@
+# Copyright (c) 2018 Sony Mobile Communications Inc.
+#
+# idd setup copy from Tama
+#
+on post-fs-data
+    # We expect that vold has already started and would not unmount the partitions again.
+    mkdir /mnt/idd 0751 oem_2987 oem_2987
+    mkdir /mnt/rca 0750 oem_2987 oem_2987
+    mount_all /vendor/etc/idd.fstab
+    chown oem_2987 oem_2987 /mnt/idd
+    chmod 0751 /mnt/idd
+    exec /vendor/bin/rm -r /mnt/idd/lost+found
+    chown oem_2987 oem_2987 /mnt/rca
+    chmod 0750 /mnt/rca
+    exec /vendor/bin/rm -r /mnt/rca/lost+found
+    # Remove lost+found in user and userdebug
+    start cleanlostfound
+    
+    mkdir /mnt/idd/lost+found 0770 root root
+    mkdir /mnt/idd/output 0755 oem_2987 oem_2987
+    mkdir /mnt/idd/socket 0711 oem_2987 oem_2987
+    mkdir /mnt/idd/startup-prober 0700 root root
+    
+    restorecon_recursive --force /mnt/idd
+    mkdir /mnt/rca/plugins 0750 oem_2987 oem_2987
+    restorecon_recursive --force /mnt/rca
+
+on property:sys.user.0.ce_available=true
+    #Remounting partitions here just in case vold restarts
+    mount_all /vendor/etc/idd.fstab
+    #Setting property to inform that partitions are mounted
+    setprop vendor.idd.partitions_ready 1
+
+service iddd /vendor/bin/iddd
+    class core
+    user oem_2987
+    group oem_2987 log inet oem_2993
+    writepid /dev/cpuset/system-background/tasks

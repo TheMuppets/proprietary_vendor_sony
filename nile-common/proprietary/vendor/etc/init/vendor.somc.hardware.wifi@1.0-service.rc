@@ -1,4 +1,0 @@
-service somc_wifi_hal_service /vendor/bin/hw/vendor.somc.hardware.wifi@1.0-service
-    class hal
-    user wifi
-    group wifi net_raw net_admin

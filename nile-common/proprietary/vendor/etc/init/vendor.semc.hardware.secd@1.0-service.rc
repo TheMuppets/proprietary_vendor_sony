@@ -1,9 +1,20 @@
 # Copyright (c) 2017 Sony Mobile Communications Inc.
 # All rights, including trade secret rights, reserved.
 
-on boot
-    setprop persist.keyprovd.suntory.prov "false"
+on late-init
+    setprop vendor.keyprovd.suntory.prov "false"
 
+# create spc database directory
+on post-fs-data
+    mkdir /mnt/vendor/persist/pc/ 0770 radio system
+    chown system system /mnt/vendor/persist/pc/cache_0.dat
+    chown system system /mnt/vendor/persist/pc/cache_1.dat
+
+# create database directory
+on post-fs-data
+    mkdir /mnt/vendor/persist/credmgr 0700 system system
+
+# start secd service
 service vendor.semc.hardware.secd-1-0 /vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
     class hal
     user system

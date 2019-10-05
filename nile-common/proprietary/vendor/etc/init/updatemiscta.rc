@@ -1,6 +1,0 @@
-service updatemiscta /vendor/bin/updatemiscta
-    class main
-    user oem_2993
-    group oem_2993
-    seclabel u:r:updatemiscta:s0
-    oneshot
