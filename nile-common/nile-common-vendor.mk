@@ -87,8 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/sony/nile-common/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/sony/nile-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/sony/nile-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
-    vendor/sony/nile-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/sony/nile-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/sony/nile-common/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/sony/nile-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
@@ -103,6 +101,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/sony/nile-common/proprietary/lib64/vendor.semc.system.idd@1.0.so:system/lib64/vendor.semc.system.idd@1.0.so \
     vendor/sony/nile-common/proprietary/lib64/vendor.somc.hardware.miscta@1.0.so:system/lib64/vendor.somc.hardware.miscta@1.0.so \
+    vendor/sony/nile-common/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
+    vendor/sony/nile-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/sony/nile-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/sony/nile-common/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
     vendor/sony/nile-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
