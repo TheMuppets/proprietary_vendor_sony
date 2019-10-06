@@ -165,8 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3/proprietary/vendor/camera/SEM02BN1/snapshot_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/snapshot_ctrl.dat \
     vendor/sony/z3/proprietary/vendor/camera/SEM02BN1/streaming_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1/streaming_ctrl.dat \
     vendor/sony/z3/proprietary/vendor/camera/SEM02BN1_IMX132.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM02BN1_IMX132.dat \
-    vendor/sony/z3/proprietary/vendor/camera/SOI20BS0_BU64296GWX.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS0_BU64296GWX.dat \
-    vendor/sony/z3/proprietary/vendor/camera/SOI20BS0_IMX200.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS0_IMX200.dat \
     vendor/sony/z3/proprietary/vendor/camera/SOI20BS1/cam_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/cam_ctrl.dat \
     vendor/sony/z3/proprietary/vendor/camera/SOI20BS1/cap_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/cap_ctrl.dat \
     vendor/sony/z3/proprietary/vendor/camera/SOI20BS1/chokoball.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/chokoball.dat \
@@ -192,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3/proprietary/vendor/camera/SOI20BS1/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/scene_detector.dat \
     vendor/sony/z3/proprietary/vendor/camera/SOI20BS1/snapshot_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/snapshot_ctrl.dat \
     vendor/sony/z3/proprietary/vendor/camera/SOI20BS1/streaming_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1/streaming_ctrl.dat \
-    vendor/sony/z3/proprietary/vendor/camera/SOI20BS1_BU64296GWX.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1_BU64296GWX.dat \
     vendor/sony/z3/proprietary/vendor/camera/SOI20BS1_IMX200.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SOI20BS1_IMX200.dat \
     vendor/sony/z3/proprietary/vendor/camera/product.dat:$(TARGET_COPY_OUT_VENDOR)/camera/product.dat \
     vendor/sony/z3/proprietary/vendor/camera/product_CACAO.dat:$(TARGET_COPY_OUT_VENDOR)/camera/product_CACAO.dat
