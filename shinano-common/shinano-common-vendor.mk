@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/sony/shinano-common/proprietary/vendor/bin/credmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/credmgrd \
     vendor/sony/shinano-common/proprietary/vendor/bin/hvdcp:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp \
-    vendor/sony/shinano-common/proprietary/vendor/bin/iddd:$(TARGET_COPY_OUT_VENDOR)/bin/iddd \
     vendor/sony/shinano-common/proprietary/vendor/bin/mlog_qmi_service:$(TARGET_COPY_OUT_VENDOR)/bin/mlog_qmi_service \
     vendor/sony/shinano-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/sony/shinano-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
@@ -67,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin \
     vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/shinano-common/proprietary/vendor/etc/flashled_calc_parameters.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/flashled_calc_parameters.cfg \
-    vendor/sony/shinano-common/proprietary/vendor/etc/iddd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd.conf \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:system/lib/camera/libexcal_color_ctrl_plugin.so \
