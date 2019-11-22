@@ -158,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/etc/camera/imx300_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx300_chromatix.xml \
     vendor/sony/discovery/proprietary/vendor/etc/camera/sm22_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sm22_camera_config.xml \
     vendor/sony/discovery/proprietary/vendor/etc/qdcm_calib_data_6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_6.xml \
-    vendor/sony/discovery/proprietary/vendor/etc/qdcm_calib_data_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_default.xml \
     vendor/sony/discovery/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/discovery/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
     vendor/sony/discovery/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
