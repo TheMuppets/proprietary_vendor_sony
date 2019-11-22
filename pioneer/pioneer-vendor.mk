@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pioneer/proprietary/vendor/etc/camera/imx300_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx300_chromatix.xml \
     vendor/sony/pioneer/proprietary/vendor/etc/camera/sm12_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sm12_camera_config.xml \
     vendor/sony/pioneer/proprietary/vendor/etc/qdcm_calib_data_5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_5.xml \
-    vendor/sony/pioneer/proprietary/vendor/etc/qdcm_calib_data_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_default.xml \
     vendor/sony/pioneer/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/pioneer/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
     vendor/sony/pioneer/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
