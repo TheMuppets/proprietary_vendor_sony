@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3c/proprietary/vendor/etc/tfa98xx/FMSpeaker_btm.eq:$(TARGET_COPY_OUT_VENDOR)/etc/tfa98xx/FMSpeaker_btm.eq \
     vendor/sony/z3c/proprietary/vendor/etc/tfa98xx/FMSpeaker_btm.preset:$(TARGET_COPY_OUT_VENDOR)/etc/tfa98xx/FMSpeaker_btm.preset \
     vendor/sony/z3c/proprietary/vendor/etc/tfa98xx/FMSpeaker_top.eq:$(TARGET_COPY_OUT_VENDOR)/etc/tfa98xx/FMSpeaker_top.eq \
-    vendor/sony/z3c/proprietary/vendor/etc/tfa98xx/FMSpeaker_top.reset:$(TARGET_COPY_OUT_VENDOR)/etc/tfa98xx/FMSpeaker_top.reset \
+    vendor/sony/z3c/proprietary/vendor/etc/tfa98xx/FMSpeaker_top.preset:$(TARGET_COPY_OUT_VENDOR)/etc/tfa98xx/FMSpeaker_top.preset \
     vendor/sony/z3c/proprietary/vendor/etc/tfa98xx/HiFiSpeakerRing_btm.eq:$(TARGET_COPY_OUT_VENDOR)/etc/tfa98xx/HiFiSpeakerRing_btm.eq \
     vendor/sony/z3c/proprietary/vendor/etc/tfa98xx/HiFiSpeakerRing_btm.preset:$(TARGET_COPY_OUT_VENDOR)/etc/tfa98xx/HiFiSpeakerRing_btm.preset \
     vendor/sony/z3c/proprietary/vendor/etc/tfa98xx/HiFiSpeakerRing_top.eq:$(TARGET_COPY_OUT_VENDOR)/etc/tfa98xx/HiFiSpeakerRing_top.eq \
