@@ -1,4 +1,4 @@
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/discovery
 
 PRODUCT_COPY_FILES += \
+    vendor/sony/discovery/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/sony/discovery/proprietary/vendor/bin/qns:$(TARGET_COPY_OUT_VENDOR)/bin/qns \
     vendor/sony/discovery/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO1400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO1400_3200x1808.ncf \
     vendor/sony/discovery/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO1400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO1400_3264x2448.ncf \
@@ -160,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/etc/camera/imx234_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx234_chromatix.xml \
     vendor/sony/discovery/proprietary/vendor/etc/camera/imx300_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx300_chromatix.xml \
     vendor/sony/discovery/proprietary/vendor/etc/camera/sm22_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sm22_camera_config.xml \
+    vendor/sony/discovery/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/sony/discovery/proprietary/vendor/etc/qdcm_calib_data_6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_6.xml \
     vendor/sony/discovery/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/discovery/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
@@ -168,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/firmware/bu24228gwl_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24228gwl_fw2.bin \
     vendor/sony/discovery/proprietary/vendor/firmware/bu64747gwz.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.coeff \
     vendor/sony/discovery/proprietary/vendor/firmware/bu64747gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.prog \
+    vendor/sony/discovery/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/sony/discovery/proprietary/vendor/lib/libactuator_bu24228gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu24228gwl.so \
     vendor/sony/discovery/proprietary/vendor/lib/libactuator_bu64747gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64747gwz.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx219_chicony_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_common.so \
@@ -233,6 +236,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_preview_quick.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_preview_quick.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_video.so \
     vendor/sony/discovery/proprietary/vendor/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx300_sm42_zsl_video_hdr_3a.so \
+    vendor/sony/discovery/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
+    vendor/sony/discovery/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
+    vendor/sony/discovery/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_imx219_chicony.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219_chicony.so \
@@ -241,4 +247,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_sony_imx219_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx219_eeprom.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_sony_imx234_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx234_eeprom.so \
     vendor/sony/discovery/proprietary/vendor/lib/libmmcamera_sony_imx300_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx300_eeprom.so \
-    vendor/sony/discovery/proprietary/vendor/lib/libois_bu24228.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu24228.so
+    vendor/sony/discovery/proprietary/vendor/lib/libois_bu24228.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu24228.so \
+    vendor/sony/discovery/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
+    vendor/sony/discovery/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
+    vendor/sony/discovery/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
+    vendor/sony/discovery/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so
