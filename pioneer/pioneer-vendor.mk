@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/pioneer
 
 PRODUCT_COPY_FILES += \
+    vendor/sony/pioneer/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/sony/pioneer/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/sony/pioneer/proprietary/vendor/bin/qns:$(TARGET_COPY_OUT_VENDOR)/bin/qns \
     vendor/sony/pioneer/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO1400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO1400_3200x1808.ncf \
