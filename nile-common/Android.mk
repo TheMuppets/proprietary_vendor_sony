@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter discovery pioneer,$(TARGET_DEVICE)),)
+ifneq ($(filter discovery pioneer kirin mermaid,$(TARGET_DEVICE)),)
 
 endif
