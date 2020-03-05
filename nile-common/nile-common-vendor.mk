@@ -268,6 +268,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nile-common/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/sony/nile-common/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/sony/nile-common/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b00 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b01 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b02 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b03 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b04 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b05 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b06 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b07 \
+    vendor/sony/nile-common/proprietary/vendor/firmware/tzhdcp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.mdt \
     vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b00 \
     vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b01 \
     vendor/sony/nile-common/proprietary/vendor/firmware/tzwidevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b02 \
