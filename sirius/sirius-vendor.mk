@@ -49,30 +49,55 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sirius/proprietary/vendor/firmware/adsp.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b11 \
     vendor/sony/sirius/proprietary/vendor/firmware/adsp.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b12 \
     vendor/sony/sirius/proprietary/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.mdt \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/mba.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/mba.b00 \
     vendor/sony/sirius/proprietary/vendor/firmware/mba.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/mba.b00 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/mba.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/mba.mdt \
     vendor/sony/sirius/proprietary/vendor/firmware/mba.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/mba.mdt \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b00 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b00 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b01 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b01 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b02 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b02 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b03 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b03 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b04 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b04 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b05 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b05 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b08 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b08 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b10 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b10 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b11 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b11 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b13 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b13 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b14 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b14 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b15 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b15 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b16 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b16 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b17 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b17 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b18 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b18 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b19 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b19 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b20 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b20 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b21:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b21 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b21:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b21 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b22:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b22 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b22:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b22 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b25:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b25 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b25:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b25 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b26:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b26 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b26:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b26 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.b27:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.b27 \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.b27:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.b27 \
+    vendor/sony/sirius/proprietary/vendor/firmware/d6502/modem.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/d6502/modem.mdt \
     vendor/sony/sirius/proprietary/vendor/firmware/modem.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/modem.mdt \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x75_config_id_0x0241.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_chip_id_0x75_config_id_0x0241.bin \
     vendor/sony/sirius/proprietary/etc/firmware/touch_chip_id_0x75_config_id_0x0251.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_chip_id_0x75_config_id_0x0251.bin \
