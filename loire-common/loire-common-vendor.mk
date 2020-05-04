@@ -642,6 +642,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
     vendor/sony/loire-common/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/sony/loire-common/proprietary/vendor/lib64/libcredential-manager-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcredential-manager-service.so \
+    vendor/sony/loire-common/proprietary/vendor/lib64/libcrypto_keystore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto_keystore.so \
     vendor/sony/loire-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/sony/loire-common/proprietary/vendor/lib64/libdevice_security.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdevice_security.so \
     vendor/sony/loire-common/proprietary/vendor/lib64/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdevice_security_vendor.so \
