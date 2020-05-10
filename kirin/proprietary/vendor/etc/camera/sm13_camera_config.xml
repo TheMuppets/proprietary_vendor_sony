@@ -140,8 +140,7 @@ LensInfo : Information of the lens present in the module.
     <CameraId>2</CameraId>
     <SensorName>s5k4h7yx</SensorName>
     <ChromatixName>s5k4h7yx_chromatix</ChromatixName>
-
-<EepromName>s5k4h7yx</EepromName>
+    <EepromName>s5k4h7yx</EepromName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
