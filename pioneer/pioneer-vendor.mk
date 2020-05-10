@@ -142,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pioneer/proprietary/vendor/etc/qdcm_calib_data_5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_5.xml \
     vendor/sony/pioneer/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/pioneer/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
+    vendor/sony/pioneer/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/sony/pioneer/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/pioneer/proprietary/vendor/firmware/bu64747gwz.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.coeff \
     vendor/sony/pioneer/proprietary/vendor/firmware/bu64747gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.prog \
