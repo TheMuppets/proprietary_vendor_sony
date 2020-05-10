@@ -198,6 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mermaid/proprietary/vendor/etc/qdcm_calib_data_3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_3.xml \
     vendor/sony/mermaid/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/mermaid/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
+    vendor/sony/mermaid/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/sony/mermaid/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/mermaid/proprietary/vendor/etc/wifi/bdwlanb1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlanb1.bin \
     vendor/sony/mermaid/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
