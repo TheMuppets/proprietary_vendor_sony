@@ -199,6 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kirin/proprietary/vendor/etc/qdcm_calib_data_2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_2.xml \
     vendor/sony/kirin/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/kirin/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
+    vendor/sony/kirin/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/sony/kirin/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/kirin/proprietary/vendor/etc/wifi/bdwlanb1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlanb1.bin \
     vendor/sony/kirin/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
