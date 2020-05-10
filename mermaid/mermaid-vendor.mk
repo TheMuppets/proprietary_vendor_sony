@@ -243,6 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_imx486_sm23_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_sm23_default.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_imx486_sm23_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_sm23_hfr_120_3a.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_imx486_sm23_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_sm23_hfr_60_3a.so \
+    vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_imx486_sm23_other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_sm23_other.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_imx486_sm23_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_sm23_postproc.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_imx486_sm23_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_sm23_snapshot.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_imx486_sm23_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_sm23_video.so \
@@ -259,6 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_s5k4h7yx_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_cpp_snapshot.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_s5k4h7yx_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_cpp_video.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_s5k4h7yx_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_default.so \
+    vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_s5k4h7yx_other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_other.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_s5k4h7yx_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_postproc.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_s5k4h7yx_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_snapshot.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libchromatix_s5k4h7yx_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_video.so \
@@ -379,6 +381,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mermaid/proprietary/vendor/lib/libmmcamera_s5k4h8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libmmcamera_samsung_s5k4h8yx_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_samsung_s5k4h8yx_eeprom.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libmmcamera_sony_imx486_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx486_eeprom.so \
+    vendor/sony/mermaid/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
@@ -398,6 +401,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mermaid/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/sony/mermaid/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/sony/mermaid/proprietary/vendor/lib/libsuntory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsuntory.so \
     vendor/sony/mermaid/proprietary/vendor/lib/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.security.secd@1.0.so \
     vendor/sony/mermaid/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
