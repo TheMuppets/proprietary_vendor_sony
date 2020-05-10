@@ -141,6 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/voyager/proprietary/vendor/etc/qdcm_calib_data_7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_7.xml \
     vendor/sony/voyager/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/voyager/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
+    vendor/sony/voyager/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/sony/voyager/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/voyager/proprietary/vendor/firmware/bu64747gwz.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.coeff \
     vendor/sony/voyager/proprietary/vendor/firmware/bu64747gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.prog \
