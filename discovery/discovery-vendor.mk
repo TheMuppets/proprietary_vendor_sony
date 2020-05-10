@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/discovery/proprietary/vendor/etc/qdcm_calib_data_6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_6.xml \
     vendor/sony/discovery/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/discovery/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
+    vendor/sony/discovery/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/sony/discovery/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/discovery/proprietary/vendor/firmware/bu24228gwl_fw1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24228gwl_fw1.bin \
     vendor/sony/discovery/proprietary/vendor/firmware/bu24228gwl_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24228gwl_fw2.bin \
