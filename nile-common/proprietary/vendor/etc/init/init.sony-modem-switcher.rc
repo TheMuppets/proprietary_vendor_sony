@@ -24,7 +24,7 @@ on property:somc.cust.copy_mcfg_file=1
    start modem_switcher
 
 # Modem-switcher service
-service modem_switcher /system/bin/sony-modem-switcher
+service modem_switcher /vendor/bin/sony-modem-switcher
     user root
     group root system oem_2993 radio
     disabled
