@@ -268,6 +268,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kirin/proprietary/vendor/lib/libchromatix_s5k4h7yx_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_zsl_preview.so \
     vendor/sony/kirin/proprietary/vendor/lib/libchromatix_s5k4h7yx_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7yx_zsl_video.so \
     vendor/sony/kirin/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
+    vendor/sony/kirin/proprietary/vendor/lib/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdevice_security_vendor.so \
     vendor/sony/kirin/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/sony/kirin/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
     vendor/sony/kirin/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
@@ -387,6 +388,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kirin/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/sony/kirin/proprietary/vendor/lib/libsuntory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsuntory.so \
     vendor/sony/kirin/proprietary/vendor/lib/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.security.secd@1.0.so \
+    vendor/sony/kirin/proprietary/vendor/lib64/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdevice_security_vendor.so \
     vendor/sony/kirin/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/sony/kirin/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/sony/kirin/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
