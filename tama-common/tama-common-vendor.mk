@@ -18,25 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/tama-common
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/tama-common/proprietary/bin/cacaoserver:$(TARGET_COPY_OUT_SYSTEM)/bin/cacaoserver \
-    vendor/sony/tama-common/proprietary/lib/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_client.so \
-    vendor/sony/tama-common/proprietary/lib/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_pal.so \
-    vendor/sony/tama-common/proprietary/lib/libcacao_process_ctrl_gateway.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_process_ctrl_gateway.so \
-    vendor/sony/tama-common/proprietary/lib/libcacao_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_service.so \
-    vendor/sony/tama-common/proprietary/lib/vendor.somc.hardware.camera.cacao@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@1.0.so \
-    vendor/sony/tama-common/proprietary/lib/vendor.somc.hardware.camera.cacao@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@2.0.so \
-    vendor/sony/tama-common/proprietary/lib/vendor.somc.hardware.camera.cacao@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.0.so \
-    vendor/sony/tama-common/proprietary/lib/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.1.so \
-    vendor/sony/tama-common/proprietary/lib/vendor.somc.hardware.camera.cacao@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.2.so \
-    vendor/sony/tama-common/proprietary/lib64/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_client.so \
-    vendor/sony/tama-common/proprietary/lib64/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_pal.so \
-    vendor/sony/tama-common/proprietary/lib64/libcacao_process_ctrl_gateway.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_process_ctrl_gateway.so \
-    vendor/sony/tama-common/proprietary/lib64/libcacao_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_service.so \
-    vendor/sony/tama-common/proprietary/lib64/vendor.somc.hardware.camera.cacao@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.camera.cacao@1.0.so \
-    vendor/sony/tama-common/proprietary/lib64/vendor.somc.hardware.camera.cacao@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.camera.cacao@2.0.so \
-    vendor/sony/tama-common/proprietary/lib64/vendor.somc.hardware.camera.cacao@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.camera.cacao@3.0.so \
-    vendor/sony/tama-common/proprietary/lib64/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.camera.cacao@3.1.so \
-    vendor/sony/tama-common/proprietary/lib64/vendor.somc.hardware.camera.cacao@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.camera.cacao@3.2.so \
     vendor/sony/tama-common/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/sony/tama-common/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/sony/tama-common/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
