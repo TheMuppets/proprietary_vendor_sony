@@ -91,9 +91,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_snapshot_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_splitter_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_streaming_ctrl_plugin.so \
+    vendor/sony/shinano-common/proprietary/vendor/lib/hw/audio.primary.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8974.so \
     vendor/sony/shinano-common/proprietary/lib/hw/camera.vendor.qcom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.qcom.so \
     vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_asb_tee.so \
     vendor/sony/shinano-common/proprietary/lib/lib_get_secure_mode.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_get_secure_mode.so \
+    vendor/sony/shinano-common/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_chokoball.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_chokoball.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_client.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_common.so \
@@ -126,6 +128,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libsony_chokoball.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsony_chokoball.so \
     vendor/sony/shinano-common/proprietary/lib/libsony_chokoballrsc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsony_chokoballrsc.so \
     vendor/sony/shinano-common/proprietary/lib/libsony_face.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsony_face.so \
+    vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libsonypostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsonypostprocbundle.so \
+    vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libsonysweffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsonysweffect.so \
     vendor/sony/shinano-common/proprietary/vendor/CredentialManagerData:$(TARGET_COPY_OUT_VENDOR)/CredentialManagerData \
     vendor/sony/shinano-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/sony/shinano-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
