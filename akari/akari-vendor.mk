@@ -435,8 +435,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/akari/proprietary/vendor/etc/sensors/registry/somc/sdm845_lsm6dsm_0_gyro_miscta.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/somc/sdm845_lsm6dsm_0_gyro_miscta.json \
     vendor/sony/akari/proprietary/vendor/etc/sensors/registry/somc/tmd2725_prox_miscta.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/somc/tmd2725_prox_miscta.json \
     vendor/sony/akari/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/sony/akari/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
-    vendor/sony/akari/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/sony/akari/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/akari/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/sony/akari/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
@@ -732,4 +730,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
-    CACertService
+    CACertService \
+    android.hardware.gnss@2.0-service-qti \
+    vendor.qti.gnss@3.0-service
