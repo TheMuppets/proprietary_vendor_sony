@@ -1131,7 +1131,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libmiscta \
-    libplatformconfig \
     libta \
     libthermalclient \
     WfdService \
