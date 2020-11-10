@@ -136,7 +136,7 @@ android_app_import {
 	name: "TimeService",
 	owner: "sony",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: ":timeservice_app_cert",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
