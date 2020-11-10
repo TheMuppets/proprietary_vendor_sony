@@ -1,0 +1,9 @@
+# Copyright (C) 2017 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+
+# Start Key Provision daemon
+service keyprov_daemon /vendor/bin/keyprovd
+    user system
+    group system
+    oneshot
+    class late_start
