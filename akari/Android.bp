@@ -41,17 +41,6 @@ android_app_import {
 	privileged: true,
 }
 
-android_app_import {
-	name: "CACertService",
-	owner: "sony",
-	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.0-service-qti",
 	owner: "sony",
