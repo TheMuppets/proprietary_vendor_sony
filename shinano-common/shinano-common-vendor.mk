@@ -69,6 +69,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin \
     vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/shinano-common/proprietary/vendor/etc/flashled_calc_parameters.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/flashled_calc_parameters.cfg \
+    vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/clearphase_sp_param.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/clearphase_sp_param.bin \
+    vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/effect_params.data:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/effect_params.data \
+    vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/sforce_param_arm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/sforce_param_arm.bin \
+    vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/sforce_param_qdsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/sforce_param_qdsp.bin \
+    vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/xloud_param_arm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/xloud_param_arm.bin \
+    vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/xloud_param_qdsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/xloud_param_qdsp.bin \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_cam_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_cap_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/camera/libexcal_color_ctrl_plugin.so \
