@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
-    <privapp-permissions package="com.android.hotwordenrollment.okgoogle">
-        <permission name="android.permission.MANAGE_VOICE_KEYPHRASES"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.android.hotwordenrollment.xgoogle">
-        <permission name="android.permission.MANAGE_VOICE_KEYPHRASES"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.android.omadm.service">
-        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
-        <permission name="android.permission.WRITE_APN_SETTINGS"/>
-    </privapp-permissions>
-
     <!-- Additional permissions on top of privapp-permissions-platform.xml -->
-    <privapp-permissions package="com.android.sdm.plugins.connmo">
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <privapp-permissions package="com.android.providers.telephony">
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
     </privapp-permissions>
 
     <!-- Additional permissions on top of privapp-permissions-platform.xml -->
@@ -70,15 +55,11 @@
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.facebook.services">
-        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.facebook.system">
-        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
-        <permission name="android.permission.DELETE_PACKAGES"/>
-        <permission name="android.permission.INSTALL_PACKAGES"/>
-        <permission name="android.permission.REAL_GET_TASKS"/>
+    <privapp-permissions package="com.baidu.map.location">
+        <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.sonyericsson.album">
@@ -88,10 +69,6 @@
         <permission name="com.sonyericsson.permission.CREDENTIALMANAGER"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.sonyericsson.android.addoncamera.artfilter">
-        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
-    </privapp-permissions>
-
     <privapp-permissions package="com.sonyericsson.android.camera">
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
         <permission name="android.permission.STOP_APP_SWITCHES"/>
@@ -99,12 +76,12 @@
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.sonyericsson.android.camera3d">
-        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
-    </privapp-permissions>
-
     <privapp-permissions package="com.sonyericsson.android.omacp">
         <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonyericsson.conversations">
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.sonyericsson.lockscreen.uxpnxt">
@@ -159,10 +136,6 @@
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.sonymobile.android.addoncamera.soundphoto">
-        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
-    </privapp-permissions>
-
     <privapp-permissions package="com.sonymobile.anondata">
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.STATUS_BAR"/>
@@ -174,23 +147,15 @@
         <permission name="android.permission.UPDATE_CONFIG"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.sonymobile.assist">
-        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
-        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
-        <permission name="android.permission.CHANGE_CONFIGURATION"/>
-        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
-        <permission name="android.permission.DUMP"/>
-        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
-        <permission name="android.permission.MANAGE_FINGERPRINT"/>
+    <privapp-permissions package="com.sonymobile.appprediction">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.MANAGE_USERS"/>
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
-        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
-        <permission name="android.permission.READ_LOGS"/>
-        <permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.REAL_GET_TASKS"/>
-        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
-        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.sonymobile.appprediction.permission.RECEIVE_NOTIFICATION_CLICK_EVENTS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonymobile.calendar">
+        <permission name="android.permission.UPDATE_DEVICE_STATS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.sonymobile.colorgamut">
@@ -220,11 +185,6 @@
     </privapp-permissions>
 
     <privapp-permissions package="com.sonymobile.imageenhancer">
-        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.sonymobile.indeviceintelligence">
-        <permission name="android.permission.CHANGE_CONFIGURATION"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
     </privapp-permissions>
 
@@ -259,6 +219,12 @@
         <permission name="android.permission.SET_TIME"/>
         <permission name="android.permission.SET_TIME_ZONE"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonymobile.sidesenseapp">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.USER_ACTIVITY"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.sonymobile.simlock.service">
@@ -308,6 +274,10 @@
 
     <privapp-permissions package="com.sonymobile.wifi">
         <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonymobile.wirelesschargemanager">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
     <!-- Additional permissions on top of privapp-permissions-platform.xml -->
