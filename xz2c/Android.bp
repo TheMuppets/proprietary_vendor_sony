@@ -5,28 +5,6 @@
 soong_namespace {
 }
 
-android_app_import {
-	name: "HotwordEnrollmentOKGoogleWCD9340",
-	owner: "sony",
-	apk: "proprietary/system/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "HotwordEnrollmentXGoogleWCD9340",
-	owner: "sony",
-	apk: "proprietary/system/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.0-service-qti",
 	owner: "sony",
