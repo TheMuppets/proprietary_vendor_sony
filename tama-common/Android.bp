@@ -66,17 +66,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "sony",
-	apk: "proprietary/system/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CneApp",
 	owner: "sony",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
@@ -176,6 +165,18 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+}
+
+android_app_import {
+	name: "WfdService",
+	owner: "sony",
+	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
 }
 
 dex_import {
