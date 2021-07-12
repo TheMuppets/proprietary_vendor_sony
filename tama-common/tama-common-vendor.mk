@@ -908,7 +908,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libpfter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpfter.so \
-    vendor/sony/tama-common/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn553_fw.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libprotobuf-c-idd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-c-idd.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
