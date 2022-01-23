@@ -103,7 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
     vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
     vendor/sony/loire-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/sony/loire-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/sony/loire-common/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/sony/loire-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/loire-common/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/sony/loire-common/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
