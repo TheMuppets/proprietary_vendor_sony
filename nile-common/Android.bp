@@ -197,10 +197,51 @@ android_app_import {
 }
 
 dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "sony",
+	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
+}
+
+dex_import {
 	name: "com.fingerprints.extension",
 	owner: "sony",
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
 	soc_specific: true,
+}
+
+dex_import {
+	name: "QtiTelephonyServicelibrary",
+	owner: "sony",
+	jars: ["proprietary/product/framework/QtiTelephonyServicelibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "sony",
+	jars: ["proprietary/product/framework/com.qti.dpmframework.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "sony",
+	jars: ["proprietary/product/framework/dpmapi.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "sony",
+	jars: ["proprietary/product/framework/qcrilhook.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "sony",
+	jars: ["proprietary/product/framework/qti-telephony-common.jar"],
+	product_specific: true,
 }
 
 prebuilt_etc_xml {
