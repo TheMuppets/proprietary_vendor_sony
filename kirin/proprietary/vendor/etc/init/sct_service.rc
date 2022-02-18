@@ -1,0 +1,8 @@
+on early-boot
+   start sct_service
+
+# Secure Config Transfer service
+service sct_service /vendor/bin/sct_service
+   user root
+   seclabel u:r:sct_service:s0
+   disabled
