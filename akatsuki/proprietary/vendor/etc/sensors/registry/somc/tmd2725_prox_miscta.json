@@ -1,0 +1,49 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP"],
+    "soc_id": ["321"]
+  },
+  "tmd2725":{
+    "owner": "sns_tmd2725",
+    ".calibration":{
+      "owner": "sns_tmd2725",
+      ".somc":{
+        "owner": "sns_tmd2725",
+        "prox_high_threshold":{ "type": "int", "ver": "1",
+          "data": "230"
+        },
+        "prox_low_threshold":{ "type": "int", "ver": "1",
+          "data": "200"
+        },
+        "prox_pulse":{ "type": "int", "ver": "1",
+          "data": "17"
+        },
+        "offset_data":{ "type": "int", "ver": "1",
+          "data": "0"
+        },
+        "offset_sign":{ "type": "int", "ver": "1",
+          "data": "0"
+        },
+        "D_factor":{ "type": "int", "ver": "1",
+          "data": "54"
+        },
+        "L0_factor":{ "type": "int", "ver": "1",
+          "data": "4500"
+        },
+        "L1_factor":{ "type": "int", "ver": "1",
+          "data": "200"
+        },
+        "L2_factor":{ "type": "int", "ver": "1",
+          "data": "6200"
+        },
+        "L3_factor":{ "type": "int", "ver": "1",
+          "data": "1000"
+        },
+        "Re-Cal_interval":{ "type": "int", "ver": "1",
+           "data": "0"
+        }
+      }
+    }
+  }
+}

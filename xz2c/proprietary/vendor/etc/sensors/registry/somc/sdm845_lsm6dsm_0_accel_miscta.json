@@ -1,0 +1,27 @@
+{
+  "config":{
+    "hw_platform": ["MTP"],
+    "soc_id": ["321"]
+  },
+  "lsm6dsm_0_platform":{
+    "owner": "lsm6dsm",
+    ".accel":{
+      "owner": "lsm6dsm",
+      ".fac_cal":{
+        "owner": "lsm6dsm",
+        ".bias":{
+          "owner": "lsm6dsm",
+          "x":{ "type": "flt", "ver": "1",
+            "data": "0.0"
+          },
+          "y":{ "type": "flt", "ver": "1",
+            "data": "0.0"
+          },
+          "z":{ "type": "flt", "ver": "1",
+            "data": "0.0"
+          }
+        }
+      }
+    }
+  }
+}

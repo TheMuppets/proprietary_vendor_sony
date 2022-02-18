@@ -1,0 +1,22 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP"],
+    "soc_id": ["321"]
+  },
+  "ak0991x_0_platform":{
+    "owner": "sns_ak0991x",
+    ".orient":{
+      "owner": "sns_ak0991x",
+      "x":{ "type": "str", "ver": "1",
+        "data": "-y"
+      },
+      "y":{ "type": "str", "ver": "1",
+        "data": "+x"
+      },
+      "z":{ "type": "str", "ver": "1",
+        "data": "+z"
+      }
+    }
+  }
+}
