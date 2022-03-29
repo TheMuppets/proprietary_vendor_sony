@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter akari akatsuki xz2c,$(TARGET_DEVICE)),)
+ifneq ($(filter akari akatsuki aurora xz2c,$(TARGET_DEVICE)),)
 
 endif
