@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/* Copyright (c) 2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The LineageOS Project.
+ */
+-->
+
+<TargetConfig>
+    <Config1>
+         <TargetInfo
+             Target="msm8976"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="277,278"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             GovInstanceType="0" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+    </Config1>
+</TargetConfig>
