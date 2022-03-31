@@ -9,16 +9,16 @@
 <TargetConfig>
     <Config1>
          <TargetInfo
-             Target="msm8976"
+             Target="msm8956"
              NumClusters="2"
-             TotalNumCores="8"
-             SocIds="277,278"
+             TotalNumCores="6"
+             SocIds="266,274"
              SynCore="1"
              CoreCtlCpu="4"
              MinCoreOnline="0"
              GovInstanceType="0" />
 
          <ClustersInfo Id="0" NumCores="4" Type="little" />
-         <ClustersInfo Id="1" NumCores="4" Type="big" />
+         <ClustersInfo Id="1" NumCores="2" Type="big" />
     </Config1>
 </TargetConfig>
