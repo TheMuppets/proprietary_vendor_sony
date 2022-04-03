@@ -255,11 +255,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/vendor/etc/init/vendor.semc.system.idd.fallback@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.semc.system.idd.fallback@1.0-service.rc \
     vendor/sony/loire-common/proprietary/vendor/etc/init/vendor.semc.system.idd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.semc.system.idd@1.0-service.rc \
     vendor/sony/loire-common/proprietary/vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.miscta@1.0-service.rc \
-    vendor/sony/loire-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/sony/loire-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/sony/loire-common/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/sony/loire-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/sony/loire-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/sony/loire-common/proprietary/vendor/etc/security/idd_config.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_config.pem \
     vendor/sony/loire-common/proprietary/vendor/etc/security/idd_report.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_report.pem \
     vendor/sony/loire-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
