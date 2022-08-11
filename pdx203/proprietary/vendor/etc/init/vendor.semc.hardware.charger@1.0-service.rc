@@ -1,0 +1,4 @@
+service vendor.semc.hardware.charger-1-0 /vendor/bin/hw/vendor.semc.hardware.charger@1.0-service
+    class hal
+    user system
+    group system

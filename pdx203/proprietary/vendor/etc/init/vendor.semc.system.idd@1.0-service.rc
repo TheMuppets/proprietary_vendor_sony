@@ -1,0 +1,9 @@
+# Copyright 2017 Sony Corporation
+#
+# vendor.semc.system.idd@1.0-service.rc
+#
+service vendor.semc.system.idd-1-0 /vendor/bin/hw/vendor.semc.system.idd@1.0-service
+    class hal
+    user oem_2987
+    group oem_2987 log inet oem_2993
+    writepid /dev/cpuset/system-background/tasks

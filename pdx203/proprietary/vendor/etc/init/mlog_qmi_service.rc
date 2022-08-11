@@ -1,0 +1,8 @@
+on early-boot
+   start mlog_qmi_service
+
+# Modem log qmi service
+service mlog_qmi_service /vendor/bin/mlog_qmi_service
+   user root
+   seclabel u:r:mlog_qmi_service:s0
+   disabled

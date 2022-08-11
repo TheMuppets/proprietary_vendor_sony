@@ -1,0 +1,9 @@
+service vendor.somc.hardware.camera-provider-1-0 /vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
+    class hal
+    user cameraserver
+    group camera audio input drmrpc oem_2993 oem_2996 oem_2929
+    ioprio rt 4
+    capabilities SYS_NICE
+    writepid /dev/cpuset/camera-daemon/tasks /dev/stune/top-app/tasks
+    socket cammw_excal:ipc:9000 stream 0660 cameraserver camera
+    socket cammw_excal:ipc:9001 stream 0660 cameraserver camera

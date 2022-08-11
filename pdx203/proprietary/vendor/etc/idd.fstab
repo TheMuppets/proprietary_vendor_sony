@@ -1,0 +1,4 @@
+# Sony idd fstab file.
+#<src>                                   <mnt_point>            <type> <mnt_flags and options>                          <fs_mgr_flags>
+/dev/block/bootdevice/by-name/appslog    /mnt/rca               ext4   nosuid,nodev,noatime,noexec,barrier=1,discard    wait,check,formattable,notrim
+/dev/block/bootdevice/by-name/diag       /mnt/idd               ext4   nosuid,nodev,noatime,noexec,barrier=1,discard    wait,check,formattable,notrim

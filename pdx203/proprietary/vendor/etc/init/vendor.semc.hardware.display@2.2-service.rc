@@ -1,0 +1,9 @@
+service display-2-2 /vendor/bin/hw/vendor.semc.hardware.display@2.2-service
+    interface vendor.semc.hardware.display@2.0::IDisplay default
+    interface vendor.semc.hardware.display@2.1::IDisplay default
+    interface vendor.semc.hardware.display@2.1::IFramerateController default
+    interface vendor.semc.hardware.display@2.2::IDisplay default
+    interface vendor.semc.hardware.display@2.2::IFramerateController default
+    class hal
+    user system
+    group system readproc

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Copyright (C) 2018 Sony Mobile Communications Inc.
+  All rights, including trade secret rights, reserved.
+-->
+<znr_platform_info>
+    <znr_camera_status>
+        <camera id="0" camera_name="Combo"/>
+        <camera id="2" camera_name="Wide"/>
+        <camera id="3" camera_name="Tele"/>
+        <camera id="4" camera_name="SWide"/>
+        <camera id="1" camera_name="Front"/>
+    </znr_camera_status>
+    <znr_sample_rate>
+        <sample_rate rate="44100" name="44k" />
+        <sample_rate rate="48000" name="48k" />
+    </znr_sample_rate>
+    <vendor>
+        <vendor_name id="CHI" camera_name="Front" name="CHI" />
+    </vendor>
+</znr_platform_info>
