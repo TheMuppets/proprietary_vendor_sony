@@ -1,0 +1,32 @@
+# Copyright 2018 Sony Corporation
+#
+on fs
+    # early option is required
+    # because mount_all w/o option will handle encryption related code.
+    mount_all /vendor/etc/idd.fstab --early
+
+    # prepare idd partition
+    restorecon_recursive /mnt/idd
+    chown oem_2987 oem_2987 /mnt/idd
+    chmod 0751 /mnt/idd
+    mkdir /mnt/idd/output 0755 oem_2987 oem_2987
+    mkdir /mnt/idd/startup-prober 0700 root root
+
+    mkdir /dev/socket/idd 0711 oem_2987 oem_2987
+
+    # Make fsck directory for fsck report.
+    mkdir /mnt/idd/fsck 0770 root oem_2987
+
+    # prepare rca partition
+    restorecon_recursive /mnt/rca
+    chown oem_2987 oem_2987 /mnt/rca
+    chmod 0750 /mnt/rca
+    mkdir /mnt/rca/plugins 0750 oem_2987 oem_2987
+
+    restorecon_recursive /mnt/idd/output
+
+service iddd /vendor/bin/iddd
+    class core
+    user oem_2987
+    group oem_2987 log inet oem_2993 system
+    writepid /dev/cpuset/system-background/tasks

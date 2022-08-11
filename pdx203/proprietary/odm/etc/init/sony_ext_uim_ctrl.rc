@@ -1,0 +1,15 @@
+#
+# Copyright (C) 2018-2019 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+#
+
+on late-fs
+   start sony_ext_uim_ctrl
+
+service sony_ext_uim_ctrl /odm/bin/sony_ext_uim_ctrl
+   oneshot
+   user root
+   group oem_2993 root
+   seclabel u:r:ext_uim_ctrl:s0
+   disabled
+

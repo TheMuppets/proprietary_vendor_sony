@@ -1,0 +1,4 @@
+service ets_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs
+    disabled
+    user system
+    group system input
