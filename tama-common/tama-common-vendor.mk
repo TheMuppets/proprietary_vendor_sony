@@ -144,8 +144,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/sony/tama-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/sony/tama-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
+    vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
+    vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-qti \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service \
@@ -160,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/vendor.semc.system.idd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.system.idd@1.0-service \
+    vendor/sony/tama-common/proprietary/vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.somc.hardware.camera.provider@1.0-service \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.somc.hardware.miscta@1.0-service \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/vendor.somc.hardware.modemswitcher@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.somc.hardware.modemswitcher@1.0-service \
     vendor/sony/tama-common/proprietary/vendor/bin/iddd:$(TARGET_COPY_OUT_VENDOR)/bin/iddd \
@@ -170,6 +173,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
     vendor/sony/tama-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/sony/tama-common/proprietary/vendor/bin/keyprovd:$(TARGET_COPY_OUT_VENDOR)/bin/keyprovd \
+    vendor/sony/tama-common/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
+    vendor/sony/tama-common/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
+    vendor/sony/tama-common/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
     vendor/sony/tama-common/proprietary/vendor/bin/mlog_qmi_service:$(TARGET_COPY_OUT_VENDOR)/bin/mlog_qmi_service \
     vendor/sony/tama-common/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
     vendor/sony/tama-common/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
@@ -202,6 +208,39 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/bin/wfdhdcphalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdhdcphalservice \
     vendor/sony/tama-common/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/sony/tama-common/proprietary/vendor/bin/wvkbd:$(TARGET_COPY_OUT_VENDOR)/bin/wvkbd \
+    vendor/sony/tama-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
+    vendor/sony/tama-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
+    vendor/sony/tama-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
+    vendor/sony/tama-common/proprietary/vendor/camera/version.dat:$(TARGET_COPY_OUT_VENDOR)/camera/version.dat \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Codec_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Codec_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/Sony_tama_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_tama_Bluetooth_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/Sony_tama_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_tama_Codec_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/Sony_tama_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_tama_General_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/Sony_tama_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_tama_Global_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/Sony_tama_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_tama_Hdmi_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/Sony_tama_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_tama_Headset_cal.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/sony/tama-common/proprietary/vendor/etc/acdbdata/workspaceFile_Sony_tama.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/workspaceFile_Sony_tama.qwsp \
+    vendor/sony/tama-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/sony/tama-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
+    vendor/sony/tama-common/proprietary/vendor/etc/camera/flashled_calc_parameters.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/flashled_calc_parameters.cfg \
     vendor/sony/tama-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/sony/tama-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/sony/tama-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -297,9 +336,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.mdt \
     vendor/sony/tama-common/proprietary/vendor/etc/idd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/idd.conf \
     vendor/sony/tama-common/proprietary/vendor/etc/iddd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd.conf \
+    vendor/sony/tama-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/sony/tama-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/sony/tama-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/sony/tama-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
+    vendor/sony/tama-common/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/sony/tama-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc \
     vendor/sony/tama-common/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/sony/tama-common/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.rc \
@@ -333,6 +374,50 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/sony/tama-common/proprietary/vendor/etc/security/idd_config.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_config.pem \
     vendor/sony/tama-common/proprietary/vendor/etc/security/idd_report.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_report.pem \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/bmp380_0.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/lsm6dsm_0_8g.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/lsm6dsm_0_8g.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sdm845_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sdm845_ak991x_0.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sdm845_bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sdm845_bmp380_0.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sdm845_lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sdm845_lsm6dsm_0.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sdm845_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sdm845_tmd2725.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_amd.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_amd_sw_disabled.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_amd_sw_enabled.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_aont.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_aont.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_basic_gestures.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_basic_gestures.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_bring_to_ear.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_bring_to_ear.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_ccd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_ccd.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_ccd_v2_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_ccd_v2_walk.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_ccd_v3_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_ccd_v3_walk.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_cm.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_dae.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_device_orient.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_diag_filter.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_diag_filter.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_distance_bound.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_distance_bound.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_dpc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_dpc.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_facing.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_facing.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_fmv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_fmv.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_geomag_rv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_geomag_rv.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_gyro_cal.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_heart_rate.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_heart_rate.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_mag_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_mag_cal.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_mag_cal_legacy.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_mag_cal_legacy.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_multishake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_multishake.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_pedometer.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_pedometer.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_rmd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_rmd.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_rotv.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_smd.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_tilt.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_tilt_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_tilt_sw_disabled.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_tilt_sw_enabled.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_tilt_to_wake.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/sns_wrist_pedo.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/config/tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/tmd2725.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/sns_reg_version:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/sns_reg_version \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/somc/sdm845_lsm6dsm_0_accel_miscta.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/somc/sdm845_lsm6dsm_0_accel_miscta.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/somc/sdm845_lsm6dsm_0_gyro_miscta.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/somc/sdm845_lsm6dsm_0_gyro_miscta.json \
+    vendor/sony/tama-common/proprietary/vendor/etc/sensors/registry/somc/tmd2725_prox_miscta.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/somc/tmd2725_prox_miscta.json \
     vendor/sony/tama-common/proprietary/vendor/etc/sony_effect/clearphase_sp_param.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/clearphase_sp_param.bin \
     vendor/sony/tama-common/proprietary/vendor/etc/sony_effect/effect_params.data:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/effect_params.data \
     vendor/sony/tama-common/proprietary/vendor/etc/sony_effect/sforce_param_arm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/sforce_param_arm.bin \
@@ -352,12 +437,21 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/etc/sony_effect/znr_param_48k_SubSemCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/znr_param_48k_SubSemCam.tbl \
     vendor/sony/tama-common/proprietary/vendor/etc/sony_effect/znr_param_48k_SubSoiCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/znr_param_48k_SubSoiCam.tbl \
     vendor/sony/tama-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
+    vendor/sony/tama-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
+    vendor/sony/tama-common/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b00 \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b01 \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b02 \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.mdt \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b00 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b02 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b03 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b04 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b05 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b06 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b07 \
     vendor/sony/tama-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/sony/tama-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/sony/tama-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -393,6 +487,63 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/firmware/tzwvcpybuf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.mdt \
     vendor/sony/tama-common/proprietary/vendor/lib/android.hardware.sensors@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.0-impl.so \
     vendor/sony/tama-common/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.addconstant.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.binning.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummyrtb.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummysat.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv2.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv3.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.gpu.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.memcpy.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.remosaic.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.stich.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swregistration.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aec.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.af.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afd.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.asd.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awb.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awbwrapper.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.haf.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.localhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.localhistogram.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlib.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibsony.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibwrapper.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.aec.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.af.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.awb.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_ckb_service_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_ckb_service_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_color_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_color_ctrl_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_debug_display_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_debug_display_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_exposure_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_exposure_ctrl_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_flicker_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_flicker_detector_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_focus_stats_conv_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_focus_stats_conv_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_food_comp_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_food_comp_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_food_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_food_detector_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_fusion_comp_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_fusion_comp_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_hdr_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_hdr_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_idt_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_idt_ctrl_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_iq_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_iq_ctrl_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_motion_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_motion_detector_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_motion_estimation_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_motion_estimation_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_multiframe_nr_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_multiframe_nr_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_object_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_object_detector_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_object_tracker_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_object_tracker_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_prc_image_conv_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_prc_image_conv_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_process_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_process_ctrl_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_raw_dump_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_raw_dump_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_req_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_req_ctrl_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_scene_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_scene_detector_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_snapshot_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_snapshot_ctrl_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_splitter_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_splitter_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/libexcal_stream_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/libexcal_stream_ctrl_plugin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/systemdefault.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/systemdefault.bin \
+    vendor/sony/tama-common/proprietary/vendor/lib/camera/titan17x_usecases.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/titan17x_usecases.bin \
     vendor/sony/tama-common/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
@@ -412,8 +563,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/ese_spi_nxp.so \
     vendor/sony/tama-common/proprietary/vendor/lib/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hal_libnfc.so \
     vendor/sony/tama-common/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/sony/tama-common/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/sony/tama-common/proprietary/vendor/lib/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm845.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/sony/tama-common/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/sony/tama-common/proprietary/vendor/lib/hw/sound_trigger.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm845.so \
     vendor/sony/tama-common/proprietary/vendor/lib/hw/thermal.somc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.somc.so \
@@ -467,6 +620,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/sony/tama-common/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
@@ -478,14 +632,27 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaoa.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatching.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcacao_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_common.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacertclient.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcameralight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameralight.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov8.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
@@ -494,10 +661,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneoplookup.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcomprcapture.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libcsd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsd-client.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdevice_security_vendor.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
@@ -516,6 +685,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofencing.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libhdcprx_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcprx_module.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libhdcptx_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcptx_module.so \
@@ -525,15 +699,26 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfp.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libidd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidd.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_client_api.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
     vendor/sony/tama-common/proprietary/vendor/lib/liblights-core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblights-core.so \
     vendor/sony/tama-common/proprietary/vendor/lib/liblistenjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistenjni.so \
     vendor/sony/tama-common/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_core.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_client.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
     vendor/sony/tama-common/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libmmparser_lite_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmparser_lite_proprietary.so \
@@ -583,6 +768,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libscveFaceLandmarks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceLandmarks.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
@@ -608,7 +795,47 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_alfortlp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_alfortlp.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_alfortlpserv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_alfortlpserv.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_bordeaux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_bordeaux.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_bordeauxrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_bordeauxrsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_buttercake.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_buttercake.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_buttercakersc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_buttercakersc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_camerahal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_camerahal.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_canele.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_canele.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_canelersc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_canelersc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_cheesescone.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_cheesescone.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_cheesesconersc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_cheesesconersc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_chokoballcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_chokoballcmn.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_financier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_financier.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_financierrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_financierrsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_madeleine_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_madeleine_core.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_marble.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_marble.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_marblersc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_marblersc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_melonpan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_melonpan.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_melonpanrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_melonpanrsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_mln.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_mln.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_mugichoco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_mugichoco.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_mugichocorsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_mugichocorsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_pretzchoco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_pretzchoco.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_pretzchocorsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_pretzchocorsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_raisin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_raisin.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_raisincl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_raisincl.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_raisinclrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_raisinclrsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_raisinrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_raisinrsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_shortcake.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_shortcake.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_shortcakersc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_shortcakersc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_spica.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_spica.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_spicarsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_spicarsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_sumomo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_sumomo.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_sumomorsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_sumomorsc.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libsomc_thermal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_thermal.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_toppo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_toppo.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_topporsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_topporsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_yummy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_yummy.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsomc_yummyrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_yummyrsc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsony_fooddetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsony_fooddetect.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsony_naruto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsony_naruto.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libsonydseehxwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsonydseehxwrapper.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspcom.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspkrprot.so \
@@ -617,8 +844,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libstagefright_hdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_hdcp.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsuntory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsuntory.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libswiqisettinghelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswiqisettinghelper.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libsys-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsys-utils.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
@@ -655,7 +885,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libwvtee.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvtee.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/sony/tama-common/proprietary/vendor/lib/libznr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libznr.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/local_libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/local_libcamera_metadata.so \
     vendor/sony/tama-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/sony/tama-common/proprietary/vendor/lib/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci_nxp.so \
     vendor/sony/tama-common/proprietary/vendor/lib/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_librilutils.so \
@@ -702,6 +934,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpnfc@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.2.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0-service.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cacert@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
@@ -752,7 +991,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.semc.hardware.light@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.semc.hardware.light@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.semc.system.idd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.semc.system.idd@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.camera.device@3.2-impl.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.camera.device@3.3-impl.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.camera.device@3.4-impl.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@2.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.1-impl.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.1.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.device@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.provider@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.provider@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.radio@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.security.secd@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.swiqi@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.swiqi@1.0-impl.so \
     vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.swiqi@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/android.hardware.sensors@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.0-impl.so \
@@ -777,6 +1027,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm845.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
@@ -841,14 +1092,26 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcacao_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacao_common.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcameralight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameralight.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov8.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
@@ -861,6 +1124,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libcsd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsd-client.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdevice_security_vendor.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
@@ -877,6 +1141,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-osal.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libhdcprx_module.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcprx_module.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
@@ -888,15 +1157,26 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfp.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libidd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidd.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/liblights-core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblights-core.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/liblistenjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistenjni.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libmmparser_lite_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmparser_lite_proprietary.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
@@ -916,6 +1196,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libqdma_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdma_file_agent.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
@@ -946,6 +1227,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor_stub.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
@@ -979,6 +1261,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libstagefright_hdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_hdcp.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libsuntory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsuntory.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libswiqisettinghelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswiqisettinghelper.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libsys-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsys-utils.so \
@@ -999,6 +1282,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libwvtee.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvtee.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
@@ -1024,6 +1308,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.2.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0-service.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
@@ -1077,6 +1368,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.miscta@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.modemswitcher@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.modemswitcher@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.radio@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.security.secd@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.swiqi@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.swiqi@1.0-impl.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.swiqi@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
@@ -1114,4 +1406,6 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcrilhook \
     qti-telephony-common \
-    com.android.hotwordenrollment.common.util
+    com.android.hotwordenrollment.common.util \
+    android.hardware.gnss@2.0-service-qti \
+    vendor.qti.gnss@3.0-service
