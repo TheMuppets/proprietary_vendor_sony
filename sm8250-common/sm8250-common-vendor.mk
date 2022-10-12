@@ -1364,7 +1364,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON \
     QtiTelephony \
     QtiTelephonyService \
-    datastatusnotification \
     embms \
     uceShimService \
     WfdService \
