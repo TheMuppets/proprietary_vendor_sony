@@ -1,0 +1,25 @@
+#! /bin/sh
+#
+#Copyright (c) 2019-2021 Qualcomm Technologies, Inc.
+#Copyright (C) 2019 Sony Mobile Communications Inc.
+#
+#All Rights Reserved.
+#Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+#Copyright (c) 2013-2018, The Linux Foundation. All rights reserved.
+#
+#NOTE: This file has been modified by Sony Mobile Communications Inc.
+#Modifications are licensed under the License.
+#
+
+service thermal-engine /vendor/bin/thermal-engine
+	class main
+	user root
+	group root system oem_2929 oem_2993
+	socket thermal-send-client stream 0660 system oem_2907
+	socket thermal-recv-client stream 0660 system oem_2907
+	socket thermal-recv-passive-client stream 0660 system oem_2907
+	socket thermal-send-rule stream 0660 system oem_2907
+
+on property:sys.boot_completed=1
+	restart thermal-engine
